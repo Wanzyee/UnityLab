@@ -102,24 +102,23 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
 </div><!--header-->
 <div class="contents">
 
-<p>Show specified <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code> to select multiple custom items.  
+<p>Show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code> with children for selecting multiple custom items.  
  <a href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#details">More...</a></p>
 
 <p>Inherits EditorWindow.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a78c72de66ad423a879dc907dfb941ca2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#a78c72de66ad423a879dc907dfb941ca2">OpenWindow</a> (<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> root, Action&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> &gt; callback)</td></tr>
-<tr class="memdesc:a78c72de66ad423a879dc907dfb941ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a new <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html" title="Show specified TreeNode to select multiple custom items. ">TreeView</a></code> to show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code>.  <a href="#a78c72de66ad423a879dc907dfb941ca2">More...</a><br /></td></tr>
-<tr class="separator:a78c72de66ad423a879dc907dfb941ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05978a4355f43f3c0df716059a6f4271"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#a05978a4355f43f3c0df716059a6f4271">Open</a> (<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> root, Action&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> &gt; onDone=null, Action&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> &gt; onCancel=null)</td></tr>
+<tr class="memdesc:a05978a4355f43f3c0df716059a6f4271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a new <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html" title="Show specified root TreeNode with children for selecting multiple custom items. ">TreeView</a></code> to show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code>.  <a href="#a05978a4355f43f3c0df716059a6f4271">More...</a><br /></td></tr>
+<tr class="separator:a05978a4355f43f3c0df716059a6f4271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Show specified <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code> to select multiple custom items. </p>
+<div class="textblock"><p>Show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code> with children for selecting multiple custom items. </p>
 <p>Click any node label to switch expand to show its children if existing, otherwise switch enable. Switch with the "Alt" key pressed to recursively expand or fold all progenies. Or to batch enable or disable all the same name nodes in the same level. </p>
-<p>To cancel selecting, press the "Cancel" button or the "Esc" key, or just click out of the window. To complete, please press the "Done" button or the "Enter" key. </p>
-<p>The callback passed to <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#a78c72de66ad423a879dc907dfb941ca2" title="Open a new TreeView to show specified root TreeNode. ">OpenWindow()</a></code> will be invoked only when selecting completed. The root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code> passed to the callback contains the nodes given by the caller. </p>
+<p>To complete selecting, please press the "Done" button or the "Enter" key. To cancel, press the "Cancel" button or the "Esc" key, or just close the window. The callbacks passed to <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#a05978a4355f43f3c0df716059a6f4271" title="Open a new TreeView to show specified root TreeNode. ">Open()</a></code> will be invoked when complete or cancel selecting. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a78c72de66ad423a879dc907dfb941ca2"></a>
+<a class="anchor" id="a05978a4355f43f3c0df716059a6f4271"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -127,7 +126,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void OpenWindow </td>
+          <td class="memname">static void Open </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a>&#160;</td>
           <td class="paramname"><em>root</em>, </td>
@@ -136,7 +135,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Action&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>callback</em>&#160;</td>
+          <td class="paramname"><em>onDone</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html">TreeNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>onCancel</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -151,12 +156,13 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Open a new <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html" title="Show specified TreeNode to select multiple custom items. ">TreeView</a></code> to show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code>. </p>
-<p>This set the child nodes enabled if the parent is, or disable a parent if any child is not. Also set the parent expand if any child expands. The <code>callback</code> will be invoked with the given <code>root</code> only when selecting completed. </p>
+<p>Open a new <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html" title="Show specified root TreeNode with children for selecting multiple custom items. ">TreeView</a></code> to show specified root <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html" title="Item node to show and select in a TreeView window, optional to include child nodes. ">TreeNode</a></code>. </p>
+<p>Opening new <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_view.html" title="Show specified root TreeNode with children for selecting multiple custom items. ">TreeView</a></code> will close existing one and invokes its <code>onCancel</code> callback. This sets the child nodes enabled if the parent is, or disable a parent if any child is not. Also set the parent expand if any child expands. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">root</td><td>Root node.</td></tr>
-    <tr><td class="paramname">callback</td><td>Callback.</td></tr>
+    <tr><td class="paramname">onDone</td><td>Invoked with the given <code>root</code> when complete selecting.</td></tr>
+    <tr><td class="paramname">onCancel</td><td>Invoked with the given <code>root</code> when cancel selecting.</td></tr>
   </table>
   </dd>
 </dl>
