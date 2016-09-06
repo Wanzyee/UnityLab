@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_wanzyee_studio_1_1_math_utility.html#a4a3ad39be50780090d472054f2a2da44":[2,0,0,21,18],
-"class_wanzyee_studio_1_1_math_utility.html#a54804f36184a67b54ccb068cf3b5f1d5":[2,0,0,21,6],
 "class_wanzyee_studio_1_1_math_utility.html#a629eb729f1684a2aad99e8ab6d687f0b":[2,0,0,21,22],
 "class_wanzyee_studio_1_1_math_utility.html#a67f969a8a39bc98614d6a0483b8b82de":[2,0,0,21,14],
 "class_wanzyee_studio_1_1_math_utility.html#a68a070679be96c02dbf73bb93321089f":[2,0,0,21,27],
@@ -132,8 +130,8 @@ var NAVTREEINDEX2 =
 "class_wanzyee_studio_1_1_stack_window.html#a43a5eafe64b96968035e5a4013e47c75":[0,1,2,16,0],
 "class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4":[0,1,2,16,3],
 "class_wanzyee_studio_1_1_stack_window.html#ab7b985bc528ecc1c55bfabaa7ee7a1e0":[0,1,2,16,1],
-"class_wanzyee_studio_1_1_type_constraint_attribute.html":[0,1,3,4],
 "class_wanzyee_studio_1_1_type_constraint_attribute.html":[0,0,1,7],
+"class_wanzyee_studio_1_1_type_constraint_attribute.html":[0,1,3,4],
 "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a":[0,0,1,7,0],
 "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a":[0,1,3,4,0],
 "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5":[0,0,1,7,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "group___enumerations.html":[0,1,4],
 "group___enumerations.html#ga0269e87b6cdff644a895ce678a8afeb4":[0,1,4,4],
 "group___enumerations.html#ga3ef15c9c3e32c2ec774e3cc922443898":[0,1,4,0],
-"group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea":[0,1,4,2]
+"group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea":[0,1,4,2],
+"group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368":[0,1,4,8],
+"group___enumerations.html#ga7e51438e5f6bf556512ce7103cddac09":[0,1,4,3]
 };

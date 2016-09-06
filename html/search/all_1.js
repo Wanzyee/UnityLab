@@ -7,7 +7,8 @@ var searchData=
   ['borderless',['Borderless',['../namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a78f0192ac55eba33ee88d026452952e5',1,'WanzyeeStudio']]],
   ['boundsconverter',['BoundsConverter',['../class_wanzyee_studio_1_1_json_1_1_bounds_converter.html',1,'WanzyeeStudio::Json']]],
   ['boundsfield',['BoundsField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#af756ed3a5867958bc22abc645ce8bb6e',1,'WanzyeeStudio::AidGUI']]],
-  ['build',['Build',['../class_wanzyee_studio_1_1_editrix_1_1_player_maker.html#a6a4d37693b809140b0dde7abd463d04e',1,'WanzyeeStudio.Editrix.PlayerMaker.Build()'],['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a456fc46c9396943dfd88d27a0ed6fe13',1,'WanzyeeStudio.Editrix.PluginMaker.Build(string path, string[] scripts, string[] references=null, string[] symbols=null, bool documentation=false, bool debug=false)'],['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a6a4d37693b809140b0dde7abd463d04e',1,'WanzyeeStudio.Editrix.PluginMaker.Build()']]],
+  ['build',['Build',['../class_wanzyee_studio_1_1_editrix_1_1_player_maker.html#a6a4d37693b809140b0dde7abd463d04e',1,'WanzyeeStudio.Editrix.PlayerMaker.Build()'],['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a6a4d37693b809140b0dde7abd463d04e',1,'WanzyeeStudio.Editrix.PluginMaker.Build()']]],
   ['buildallassetbundlesto',['BuildAllAssetBundlesTo',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html#a37cf7339f905fb3cd145fa8773fd5fc6',1,'WanzyeeStudio::Editrix::Toolkit::AssetBundleBuilder']]],
+  ['builddll',['BuildDll',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a04c6094d4bbb676572f368fe7701a33f',1,'WanzyeeStudio::Editrix::PluginMaker']]],
   ['builtiniconbrowser',['BuiltinIconBrowser',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html',1,'WanzyeeStudio::Editrix::Toolkit']]]
 ];

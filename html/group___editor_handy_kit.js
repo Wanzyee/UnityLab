@@ -43,9 +43,6 @@ var group___editor_handy_kit =
       [ "FilterByLabel", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71", null ],
       [ "GetSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580", null ]
     ] ],
-    [ "TexturedMaterialMaker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ]
-    ] ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aec24cd859e3cadcba3f697035239d0c1", null ],
       [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
