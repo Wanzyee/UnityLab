@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['component_20clipboard',['Component Clipboard',['../group___component_clipboard.html',1,'']]],
-  ['components',['Components',['../group___components.html',1,'']]]
+  ['assets',['Assets',['../group___assets.html',1,'']]],
+  ['attributes',['Attributes',['../group___attributes.html',1,'']]]
 ];

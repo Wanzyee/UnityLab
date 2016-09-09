@@ -1,29 +1,4 @@
 var searchData=
 [
-  ['a',['A',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29',1,'WanzyeeStudio']]],
-  ['abs',['Abs',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae575a2a3827a93a2bbb31b24148387b5',1,'WanzyeeStudio.Extension.MathExtension.Abs(this int value)'],['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1d9bc36bc6ba863d4d86e9be8dae9e7f',1,'WanzyeeStudio.Extension.MathExtension.Abs(this float value)'],['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a0d4fb3c6b8b9c66ccf2d6b013411f61c',1,'WanzyeeStudio.Extension.MathExtension.Abs(this Vector2 value)'],['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aced979eda13602525152efded808ed58',1,'WanzyeeStudio.Extension.MathExtension.Abs(this Vector3 value)']]],
-  ['additemstomenu',['AddItemsToMenu',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.BuiltinIconBrowser.AddItemsToMenu()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.AddItemsToMenu()']]],
-  ['aidgui',['AidGUI',['../class_wanzyee_studio_1_1_aid_g_u_i.html',1,'WanzyeeStudio']]],
-  ['aimicon',['aimIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac11b691c2ce5059673c02130ec766839',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
-  ['alignment',['alignment',['../class_wanzyee_studio_1_1_framerate_counter.html#a31ad2b54102828c810308fa063710c3d',1,'WanzyeeStudio::FramerateCounter']]],
-  ['all',['all',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a012dace6de0d421ef8e0a552b5af8b64',1,'WanzyeeStudio::Editrix::TreeNode']]],
-  ['alpha',['alpha',['../class_wanzyee_studio_1_1_raycast_visibility_filter.html#ab1551d8043c2aa4410fb7dbb1fe3be7b',1,'WanzyeeStudio::RaycastVisibilityFilter']]],
-  ['appcommonaider',['AppCommonAider',['../class_wanzyee_studio_1_1_app_common_aider.html',1,'WanzyeeStudio']]],
-  ['apply',['Apply',['../class_wanzyee_studio_1_1_resolution_setter.html#a83547725c7532a8ebd835d603857bc2d',1,'WanzyeeStudio::ResolutionSetter']]],
-  ['applyonawake',['applyOnAwake',['../class_wanzyee_studio_1_1_resolution_setter.html#a49abe1fcd75a7c00fcc0a74a7249dbdf',1,'WanzyeeStudio::ResolutionSetter']]],
-  ['approxcolor',['ApproxColor',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1cb8415d06fbfbba91f8fd5b82436388',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['approxcolor32',['ApproxColor32',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a80c0ae34e145c7af2a4fc65933a8fcac',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['approxfloat',['ApproxFloat',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a08a1274660b7802f03b044487a2a26d1',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['approxquaternion',['ApproxQuaternion',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aeda4606070ce94ebb9d23b7667a606f7',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['approxvector2',['ApproxVector2',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af95e6e8debd0216035da7d7194c8f666',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['approxvector3',['ApproxVector3',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
-  ['ascii',['ASCII',['../namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaad2cd8253361a9c732d21ca1d336599cc',1,'WanzyeeStudio']]],
-  ['assetbundlebuilder',['AssetBundleBuilder',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
-  ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()'],['../group___assets.html',1,'(Global Namespace)']]],
-  ['attributes',['Attributes',['../group___attributes.html',1,'']]],
-  ['autodestroy',['autoDestroy',['../class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542',1,'WanzyeeStudio::BaseSingleton']]],
-  ['auxcursor',['AuxCursor',['../class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html',1,'WanzyeeStudio::Editrix']]],
-  ['average',['Average',['../class_wanzyee_studio_1_1_math_utility.html#aa8a5e979501d513e39b61817132039b4',1,'WanzyeeStudio.MathUtility.Average(params float[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#aa8ea4c5043b22fae9c99d4910c77eb6c',1,'WanzyeeStudio.MathUtility.Average(params Vector2[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#abfcec946f5a89e9df549861bb8e03a2e',1,'WanzyeeStudio.MathUtility.Average(params Vector3[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a2c8cdbbf8e4ef322f0be090adbe35bfd',1,'WanzyeeStudio.MathUtility.Average(params Quaternion[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a9bd9f629193ce6c8d6240ee14bdde890',1,'WanzyeeStudio.MathUtility.Average(params Color[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a97adf3aaa8c172df0386b4627a6bc9ea',1,'WanzyeeStudio.MathUtility.Average(params Matrix4x4[] values)']]],
-  ['awake',['Awake',['../class_wanzyee_studio_1_1_base_singleton.html#affb6ac8f8f08d515a8b74f5c213c2c52',1,'WanzyeeStudio.BaseSingleton.Awake()'],['../class_wanzyee_studio_1_1_framerate_counter.html#aa03e617e0a51b3f91f3ab6b34f625fed',1,'WanzyeeStudio.FramerateCounter.Awake()'],['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a9ca8bcac74fbf1f118cc3589aeca836f',1,'WanzyeeStudio.Awake()']]]
+  ['3p_20maker',['3P Maker',['../group___p_maker.html',1,'']]]
 ];
