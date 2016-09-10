@@ -40,7 +40,7 @@ var NAVTREEINDEX3 =
 "group___attributes.html":[0,1,3],
 "group___component_clipboard.html":[0,0,0],
 "group___components.html":[0,1,2],
-"group___editor_handy_kit.html":[0,0,6],
+"group___editor_aider.html":[0,0,6],
 "group___enumerations.html":[0,1,4],
 "group___enumerations.html#ga0269e87b6cdff644a895ce678a8afeb4":[0,1,4,4],
 "group___enumerations.html#ga3ef15c9c3e32c2ec774e3cc922443898":[0,1,4,0],

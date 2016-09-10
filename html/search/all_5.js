@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['editor_20handy_20kit',['Editor Handy Kit',['../group___editor_handy_kit.html',1,'']]],
+  ['editor_20aider',['Editor Aider',['../group___editor_aider.html',1,'']]],
   ['editrixgui',['EditrixGUI',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixstyle',['EditrixStyle',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixutility',['EditrixUtility',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html',1,'WanzyeeStudio::Editrix']]],

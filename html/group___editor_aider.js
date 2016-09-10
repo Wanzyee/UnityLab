@@ -1,4 +1,4 @@
-var group___editor_handy_kit =
+var group___editor_aider =
 [
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
       [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],

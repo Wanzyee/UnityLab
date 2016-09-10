@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_e
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">EditrixUtility<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_handy_kit.html">Editor Handy Kit</a></div></div>  </div>
+<div class="title">EditrixUtility<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -114,7 +114,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all asset labels used in project, or only find the ones used by assigned assets.  <a href="#a001ffdf9c2d0d4e44c0fa4c0fd95d564">More...</a><br /></td></tr>
 <tr class="separator:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7004c93dec1113239e16f716632db5"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a9e7004c93dec1113239e16f716632db5">GetObjectOrder</a> (Object obj, bool assetFirst=true)</td></tr>
-<tr class="memdesc:a9e7004c93dec1113239e16f716632db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a order <code>string</code> of given object for sorting.  <a href="#a9e7004c93dec1113239e16f716632db5">More...</a><br /></td></tr>
+<tr class="memdesc:a9e7004c93dec1113239e16f716632db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given object for sorting.  <a href="#a9e7004c93dec1113239e16f716632db5">More...</a><br /></td></tr>
 <tr class="separator:a9e7004c93dec1113239e16f716632db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ca6dcc3f26a9c48a639e7b85ffc194"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194">CheckIoCreatable</a> (string path, bool overwrite=false, bool exception=false)</td></tr>
 <tr class="memdesc:a53ca6dcc3f26a9c48a639e7b85ffc194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the path can be used to create a file or directory.  <a href="#a53ca6dcc3f26a9c48a639e7b85ffc194">More...</a><br /></td></tr>
@@ -214,7 +214,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get a order <code>string</code> of given object for sorting. </p>
+<p>Get an order <code>string</code> of given object for sorting. </p>
 <p>It's asset path, append with sibling if relative to <code>UnityEngine.GameObject</code>. Optional to sort asset or hierarchy object first. </p>
 <dl class="section return"><dt>Returns</dt><dd>The order.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -266,13 +266,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the path can be used to create a file or directory. </p>
-<p>Optional to throw a exception message or just return <code>false</code> if invalid. Check <code><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0" title="Determine if the path can be used to create a file or directory. ">IoUtility.CheckCreatable()</a></code> at the first. Then return <code>true</code> if the file doesn't exist yet or force to <code>overwrite</code>. Otherwise popup a dialog for the user to make the decision. </p>
+<p>Optional to throw an exception message or just return <code>false</code> if invalid. Check <code><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0" title="Determine if the path can be used to create a file or directory. ">IoUtility.CheckCreatable()</a></code> at the first. Then return <code>true</code> if the file doesn't exist yet or force to <code>overwrite</code>. Otherwise popup a dialog for the user to make the decision. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if is creatable; otherwise, <code>false</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path.</td></tr>
     <tr><td class="paramname">overwrite</td><td>Overwrite.</td></tr>
-    <tr><td class="paramname">exception</td><td>Flag to throw a exception or return <code>false</code>.</td></tr>
+    <tr><td class="paramname">exception</td><td>Flag to throw an exception or return <code>false</code>.</td></tr>
   </table>
   </dd>
 </dl>
