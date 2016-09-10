@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"functions_e.html":[2,3,0,4],
+"functions_f.html":[2,3,0,5],
+"functions_func.html":[2,3,1],
+"functions_func.html":[2,3,1,0],
+"functions_func_b.html":[2,3,1,1],
+"functions_func_c.html":[2,3,1,2],
+"functions_func_d.html":[2,3,1,3],
 "functions_func_e.html":[2,3,1,4],
 "functions_func_f.html":[2,3,1,5],
 "functions_func_g.html":[2,3,1,6],
@@ -70,8 +77,8 @@ var NAVTREEINDEX3 =
 "interface_wanzyee_studio_1_1_i_stack_panel.html#ad1071cfcb67082f96f26faa9c7d9faf3":[0,1,5,1,0],
 "interface_wanzyee_studio_1_1_i_stack_panel.html#aeed5e9dcbad7118e65642935a254a2c2":[0,1,5,1,1],
 "modules.html":[0],
-"namespace_wanzyee_studio.html":[1,0,0],
 "namespace_wanzyee_studio.html":[2,0,0],
+"namespace_wanzyee_studio.html":[1,0,0],
 "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a02a3a93e26bfe7379e51bc031ea0b4f7":[0,1,4,4,54],
 "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a0384dab65f333cc4dd5858f28513ee82":[0,1,4,4,44],
 "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a0656c6a9b388584d4292138816762f7b":[0,1,4,4,41],
