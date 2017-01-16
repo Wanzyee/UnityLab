@@ -10,6 +10,7 @@ var searchData=
   ['delegators',['delegators',['../class_wanzyee_studio_1_1_event_delegator_group.html#a6d180c7bc82466a8f144225ffff27c45',1,'WanzyeeStudio::EventDelegatorGroup']]],
   ['delete',['Delete',['../class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132',1,'WanzyeeStudio::IoUtility']]],
   ['deletecache',['DeleteCache',['../class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2',1,'WanzyeeStudio::WwwLoader']]],
+  ['deleteicon',['deleteIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a2b8aaa376453dae4e9509ebc9ee64ac5',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['deserialize',['Deserialize',['../class_wanzyee_studio_1_1_variable_tweaker.html#aae0f9cf197b3568bd8bc53c7d6d76ae3',1,'WanzyeeStudio::VariableTweaker']]],
   ['dictionaryconverter',['DictionaryConverter',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html',1,'WanzyeeStudio::Json']]],
   ['documentation',['documentation',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#aa2dfe04e55f0bea2d7df82388aef66ed',1,'WanzyeeStudio::Editrix::PluginMaker']]],

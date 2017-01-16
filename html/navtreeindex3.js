@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"functions_d.html":[2,3,0,3],
 "functions_e.html":[2,3,0,4],
 "functions_f.html":[2,3,0,5],
 "functions_func.html":[2,3,1],
@@ -175,12 +176,12 @@ var NAVTREEINDEX3 =
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383":[0,1,4,1,0],
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa21c2e59531c8710156d34a3c30ac81d5":[0,1,4,1,2],
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa57cec4137b614c87cb4e24a3d003a3e0":[0,1,4,1,1],
-"namespace_wanzyee_studio_1_1_editrix.html":[1,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix.html":[2,0,0,0],
+"namespace_wanzyee_studio_1_1_editrix.html":[1,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[2,0,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[1,0,0,0,0],
-"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
 "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[2,0,0,0,1],
+"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
 "namespace_wanzyee_studio_1_1_extension.html":[2,0,0,1],
 "namespace_wanzyee_studio_1_1_extension.html":[1,0,0,1],
 "namespace_wanzyee_studio_1_1_json.html":[2,0,0,2],
@@ -229,9 +230,9 @@ var NAVTREEINDEX3 =
 "struct_wanzyee_studio_1_1_time_info.html#aadf763f0213fc2f3875230b06bb0b6cf":[2,0,0,34,8],
 "struct_wanzyee_studio_1_1_time_info.html#ab61c174701698ae25311958549c82f0f":[2,0,0,34,5],
 "struct_wanzyee_studio_1_1_time_info.html#abeac221e38b7b9ce7df8722c842bf671":[2,0,0,34,13],
-"struct_wanzyee_studio_1_1_time_info.html#ac532a009e9b74d3cfbc7f8b3e3f46ed7":[2,0,0,34,0],
+"struct_wanzyee_studio_1_1_time_info.html#ac532a009e9b74d3cfbc7f8b3e3f46ed7":[2,0,0,34,1],
 "struct_wanzyee_studio_1_1_time_info.html#ad558ced6287197a614ab791a4caccaf3":[2,0,0,34,3],
-"struct_wanzyee_studio_1_1_time_info.html#ae13501777fea3b17d2ad90667e78df88":[2,0,0,34,1],
+"struct_wanzyee_studio_1_1_time_info.html#ae13501777fea3b17d2ad90667e78df88":[2,0,0,34,0],
 "struct_wanzyee_studio_1_1_time_info.html#aedb06abe5aff12fa3e7e0e71a374edfb":[2,0,0,34,14],
 "struct_wanzyee_studio_1_1_time_info.html#af00ab208b4aa54b66434ec6aa96e34f1":[2,0,0,34,2]
 };
