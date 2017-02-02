@@ -38,8 +38,5 @@ var searchData=
   ['coroutiner',['Coroutiner',['../class_wanzyee_studio_1_1_coroutiner.html',1,'WanzyeeStudio']]],
   ['countinproject',['CountInProject',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a11582655699350c730ef6ab4f5d95edc',1,'WanzyeeStudio::Editrix::Toolkit::ComponentFinder']]],
   ['countinscene',['CountInScene',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#affb10925343d78ac8df2db44019c9d80',1,'WanzyeeStudio::Editrix::Toolkit::ComponentFinder']]],
-  ['create',['Create',['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)']]],
-  ['createcursor',['CreateCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab81f1a1e10be618b4bfc0d1cefc95cbb',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
-  ['createicon',['CreateIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a760a957853f0d90aaefc40dba04d6164',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
-  ['createtexture',['CreateTexture',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a5efd4ca473699b9e372bb965b95e6db4',1,'WanzyeeStudio::Editrix::EditrixStyle']]]
+  ['create',['Create',['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)']]]
 ];

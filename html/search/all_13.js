@@ -8,6 +8,7 @@ var searchData=
   ['screenshotfolder',['screenshotFolder',['../class_wanzyee_studio_1_1_app_common_aider.html#a9371ec2e0aa39b881223e7be7b13fdf9',1,'WanzyeeStudio::AppCommonAider']]],
   ['screentoguipoint',['ScreenToGUIPoint',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a6198186bdda5ded823d28941effa3e40',1,'WanzyeeStudio::AidGUI']]],
   ['scripts',['scripts',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#ac754df2932d53d231864da5a5a2e1f96',1,'WanzyeeStudio::Editrix::PluginMaker']]],
+  ['search',['search',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e',1,'WanzyeeStudio::Editrix::Toolkit::Clipboard']]],
   ['second',['second',['../struct_wanzyee_studio_1_1_time_info.html#a6cf35be1947a62f134392fcb1b3c54d2',1,'WanzyeeStudio::TimeInfo']]],
   ['selectionfilter',['SelectionFilter',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['selectnone',['SelectNone',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
@@ -54,5 +55,6 @@ var searchData=
   ['sum',['Sum',['../class_wanzyee_studio_1_1_math_utility.html#a7d896096e8a14065054473162dcf8968',1,'WanzyeeStudio.MathUtility.Sum(params int[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a4839aa32917c69ed3941818212c275e9',1,'WanzyeeStudio.MathUtility.Sum(params float[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#acf2602ecd5a0566efde5373aedaaeff3',1,'WanzyeeStudio.MathUtility.Sum(params Vector2[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#aead51125f51c04aebb59709aebb5f53d',1,'WanzyeeStudio.MathUtility.Sum(params Vector3[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a98ba8ad6ad921355a0c15f83909a5e2f',1,'WanzyeeStudio.MathUtility.Sum(params Quaternion[] values)']]],
   ['sumdistance',['SumDistance',['../class_wanzyee_studio_1_1_math_utility.html#a072462432019064a08c00667caf70a8e',1,'WanzyeeStudio.MathUtility.SumDistance(params Vector2[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a54804f36184a67b54ccb068cf3b5f1d5',1,'WanzyeeStudio.MathUtility.SumDistance(params Vector3[] values)']]],
   ['sun',['Sun',['../namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaef6572e4cd58bb39a3f4e82fc64fe9f0',1,'WanzyeeStudio']]],
-  ['symbols',['symbols',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#af631bbaf966711e8eab0ce019173ba21',1,'WanzyeeStudio::Editrix::PluginMaker']]]
+  ['symbols',['symbols',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#af631bbaf966711e8eab0ce019173ba21',1,'WanzyeeStudio::Editrix::PluginMaker']]],
+  ['sync',['sync',['../class_wanzyee_studio_1_1_www_option.html#af5bad216eac9aefc703a450d3163e542',1,'WanzyeeStudio::WwwOption']]]
 ];

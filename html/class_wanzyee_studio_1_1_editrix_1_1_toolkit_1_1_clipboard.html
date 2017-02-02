@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Clipboard<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___toolkits.html">Editor Extensions</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___component_clipboard.html">Component Clipboard</a></div></div>  </div>
@@ -128,33 +129,58 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8385b0d378201173be1357256ef356eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a8385b0d378201173be1357256ef356eb">Clear</a> (Type type=null)</td></tr>
 <tr class="memdesc:a8385b0d378201173be1357256ef356eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear clipboard by specified type, or pass <code>null</code> to clear all.  <a href="#a8385b0d378201173be1357256ef356eb">More...</a><br /></td></tr>
 <tr class="separator:a8385b0d378201173be1357256ef356eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#af8a9d4eb661ab1452133e17d5ef9f0f3">track</a></td></tr>
+<tr class="memdesc:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to update search filter by selection.  <a href="#af8a9d4eb661ab1452133e17d5ef9f0f3">More...</a><br /></td></tr>
+<tr class="separator:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83411795db454ee7f9405fc60eb7e25e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e">search</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a83411795db454ee7f9405fc60eb7e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The search filter pattern in the search bar.  <a href="#a83411795db454ee7f9405fc60eb7e25e">More...</a><br /></td></tr>
+<tr class="separator:a83411795db454ee7f9405fc60eb7e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility to copy <code>UnityEngine.Component</code> or <code>UnityEngine.Material</code> and paste it back. </p>
-<p>Useful for tweaking lots of objects in the editor, even in play mode. Click the menu "Window/Clipboard" to open the window. Just play and tweak, drag and drop, copy and paste whenever. It's also able to search by regex pattern or fold items, to make finding a copy easier. </p>
-<p>The operations below to copy:</p><ol type="1">
+<p>Useful for tweaking lots of objects in the editor, even in play mode. Click the menu "Window/Clipboard" to open the window. Just play and tweak, drag and drop, copy and paste whenever. It acts as sort of preset system, edit lots of copies as presets, and paste to apply values quickly. Easy to find and manage copies with regex search filter, custom item label, and foldable inspector. </p>
+<p>To copy:</p><ol type="1">
 <li>Drag'n'Drop from "Inspector" to copy the inspected sources.</li>
 <li>Drag'n'Drop a <code>UnityEngine.GameObject</code> to copy the components on it.</li>
 <li>Show menu to specify the component type if "Ctrl" pressed when dropping gameObjects.</li>
 <li>Or click the context menu "Copy to Clipboard". </li>
 </ol>
-<p>The operations below to paste:</p><ol type="1">
+<p>To paste:</p><ol type="1">
 <li>Drag'n'Drop to "Inspector" to paste back to the inspected targets.</li>
 <li>When dragging a component, it pastes values to the first one on the gameObject, or pastes as new if none.</li>
 <li>Show menu to specify a target of multiple components if "Ctrl" pressed when dropping.</li>
 <li>Or click the "Copy" button above any item, and paste by the target's context menu. </li>
 </ol>
-<p>To find the copied item's source object is possible. Click the "Aim" button on an item to ping the source, and double-click to select it. The trace info is saved as a path text, which is also shown in the title tooltip. The button becomes disable if the source is a built-in asset or the path becomes invalid. E.g., it may be lost if the source is moved or renamed. </p>
+<p>To filter items with the search bar:</p><ol type="1">
+<li>Click the "Magnifier" icon to show a context menu made from the current items to select filters easily.</li>
+<li>Input any text to filter the item's name, just like the Project window's search bar.</li>
+<li>Prefix "t:" filters by the type, the search will include all specified types.</li>
+<li>Prefix "l:" filters by the tooltip as labels, an item has to match all specified labels. </li>
+</ol>
+<p>To edit the item label:</p><ol type="1">
+<li>Click the "Pen" button beside the label to show or hide the edit field.</li>
+<li>To save the change, just press "Ctrl-Enter" keys or unfocus the field after editing.</li>
+<li>The first line shows as the label title, and the full text is the tooltip.</li>
+<li>Leave the field empty to show the default text, i.e., the copy source path. </li>
+</ol>
+<p>To find the copy source object:</p><ol type="1">
+<li>Click the "Aim" button to ping it or double-click to select it.</li>
+<li>The saved trace path is also shown as the default label tooltip.</li>
+<li>It'll beep if not found, e.g., the trace may be lost if the source is moved or renamed. </li>
+</ol>
 <p>The reasons not to save the trace by references below:</p><ol type="1">
 <li>A scene object reference will change when load a scene.</li>
 <li>We can't save the scene reference in the project assets.</li>
 <li>We shouldn't save the edit data in user's game scene. </li>
 </ol>
 <p>For component references to scene object. This creates copies and store in editor scene temporarily to ensure content correct. It means the copy will be destroyed when quitting the editor. And also, the scene references will become missing when opening another scene. The situation above is applicable to a material with scene texture, too. </p>
-<p>For material or component without reference to any scene object. The copies will be saved in an asset folder to make them still until "Clear" triggered manually. And they only occupy a bit, about 3 KB per material, or ten components. This tracks all copies by specific name or folder to ensure valid after script reloaded. </p>
-<p>SVN users could clear all manually to avoid committing, or ignore the storing folder below:</p><ol type="1">
-<li>The default is "Temps/Clipboard" under the root folder "Assets/WanzyeeStudio".</li>
-<li>If the root is moved, it becomes "Temps/Clipboard" under the first found "WanzyeeStudio".</li>
+<p>For material or component without reference to any scene object. The copies will be saved in an asset folder to make them still until "Clear" triggered manually. This tracks all copies by specific name or folder to ensure valid after script reloaded. </p>
+<p>SVN users may clear all manually to avoid committing, or ignore the storing folder below:</p><ol type="1">
+<li>The default is "Temp/Clipboard" under the root folder "Assets/WanzyeeStudio".</li>
+<li>If the root is moved, it becomes "Temp/Clipboard" under the first found "WanzyeeStudio".</li>
 <li>If there's no "WanzyeeStudio" folder, it'll be "Assets/Temp/Clipboard". </li>
 </ol>
 <p>Instructions, to copy and paste generic component is dangerous, even if reflect all the fields. Since we'll never know what the developer do when the component awake. As the <a href="http://answers.unity3d.com/answers/1013926/view.html" target="_blank">thread</a> I commented, we'd be very careful with which aren't made by ourselves. Finally, this was created, works in the editor with Unity built-in classes and API. </p>
@@ -309,6 +335,35 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af8a9d4eb661ab1452133e17d5ef9f0f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool track</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flag to update search filter by selection. </p>
+
+</div>
+</div>
+<a class="anchor" id="a83411795db454ee7f9405fc60eb7e25e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string search = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The search filter pattern in the search bar. </p>
 
 </div>
 </div>
