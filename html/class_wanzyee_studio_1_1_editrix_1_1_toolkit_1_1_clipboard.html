@@ -133,7 +133,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#af8a9d4eb661ab1452133e17d5ef9f0f3">track</a></td></tr>
-<tr class="memdesc:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to update search filter by selection.  <a href="#af8a9d4eb661ab1452133e17d5ef9f0f3">More...</a><br /></td></tr>
+<tr class="memdesc:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to track selection to change search filter automatically.  <a href="#af8a9d4eb661ab1452133e17d5ef9f0f3">More...</a><br /></td></tr>
 <tr class="separator:af8a9d4eb661ab1452133e17d5ef9f0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83411795db454ee7f9405fc60eb7e25e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e">search</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a83411795db454ee7f9405fc60eb7e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The search filter pattern in the search bar.  <a href="#a83411795db454ee7f9405fc60eb7e25e">More...</a><br /></td></tr>
@@ -156,9 +156,10 @@ Public Attributes</h2></td></tr>
 </ol>
 <p>To filter items with the search bar:</p><ol type="1">
 <li>Click the "Magnifier" icon to show a context menu made from the current items to select filters easily.</li>
-<li>Input any text to filter the item's name, just like the Project window's search bar.</li>
+<li>Or input any text to filter the item's name, just like the Project window's search bar.</li>
 <li>Prefix "t:" filters by the type, the search will include all specified types.</li>
-<li>Prefix "l:" filters by the tooltip as labels, an item has to match all specified labels. </li>
+<li>Prefix "l:" filters by the tooltip as labels, an item has to match all specified labels.</li>
+<li>Toggle the "Link" icon at the top-right of window to filter automatically by tracking selection. </li>
 </ol>
 <p>To edit the item label:</p><ol type="1">
 <li>Click the "Pen" button beside the label to show or hide the edit field.</li>
@@ -349,7 +350,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Flag to update search filter by selection. </p>
+<p>Flag to track selection to change search filter automatically. </p>
 
 </div>
 </div>
