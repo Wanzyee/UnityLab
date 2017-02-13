@@ -13,7 +13,6 @@ var hierarchy =
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", null ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", null ],
     [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", null ],
-    [ "MultiContent", "class_wanzyee_studio_1_1_editrix_1_1_multi_content.html", null ],
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", null ],
     [ "PlayerMaker", "class_wanzyee_studio_1_1_editrix_1_1_player_maker.html", null ],
     [ "PluginMaker", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html", null ],

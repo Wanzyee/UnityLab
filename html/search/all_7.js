@@ -21,7 +21,6 @@ var searchData=
   ['getlocked',['GetLocked',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf',1,'WanzyeeStudio.Editrix.Toolkit.InspectorHelper.GetLocked()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#a5c9cf3bac370ca68cc23ec71f9d70568',1,'WanzyeeStudio.Editrix.Toolkit.ObjectLocker.GetLocked()']]],
   ['getmembertext',['GetMemberText',['../class_wanzyee_studio_1_1_variable_tweaker.html#abd27185a90473f484d059baca7f160ff',1,'WanzyeeStudio::VariableTweaker']]],
   ['getmode',['GetMode',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
-  ['getmultilineheight',['GetMultiLineHeight',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#afdcc076b2e51920144a33e726f0257f2',1,'WanzyeeStudio::Editrix::EditrixGUI']]],
   ['getnodes',['GetNodes',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#ae8bf134086b024f3d8efc691b7afc550',1,'WanzyeeStudio::Editrix::TreeNode']]],
   ['getobjectorder',['GetObjectOrder',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a9e7004c93dec1113239e16f716632db5',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
   ['getoverlap',['GetOverlap',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a5a85d9ae6a0eac890eb3252aebb02289',1,'WanzyeeStudio::Extension::MathExtension']]],

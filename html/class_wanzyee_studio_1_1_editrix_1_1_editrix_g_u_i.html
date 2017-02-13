@@ -110,12 +110,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c8f3ef121f92c960189a770e6671f9a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a">GetLabelWidth</a> (float viewWidth=0f)</td></tr>
 <tr class="memdesc:a4c8f3ef121f92c960189a770e6671f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label width within the specified view width.  <a href="#a4c8f3ef121f92c960189a770e6671f9a">More...</a><br /></td></tr>
 <tr class="separator:a4c8f3ef121f92c960189a770e6671f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdcc076b2e51920144a33e726f0257f2"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#afdcc076b2e51920144a33e726f0257f2">GetMultiLineHeight</a> (params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_multi_content.html">MultiContent</a>[] lines)</td></tr>
-<tr class="memdesc:afdcc076b2e51920144a33e726f0257f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height for <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a81cf4e4dc403c24ad1ccfd147aa09eac" title="Draw multi lines of a UnityEditor.SerializedProperty with children. ">MultiLineField()</a></code>.  <a href="#afdcc076b2e51920144a33e726f0257f2">More...</a><br /></td></tr>
-<tr class="separator:afdcc076b2e51920144a33e726f0257f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81cf4e4dc403c24ad1ccfd147aa09eac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a81cf4e4dc403c24ad1ccfd147aa09eac">MultiLineField</a> (Rect position, SerializedProperty property, GUIContent label, params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_multi_content.html">MultiContent</a>[] lines)</td></tr>
-<tr class="memdesc:a81cf4e4dc403c24ad1ccfd147aa09eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw multi lines of a <code>UnityEditor.SerializedProperty</code> with children.  <a href="#a81cf4e4dc403c24ad1ccfd147aa09eac">More...</a><br /></td></tr>
-<tr class="separator:a81cf4e4dc403c24ad1ccfd147aa09eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51739ea4e5528c6a587dad7f095ab38a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a">MultiFloatField</a> (GUIContent label, GUIContent[] subLabels, float[] values, params GUILayoutOption[] options)</td></tr>
 <tr class="memdesc:a51739ea4e5528c6a587dad7f095ab38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a multi-control with text fields for entering multiple floats in the same line.  <a href="#a51739ea4e5528c6a587dad7f095ab38a">More...</a><br /></td></tr>
 <tr class="separator:a51739ea4e5528c6a587dad7f095ab38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,98 +151,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">viewWidth</td><td>View width.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="afdcc076b2e51920144a33e726f0257f2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float GetMultiLineHeight </td>
-          <td>(</td>
-          <td class="paramtype">params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_multi_content.html">MultiContent</a>[]&#160;</td>
-          <td class="paramname"><em>lines</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the height for <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a81cf4e4dc403c24ad1ccfd147aa09eac" title="Draw multi lines of a UnityEditor.SerializedProperty with children. ">MultiLineField()</a></code>. </p>
-<p>It's dynamic calculated by line counts and labels. And different if a resizable window becomes <code>EditorGUIUtility.wideMode</code> or not. </p>
-<dl class="section return"><dt>Returns</dt><dd>The multi line height.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lines</td><td>Lines with multiple labels.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a81cf4e4dc403c24ad1ccfd147aa09eac"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void MultiLineField </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SerializedProperty&#160;</td>
-          <td class="paramname"><em>property</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GUIContent&#160;</td>
-          <td class="paramname"><em>label</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_multi_content.html">MultiContent</a>[]&#160;</td>
-          <td class="paramname"><em>lines</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Draw multi lines of a <code>UnityEditor.SerializedProperty</code> with children. </p>
-<p>First line displays the specified label of the property. Split children into groups, shown as <code>EditorGUI.MultiPropertyField()</code> in lines follow. Looks like <code>UnityEngine.Bounds</code> or <code>UnityEngine.Rect</code> in the Inspector window. Align the line label left as <code>UnityEngine.Transform</code> if exist. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">position</td><td>Position rect.</td></tr>
-    <tr><td class="paramname">property</td><td>Property.</td></tr>
-    <tr><td class="paramname">label</td><td>Main label.</td></tr>
-    <tr><td class="paramname">lines</td><td>Lines with multiple labels.</td></tr>
   </table>
   </dd>
 </dl>

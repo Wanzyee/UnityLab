@@ -1,13 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html":[0,0,6,3],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html":[0,1,0,12],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#a604d8a3964ee286c1911d5b312104982":[0,0,6,3,0],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#a604d8a3964ee286c1911d5b312104982":[0,1,0,12,0],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ab36ad2ab306faf89b070e723210e37dd":[0,0,6,3,1],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ab36ad2ab306faf89b070e723210e37dd":[0,1,0,12,1],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc":[0,0,6,3,3],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc":[0,1,0,12,3],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07":[0,0,6,3,2],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07":[0,1,0,12,2],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html":[0,1,0,13],
@@ -249,5 +241,13 @@ var NAVTREEINDEX1 =
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465":[0,0,5,3,2],
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a63d4f63128781acfa8229a12763b5440":[0,0,5,3,1],
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a8cf86720a5481c744a0a551d1541f5d8":[0,0,5,3,0],
-"class_wanzyee_studio_1_1_json_1_1_color_converter.html#ad722f13be7b117693e904035b7135f41":[0,0,5,3,3]
+"class_wanzyee_studio_1_1_json_1_1_color_converter.html#ad722f13be7b117693e904035b7135f41":[0,0,5,3,3],
+"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html":[0,0,5,1],
+"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465":[0,0,5,1,2],
+"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a63d4f63128781acfa8229a12763b5440":[0,0,5,1,1],
+"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a8cf86720a5481c744a0a551d1541f5d8":[0,0,5,1,0],
+"class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html":[0,0,5,4],
+"class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465":[0,0,5,4,2],
+"class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html#a63d4f63128781acfa8229a12763b5440":[0,0,5,4,1],
+"class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html#a8cf86720a5481c744a0a551d1541f5d8":[0,0,5,4,0]
 };
