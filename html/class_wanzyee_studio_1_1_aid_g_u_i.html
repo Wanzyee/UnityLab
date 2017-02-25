@@ -1244,8 +1244,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Draw the value field formatted by the value type. </p>
-<p>If it is an array and the length is changed on GUI, this will return a new instance. Note, unassigned <code>T</code> becomes <code>object</code> if pass value <code>null</code>. </p>
-<p>It's able to make a custom layout for a custom type, instead of default as a text field. Just make a class implements <code><a class="el" href="interface_wanzyee_studio_1_1_i_aid_drawer.html" title="Interface of generic value drawer. ">IAidDrawer</a></code>, this'll find it to draw the GUI. Note, this instantiates the custom drawer by the default constructor. E.g., the classes below aren't allowed to implement:</p><ol type="1">
+<p>If it is an array and the length is changed on GUI, this will return a new instance. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Attach a note on a UnityEngine.GameObject, and show tooltip in the Hierarchy. ">Note</a>, unassigned <code>T</code> becomes <code>object</code> if pass value <code>null</code>. </p>
+<p>It's able to make a custom layout for a custom type, instead of default as a text field. Just make a class implements <code><a class="el" href="interface_wanzyee_studio_1_1_i_aid_drawer.html" title="Interface of generic value drawer. ">IAidDrawer</a></code>, this'll find it to draw the GUI. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Attach a note on a UnityEngine.GameObject, and show tooltip in the Hierarchy. ">Note</a>, this instantiates the custom drawer by the default constructor. E.g., the classes below aren't allowed to implement:</p><ol type="1">
 <li><code>UnityEngine.MonoBehaviour</code>.</li>
 <li><code>UnityEngine.ScriptableObject</code>. </li>
 </ol>
@@ -1306,7 +1306,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Draw the text field to display json serialized value. </p>
-<p>Use temporary content if focused, highlight if different from the original. Unfocus if click outside, press escape or enter key. Note, this will return new deserialized value instance if changed, otherwise original. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
+<p>Use temporary content if focused, highlight if different from the original. Unfocus if click outside, press escape or enter key. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Attach a note on a UnityEngine.GameObject, and show tooltip in the Hierarchy. ">Note</a>, this will return new deserialized value instance if changed, otherwise original. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
 <dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

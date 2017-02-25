@@ -23,6 +23,7 @@ var namespace_wanzyee_studio =
     [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_net_utility.html", "class_wanzyee_studio_1_1_json_net_utility" ],
     [ "MathUtility", "class_wanzyee_studio_1_1_math_utility.html", "class_wanzyee_studio_1_1_math_utility" ],
     [ "MatrixUtility", "class_wanzyee_studio_1_1_matrix_utility.html", "class_wanzyee_studio_1_1_matrix_utility" ],
+    [ "Note", "class_wanzyee_studio_1_1_note.html", "class_wanzyee_studio_1_1_note" ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", "class_wanzyee_studio_1_1_popup_menu_attribute" ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", "class_wanzyee_studio_1_1_process_launcher" ],
     [ "Range", "struct_wanzyee_studio_1_1_range.html", "struct_wanzyee_studio_1_1_range" ],

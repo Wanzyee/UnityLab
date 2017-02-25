@@ -61,6 +61,10 @@ var group___components =
       [ "show", "class_wanzyee_studio_1_1_framerate_counter.html#a5bafc98f16f9fd53e0f929fe20b17e1c", null ],
       [ "instance", "class_wanzyee_studio_1_1_framerate_counter.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
     ] ],
+    [ "Note", "class_wanzyee_studio_1_1_note.html", [
+      [ "Print", "class_wanzyee_studio_1_1_note.html#a9dcac18006ce057b8d78c847174c1362", null ],
+      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ]
+    ] ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", [
       [ "Launch", "class_wanzyee_studio_1_1_process_launcher.html#abe9b413e3c019ccee4f87ab0071c5aad", null ],
       [ "Kill", "class_wanzyee_studio_1_1_process_launcher.html#a26ce7cdbe1cd165606d3f5b625725e9f", null ],

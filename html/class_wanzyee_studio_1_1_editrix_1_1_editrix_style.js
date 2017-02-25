@@ -8,6 +8,7 @@ var class_wanzyee_studio_1_1_editrix_1_1_editrix_style =
     [ "statusBar", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae4358dbdc23372131882726541eff46f", null ],
     [ "editIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba", null ],
     [ "copyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436", null ],
+    [ "removeIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7d25ee49df9864a55df45232e204c4dd", null ],
     [ "deleteIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a2b8aaa376453dae4e9509ebc9ee64ac5", null ],
     [ "aimIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac11b691c2ce5059673c02130ec766839", null ],
     [ "hierarchyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab737c95489a39be23f3185b4a48d2646", null ],

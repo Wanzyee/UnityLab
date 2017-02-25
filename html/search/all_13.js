@@ -8,7 +8,7 @@ var searchData=
   ['screenshotfolder',['screenshotFolder',['../class_wanzyee_studio_1_1_app_common_aider.html#a9371ec2e0aa39b881223e7be7b13fdf9',1,'WanzyeeStudio::AppCommonAider']]],
   ['screentoguipoint',['ScreenToGUIPoint',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a6198186bdda5ded823d28941effa3e40',1,'WanzyeeStudio::AidGUI']]],
   ['scripts',['scripts',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#ac754df2932d53d231864da5a5a2e1f96',1,'WanzyeeStudio::Editrix::PluginMaker']]],
-  ['search',['search',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e',1,'WanzyeeStudio::Editrix::Toolkit::Clipboard']]],
+  ['search',['search',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.search()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.search()']]],
   ['second',['second',['../struct_wanzyee_studio_1_1_time_info.html#a6cf35be1947a62f134392fcb1b3c54d2',1,'WanzyeeStudio::TimeInfo']]],
   ['selectionfilter',['SelectionFilter',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['selectnone',['SelectNone',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
