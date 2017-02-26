@@ -157,7 +157,11 @@ Public Attributes</h2></td></tr>
 <li>Click the "Aim" icon to ping the noted object or double-click to select it.</li>
 <li>The text before the first empty line becomes the tooltip in the Hierarchy and Project window. </li>
 </ol>
-<p>Instructions, this saves the asset notes into <code>AssetImporter.userData</code>. It may conflict with other packages if they also use the API. And saves the scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component on a <code>UnityEngine.GameObject</code>. But the <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component is excluded from build by default. </p>
+<p>Instructions:</p><ol type="1">
+<li>This saves asset notes in <code>AssetImporter.userData</code>, it may conflict with other plugins which use.</li>
+<li>Then saves scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component, and it's excluded from build by default.</li>
+<li>The notes with <code>HideFlags.HideInHierarchy</code> will be excluded when scan all or draw icons. </li>
+</ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a513b88d38998ec5b3a1b82fbc73afc9c"></a>
 <div class="memitem">
@@ -207,7 +211,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Open a locked notebook window with specified <code>targets</code>. </p>
-<p>Focus the existing one with the same targets if found, otherwise open new. </p>
+<p>The <code>targets</code> will be filtered to include assets or <code>UnityEngine.GameObject</code> only. Focus the existing one with the same targets if found, otherwise open new. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">targets</td><td>Targets.</td></tr>
@@ -232,7 +236,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "Lock" to switch the lock state. And "Show All Notes" to lock show all existing notes. And "Remove Empty Notes" to scan and destroy the useless <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component. </p>
+<p>Menu "Lock" to switch the lock state. And "Show All Notes" to lock show all existing notes without <code>HideFlags.HideInHierarchy</code>. And "Remove Empty Notes" to scan and destroy the useless <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">menu</td><td>Menu.</td></tr>

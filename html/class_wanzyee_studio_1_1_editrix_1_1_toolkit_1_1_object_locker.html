@@ -110,12 +110,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a491bd864823c3cf776c985a545b460b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#a491bd864823c3cf776c985a545b460b1">EditToggleLocked</a> ()</td></tr>
 <tr class="memdesc:a491bd864823c3cf776c985a545b460b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle the selected objects locked or editable to the opposite of the first one, with hotkey Alt-Shift-L.  <a href="#a491bd864823c3cf776c985a545b460b1">More...</a><br /></td></tr>
 <tr class="separator:a491bd864823c3cf776c985a545b460b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c9cf3bac370ca68cc23ec71f9d70568"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#a5c9cf3bac370ca68cc23ec71f9d70568">GetLocked</a> (Object obj)</td></tr>
-<tr class="memdesc:a5c9cf3bac370ca68cc23ec71f9d70568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the object locked or editable.  <a href="#a5c9cf3bac370ca68cc23ec71f9d70568">More...</a><br /></td></tr>
-<tr class="separator:a5c9cf3bac370ca68cc23ec71f9d70568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa73b8f189e75ade1dec14f687d9922bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#aa73b8f189e75ade1dec14f687d9922bd">SetLocked</a> (bool locked, params Object[] objects)</td></tr>
-<tr class="memdesc:aa73b8f189e75ade1dec14f687d9922bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the objects locked or editable.  <a href="#aa73b8f189e75ade1dec14f687d9922bd">More...</a><br /></td></tr>
-<tr class="separator:aa73b8f189e75ade1dec14f687d9922bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20728ee7aedcaee4e47510eb6b10e7a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#af20728ee7aedcaee4e47510eb6b10e7a">GetLocked</a> (Object target)</td></tr>
+<tr class="memdesc:af20728ee7aedcaee4e47510eb6b10e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the object locked or editable.  <a href="#af20728ee7aedcaee4e47510eb6b10e7a">More...</a><br /></td></tr>
+<tr class="separator:af20728ee7aedcaee4e47510eb6b10e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b817d53d4b3c30f3a1afc8d2e3f39f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#ab3b817d53d4b3c30f3a1afc8d2e3f39f">SetLocked</a> (bool locked, params Object[] targets)</td></tr>
+<tr class="memdesc:ab3b817d53d4b3c30f3a1afc8d2e3f39f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the objects locked or editable.  <a href="#ab3b817d53d4b3c30f3a1afc8d2e3f39f">More...</a><br /></td></tr>
+<tr class="separator:ab3b817d53d4b3c30f3a1afc8d2e3f39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Set <code>UnityEngine.Object</code> to be locked or editable. </p>
@@ -146,7 +146,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5c9cf3bac370ca68cc23ec71f9d70568"></a>
+<a class="anchor" id="af20728ee7aedcaee4e47510eb6b10e7a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -157,7 +157,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static bool GetLocked </td>
           <td>(</td>
           <td class="paramtype">Object&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -172,14 +172,14 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code>, if locked, <code>false</code> otherwise.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">obj</td><td>Object.</td></tr>
+    <tr><td class="paramname">target</td><td>Target.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="aa73b8f189e75ade1dec14f687d9922bd"></a>
+<a class="anchor" id="ab3b817d53d4b3c30f3a1afc8d2e3f39f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -196,7 +196,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">params Object[]&#160;</td>
-          <td class="paramname"><em>objects</em>&#160;</td>
+          <td class="paramname"><em>targets</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,7 +216,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">locked</td><td>If set to <code>true</code> locked.</td></tr>
-    <tr><td class="paramname">objects</td><td>Objects.</td></tr>
+    <tr><td class="paramname">targets</td><td>Targets.</td></tr>
   </table>
   </dd>
 </dl>

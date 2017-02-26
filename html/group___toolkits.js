@@ -65,8 +65,8 @@ var group___toolkits =
     ] ],
     [ "ObjectLocker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html", [
       [ "EditToggleLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#a491bd864823c3cf776c985a545b460b1", null ],
-      [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#a5c9cf3bac370ca68cc23ec71f9d70568", null ],
-      [ "SetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#aa73b8f189e75ade1dec14f687d9922bd", null ]
+      [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#af20728ee7aedcaee4e47510eb6b10e7a", null ],
+      [ "SetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#ab3b817d53d4b3c30f3a1afc8d2e3f39f", null ]
     ] ],
     [ "SelectionFilter", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html", [
       [ "SelectNone", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e", null ],
