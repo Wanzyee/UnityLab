@@ -159,8 +159,7 @@ Public Attributes</h2></td></tr>
 </ol>
 <p>Instructions:</p><ol type="1">
 <li>This saves asset notes in <code>AssetImporter.userData</code>, it may conflict with other plugins which use.</li>
-<li>Then saves scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component, and it's excluded from build by default.</li>
-<li>The notes with <code>HideFlags.HideInHierarchy</code> will be excluded when scan all or draw icons. </li>
+<li>Then saves scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component, and it's excluded from build by default. </li>
 </ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a513b88d38998ec5b3a1b82fbc73afc9c"></a>
@@ -236,7 +235,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "Lock" to switch the lock state. And "Show All Notes" to lock show all existing notes without <code>HideFlags.HideInHierarchy</code>. And "Remove Empty Notes" to scan and destroy the useless <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component. </p>
+<p>Menu "Lock" to switch lock state, and "Remove Empty Notes" to scan and remove empty <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> components. Menu "Scan All Notes" to lock show all existing notes, and "Scan Selected Notes" to scan from the selection. Scanning will ignore scene notes with <code>HideFlags.HideInHierarchy</code>, or asset notes with label "Ignore". </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">menu</td><td>Menu.</td></tr>

@@ -178,7 +178,7 @@ Public Attributes</h2></td></tr>
 <li>We shouldn't save the edit data in user's game scene. </li>
 </ol>
 <p>For component references to scene object. This creates copies and store in editor scene temporarily to ensure content correct. It means the copy will be destroyed when quitting the editor. And also, the scene references will become missing when opening another scene. The situation above is applicable to a material with scene texture, too. </p>
-<p>For material or component without reference to any scene object. The copies will be saved in an asset folder to make them still until "Clear" triggered manually. This tracks all copies by specific name or folder to ensure valid after script reloaded. </p>
+<p>For material or component without reference to any scene object. The copies will be saved with a label "Ignore" in an asset folder to make them still until manually "Clear". This tracks all copies by specific name or folder to ensure valid after script reloaded. </p>
 <p>SVN users may clear all manually to avoid committing, or ignore the storing folder below:</p><ol type="1">
 <li>The default is "Temp/Clipboard" under the root folder "Assets/WanzyeeStudio".</li>
 <li>If the root is moved, it becomes "Temp/Clipboard" under the first found "WanzyeeStudio".</li>
