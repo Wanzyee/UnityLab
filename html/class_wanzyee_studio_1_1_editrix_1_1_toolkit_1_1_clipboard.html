@@ -142,32 +142,32 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility to copy <code>UnityEngine.Component</code> or <code>UnityEngine.Material</code> and paste it back. </p>
 <p>Useful for tweaking lots of objects in the editor, even in play mode. Click the menu "Window/Clipboard" to open the window. Just play and tweak, drag and drop, copy and paste whenever. It acts as sort of preset system, edit lots of copies as presets, and paste to apply values quickly. Easy to find and manage copies with a search filter, custom item label, and foldable inspector. </p>
-<p>To copy:</p><ol type="1">
+<p>Copy:</p><ol type="1">
 <li>Drag'n'Drop from "Inspector" to copy the inspected sources.</li>
 <li>Drag'n'Drop a <code>UnityEngine.GameObject</code> to copy the components on it.</li>
 <li>Show menu to specify the component type if "Ctrl" pressed when dropping gameObjects.</li>
 <li>Or click the context menu "Copy to Clipboard". </li>
 </ol>
-<p>To paste:</p><ol type="1">
+<p>Paste:</p><ol type="1">
 <li>Drag'n'Drop to "Inspector" to paste back to the inspected targets.</li>
 <li>When dragging a component, it pastes values to the first one on the gameObject, or pastes as new if none.</li>
 <li>Show menu to specify a target of multiple components if "Ctrl" pressed when dropping.</li>
 <li>Or click the "Copy" button above any item, and paste by the target's context menu. </li>
 </ol>
-<p>To filter items with the search bar:</p><ol type="1">
+<p>Filter items with the search bar:</p><ol type="1">
 <li>Click the "Magnifier" icon to show a context menu made from the current items to select filters easily.</li>
 <li>Or input any text to filter the item's name, just like the Project window's search bar.</li>
 <li>Prefix "t:" filters by the type, the search will include all specified types.</li>
 <li>Prefix "l:" filters by the tooltip as labels, an item has to match all specified labels.</li>
 <li>Toggle the "Link" icon at the top-right of window to filter automatically by tracking selection. </li>
 </ol>
-<p>To edit the item label:</p><ol type="1">
+<p>Edit the item label:</p><ol type="1">
 <li>Click the "Pen" button beside the label to show or hide the edit field.</li>
 <li>To save the change, just press "Ctrl-Enter" keys or unfocus the field after editing.</li>
 <li>The first line shows as the label title, and the full text is the tooltip.</li>
 <li>Leave the field empty to show the default text, i.e., the copy source path. </li>
 </ol>
-<p>To find the copy source object:</p><ol type="1">
+<p>Find the copy source object:</p><ol type="1">
 <li>Click the "Aim" button to ping it or double-click to select it.</li>
 <li>The saved trace path is also shown as the default label tooltip.</li>
 <li>It'll beep if not found, e.g., the trace may be lost if the source is moved or renamed. </li>
