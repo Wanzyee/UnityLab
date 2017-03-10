@@ -106,38 +106,48 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_note.html',''
 <p><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a> text for <code>UnityEngine.GameObject</code>.  
  <a href="class_wanzyee_studio_1_1_note.html#details">More...</a></p>
 
-<p>Inherits MonoBehaviour.</p>
+<p>Inherits MonoBehaviour, and IPointerClickHandler.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9dcac18006ce057b8d78c847174c1362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_note.html#a9dcac18006ce057b8d78c847174c1362">Print</a> ()</td></tr>
-<tr class="memdesc:a9dcac18006ce057b8d78c847174c1362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print this note to Console.  <a href="#a9dcac18006ce057b8d78c847174c1362">More...</a><br /></td></tr>
-<tr class="separator:a9dcac18006ce057b8d78c847174c1362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a4898ac9f2340bc0e07be6ee5f3a96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_note.html#a75a4898ac9f2340bc0e07be6ee5f3a96">OnPointerClick</a> (PointerEventData eventData)</td></tr>
+<tr class="memdesc:a75a4898ac9f2340bc0e07be6ee5f3a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">OnPointerClick, log this note to Console.  <a href="#a75a4898ac9f2340bc0e07be6ee5f3a96">More...</a><br /></td></tr>
+<tr class="separator:a75a4898ac9f2340bc0e07be6ee5f3a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a739bd7e413e61c963681e085a990979a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a">text</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a739bd7e413e61c963681e085a990979a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The note content.  <a href="#a739bd7e413e61c963681e085a990979a">More...</a><br /></td></tr>
 <tr class="separator:a739bd7e413e61c963681e085a990979a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb930a4db84ec73f5ff72bb1c0f1f01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01">includeInBuild</a></td></tr>
+<tr class="memdesc:adeb930a4db84ec73f5ff72bb1c0f1f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if to include this in the player, otherwise destroy itself when <code>OnEnable()</code>.  <a href="#adeb930a4db84ec73f5ff72bb1c0f1f01">More...</a><br /></td></tr>
+<tr class="separator:adeb930a4db84ec73f5ff72bb1c0f1f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a> text for <code>UnityEngine.GameObject</code>. </p>
-<p>This's only allowed to be created by a <code>Notebook</code> window, and is excluded from build by default. It's able to switch by the context menu "Include in Build" and "Exclude from Build". </p>
+<p>This's only created by a <code>Notebook</code> window, and is excluded from build by default. It's able to include in build by setting in the debug mode Inspector. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9dcac18006ce057b8d78c847174c1362"></a>
+<a class="anchor" id="a75a4898ac9f2340bc0e07be6ee5f3a96"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Print </td>
+          <td class="memname">void OnPointerClick </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">PointerEventData&#160;</td>
+          <td class="paramname"><em>eventData</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Print this note to Console. </p>
+<p>OnPointerClick, log this note to Console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventData</td><td>Event data.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -154,6 +164,20 @@ Public Attributes</h2></td></tr>
 
 <p>The note content. </p>
 <p>The text before the first empty line becomes the tooltip in the Hierarchy window. </p>
+
+</div>
+</div>
+<a class="anchor" id="adeb930a4db84ec73f5ff72bb1c0f1f01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool includeInBuild</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flag if to include this in the player, otherwise destroy itself when <code>OnEnable()</code>. </p>
 
 </div>
 </div>

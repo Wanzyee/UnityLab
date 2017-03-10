@@ -26,9 +26,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html",
-"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html",
-"class_wanzyee_studio_1_1_www_option.html#a01918ad3436731904188f3c5f8e7f30c"
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71",
+"class_wanzyee_studio_1_1_json_1_1_color_converter.html#a8cf86720a5481c744a0a551d1541f5d8",
+"class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

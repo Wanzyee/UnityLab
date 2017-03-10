@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71":[0,0,6,6,3],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71":[0,1,0,12,3],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html":[0,0,6,3],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html":[0,1,0,13],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#a604d8a3964ee286c1911d5b312104982":[0,0,6,3,0],
@@ -62,8 +64,8 @@ var NAVTREEINDEX1 =
 "class_wanzyee_studio_1_1_event_delegator_group.html":[0,1,2,4],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a0b1cc7f6946fa2a4cb3ea485f4b71ed7":[0,1,2,4,2],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a0b1cc7f6946fa2a4cb3ea485f4b71ed7":[0,0,1,1,2],
-"class_wanzyee_studio_1_1_event_delegator_group.html#a23c893f7feb7f6a5e9509ad1945a27da":[0,1,2,4,0],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a23c893f7feb7f6a5e9509ad1945a27da":[0,0,1,1,0],
+"class_wanzyee_studio_1_1_event_delegator_group.html#a23c893f7feb7f6a5e9509ad1945a27da":[0,1,2,4,0],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a610e13e008802d6950127324d2d95d7f":[0,1,2,4,3],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a610e13e008802d6950127324d2d95d7f":[0,0,1,1,3],
 "class_wanzyee_studio_1_1_event_delegator_group.html#a6d180c7bc82466a8f144225ffff27c45":[0,1,2,4,4],
@@ -162,10 +164,10 @@ var NAVTREEINDEX1 =
 "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ad3b1717e4012513dca2ea2418d1403ff":[0,1,6,5,3],
 "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ae969f4b3cd69911c0b6cb51ae52663a8":[0,1,6,5,5],
 "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#aeb004a009c771ef8acef7c2cfe6a3ff4":[0,1,6,5,2],
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html":[0,0,1,8],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html":[0,0,2,7],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html":[0,0,6,7],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html":[0,1,6,6],
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html":[0,0,1,8],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c":[0,0,2,7,4],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c":[0,0,6,7,4],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c":[0,1,6,6,4],
@@ -183,9 +185,9 @@ var NAVTREEINDEX1 =
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365":[0,1,6,6,1],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365":[0,0,1,8,1],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,0,2,7,0],
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,0,1,8,0],
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,0,6,7,0],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,1,6,6,0],
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,0,6,7,0],
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d":[0,0,1,8,0],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6":[0,0,2,7,5],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6":[0,0,6,7,5],
 "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6":[0,1,6,6,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html#ad722f13be7b117693e904035b7135f41":[0,0,5,2,3],
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html":[0,0,5,3],
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465":[0,0,5,3,2],
-"class_wanzyee_studio_1_1_json_1_1_color_converter.html#a63d4f63128781acfa8229a12763b5440":[0,0,5,3,1],
-"class_wanzyee_studio_1_1_json_1_1_color_converter.html#a8cf86720a5481c744a0a551d1541f5d8":[0,0,5,3,0],
-"class_wanzyee_studio_1_1_json_1_1_color_converter.html#ad722f13be7b117693e904035b7135f41":[0,0,5,3,3]
+"class_wanzyee_studio_1_1_json_1_1_color_converter.html#a63d4f63128781acfa8229a12763b5440":[0,0,5,3,1]
 };

@@ -2,6 +2,7 @@ var group___p_maker =
 [
     [ "PluginMaker", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html", [
       [ "BuildDll", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a04c6094d4bbb676572f368fe7701a33f", null ],
+      [ "BuildDll", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#ac6591e4376a3694193123cffa5a1b031", null ],
       [ "Build", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a6a4d37693b809140b0dde7abd463d04e", null ],
       [ "overwrite", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#afeea8d20025f5d6db624f2c5c2050586", null ],
       [ "path", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a46c20eb2a26abeb1e934cd66e1dd6484", null ],

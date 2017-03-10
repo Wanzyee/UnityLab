@@ -11,7 +11,6 @@ var searchData=
   ['post',['Post',['../class_wanzyee_studio_1_1_www_loader.html#ac717b1f37099485dc751c72f1dc21164',1,'WanzyeeStudio::WwwLoader']]],
   ['prefixlabel',['PrefixLabel',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a70340f00f89018a253d01f26cc486cfb',1,'WanzyeeStudio::AidGUI']]],
   ['previoustab',['PreviousTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ab36ad2ab306faf89b070e723210e37dd',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
-  ['print',['Print',['../class_wanzyee_studio_1_1_note.html#a9dcac18006ce057b8d78c847174c1362',1,'WanzyeeStudio::Note']]],
   ['projectfactor',['ProjectFactor',['../class_wanzyee_studio_1_1_math_utility.html#a2bd9f8dc2092dc72a55c0dd7c585be5a',1,'WanzyeeStudio::MathUtility']]],
   ['projectpoint',['ProjectPoint',['../class_wanzyee_studio_1_1_math_utility.html#a68a070679be96c02dbf73bb93321089f',1,'WanzyeeStudio::MathUtility']]]
 ];

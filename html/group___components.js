@@ -62,8 +62,9 @@ var group___components =
       [ "instance", "class_wanzyee_studio_1_1_framerate_counter.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
     ] ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", [
-      [ "Print", "class_wanzyee_studio_1_1_note.html#a9dcac18006ce057b8d78c847174c1362", null ],
-      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ]
+      [ "OnPointerClick", "class_wanzyee_studio_1_1_note.html#a75a4898ac9f2340bc0e07be6ee5f3a96", null ],
+      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
+      [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
     ] ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", [
       [ "Launch", "class_wanzyee_studio_1_1_process_launcher.html#abe9b413e3c019ccee4f87ab0071c5aad", null ],
