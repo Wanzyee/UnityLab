@@ -138,7 +138,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Edit and show notes for assets and scene <code>UnityEngine.GameObject</code>. </p>
-<p>Easily comment the project structure to partners, or use it as a todo list. Edit and read the notes with a well readable list and search filter. Switch lock or track to show notes of selected objects, just like the Inspector. Show note icons with tooltip in the Hierarchy or Project window for quick preview if exist. Persist the scene notes added or changed when playing. </p>
+<p>Easily comment the project structure to partners, or use it as a todo list. Edit and read the notes with a well readable list and search filter. Switch lock or track to show notes of selected objects, just like the Inspector. Show note icons with custom color and tooltip in the Hierarchy or Project window for quick preview if exist. Persist the scene notes added or changed when playing. </p>
 <p>To open:</p><ol type="1">
 <li>The menu "Window/Notebook" to open.</li>
 <li>Context menu "Edit Note" in the Hierarchy or Project window to open and lock with the selection.</li>
@@ -157,12 +157,13 @@ Public Attributes</h2></td></tr>
 <p>Browse notes with well readability:</p><ol type="1">
 <li>Adjust the font size with the top-right slider, useful for FHD laptop.</li>
 <li>Click the label to highlight an item, useful for moving eyes between multiple windows.</li>
+<li>Customize the label and icon color by the left color picker, or set alpha 0 to use default color.</li>
 <li>Click the "Aim" icon to ping the noted object or double-click to select it.</li>
 <li>The text before the first empty line becomes the tooltip in the Hierarchy and Project window. </li>
 </ol>
 <p>Instructions:</p><ol type="1">
 <li>This saves asset notes in <code>AssetImporter.userData</code>, it may conflict with other plugins which use.</li>
-<li>Then saves scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> component, and it's excluded from build by default. </li>
+<li>Then saves scene notes in a <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a></code> component, and it's excluded from build by default. </li>
 </ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a513b88d38998ec5b3a1b82fbc73afc9c"></a>
@@ -238,7 +239,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "Lock" to switch lock state, and "Remove Empty Notes" to scan and remove empty <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note text for UnityEngine.GameObject. ">Note</a></code> components. Menu "Scan All Notes" to lock show all existing notes, and "Scan Selected Notes" to scan from the selection. Scanning will ignore scene notes with <code>HideFlags.HideInHierarchy</code>, or asset notes with label "Ignore". </p>
+<p>Menu "Lock" to switch lock state, and "Remove Empty Notes" to scan and remove empty <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a></code> components. Menu "Scan All Notes" to lock show all existing notes, and "Scan Selected Notes" to scan from the selection. Scanning will ignore scene notes with <code>HideFlags.HideInHierarchy</code>, or asset notes with label "Ignore". </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">menu</td><td>Menu.</td></tr>

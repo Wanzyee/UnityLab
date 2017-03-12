@@ -19,6 +19,7 @@ var searchData=
   ['clipboardicon',['clipboardIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['closetab',['CloseTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['closewindow',['CloseWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
+  ['color',['color',['../class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073',1,'WanzyeeStudio::Note']]],
   ['colorchannel',['ColorChannel',['../group___enumerations.html#ga3ef15c9c3e32c2ec774e3cc922443898',1,'WanzyeeStudio']]],
   ['colorconverter',['ColorConverter',['../class_wanzyee_studio_1_1_json_1_1_color_converter.html',1,'WanzyeeStudio::Json']]],
   ['colorfield',['ColorField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a7a1c3ca93a21621e8df6b4e14a2c8afa',1,'WanzyeeStudio::AidGUI']]],
