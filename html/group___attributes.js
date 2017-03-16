@@ -18,10 +18,9 @@ var group___attributes =
     ] ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", [
       [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html#ac765acd3e0641bc72723bb9ede1bc3a5", null ],
-      [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a7f727b927cd2f2b995704f64a4e0d2d7", null ],
+      [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html#ab7e5ebf74d757577637e3ca932ab7efb", null ],
       [ "values", "class_wanzyee_studio_1_1_popup_menu_attribute.html#aa1897900b2201759d8d870693a9132ea", null ],
-      [ "options", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a945d855a9f8536010c2593e652cd73ff", null ],
-      [ "converters", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a608c3b591864e020187a13f20a448477", null ]
+      [ "options", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a945d855a9f8536010c2593e652cd73ff", null ]
     ] ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", [
       [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a", null ],

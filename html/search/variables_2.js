@@ -5,7 +5,6 @@ var searchData=
   ['clipboardicon',['clipboardIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['color',['color',['../class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073',1,'WanzyeeStudio::Note']]],
   ['constraints',['constraints',['../class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5',1,'WanzyeeStudio::TypeConstraintAttribute']]],
-  ['converters',['converters',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#a608c3b591864e020187a13f20a448477',1,'WanzyeeStudio::PopupMenuAttribute']]],
   ['copycursor',['copyCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['copyicon',['copyIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436',1,'WanzyeeStudio::Editrix::EditrixStyle']]]
 ];
