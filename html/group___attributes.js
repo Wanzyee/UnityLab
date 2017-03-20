@@ -22,10 +22,7 @@ var group___attributes =
       [ "values", "class_wanzyee_studio_1_1_popup_menu_attribute.html#aa1897900b2201759d8d870693a9132ea", null ],
       [ "options", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a945d855a9f8536010c2593e652cd73ff", null ]
     ] ],
-    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
-      [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ],
-      [ "order", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a19b9e030dc400883f85052a5d8ff7026", null ]
-    ] ],
+    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", null ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", [
       [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a", null ],
       [ "constraints", "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5", null ]

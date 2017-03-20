@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_wanzyee_studio_1_1_www_loader.html#ac717b1f37099485dc751c72f1dc21164":[0,0,3,0,3],
-"class_wanzyee_studio_1_1_www_loader.html#ac7abb4766cd3f65c31f56279d7decff8":[0,0,3,0,16],
 "class_wanzyee_studio_1_1_www_loader.html#ad0e8dd22f0fda32a15a16134c059610a":[0,0,3,0,14],
 "class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2":[0,0,3,0,1],
 "class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666":[0,0,3,0,18],
@@ -21,8 +19,8 @@ var NAVTREEINDEX3 =
 "functions_d.html":[2,3,0,3],
 "functions_e.html":[2,3,0,4],
 "functions_f.html":[2,3,0,5],
-"functions_func.html":[2,3,1],
 "functions_func.html":[2,3,1,0],
+"functions_func.html":[2,3,1],
 "functions_func_b.html":[2,3,1,1],
 "functions_func_c.html":[2,3,1,2],
 "functions_func_d.html":[2,3,1,3],
@@ -194,14 +192,14 @@ var NAVTREEINDEX3 =
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383":[0,1,4,1,0],
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa21c2e59531c8710156d34a3c30ac81d5":[0,1,4,1,2],
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa57cec4137b614c87cb4e24a3d003a3e0":[0,1,4,1,1],
-"namespace_wanzyee_studio_1_1_editrix.html":[1,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix.html":[2,0,0,0],
-"namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[1,0,0,0,0],
+"namespace_wanzyee_studio_1_1_editrix.html":[1,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[2,0,0,0,0],
-"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
+"namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[1,0,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[2,0,0,0,1],
-"namespace_wanzyee_studio_1_1_extension.html":[2,0,0,1],
+"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
 "namespace_wanzyee_studio_1_1_extension.html":[1,0,0,1],
+"namespace_wanzyee_studio_1_1_extension.html":[2,0,0,1],
 "namespace_wanzyee_studio_1_1_json.html":[2,0,0,2],
 "namespace_wanzyee_studio_1_1_json.html":[1,0,0,2],
 "namespacemembers.html":[1,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "struct_wanzyee_studio_1_1_time_info.html#ab61c174701698ae25311958549c82f0f":[2,0,0,36,5],
 "struct_wanzyee_studio_1_1_time_info.html#abeac221e38b7b9ce7df8722c842bf671":[2,0,0,36,13],
 "struct_wanzyee_studio_1_1_time_info.html#ac532a009e9b74d3cfbc7f8b3e3f46ed7":[2,0,0,36,1],
-"struct_wanzyee_studio_1_1_time_info.html#ad558ced6287197a614ab791a4caccaf3":[2,0,0,36,3]
+"struct_wanzyee_studio_1_1_time_info.html#ad558ced6287197a614ab791a4caccaf3":[2,0,0,36,3],
+"struct_wanzyee_studio_1_1_time_info.html#ae13501777fea3b17d2ad90667e78df88":[2,0,0,36,0],
+"struct_wanzyee_studio_1_1_time_info.html#aedb06abe5aff12fa3e7e0e71a374edfb":[2,0,0,36,14]
 };
