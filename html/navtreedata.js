@@ -28,8 +28,8 @@ var NAVTREEINDEX =
 "annotated.html",
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71",
 "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a8cf86720a5481c744a0a551d1541f5d8",
-"class_wanzyee_studio_1_1_www_loader.html#ad0e8dd22f0fda32a15a16134c059610a",
-"struct_wanzyee_studio_1_1_time_info.html#af00ab208b4aa54b66434ec6aa96e34f1"
+"class_wanzyee_studio_1_1_www_loader.html#ac7abb4766cd3f65c31f56279d7decff8",
+"struct_wanzyee_studio_1_1_time_info.html#aedb06abe5aff12fa3e7e0e71a374edfb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

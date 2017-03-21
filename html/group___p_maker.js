@@ -58,6 +58,7 @@ var group___p_maker =
       [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html#a7daf23dda3e9c61417f035c3838754a2", null ],
       [ "enforce", "class_wanzyee_studio_1_1_enum_flag_attribute.html#abe74b723cdc8f53421174b634ce942cb", null ]
     ] ],
+    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", null ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
