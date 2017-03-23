@@ -1,5 +1,12 @@
 var group___attributes =
 [
+    [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html", [
+      [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html#a42f20a7b387798caf51adecb875404c0", null ],
+      [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html#a709beaad6b2be1031ac780bb8356a189", null ],
+      [ "constraints", "class_wanzyee_studio_1_1_enum_constraint_attribute.html#a177adac8e75573b2630eec8845c886b9", null ],
+      [ "min", "class_wanzyee_studio_1_1_enum_constraint_attribute.html#ae703d36962ac787b9b3717bc6824a16e", null ],
+      [ "max", "class_wanzyee_studio_1_1_enum_constraint_attribute.html#aa0008c24afea9eca02a46500b974b1f3", null ]
+    ] ],
     [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html", [
       [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html#a7daf23dda3e9c61417f035c3838754a2", null ],
       [ "enforce", "class_wanzyee_studio_1_1_enum_flag_attribute.html#abe74b723cdc8f53421174b634ce942cb", null ]

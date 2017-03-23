@@ -27,9 +27,9 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71",
-"class_wanzyee_studio_1_1_json_1_1_color_converter.html#a8cf86720a5481c744a0a551d1541f5d8",
-"class_wanzyee_studio_1_1_www_loader.html#ac7abb4766cd3f65c31f56279d7decff8",
-"struct_wanzyee_studio_1_1_time_info.html#aedb06abe5aff12fa3e7e0e71a374edfb"
+"class_wanzyee_studio_1_1_json_1_1_bounds_converter.html#a63d4f63128781acfa8229a12763b5440",
+"class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26",
+"struct_wanzyee_studio_1_1_time_info.html#aadf763f0213fc2f3875230b06bb0b6cf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

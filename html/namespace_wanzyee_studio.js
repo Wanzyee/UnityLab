@@ -8,6 +8,7 @@ var namespace_wanzyee_studio =
     [ "BaseSingleton", "class_wanzyee_studio_1_1_base_singleton.html", "class_wanzyee_studio_1_1_base_singleton" ],
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", "class_wanzyee_studio_1_1_coroutiner" ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
+    [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html", "class_wanzyee_studio_1_1_enum_constraint_attribute" ],
     [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html", "class_wanzyee_studio_1_1_enum_flag_attribute" ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", "class_wanzyee_studio_1_1_event_delegator" ],
     [ "EventDelegatorGroup", "class_wanzyee_studio_1_1_event_delegator_group.html", "class_wanzyee_studio_1_1_event_delegator_group" ],

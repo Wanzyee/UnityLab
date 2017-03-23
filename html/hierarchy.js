@@ -33,6 +33,7 @@ var hierarchy =
     [ "TexturedMaterialMaker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html", null ],
     [ "TreeNode", "class_wanzyee_studio_1_1_editrix_1_1_tree_node.html", null ],
     [ "TreeView", "class_wanzyee_studio_1_1_editrix_1_1_tree_view.html", null ],
+    [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html", null ],
     [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html", null ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", null ],
     [ "EventDelegatorGroup", "class_wanzyee_studio_1_1_event_delegator_group.html", null ],
