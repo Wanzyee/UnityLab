@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"struct_wanzyee_studio_1_1_time_info.html#aad8c2a022dd43215db029eb83879ba28":[2,0,0,37,7],
 "struct_wanzyee_studio_1_1_time_info.html#aadf763f0213fc2f3875230b06bb0b6cf":[2,0,0,37,8],
 "struct_wanzyee_studio_1_1_time_info.html#ab61c174701698ae25311958549c82f0f":[2,0,0,37,5],
 "struct_wanzyee_studio_1_1_time_info.html#abeac221e38b7b9ce7df8722c842bf671":[2,0,0,37,13],

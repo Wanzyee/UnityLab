@@ -208,11 +208,12 @@ var NAVTREEINDEX0 =
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e":[0,0,0,1,1],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e":[0,1,0,7,1],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html":[0,1,0,8],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff":[0,1,0,8,3],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff":[0,1,0,8,4],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f":[0,1,0,8,2],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c":[0,1,0,8,0],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d":[0,1,0,8,5],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e":[0,1,0,8,4],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e":[0,1,0,8,2],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d":[0,1,0,8,6],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e":[0,1,0,8,5],
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e":[0,1,0,8,3],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830":[0,1,0,8,1],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_array_collector.html":[0,1,0,9],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_array_collector.html#a513b88d38998ec5b3a1b82fbc73afc9c":[0,1,0,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a513b88d38998ec5b3a1b82fbc73afc9c":[0,1,0,12,1],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580":[0,0,6,6,4],
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580":[0,1,0,12,4],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e":[0,0,6,6,0],
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e":[0,1,0,12,0]
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e":[0,0,6,6,0]
 };
