@@ -1,6 +1,6 @@
 var group___released =
 [
-    [ "Component Clipboard", "group___component_clipboard.html", "group___component_clipboard" ],
+    [ "Clipboard", "group___clipboard.html", "group___clipboard" ],
     [ "Event Delegator", "group___event_delegator.html", "group___event_delegator" ],
     [ "3P Maker", "group___p_maker.html", "group___p_maker" ],
     [ "Www Loader", "group___www_loader.html", "group___www_loader" ],

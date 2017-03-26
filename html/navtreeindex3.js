@@ -70,7 +70,7 @@ var NAVTREEINDEX3 =
 "functions_y.html":[2,3,0,22],
 "group___assets.html":[0,1,1],
 "group___attributes.html":[0,1,3],
-"group___component_clipboard.html":[0,0,0],
+"group___clipboard.html":[0,0,0],
 "group___components.html":[0,1,2],
 "group___editor_aider.html":[0,0,6],
 "group___enumerations.html":[0,1,4],
