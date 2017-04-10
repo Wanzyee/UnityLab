@@ -1,12 +1,5 @@
 var group___clipboard =
 [
-    [ "Notebook", "group___notebook.html", "group___notebook" ],
-    [ "3P Maker", "group___p_maker.html", "group___p_maker" ],
-    [ "Event Delegator", "group___event_delegator.html", "group___event_delegator" ],
-    [ "Www Loader", "group___www_loader.html", "group___www_loader" ],
-    [ "Editor Aider", "group___editor_aider.html", "group___editor_aider" ],
-    [ "Json.NET Converters", "group___json_net_converters.html", "group___json_net_converters" ],
-    [ "Singleton Liberation", "group___singleton_liberation.html", "group___singleton_liberation" ],
     [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", [
       [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
       [ "IsCopyable", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a0520ff90731a357642e64d938d4d0589", null ],
