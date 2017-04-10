@@ -5,5 +5,6 @@ var searchData=
   ['none',['None',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa6adf97f83acf6453d4a6a4b1070f3754',1,'WanzyeeStudio.None()'],['../namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754',1,'WanzyeeStudio.None()'],['../namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a6adf97f83acf6453d4a6a4b1070f3754',1,'WanzyeeStudio.None()']]],
   ['normalizedtopoint',['NormalizedToPoint',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abbacaa635b94210dc8a0995afae017f5',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['note',['Note',['../class_wanzyee_studio_1_1_note.html',1,'WanzyeeStudio']]],
-  ['notebook',['Notebook',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html',1,'WanzyeeStudio::Editrix::Toolkit']]]
+  ['notebook',['Notebook',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
+  ['notebook',['Notebook',['../group___notebook.html',1,'']]]
 ];

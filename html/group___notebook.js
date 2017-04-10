@@ -1,30 +1,19 @@
-var group___clipboard =
+var group___notebook =
 [
-    [ "Notebook", "group___notebook.html", "group___notebook" ],
-    [ "3P Maker", "group___p_maker.html", "group___p_maker" ],
-    [ "Event Delegator", "group___event_delegator.html", "group___event_delegator" ],
-    [ "Www Loader", "group___www_loader.html", "group___www_loader" ],
-    [ "Editor Aider", "group___editor_aider.html", "group___editor_aider" ],
-    [ "Json.NET Converters", "group___json_net_converters.html", "group___json_net_converters" ],
-    [ "Singleton Liberation", "group___singleton_liberation.html", "group___singleton_liberation" ],
-    [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
-      [ "IsCopyable", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a0520ff90731a357642e64d938d4d0589", null ],
-      [ "Copy", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a33e4b97b0a120a409d33a32cc493af1f", null ],
-      [ "Clear", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a8385b0d378201173be1357256ef356eb", null ],
-      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
-      [ "track", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#af8a9d4eb661ab1452133e17d5ef9f0f3", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e", null ]
+    [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", [
+      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830", null ],
+      [ "Popup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f", null ],
+      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
+      [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
+      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
     ] ],
-    [ "MaterialPropertyCopier", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html", [
-      [ "Copy", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#ab29075c8ca08ab5ed8f0731674da4002", null ],
-      [ "Paste", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e", null ]
-    ] ],
-    [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", [
-      [ "mode", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a7c6772c8f606b6ac20ecd99ba858a63e", null ],
-      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a9cd01d1cde51abbeba6afac87f7b3576", null ],
-      [ "offset", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a05a86d9e3d6f4daa58feabb0351c15a8", null ],
-      [ "size", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#aef1d073726fc4b857570fbae3230b8dd", null ]
+    [ "Note", "class_wanzyee_studio_1_1_note.html", [
+      [ "OnPointerClick", "class_wanzyee_studio_1_1_note.html#a75a4898ac9f2340bc0e07be6ee5f3a96", null ],
+      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
+      [ "color", "class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073", null ],
+      [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
     ] ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", [
       [ "LoadTexture", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7fd9eb3e5ed4d5588be5d74b36b135fc", null ],
@@ -47,5 +36,15 @@ var group___clipboard =
       [ "copyCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea", null ],
       [ "linkCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389", null ],
       [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ]
+    ] ],
+    [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
+      [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
+      [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
+      [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ]
+    ] ],
+    [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
+      [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
+      [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
     ] ]
 ];
