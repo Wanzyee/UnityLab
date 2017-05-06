@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['parse',['Parse',['../struct_wanzyee_studio_1_1_range.html#aba022f274e293ae03b0b644ed4437f42',1,'WanzyeeStudio.Range.Parse()'],['../struct_wanzyee_studio_1_1_time_info.html#a3a9fe968033142dd9d6b1c6ccb2971f3',1,'WanzyeeStudio.TimeInfo.Parse()']]],
   ['paste',['Paste',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e',1,'WanzyeeStudio::Editrix::Toolkit::MaterialPropertyCopier']]],
   ['pause',['Pause',['../class_wanzyee_studio_1_1_coroutiner.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'WanzyeeStudio::Coroutiner']]],
   ['pointsinline',['PointsInLine',['../class_wanzyee_studio_1_1_math_utility.html#acb06ab4ddccd6811197d6f67e6cb218e',1,'WanzyeeStudio::MathUtility']]],

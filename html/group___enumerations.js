@@ -7,6 +7,7 @@ var group___enumerations =
       [ "A", "namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29", null ]
     ] ],
     [ "Coordinate", "group___enumerations.html#gaf8f339ad433d08316f2b66477f69083f", [
+      [ "None", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "X", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383", null ],
       [ "Y", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa57cec4137b614c87cb4e24a3d003a3e0", null ],
       [ "Z", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa21c2e59531c8710156d34a3c30ac81d5", null ]
@@ -100,6 +101,7 @@ var group___enumerations =
       [ "UTF8", "namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaaeb7ee0fb585e2ac64fdc086466c474b1", null ]
     ] ],
     [ "Weekday", "group___enumerations.html#gaec3d5ec6653b2c392d449500b8f5cb3a", [
+      [ "None", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Sun", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaef6572e4cd58bb39a3f4e82fc64fe9f0", null ],
       [ "Mon", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aafd29458ae58ac32a2d8734ed90ad51ec", null ],
       [ "Tue", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa2ddecde85408faf230652444db78cb72", null ],

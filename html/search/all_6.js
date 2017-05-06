@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['f',['f',['../struct_wanzyee_studio_1_1_range.html#af900396d7b72ff2a7002e8befe8cf8f1',1,'WanzyeeStudio::Range']]],
   ['file',['file',['../class_wanzyee_studio_1_1_process_launcher.html#ab2c5ab3c7a17f0969cdd40146339903a',1,'WanzyeeStudio.ProcessLauncher.file()'],['../class_wanzyee_studio_1_1_variable_tweaker.html#ab2c5ab3c7a17f0969cdd40146339903a',1,'WanzyeeStudio.VariableTweaker.file()']]],
-  ['filepathattribute',['FilePathAttribute',['../class_wanzyee_studio_1_1_file_path_attribute.html#a1852a48da3004308595273bb6158e76d',1,'WanzyeeStudio.FilePathAttribute.FilePathAttribute(bool folder=false, bool open=false)'],['../class_wanzyee_studio_1_1_file_path_attribute.html#aa97b95d26b73e013dd39befe782825a6',1,'WanzyeeStudio.FilePathAttribute.FilePathAttribute(string extension, bool open=false)']]],
+  ['filepathattribute',['FilePathAttribute',['../class_wanzyee_studio_1_1_file_path_attribute.html#af15212ee4fbd7036a6c9d0b122f7d3ad',1,'WanzyeeStudio.FilePathAttribute.FilePathAttribute()'],['../class_wanzyee_studio_1_1_file_path_attribute.html#aa97b95d26b73e013dd39befe782825a6',1,'WanzyeeStudio.FilePathAttribute.FilePathAttribute(string extension, bool open=false)'],['../class_wanzyee_studio_1_1_file_path_attribute.html#a1b95163c56d2bc284025d9e7224a36a7',1,'WanzyeeStudio.FilePathAttribute.FilePathAttribute(bool folder, bool open=false)']]],
   ['filepathattribute',['FilePathAttribute',['../class_wanzyee_studio_1_1_file_path_attribute.html',1,'WanzyeeStudio']]],
   ['filterbylabel',['FilterByLabel',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['filterbytype',['FilterByType',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a0dc4e82eafe9aaa8bcbeea4a4fcccd63',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],

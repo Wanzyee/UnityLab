@@ -1,8 +1,6 @@
 var searchData=
 [
   ['data',['data',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#aec20ae32b842c2b269a3911d50fe6d49',1,'WanzyeeStudio::Editrix::TreeNode']]],
-  ['date',['date',['../struct_wanzyee_studio_1_1_time_info.html#a230fe7ba9136a22b732a10a85e65a956',1,'WanzyeeStudio::TimeInfo']]],
-  ['day',['day',['../struct_wanzyee_studio_1_1_time_info.html#a4c11afc03fc3ee49bab660def6558f2a',1,'WanzyeeStudio::TimeInfo']]],
   ['debug',['debug',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a398527b3e9e358c345c5047b16871957',1,'WanzyeeStudio::Editrix::PluginMaker']]],
   ['decrypt',['Decrypt',['../class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ae969f4b3cd69911c0b6cb51ae52663a8',1,'WanzyeeStudio.Extension.TextExtension.Decrypt(this string value, string key=null)'],['../class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a2eb891dc6c1de3b00b7a2578d720d4fb',1,'WanzyeeStudio.Extension.TextExtension.Decrypt(this byte[] bytes, string key=null)']]],
   ['defaultsettings',['defaultSettings',['../class_wanzyee_studio_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120',1,'WanzyeeStudio::JsonNetUtility']]],

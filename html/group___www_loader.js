@@ -12,6 +12,7 @@ var group___www_loader =
       [ "LoadImage", "class_wanzyee_studio_1_1_www_loader.html#a22d0ad407730c038094af808b17f81a5", null ],
       [ "LoadMovie", "class_wanzyee_studio_1_1_www_loader.html#a3f47d301eb978750c114911bf164adc6", null ],
       [ "Cancel", "class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26", null ],
+      [ "ToString", "class_wanzyee_studio_1_1_www_loader.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
       [ "cacheFolder", "class_wanzyee_studio_1_1_www_loader.html#aafc9e204718308ac72f8b69e82b894b3", null ],
       [ "url", "class_wanzyee_studio_1_1_www_loader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
       [ "info", "class_wanzyee_studio_1_1_www_loader.html#aa93964a62fedb28c9f2c9f4ce9324177", null ],
@@ -24,6 +25,7 @@ var group___www_loader =
     ] ],
     [ "WwwOption", "class_wanzyee_studio_1_1_www_option.html", [
       [ "WwwOption", "class_wanzyee_studio_1_1_www_option.html#ad998fcf0df090ccf471a02c6e3522f20", null ],
+      [ "ToString", "class_wanzyee_studio_1_1_www_option.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
       [ "operator WwwOption", "class_wanzyee_studio_1_1_www_option.html#a01918ad3436731904188f3c5f8e7f30c", null ],
       [ "url", "class_wanzyee_studio_1_1_www_option.html#ab7f7e4a227dcefa48ab674928030bff8", null ],
       [ "form", "class_wanzyee_studio_1_1_www_option.html#a170688223cdacf5c27db90a54f6ebab3", null ],

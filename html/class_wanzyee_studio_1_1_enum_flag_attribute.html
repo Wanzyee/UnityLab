@@ -94,10 +94,6 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_enum_flag_att
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_wanzyee_studio_1_1_enum_flag_attribute-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">EnumFlagAttribute<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___attributes.html">Attributes</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___p_maker.html">3P Maker</a></div></div>  </div>
 </div><!--header-->
@@ -107,70 +103,18 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_enum_flag_att
  <a href="class_wanzyee_studio_1_1_enum_flag_attribute.html#details">More...</a></p>
 
 <p>Inherits PropertyAttribute.</p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a7daf23dda3e9c61417f035c3838754a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_enum_flag_attribute.html#a7daf23dda3e9c61417f035c3838754a2">EnumFlagAttribute</a> (bool <a class="el" href="class_wanzyee_studio_1_1_enum_flag_attribute.html#abe74b723cdc8f53421174b634ce942cb">enforce</a>=false)</td></tr>
-<tr class="memdesc:a7daf23dda3e9c61417f035c3838754a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set flag mask enum to multi-select from the Inspector drop-down menu.  <a href="#a7daf23dda3e9c61417f035c3838754a2">More...</a><br /></td></tr>
-<tr class="separator:a7daf23dda3e9c61417f035c3838754a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:abe74b723cdc8f53421174b634ce942cb"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_enum_flag_attribute.html#abe74b723cdc8f53421174b634ce942cb">enforce</a></td></tr>
-<tr class="memdesc:abe74b723cdc8f53421174b634ce942cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The flag if enforce to use unformatted enum as flag mask.  <a href="#abe74b723cdc8f53421174b634ce942cb">More...</a><br /></td></tr>
-<tr class="separator:abe74b723cdc8f53421174b634ce942cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><code>UnityEngine.PropertyAttribute</code> to multi-select flag mask enum by drop-down menu. </p>
-<p>Only for int enum, within 31 values at most. Better to define enum in order begin from 1, then 2, 4, 8 and so on power of 2. Unless with a specific purpose to integrate, e.g., <code>UnityEngine.RigidbodyConstraints</code>. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, 'coz the flag system using, 0 always means nothing, -1 as everything. </p>
+<p>Better to define enum in order begin from 0, then 1, 2, 4 and so on power of 2. Unless with a specific purpose to integrate, e.g., <code>UnityEngine.HideFlags</code>. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, for a flag mask, 0 always means none, and -1 means all. </p>
 <p>Example enum like: </p>
 <div class="fragment"><div class="line">[Flags]</div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">enum</span> Guest:<span class="keywordtype">int</span>{</div>
-<div class="line">    ONE = 1, <span class="comment">// or (1 &lt;&lt; 0)</span></div>
-<div class="line">    TWO = 2, <span class="comment">// or (1 &lt;&lt; 1)</span></div>
-<div class="line">    LOL = 4, <span class="comment">// or (1 &lt;&lt; 2)</span></div>
+<div class="line">    <a class="code" href="namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0,</div>
+<div class="line">    One = 1, <span class="comment">// or (1 &lt;&lt; 0)</span></div>
+<div class="line">    Two = 2, <span class="comment">// or (1 &lt;&lt; 1)</span></div>
+<div class="line">    Oops = 4, <span class="comment">// or (1 &lt;&lt; 2)</span></div>
 <div class="line">};</div>
-</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7daf23dda3e9c61417f035c3838754a2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_enum_flag_attribute.html">EnumFlagAttribute</a> </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enforce</em> = <code>false</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set flag mask enum to multi-select from the Inspector drop-down menu. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">enforce</td><td>If to ignore warning if the enum isn't defined as flag mask.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="abe74b723cdc8f53421174b634ce942cb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly bool enforce</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The flag if enforce to use unformatted enum as flag mask. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.10-->
 <!-- start footer part -->
