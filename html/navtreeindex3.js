@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"class_wanzyee_studio_1_1_variable_info.html#a34bfd9af5e9390d2dc6dd490cb8bb59d":[2,0,0,37,7],
 "class_wanzyee_studio_1_1_variable_info.html#a3e1d0cb67aacaa6d9c38b825147bfe5a":[2,0,0,37,10],
 "class_wanzyee_studio_1_1_variable_info.html#a575c0b4bd85e4e55c12a4afcd5fcad7f":[2,0,0,37,6],
 "class_wanzyee_studio_1_1_variable_info.html#a750b5d744c39a06bfb13e6eb010e35d0":[2,0,0,37,8],
@@ -240,14 +241,13 @@ var NAVTREEINDEX3 =
 "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754":[0,1,4,1,0],
 "namespace_wanzyee_studio_1_1_editrix.html":[2,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix.html":[1,0,0,0],
-"namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[2,0,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[1,0,0,0,0],
-"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
+"namespace_wanzyee_studio_1_1_editrix_1_1_extension.html":[2,0,0,0,0],
 "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[2,0,0,0,1],
+"namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html":[1,0,0,0,1],
 "namespace_wanzyee_studio_1_1_extension.html":[1,0,0,1],
 "namespace_wanzyee_studio_1_1_extension.html":[2,0,0,1],
-"namespace_wanzyee_studio_1_1_json.html":[1,0,0,2],
 "namespace_wanzyee_studio_1_1_json.html":[2,0,0,2],
-"namespacemembers.html":[1,1,0],
-"namespacemembers_enum.html":[1,1,1]
+"namespace_wanzyee_studio_1_1_json.html":[1,0,0,2],
+"namespacemembers.html":[1,1,0]
 };

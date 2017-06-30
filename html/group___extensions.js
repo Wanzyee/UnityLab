@@ -19,6 +19,14 @@ var group___extensions =
       [ "Contains", "class_wanzyee_studio_1_1_extension_1_1_comp_extension.html#adce9c12759aa2449f4beeefe5105084c", null ],
       [ "Contains", "class_wanzyee_studio_1_1_extension_1_1_comp_extension.html#abd8ea2708fdd586f1f95910684e202b4", null ]
     ] ],
+    [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", [
+      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#afe190c16299b1b161ded76f44ef2a7c9", null ],
+      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#af63eff3aeebee1f67c9f380ca70732f3", null ],
+      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a2463f418b0c995491ce30bf85cf083ec", null ],
+      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a493c743b78523f72361d36a0d5588e27", null ],
+      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#aa83aae2157004214ced5ca7991d10262", null ],
+      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a27e53a272fc2d8d08c12eb89c86b8dee", null ]
+    ] ],
     [ "MatexExtension", "class_wanzyee_studio_1_1_extension_1_1_matex_extension.html", [
       [ "IsEncodable", "class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#af7806e63e50e16e2b62795f98fb1fd19", null ],
       [ "SaveFile", "class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#ae5590c9b71d906e2967d9251e29d6027", null ],
@@ -62,14 +70,8 @@ var group___extensions =
       [ "GetEncoding", "class_wanzyee_studio_1_1_extension_1_1_text_encode_extension.html#a6ac04444fce4413bdac15c01b6389348", null ]
     ] ],
     [ "TextExtension", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html", [
-      [ "ReplaceAll", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a973b157d4c9e70469522201e7d3e0a62", null ],
-      [ "Wrap", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a63c52f507d8e1ccb5da4c75d621bc367", null ],
       [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#aeb004a009c771ef8acef7c2cfe6a3ff4", null ],
-      [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ad3b1717e4012513dca2ea2418d1403ff", null ],
-      [ "Encrypt", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a42a734fd695199d0bcdf9c799cd1de14", null ],
-      [ "Decrypt", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ae969f4b3cd69911c0b6cb51ae52663a8", null ],
-      [ "Encrypt", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a6fb0c2c82ad3353fe12d812e1881d54e", null ],
-      [ "Decrypt", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#a2eb891dc6c1de3b00b7a2578d720d4fb", null ]
+      [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_text_extension.html#ad3b1717e4012513dca2ea2418d1403ff", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],

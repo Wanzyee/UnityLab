@@ -42,6 +42,7 @@ var hierarchy =
     [ "EventTimeInvoker", "class_wanzyee_studio_1_1_event_time_invoker.html", null ],
     [ "ExecutionOrderAttribute", "class_wanzyee_studio_1_1_execution_order_attribute.html", null ],
     [ "CompExtension", "class_wanzyee_studio_1_1_extension_1_1_comp_extension.html", null ],
+    [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", null ],
     [ "MatexExtension", "class_wanzyee_studio_1_1_extension_1_1_matex_extension.html", null ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", null ],
     [ "TextEncodeExtension", "class_wanzyee_studio_1_1_extension_1_1_text_encode_extension.html", null ],

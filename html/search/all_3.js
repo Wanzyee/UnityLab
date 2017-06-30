@@ -13,8 +13,8 @@ var searchData=
   ['clear',['Clear',['../class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#a6dd0e6430963688b0f55fbdb6f2909b0',1,'WanzyeeStudio.Extension.MatexExtension.Clear()'],['../class_wanzyee_studio_1_1_stack_console_panel.html#ade633bf8b439e2bb742c72215c632b19',1,'WanzyeeStudio.StackConsolePanel.Clear()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a8385b0d378201173be1357256ef356eb',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.Clear()']]],
   ['clearcache',['ClearCache',['../class_wanzyee_studio_1_1_www_loader.html#ab4a8d21e2aef1e3b02186cc61175d115',1,'WanzyeeStudio::WwwLoader']]],
   ['clearconsole',['ClearConsole',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html#a4b3cddf734814c5437e8c97feffabe0c',1,'WanzyeeStudio::Editrix::Toolkit::ConsoleHelper']]],
-  ['clipboard',['Clipboard',['../group___clipboard.html',1,'']]],
   ['clipboard',['Clipboard',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
+  ['clipboard',['Clipboard',['../group___clipboard.html',1,'']]],
   ['clipboardicon',['clipboardIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['closetab',['CloseTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['closewindow',['CloseWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
@@ -36,5 +36,6 @@ var searchData=
   ['coroutiner',['Coroutiner',['../class_wanzyee_studio_1_1_coroutiner.html',1,'WanzyeeStudio']]],
   ['countinproject',['CountInProject',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a11582655699350c730ef6ab4f5d95edc',1,'WanzyeeStudio::Editrix::Toolkit::ComponentFinder']]],
   ['countinscene',['CountInScene',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#affb10925343d78ac8df2db44019c9d80',1,'WanzyeeStudio::Editrix::Toolkit::ComponentFinder']]],
-  ['create',['Create',['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)']]]
+  ['create',['Create',['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)']]],
+  ['cryptoextension',['CryptoExtension',['../class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html',1,'WanzyeeStudio::Extension']]]
 ];
