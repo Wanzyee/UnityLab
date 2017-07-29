@@ -16,13 +16,6 @@ var group___toolkits =
       [ "track", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#af8a9d4eb661ab1452133e17d5ef9f0f3", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e", null ]
     ] ],
-    [ "ComponentFinder", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
-      [ "CountInScene", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#affb10925343d78ac8df2db44019c9d80", null ],
-      [ "CountInProject", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a11582655699350c730ef6ab4f5d95edc", null ],
-      [ "OpenWindow< T >", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a2474ad9086ff71f0aa8f49c80d4d0c36", null ],
-      [ "GetSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_component_finder.html#a171c0ea5b4abb4dce44e01cb0f45cae0", null ]
-    ] ],
     [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", [
       [ "ClearConsole", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html#a4b3cddf734814c5437e8c97feffabe0c", null ]
     ] ],
@@ -52,9 +45,6 @@ var group___toolkits =
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
       [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
     ] ],
-    [ "ObjectArrayCollector", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_array_collector.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_array_collector.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ]
-    ] ],
     [ "ObjectGrouper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html", [
       [ "MakeGroup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6474f6ab86c5c851bbb8008cb3925456", null ],
       [ "UngroupParent", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6c12b3a79e107db0ff8fa292c6cf8de0", null ],
@@ -81,8 +71,5 @@ var group___toolkits =
       [ "PreviousTab", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ab36ad2ab306faf89b070e723210e37dd", null ],
       [ "CloseTab", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07", null ],
       [ "CloseWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc", null ]
-    ] ],
-    [ "TexturedMaterialMaker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_textured_material_maker.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ]
     ] ]
 ];
