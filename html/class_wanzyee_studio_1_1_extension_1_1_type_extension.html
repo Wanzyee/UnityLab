@@ -98,11 +98,11 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_extension_1_1
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_extension_1_1_type_extension-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TypeExtension<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___extensions.html">Extensions</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___event_delegator.html">Event Delegator</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a></div></div>  </div>
+<div class="title">TypeExtension<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___extensions.html">Extensions</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___clipboard.html">Clipboard</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___notebook.html">Notebook</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___event_delegator.html">Event Delegator</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___www_loader.html">Www Loader</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Include extension methods about operation of <code>System.Type</code>.  
+<p><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>System.Type</code>.  
  <a href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -110,9 +110,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a480f59926b6cc2babb2b527029009c9d"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d">GetPrettyName</a> (this Type type, bool full=false)</td></tr>
 <tr class="memdesc:a480f59926b6cc2babb2b527029009c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pretty readable name of the type, even generic, optional to use the full name.  <a href="#a480f59926b6cc2babb2b527029009c9d">More...</a><br /></td></tr>
 <tr class="separator:a480f59926b6cc2babb2b527029009c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c09c78706f1d93dac790e792f699365"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365">GetDefault</a> (this Type type)</td></tr>
-<tr class="memdesc:a1c09c78706f1d93dac790e792f699365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the default value of the type, just like <code>default(T)</code>.  <a href="#a1c09c78706f1d93dac790e792f699365">More...</a><br /></td></tr>
-<tr class="separator:a1c09c78706f1d93dac790e792f699365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00f22e2123c33503579705ef2c38db0"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0">GetNestedType</a> (this Type type, string name, bool isStatic)</td></tr>
+<tr class="memdesc:aa00f22e2123c33503579705ef2c38db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the named public or nonpublic nested type of the specified type.  <a href="#aa00f22e2123c33503579705ef2c38db0">More...</a><br /></td></tr>
+<tr class="separator:aa00f22e2123c33503579705ef2c38db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca504786e495d59b8efb927873e4499"><td class="memItemLeft" align="right" valign="top">static FieldInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499">GetField</a> (this Type type, string name, bool isStatic, Type fieldType=null)</td></tr>
+<tr class="memdesc:a0ca504786e495d59b8efb927873e4499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the named public or nonpublic <code>FieldInfo</code> of the specified type.  <a href="#a0ca504786e495d59b8efb927873e4499">More...</a><br /></td></tr>
+<tr class="separator:a0ca504786e495d59b8efb927873e4499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9a47cc9a138754433f739bf4ebf06a"><td class="memItemLeft" align="right" valign="top">static PropertyInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a">GetProperty</a> (this Type type, string name, bool isStatic, Type propertyType=null, params Type[] indexTypes)</td></tr>
+<tr class="memdesc:afd9a47cc9a138754433f739bf4ebf06a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the named public or nonpublic <code>PropertyInfo</code> of the specified type.  <a href="#afd9a47cc9a138754433f739bf4ebf06a">More...</a><br /></td></tr>
+<tr class="separator:afd9a47cc9a138754433f739bf4ebf06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340af7024f734c8ee09231f82db2b8c4"><td class="memItemLeft" align="right" valign="top">static MethodInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4">GetMethod</a> (this Type type, string name, bool isStatic, Type returnType=null, params Type[] paramTypes)</td></tr>
+<tr class="memdesc:a340af7024f734c8ee09231f82db2b8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the named public or nonpublic <code>MethodInfo</code> of the specified type.  <a href="#a340af7024f734c8ee09231f82db2b8c4">More...</a><br /></td></tr>
+<tr class="separator:a340af7024f734c8ee09231f82db2b8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10cee018669cf07f8eca97299648026e"><td class="memItemLeft" align="right" valign="top">static Type[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e">GetParents</a> (this Type type)</td></tr>
 <tr class="memdesc:a10cee018669cf07f8eca97299648026e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the parent hierarchy array, sorted from self to root type.  <a href="#a10cee018669cf07f8eca97299648026e">More...</a><br /></td></tr>
 <tr class="separator:a10cee018669cf07f8eca97299648026e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,12 +131,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a036d1c0db89907c99a8f704e8072706c"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c">GetItemType</a> (this Type type)</td></tr>
 <tr class="memdesc:a036d1c0db89907c99a8f704e8072706c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the element type of an array or list type, otherwise <code>null</code>.  <a href="#a036d1c0db89907c99a8f704e8072706c">More...</a><br /></td></tr>
 <tr class="separator:a036d1c0db89907c99a8f704e8072706c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c09c78706f1d93dac790e792f699365"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365">GetDefault</a> (this Type type)</td></tr>
+<tr class="memdesc:a1c09c78706f1d93dac790e792f699365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the default value of the type, just like <code>default(T)</code>.  <a href="#a1c09c78706f1d93dac790e792f699365">More...</a><br /></td></tr>
+<tr class="separator:a1c09c78706f1d93dac790e792f699365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638f802af7a6ba8bb6cbd5b1a499dae6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6">IsCreatable</a> (this Type type, bool exception=false)</td></tr>
 <tr class="memdesc:a638f802af7a6ba8bb6cbd5b1a499dae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if able to create an instance of the type.  <a href="#a638f802af7a6ba8bb6cbd5b1a499dae6">More...</a><br /></td></tr>
 <tr class="separator:a638f802af7a6ba8bb6cbd5b1a499dae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Include extension methods about operation of <code>System.Type</code>. </p>
+<div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>System.Type</code>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a480f59926b6cc2babb2b527029009c9d"></a>
 <div class="memitem">
@@ -174,7 +186,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1c09c78706f1d93dac790e792f699365"></a>
+<a class="anchor" id="aa00f22e2123c33503579705ef2c38db0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -182,11 +194,27 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static object GetDefault </td>
+          <td class="memname">static Type GetNestedType </td>
           <td>(</td>
           <td class="paramtype">this Type&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isStatic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -196,11 +224,201 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the default value of the type, just like <code>default(T)</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The default value.</dd></dl>
+<p>Get the named public or nonpublic nested type of the specified type. </p>
+<dl class="section return"><dt>Returns</dt><dd>The nested type.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
+    <tr><td class="paramname">name</td><td>Type name.</td></tr>
+    <tr><td class="paramname">isStatic</td><td>If to get a static type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0ca504786e495d59b8efb927873e4499"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FieldInfo GetField </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isStatic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>fieldType</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the named public or nonpublic <code>FieldInfo</code> of the specified type. </p>
+<dl class="section return"><dt>Returns</dt><dd>The field.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+    <tr><td class="paramname">name</td><td>Field name.</td></tr>
+    <tr><td class="paramname">isStatic</td><td>If to get a static field.</td></tr>
+    <tr><td class="paramname">fieldType</td><td>Field type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afd9a47cc9a138754433f739bf4ebf06a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static PropertyInfo GetProperty </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isStatic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>propertyType</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params Type[]&#160;</td>
+          <td class="paramname"><em>indexTypes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the named public or nonpublic <code>PropertyInfo</code> of the specified type. </p>
+<dl class="section return"><dt>Returns</dt><dd>The property.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+    <tr><td class="paramname">name</td><td>Property name.</td></tr>
+    <tr><td class="paramname">isStatic</td><td>If to get a static property.</td></tr>
+    <tr><td class="paramname">propertyType</td><td>Property type.</td></tr>
+    <tr><td class="paramname">indexTypes</td><td>Index types.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a340af7024f734c8ee09231f82db2b8c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MethodInfo GetMethod </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isStatic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>returnType</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params Type[]&#160;</td>
+          <td class="paramname"><em>paramTypes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the named public or nonpublic <code>MethodInfo</code> of the specified type. </p>
+<dl class="section return"><dt>Returns</dt><dd>The method.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+    <tr><td class="paramname">name</td><td>Method name.</td></tr>
+    <tr><td class="paramname">isStatic</td><td>If to get a static method.</td></tr>
+    <tr><td class="paramname">returnType</td><td>Return type.</td></tr>
+    <tr><td class="paramname">paramTypes</td><td>Parameter types.</td></tr>
   </table>
   </dd>
 </dl>
@@ -308,6 +526,39 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return the element type of an array or list type, otherwise <code>null</code>. </p>
 <dl class="section return"><dt>Returns</dt><dd>The element type.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1c09c78706f1d93dac790e792f699365"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static object GetDefault </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the default value of the type, just like <code>default(T)</code>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The default value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>

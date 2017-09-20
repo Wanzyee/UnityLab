@@ -5,5 +5,6 @@ var searchData=
   ['stackconsolepanel',['StackConsolePanel',['../class_wanzyee_studio_1_1_stack_console_panel.html',1,'WanzyeeStudio']]],
   ['stackgrouppanel',['StackGroupPanel',['../class_wanzyee_studio_1_1_stack_group_panel.html',1,'WanzyeeStudio']]],
   ['stacktweakpanel',['StackTweakPanel',['../class_wanzyee_studio_1_1_stack_tweak_panel.html',1,'WanzyeeStudio']]],
-  ['stackwindow',['StackWindow',['../class_wanzyee_studio_1_1_stack_window.html',1,'WanzyeeStudio']]]
+  ['stackwindow',['StackWindow',['../class_wanzyee_studio_1_1_stack_window.html',1,'WanzyeeStudio']]],
+  ['stringextension',['StringExtension',['../class_wanzyee_studio_1_1_extension_1_1_string_extension.html',1,'WanzyeeStudio::Extension']]]
 ];

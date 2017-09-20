@@ -123,9 +123,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0520ff90731a357642e64d938d4d0589"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a0520ff90731a357642e64d938d4d0589">IsCopyable</a> (Object source)</td></tr>
 <tr class="memdesc:a0520ff90731a357642e64d938d4d0589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the specified source is able to copy to clipboard.  <a href="#a0520ff90731a357642e64d938d4d0589">More...</a><br /></td></tr>
 <tr class="separator:a0520ff90731a357642e64d938d4d0589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33e4b97b0a120a409d33a32cc493af1f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a33e4b97b0a120a409d33a32cc493af1f">Copy</a> (Object source, bool open=false)</td></tr>
-<tr class="memdesc:a33e4b97b0a120a409d33a32cc493af1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the specified source to clipboard.  <a href="#a33e4b97b0a120a409d33a32cc493af1f">More...</a><br /></td></tr>
-<tr class="separator:a33e4b97b0a120a409d33a32cc493af1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdcfe7e62493cf8f023b311aea775ab9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#abdcfe7e62493cf8f023b311aea775ab9">Copy</a> (params Object[] sources)</td></tr>
+<tr class="memdesc:abdcfe7e62493cf8f023b311aea775ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the specified sources to clipboard.  <a href="#abdcfe7e62493cf8f023b311aea775ab9">More...</a><br /></td></tr>
+<tr class="separator:abdcfe7e62493cf8f023b311aea775ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8385b0d378201173be1357256ef356eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a8385b0d378201173be1357256ef356eb">Clear</a> (Type type=null)</td></tr>
 <tr class="memdesc:a8385b0d378201173be1357256ef356eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear clipboard by specified type, or pass <code>null</code> to clear all.  <a href="#a8385b0d378201173be1357256ef356eb">More...</a><br /></td></tr>
 <tr class="separator:a8385b0d378201173be1357256ef356eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,7 +244,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a33e4b97b0a120a409d33a32cc493af1f"></a>
+<a class="anchor" id="abdcfe7e62493cf8f023b311aea775ab9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -254,19 +254,9 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static void Copy </td>
           <td>(</td>
-          <td class="paramtype">Object&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">params Object[]&#160;</td>
+          <td class="paramname"><em>sources</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>open</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -276,12 +266,10 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Copy the specified source to clipboard. </p>
-<p>Optional to open window after copying. </p>
+<p>Copy the specified sources to clipboard. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td>Source object.</td></tr>
-    <tr><td class="paramname">open</td><td>If set to <code>true</code> open.</td></tr>
+    <tr><td class="paramname">sources</td><td>Source objects.</td></tr>
   </table>
   </dd>
 </dl>

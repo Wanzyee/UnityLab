@@ -197,7 +197,7 @@ Properties</h2></td></tr>
 </div><!-- fragment --><p>Or to load a local JSON file to setup your class: </p>
 <div class="fragment"><div class="line">WwwLoader.LoadText(</div>
 <div class="line">    <span class="stringliteral">&quot;../folder/doc.json&quot;</span>,</div>
-<div class="line">    (w, s) =&gt; { <span class="keywordflow">if</span>(null == w.error) _doc = Newtonsoft.Json.JsonConvert.DeserializeObject&lt;Doc&gt;(s); }</div>
+<div class="line">    (loader, text) =&gt; { <span class="keywordflow">if</span>(null == loader.error) doc = JsonConvert.DeserializeObject&lt;Doc&gt;(text); }</div>
 <div class="line">);</div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab4a8d21e2aef1e3b02186cc61175d115"></a>

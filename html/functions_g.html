@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="class_wanzyee_studio_1_1_matrix_utility.html#a9b8c04bec8bc50ebc4b439a6dae49476">MatrixUtility</a>
 </li>
 <li>GetBlurred()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#ad1bd4c2c4e5cff1e02f9e78b49f053f2">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#ad1bd4c2c4e5cff1e02f9e78b49f053f2">TextureExtension</a>
 </li>
 <li>GetChildren()
 : <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245">TypeExtension</a>
@@ -133,6 +133,9 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>GetEnumerator()
 : <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a14ae2d6cdfa36e948fce54aa8cd0fcb9">TreeNode</a>
 </li>
+<li>GetField()
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499">TypeExtension</a>
+</li>
 <li>GetIntersect()
 : <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3cf13d0182e48e5aee22a5d4730515a5">MathExtension</a>
 </li>
@@ -149,8 +152,14 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>GetMemberText()
 : <a class="el" href="class_wanzyee_studio_1_1_variable_tweaker.html#abd27185a90473f484d059baca7f160ff">VariableTweaker</a>
 </li>
+<li>GetMethod()
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4">TypeExtension</a>
+</li>
 <li>GetMode()
 : <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e">InspectorHelper</a>
+</li>
+<li>GetNestedType()
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0">TypeExtension</a>
 </li>
 <li>GetNodes()
 : <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#ae8bf134086b024f3d8efc691b7afc550">TreeNode</a>
@@ -171,20 +180,20 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a726be989760d5e68005f723484a7ddca">PropertyExtension</a>
 </li>
 <li>GetParents()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_comp_extension.html#ac3d456dd6caca5c347db88de44a27c8b">CompExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#ac3d456dd6caca5c347db88de44a27c8b">ComponentExtension</a>
 , <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e">TypeExtension</a>
 </li>
 <li>GetPartial()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#a66ba8355b8b7d3de3227201faca42fa7">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#aa1d8f521f0e9ec77b25cf645c843f6fa">TextureExtension</a>
 </li>
 <li>GetPath()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_comp_extension.html#a79a74b40b9467fb5cc5e7621dc8da0b7">CompExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff">ComponentExtension</a>
 </li>
 <li>GetPixels()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#aca5974261b2a978d6aa3a42e1f856897">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#aca5974261b2a978d6aa3a42e1f856897">TextureExtension</a>
 </li>
 <li>GetPixels32()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#a9a40d82c6ab17d82c4184c395e1638f3">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a9a40d82c6ab17d82c4184c395e1638f3">TextureExtension</a>
 </li>
 <li>GetPosition()
 : <a class="el" href="class_wanzyee_studio_1_1_matrix_utility.html#a869afa56635c463aaed6002f80cc5dbc">MatrixUtility</a>
@@ -192,23 +201,26 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>GetPrettyName()
 : <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d">TypeExtension</a>
 </li>
+<li>GetProperty()
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a">TypeExtension</a>
+</li>
 <li>GetRandomPoint()
 : <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a6f17a926440bf1938659a4d0b9ce2181">MathExtension</a>
 </li>
 <li>GetReadableFormat()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#a3b3d06e660c8e8c0f993c9ee2a517b3c">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a3b3d06e660c8e8c0f993c9ee2a517b3c">TextureExtension</a>
 </li>
 <li>GetResolution()
 : <a class="el" href="class_wanzyee_studio_1_1_resolution_setter.html#a30815f37b0e71d02cf26df288b8aea0a">ResolutionSetter</a>
 </li>
 <li>GetRotation()
-: <a class="el" href="class_wanzyee_studio_1_1_matrix_utility.html#a4e07b7b19c6d327c9a3d217f6843de7f">MatrixUtility</a>
+: <a class="el" href="class_wanzyee_studio_1_1_matrix_utility.html#a71063bdb1384614760f69adb66387f51">MatrixUtility</a>
 </li>
 <li>GetScale()
 : <a class="el" href="class_wanzyee_studio_1_1_matrix_utility.html#a15d3958080b9cc7f5e28ed6ae6bd45b5">MatrixUtility</a>
 </li>
 <li>GetScaled()
-: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_matex_extension.html#a66a7fb48104b08c943890be9239d4105">MatexExtension</a>
+: <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a66a7fb48104b08c943890be9239d4105">TextureExtension</a>
 </li>
 <li>GetSelected()
 : <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580">SelectionFilter</a>

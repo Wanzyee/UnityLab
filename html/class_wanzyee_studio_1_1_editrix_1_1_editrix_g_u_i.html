@@ -98,11 +98,11 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_e
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">EditrixGUI</div>  </div>
+<div class="title">EditrixGUI<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___clipboard.html">Clipboard</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___event_delegator.html">Event Delegator</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Include some trick methods to extend the Unity editor GUI.  
+<p>Include some convenient methods for editor GUI.  
  <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -114,14 +114,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a51739ea4e5528c6a587dad7f095ab38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a multi-control with text fields for entering multiple floats in the same line.  <a href="#a51739ea4e5528c6a587dad7f095ab38a">More...</a><br /></td></tr>
 <tr class="separator:a51739ea4e5528c6a587dad7f095ab38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa1d4e203bdf46277fcc70585cdcc3c"><td class="memItemLeft" align="right" valign="top">static Vector4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c">Vector4Field</a> (GUIContent label, Vector4 value, params GUILayoutOption[] options)</td></tr>
-<tr class="memdesc:a9aa1d4e203bdf46277fcc70585cdcc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an X, Y, Z &amp; W field for entering a <code>UnityEngine.Vector4</code>.  <a href="#a9aa1d4e203bdf46277fcc70585cdcc3c">More...</a><br /></td></tr>
+<tr class="memdesc:a9aa1d4e203bdf46277fcc70585cdcc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an X, Y, Z and W field for entering a <code>UnityEngine.Vector4</code>.  <a href="#a9aa1d4e203bdf46277fcc70585cdcc3c">More...</a><br /></td></tr>
 <tr class="separator:a9aa1d4e203bdf46277fcc70585cdcc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa426bfdd5dfa3f09430ce7e7685b8024"><td class="memItemLeft" align="right" valign="top">static Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aa426bfdd5dfa3f09430ce7e7685b8024">QuaternionField</a> (GUIContent label, Quaternion value, params GUILayoutOption[] options)</td></tr>
-<tr class="memdesc:aa426bfdd5dfa3f09430ce7e7685b8024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an X, Y, Z &amp; W field for entering a <code>UnityEngine.Quaternion</code>.  <a href="#aa426bfdd5dfa3f09430ce7e7685b8024">More...</a><br /></td></tr>
+<tr class="memdesc:aa426bfdd5dfa3f09430ce7e7685b8024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make an X, Y, Z and W field for entering a <code>UnityEngine.Quaternion</code>.  <a href="#aa426bfdd5dfa3f09430ce7e7685b8024">More...</a><br /></td></tr>
 <tr class="separator:aa426bfdd5dfa3f09430ce7e7685b8024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc052490c90371db8ba5996486f5ab6"><td class="memItemLeft" align="right" valign="top">static Object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9fc052490c90371db8ba5996486f5ab6">CheckDragObjects</a> (Func&lt; Object[], IEnumerable&lt; Object &gt;&gt; filter=null)</td></tr>
+<tr class="memdesc:a9fc052490c90371db8ba5996486f5ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references.  <a href="#a9fc052490c90371db8ba5996486f5ab6">More...</a><br /></td></tr>
+<tr class="separator:a9fc052490c90371db8ba5996486f5ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b8615387266f10dc0d32a7259a670d"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a15b8615387266f10dc0d32a7259a670d">CheckDragPaths</a> (Func&lt; string[], IEnumerable&lt; string &gt;&gt; filter=null)</td></tr>
+<tr class="memdesc:a15b8615387266f10dc0d32a7259a670d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Drag'n'Drop performed with the filtered dragged <code>string</code> paths.  <a href="#a15b8615387266f10dc0d32a7259a670d">More...</a><br /></td></tr>
+<tr class="separator:a15b8615387266f10dc0d32a7259a670d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Include some trick methods to extend the Unity editor GUI. </p>
+<div class="textblock"><p>Include some convenient methods for editor GUI. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a4c8f3ef121f92c960189a770e6671f9a"></a>
 <div class="memitem">
@@ -253,7 +259,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Make an X, Y, Z &amp; W field for entering a <code>UnityEngine.Vector4</code>. </p>
+<p>Make an X, Y, Z and W field for entering a <code>UnityEngine.Vector4</code>. </p>
 <p>Copycat of <code>EditorGUILayout.Vector4Field()</code> but use <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a" title="Make a multi-control with text fields for entering multiple floats in the same line. ">MultiFloatField()</a></code>. Contrast to original, this correct line wrap and indent level. </p>
 <dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -305,14 +311,80 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Make an X, Y, Z &amp; W field for entering a <code>UnityEngine.Quaternion</code>. </p>
-<p>Just looks like <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c" title="Make an X, Y, Z & W field for entering a UnityEngine.Vector4. ">Vector4Field()</a></code>. </p>
+<p>Make an X, Y, Z and W field for entering a <code>UnityEngine.Quaternion</code>. </p>
+<p>Just looks like <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c" title="Make an X, Y, Z and W field for entering a UnityEngine.Vector4. ">Vector4Field()</a></code>. </p>
 <dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
     <tr><td class="paramname">value</td><td>Value.</td></tr>
     <tr><td class="paramname">options</td><td>Layout options.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9fc052490c90371db8ba5996486f5ab6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Object [] CheckDragObjects </td>
+          <td>(</td>
+          <td class="paramtype">Func&lt; Object[], IEnumerable&lt; Object &gt;&gt;&#160;</td>
+          <td class="paramname"><em>filter</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references. </p>
+<dl class="section return"><dt>Returns</dt><dd>The filtered objects, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>The callback invoked to filter only when drag updated.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a15b8615387266f10dc0d32a7259a670d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string [] CheckDragPaths </td>
+          <td>(</td>
+          <td class="paramtype">Func&lt; string[], IEnumerable&lt; string &gt;&gt;&#160;</td>
+          <td class="paramname"><em>filter</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if Drag'n'Drop performed with the filtered dragged <code>string</code> paths. </p>
+<dl class="section return"><dt>Returns</dt><dd>The filtered paths, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>The callback invoked to filter only when drag updated.</td></tr>
   </table>
   </dd>
 </dl>
