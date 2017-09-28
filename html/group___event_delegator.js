@@ -64,6 +64,8 @@ var group___event_delegator =
       [ "MultiFloatField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a", null ],
       [ "Vector4Field", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c", null ],
       [ "QuaternionField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aa426bfdd5dfa3f09430ce7e7685b8024", null ],
+      [ "SearchField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aea464400a82329230da40a81aa7bf263", null ],
+      [ "ErrorField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10", null ],
       [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9fc052490c90371db8ba5996486f5ab6", null ],
       [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a15b8615387266f10dc0d32a7259a670d", null ]
     ] ],

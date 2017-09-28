@@ -3,6 +3,7 @@ var searchData=
   ['save',['Save',['../class_wanzyee_studio_1_1_variable_tweaker.html#a5df140c1ee51aadf7fe88ce3fb9cac33',1,'WanzyeeStudio::VariableTweaker']]],
   ['savefile',['SaveFile',['../class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#ae5590c9b71d906e2967d9251e29d6027',1,'WanzyeeStudio::Extension::TextureExtension']]],
   ['screentoguipoint',['ScreenToGUIPoint',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a6198186bdda5ded823d28941effa3e40',1,'WanzyeeStudio::AidGUI']]],
+  ['searchfield',['SearchField',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aea464400a82329230da40a81aa7bf263',1,'WanzyeeStudio::Editrix::EditrixGUI']]],
   ['selectnone',['SelectNone',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['serialize',['Serialize',['../class_wanzyee_studio_1_1_variable_tweaker.html#aed3ca7335e50d73cff912e24f8c88317',1,'WanzyeeStudio::VariableTweaker']]],
   ['setaxisx',['SetAxisX',['../class_wanzyee_studio_1_1_matrix_utility.html#a47787fefe62dc43a8108093b8608ebb3',1,'WanzyeeStudio::MatrixUtility']]],
