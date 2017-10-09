@@ -43,9 +43,9 @@ var searchData=
   ['getselected',['GetSelected',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['gettargettext',['GetTargetText',['../class_wanzyee_studio_1_1_variable_tweaker.html#afad73513c05f32f803d1d4767912dbe3',1,'WanzyeeStudio::VariableTweaker']]],
   ['gettooltiptext',['GetTooltipText',['../class_wanzyee_studio_1_1_variable_tweaker.html#ac4e261187597d90f255f487ae1878687',1,'WanzyeeStudio::VariableTweaker']]],
-  ['getvalue',['GetValue',['../class_wanzyee_studio_1_1_variable_info.html#aff6e44a668cbb3edc2ee7e9c4e824959',1,'WanzyeeStudio.VariableInfo.GetValue()'],['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a8b087c6cf0dc5a65a05e15cb6a264c17',1,'WanzyeeStudio.Editrix.Extension.PropertyExtension.GetValue()']]],
-  ['getvaluetype',['GetValueType',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a853d73c7c9f2db0aa08f2d4eeb2a2285',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
-  ['getvariableinfo',['GetVariableInfo',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3b4b8b2089377966a3864414a05fe2ee',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
-  ['getvariableparents',['GetVariableParents',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ac7b284b03fc949bf635a5ff43ee2afa7',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
+  ['getvalue',['GetValue',['../class_wanzyee_studio_1_1_variable_info.html#aff6e44a668cbb3edc2ee7e9c4e824959',1,'WanzyeeStudio.VariableInfo.GetValue()'],['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a8b087c6cf0dc5a65a05e15cb6a264c17',1,'WanzyeeStudio.Editrix.Extension.PropertyValueExtension.GetValue()']]],
+  ['getvaluetype',['GetValueType',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a853d73c7c9f2db0aa08f2d4eeb2a2285',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
+  ['getvariableinfo',['GetVariableInfo',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a3b4b8b2089377966a3864414a05fe2ee',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
+  ['getvariableparents',['GetVariableParents',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#ac7b284b03fc949bf635a5ff43ee2afa7',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
   ['guitoscreenpoint',['GUIToScreenPoint',['../class_wanzyee_studio_1_1_aid_g_u_i.html#ae2aebe0e1728273c5f5cbc85a6a5c3d5',1,'WanzyeeStudio::AidGUI']]]
 ];
