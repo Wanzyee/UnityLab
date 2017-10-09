@@ -53,9 +53,6 @@ var group___extensions =
       [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#aeb004a009c771ef8acef7c2cfe6a3ff4", null ],
       [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#ad3b1717e4012513dca2ea2418d1403ff", null ]
     ] ],
-    [ "TextEncodeExtension", "class_wanzyee_studio_1_1_extension_1_1_text_encode_extension.html", [
-      [ "GetEncoding", "class_wanzyee_studio_1_1_extension_1_1_text_encode_extension.html#a6ac04444fce4413bdac15c01b6389348", null ]
-    ] ],
     [ "TextureExtension", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html", [
       [ "IsEncodable", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#af7806e63e50e16e2b62795f98fb1fd19", null ],
       [ "SaveFile", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#ae5590c9b71d906e2967d9251e29d6027", null ],
@@ -88,9 +85,5 @@ var group___extensions =
       [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
-    ] ],
-    [ "WeekdayExtension", "class_wanzyee_studio_1_1_extension_1_1_weekday_extension.html", [
-      [ "ToDayOfWeek", "class_wanzyee_studio_1_1_extension_1_1_weekday_extension.html#a2725e91256e8d6cf8234da7826285b08", null ],
-      [ "ToWeekday", "class_wanzyee_studio_1_1_extension_1_1_weekday_extension.html#a7aa3d7c0396872a079681eaff831e693", null ]
     ] ]
 ];

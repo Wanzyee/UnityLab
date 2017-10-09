@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vertical',['Vertical',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa06ce2a25e5d12c166a36f654dbea6012',1,'WanzyeeStudio']]]
+  ['x',['X',['../namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383',1,'WanzyeeStudio']]]
 ];

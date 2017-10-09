@@ -10,7 +10,6 @@ var searchData=
   ['getdefault',['GetDefault',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365',1,'WanzyeeStudio::Extension::TypeExtension']]],
   ['getdelegators',['GetDelegators',['../class_wanzyee_studio_1_1_event_delegator_group.html#a23c893f7feb7f6a5e9509ad1945a27da',1,'WanzyeeStudio::EventDelegatorGroup']]],
   ['getdeterminant',['GetDeterminant',['../class_wanzyee_studio_1_1_matrix_utility.html#a33d0082dc5d7fff07630ae9d9d8f8063',1,'WanzyeeStudio::MatrixUtility']]],
-  ['getencoding',['GetEncoding',['../class_wanzyee_studio_1_1_extension_1_1_text_encode_extension.html#a6ac04444fce4413bdac15c01b6389348',1,'WanzyeeStudio::Extension::TextEncodeExtension']]],
   ['getenumerator',['GetEnumerator',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a14ae2d6cdfa36e948fce54aa8cd0fcb9',1,'WanzyeeStudio::Editrix::TreeNode']]],
   ['getfield',['GetField',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499',1,'WanzyeeStudio::Extension::TypeExtension']]],
   ['getintersect',['GetIntersect',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3cf13d0182e48e5aee22a5d4730515a5',1,'WanzyeeStudio::Extension::MathExtension']]],

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['r',['R',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898ae1e1d3d40573127e9ee0480caf1283d6',1,'WanzyeeStudio']]],
-  ['release',['Release',['../namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09ab8e7b465df7c5979dc731d06e84ce2cf',1,'WanzyeeStudio']]],
-  ['reset',['Reset',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d',1,'WanzyeeStudio']]],
-  ['rotate',['Rotate',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa8d2de5368588552fbae54044ac5c7b3d',1,'WanzyeeStudio']]]
+  ['start',['Start',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4aa6122a65eaa676f700ae68d393054a37',1,'WanzyeeStudio']]],
+  ['stop',['Stop',['../namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a11a755d598c0c417f9a36758c3da7481',1,'WanzyeeStudio']]]
 ];

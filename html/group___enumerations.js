@@ -95,21 +95,6 @@ var group___enumerations =
       [ "Play", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0ade3c731be5633838089a07179d301d7b", null ],
       [ "Pause", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a105b296a83f9c105355403f3332af50f", null ]
     ] ],
-    [ "TextEncode", "group___enumerations.html#gad03edb45dc4a6b88724750f09c9adcda", [
-      [ "ASCII", "namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaad2cd8253361a9c732d21ca1d336599cc", null ],
-      [ "Unicode", "namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaa7f6c02d96265dd1d37b1101de1101541", null ],
-      [ "UTF8", "namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaaeb7ee0fb585e2ac64fdc086466c474b1", null ]
-    ] ],
-    [ "Weekday", "group___enumerations.html#gaec3d5ec6653b2c392d449500b8f5cb3a", [
-      [ "None", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "Sun", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaef6572e4cd58bb39a3f4e82fc64fe9f0", null ],
-      [ "Mon", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aafd29458ae58ac32a2d8734ed90ad51ec", null ],
-      [ "Tue", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa2ddecde85408faf230652444db78cb72", null ],
-      [ "Wed", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa510c292b1686eb070d9e90a575f74106", null ],
-      [ "Thu", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaed5e8353dfc585f4c6b3a55d1a9fc01d", null ],
-      [ "Fri", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaac616f844b9a5ea5a827bf7fb99b1ad5", null ],
-      [ "Sat", "namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aa13c7d2d737f81f7bf89aed9fbcd0ad55", null ]
-    ] ],
     [ "WindowStyle", "group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368", [
       [ "Fullscreen", "namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a0829ea6734059d66e6bf87096b215dc1", null ],
       [ "Windowed", "namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368ab13311ab51c4c34757f67f26580018dd", null ],

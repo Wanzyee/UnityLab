@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['pause',['Pause',['../namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a105b296a83f9c105355403f3332af50f',1,'WanzyeeStudio']]],
-  ['play',['Play',['../namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0ade3c731be5633838089a07179d301d7b',1,'WanzyeeStudio']]],
-  ['popup',['Popup',['../namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a0d4c14a20b4d98a5de54e1480bf99a25',1,'WanzyeeStudio']]],
-  ['press',['Press',['../namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a0610123bdd4ffc191a3ea05a847e1307',1,'WanzyeeStudio']]]
+  ['r',['R',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898ae1e1d3d40573127e9ee0480caf1283d6',1,'WanzyeeStudio']]],
+  ['release',['Release',['../namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09ab8e7b465df7c5979dc731d06e84ce2cf',1,'WanzyeeStudio']]],
+  ['reset',['Reset',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d',1,'WanzyeeStudio']]],
+  ['rotate',['Rotate',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa8d2de5368588552fbae54044ac5c7b3d',1,'WanzyeeStudio']]]
 ];

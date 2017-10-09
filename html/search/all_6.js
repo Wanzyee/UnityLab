@@ -18,6 +18,5 @@ var searchData=
   ['fps',['fps',['../class_wanzyee_studio_1_1_framerate_counter.html#a4f50e96f11c68d45dc109185efe011ad',1,'WanzyeeStudio::FramerateCounter']]],
   ['framerange',['frameRange',['../class_wanzyee_studio_1_1_framerate_counter.html#a1a584589e7cb641d7ca450af9687bd31',1,'WanzyeeStudio::FramerateCounter']]],
   ['frameratecounter',['FramerateCounter',['../class_wanzyee_studio_1_1_framerate_counter.html',1,'WanzyeeStudio']]],
-  ['fri',['Fri',['../namespace_wanzyee_studio.html#gaec3d5ec6653b2c392d449500b8f5cb3aaac616f844b9a5ea5a827bf7fb99b1ad5',1,'WanzyeeStudio']]],
   ['fullscreen',['Fullscreen',['../namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a0829ea6734059d66e6bf87096b215dc1',1,'WanzyeeStudio']]]
 ];

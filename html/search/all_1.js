@@ -21,7 +21,6 @@ var searchData=
   ['approxvector2',['ApproxVector2',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af95e6e8debd0216035da7d7194c8f666',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['approxvector3',['ApproxVector3',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
-  ['ascii',['ASCII',['../namespace_wanzyee_studio.html#gad03edb45dc4a6b88724750f09c9adcdaad2cd8253361a9c732d21ca1d336599cc',1,'WanzyeeStudio']]],
   ['assetbundlebuilder',['AssetBundleBuilder',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()'],['../group___assets.html',1,'(Global Namespace)']]],
   ['attributes',['Attributes',['../group___attributes.html',1,'']]],

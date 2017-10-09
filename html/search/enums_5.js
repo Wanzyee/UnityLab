@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['textencode',['TextEncode',['../group___enumerations.html#gad03edb45dc4a6b88724750f09c9adcda',1,'WanzyeeStudio']]]
+  ['windowstyle',['WindowStyle',['../group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368',1,'WanzyeeStudio']]]
 ];
