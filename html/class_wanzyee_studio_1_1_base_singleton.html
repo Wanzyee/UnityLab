@@ -114,6 +114,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:affb6ac8f8f08d515a8b74f5c213c2c52"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#affb6ac8f8f08d515a8b74f5c213c2c52">Awake</a> ()</td></tr>
 <tr class="memdesc:affb6ac8f8f08d515a8b74f5c213c2c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Awake, check and handle duplicated instances.  <a href="#affb6ac8f8f08d515a8b74f5c213c2c52">More...</a><br /></td></tr>
 <tr class="separator:affb6ac8f8f08d515a8b74f5c213c2c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ed9ef46104ee8a785cd634c1c793e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4">BaseSingleton</a> ()</td></tr>
+<tr class="memdesc:ab9ed9ef46104ee8a785cd634c1c793e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to check inheritance, since we can't constraint subclass.  <a href="#ab9ed9ef46104ee8a785cd634c1c793e4">More...</a><br /></td></tr>
+<tr class="separator:ab9ed9ef46104ee8a785cd634c1c793e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -129,10 +132,10 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class to implement the singleton pattern for <code>UnityEngine.MonoBehaviour</code>. </p>
-<p>This works with <code><a class="el" href="class_wanzyee_studio_1_1_singleton.html" title="Agent to implement the singleton pattern for UnityEngine.MonoBehaviour. ">Singleton</a></code> to minimize coding, if you don't need custom inheritance. Derive from this to make a <code>UnityEngine.MonoBehaviour</code> singleton. Only allow the class of current singleton to derive. This applies the singleton's root <code>Object.DontDestroyOnLoad()</code> And handle duplicates when <code><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#affb6ac8f8f08d515a8b74f5c213c2c52" title="Awake, check and handle duplicated instances. ">Awake()</a></code>. </p>
+<p>This works with <code><a class="el" href="class_wanzyee_studio_1_1_singleton.html" title="Agent to implement the singleton pattern for UnityEngine.MonoBehaviour. ">Singleton</a></code> to minimize coding, if you don't need custom inheritance. Derive from this to make a <code>UnityEngine.MonoBehaviour</code> singleton. Only allow the class of current singleton to derive, otherwise throw an exception if in the editor. This applies the singleton's root <code>Object.DontDestroyOnLoad()</code> and handle duplicates when <code><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#affb6ac8f8f08d515a8b74f5c213c2c52" title="Awake, check and handle duplicated instances. ">Awake()</a></code>. </p>
 <p>Example to implement singleton, just derive from this: </p>
 <div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_wanzyee_studio.html">WanzyeeStudio</a>;</div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>SomeComp : BaseSingleton&lt;SomeComp&gt;{}</div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>SomeComp : <a class="code" href="class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4">BaseSingleton</a>&lt;SomeComp&gt;{}</div>
 </div><!-- fragment --><p>Example to access from another class: </p>
 <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>AnotherClass{</div>
 <div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> DoSomething(){</div>
@@ -147,7 +150,33 @@ Properties</h2></td></tr>
 </table>
 </dl>
 </div>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab9ed9ef46104ee8a785cd634c1c793e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html">BaseSingleton</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor to check inheritance, since we can't constraint subclass. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="affb6ac8f8f08d515a8b74f5c213c2c52"></a>
 <div class="memitem">
 <div class="memproto">

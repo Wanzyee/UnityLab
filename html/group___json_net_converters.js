@@ -1,13 +1,5 @@
 var group___json_net_converters =
 [
-    [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_net_utility.html", [
-      [ "defaultSettings", "class_wanzyee_studio_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120", null ]
-    ] ],
-    [ "DictionaryConverter", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html", [
-      [ "CanConvert", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a8cf86720a5481c744a0a551d1541f5d8", null ],
-      [ "ReadJson", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a63d4f63128781acfa8229a12763b5440", null ],
-      [ "WriteJson", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465", null ]
-    ] ],
     [ "BoundsConverter", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html", [
       [ "CanConvert", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html#a8cf86720a5481c744a0a551d1541f5d8", null ],
       [ "ReadJson", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html#a63d4f63128781acfa8229a12763b5440", null ],
@@ -19,6 +11,11 @@ var group___json_net_converters =
       [ "ReadJson", "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a63d4f63128781acfa8229a12763b5440", null ],
       [ "WriteJson", "class_wanzyee_studio_1_1_json_1_1_color_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465", null ],
       [ "CanRead", "class_wanzyee_studio_1_1_json_1_1_color_converter.html#ad722f13be7b117693e904035b7135f41", null ]
+    ] ],
+    [ "DictionaryConverter", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html", [
+      [ "CanConvert", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a8cf86720a5481c744a0a551d1541f5d8", null ],
+      [ "ReadJson", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a63d4f63128781acfa8229a12763b5440", null ],
+      [ "WriteJson", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465", null ]
     ] ],
     [ "Matrix4x4Converter", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html", [
       [ "CanConvert", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html#a8cf86720a5481c744a0a551d1541f5d8", null ],
@@ -61,5 +58,8 @@ var group___json_net_converters =
       [ "ReadJson", "class_wanzyee_studio_1_1_json_1_1_vector4_converter.html#a63d4f63128781acfa8229a12763b5440", null ],
       [ "WriteJson", "class_wanzyee_studio_1_1_json_1_1_vector4_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465", null ],
       [ "CanRead", "class_wanzyee_studio_1_1_json_1_1_vector4_converter.html#ad722f13be7b117693e904035b7135f41", null ]
+    ] ],
+    [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_net_utility.html", [
+      [ "defaultSettings", "class_wanzyee_studio_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120", null ]
     ] ]
 ];

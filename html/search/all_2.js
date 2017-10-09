@@ -3,6 +3,7 @@ var searchData=
   ['b',['B',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a9d5ed678fe57bcca610140957afab571',1,'WanzyeeStudio']]],
   ['backgroundcolor',['backgroundColor',['../class_wanzyee_studio_1_1_framerate_counter.html#adbf5605c4713bff8f1944882ad7abda2',1,'WanzyeeStudio::FramerateCounter']]],
   ['basesingleton',['BaseSingleton',['../class_wanzyee_studio_1_1_base_singleton.html',1,'WanzyeeStudio']]],
+  ['basesingleton',['BaseSingleton',['../class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4',1,'WanzyeeStudio::BaseSingleton']]],
   ['basesingleton_3c_20frameratecounter_20_3e',['BaseSingleton&lt; FramerateCounter &gt;',['../class_wanzyee_studio_1_1_base_singleton.html',1,'WanzyeeStudio']]],
   ['borderless',['Borderless',['../namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a78f0192ac55eba33ee88d026452952e5',1,'WanzyeeStudio']]],
   ['boundsconverter',['BoundsConverter',['../class_wanzyee_studio_1_1_json_1_1_bounds_converter.html',1,'WanzyeeStudio::Json']]],
