@@ -82,6 +82,10 @@ var group___p_maker =
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
     ] ],
+    [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
+      [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
+      [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
+    ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],

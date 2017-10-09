@@ -1,5 +1,8 @@
 var group___editor_aider =
 [
+    [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", [
+      [ "ClearConsole", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html#a4b3cddf734814c5437e8c97feffabe0c", null ]
+    ] ],
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
       [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],
       [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],
@@ -12,9 +15,6 @@ var group___editor_aider =
     ] ],
     [ "GameViewHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html", [
       [ "FixGameViewSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html#a11df1245e772048bec691efe13601e66", null ]
-    ] ],
-    [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", [
-      [ "ClearConsole", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html#a4b3cddf734814c5437e8c97feffabe0c", null ]
     ] ],
     [ "TabNavigator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html", [
       [ "NextTab", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#a604d8a3964ee286c1911d5b312104982", null ],

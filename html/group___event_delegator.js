@@ -75,6 +75,11 @@ var group___event_delegator =
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
     ] ],
+    [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", [
+      [ "CheckValid", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ad2dc1b2f7db250b8d1421ff76e87cd3f", null ],
+      [ "GetParent", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a726be989760d5e68005f723484a7ddca", null ],
+      [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
+    ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],
