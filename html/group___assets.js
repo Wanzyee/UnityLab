@@ -1,5 +1,13 @@
 var group___assets =
 [
+    [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
+      [ "title", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a613dff789bbabfc79d300a9083e4a49d", null ],
+      [ "assets", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#acfa19e08f9e81aa2a73e3cdaf7665751", null ]
+    ] ],
+    [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", [
+      [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
+      [ "menu", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355", null ]
+    ] ],
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", [
       [ "Export", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#a8d9194eac321f8df00f3850667b33f2d", null ],
       [ "overwrite", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#afeea8d20025f5d6db624f2c5c2050586", null ],

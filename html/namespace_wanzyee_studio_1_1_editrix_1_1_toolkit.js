@@ -1,6 +1,7 @@
 var namespace_wanzyee_studio_1_1_editrix_1_1_toolkit =
 [
     [ "AssetBundleBuilder", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder" ],
+    [ "Bookmark", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark" ],
     [ "BuiltinIconBrowser", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser" ],
     [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard" ],
     [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper" ],
