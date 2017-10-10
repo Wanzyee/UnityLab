@@ -125,6 +125,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a142d3221442a8ab72da400346ebcfd10"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10">ErrorField</a> (Rect position, GUIContent label, GUIContent error)</td></tr>
 <tr class="memdesc:a142d3221442a8ab72da400346ebcfd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an error message after the prefix label.  <a href="#a142d3221442a8ab72da400346ebcfd10">More...</a><br /></td></tr>
 <tr class="separator:a142d3221442a8ab72da400346ebcfd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dff952fb5f7794bf696497e8841df45"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4dff952fb5f7794bf696497e8841df45">SetIconForObject</a> (Object obj, Texture2D icon)</td></tr>
+<tr class="memdesc:a4dff952fb5f7794bf696497e8841df45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the icon for the specified <code>UnityEngine.Object</code> to show in the Inspector or Project window.  <a href="#a4dff952fb5f7794bf696497e8841df45">More...</a><br /></td></tr>
+<tr class="separator:a4dff952fb5f7794bf696497e8841df45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c5c03e989a96da4f14a8fc428c885ac"><td class="memItemLeft" align="right" valign="top">static Object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac">CheckDragObjects</a> (Func&lt; Object, bool &gt; filter)</td></tr>
 <tr class="memdesc:a3c5c03e989a96da4f14a8fc428c885ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references.  <a href="#a3c5c03e989a96da4f14a8fc428c885ac">More...</a><br /></td></tr>
 <tr class="separator:a3c5c03e989a96da4f14a8fc428c885ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -433,6 +436,59 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">position</td><td>Position.</td></tr>
     <tr><td class="paramname">label</td><td>Label.</td></tr>
     <tr><td class="paramname">error</td><td>Error message.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4dff952fb5f7794bf696497e8841df45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SetIconForObject </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>icon</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the icon for the specified <code>UnityEngine.Object</code> to show in the Inspector or Project window. </p>
+<p>This wraps the internal <code>EditorGUIUtility.SetIconForObject()</code>:</p><ol type="1">
+<li>It applies to all the same type objects, also the <code>UnityEditor.MonoScript</code> declares the type.</li>
+<li>You may pass the script asset to set without any object instance.</li>
+<li>To restore to default, pass a <code>null</code> icon. </li>
+</ol>
+<p>The opposite methods below to get the icon:</p><ol type="1">
+<li><code>AssetPreview.GetMiniThumbnail()</code> to get by <code>UnityEngine.Object</code>.</li>
+<li><code>AssetPreview.GetMiniTypeThumbnail()</code> to get by <code>System.Type</code>.</li>
+<li><code>EditorGUIUtility.ObjectContent()</code> to get by both. </li>
+</ol>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Object.</td></tr>
+    <tr><td class="paramname">icon</td><td>Icon.</td></tr>
   </table>
   </dd>
 </dl>

@@ -11,6 +11,7 @@ var searchData=
   ['setaxisz',['SetAxisZ',['../class_wanzyee_studio_1_1_matrix_utility.html#adb0070908f05e0bbdad5e9ff8b118c70',1,'WanzyeeStudio::MatrixUtility']]],
   ['setborderless',['SetBorderless',['../class_wanzyee_studio_1_1_resolution_setter.html#a5eda2a7cc68c9174436447390267d5a2',1,'WanzyeeStudio::ResolutionSetter']]],
   ['setfullscreen',['SetFullscreen',['../class_wanzyee_studio_1_1_resolution_setter.html#a5b9f118537a2d757e3b7923e8035e53a',1,'WanzyeeStudio.ResolutionSetter.SetFullscreen()'],['../class_wanzyee_studio_1_1_resolution_setter.html#a68ba56821e54a7566fde7b8634abd479',1,'WanzyeeStudio.ResolutionSetter.SetFullscreen(int width, int height)']]],
+  ['seticonforobject',['SetIconForObject',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4dff952fb5f7794bf696497e8841df45',1,'WanzyeeStudio::Editrix::EditrixGUI']]],
   ['setlocked',['SetLocked',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#abc4c3c12158f918cd4259711a549ca53',1,'WanzyeeStudio.Editrix.Toolkit.InspectorHelper.SetLocked()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#ab3b817d53d4b3c30f3a1afc8d2e3f39f',1,'WanzyeeStudio.Editrix.Toolkit.ObjectLocker.SetLocked()']]],
   ['setmethod',['SetMethod',['../class_wanzyee_studio_1_1_event_delegator.html#a6f2e4127a33bab2c96b7c72ea9f62972',1,'WanzyeeStudio::EventDelegator']]],
   ['setmode',['SetMode',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
