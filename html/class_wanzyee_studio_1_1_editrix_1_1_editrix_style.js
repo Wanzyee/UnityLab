@@ -13,6 +13,7 @@ var class_wanzyee_studio_1_1_editrix_1_1_editrix_style =
     [ "aimIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac11b691c2ce5059673c02130ec766839", null ],
     [ "hierarchyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab737c95489a39be23f3185b4a48d2646", null ],
     [ "clipboardIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d", null ],
+    [ "bookmarkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a0cb21b948e0c2db48ec7eb7dcdca1cb0", null ],
     [ "questionIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#afa45ca183b22145713a46c7af98ce763", null ],
     [ "linkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a97cab6a3edcf5ed0b64fb44527428fa4", null ],
     [ "unlinkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af2854ea68d6b26a16eead79aae040400", null ],

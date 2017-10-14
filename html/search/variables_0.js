@@ -5,6 +5,6 @@ var searchData=
   ['all',['all',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a012dace6de0d421ef8e0a552b5af8b64',1,'WanzyeeStudio::Editrix::TreeNode']]],
   ['applyonawake',['applyOnAwake',['../class_wanzyee_studio_1_1_resolution_setter.html#a49abe1fcd75a7c00fcc0a74a7249dbdf',1,'WanzyeeStudio::ResolutionSetter']]],
   ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
-  ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#acfa19e08f9e81aa2a73e3cdaf7665751',1,'WanzyeeStudio.Editrix.BookmarkList.assets()'],['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()']]],
+  ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio::Editrix::PackageMaker']]],
   ['autodestroy',['autoDestroy',['../class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542',1,'WanzyeeStudio::BaseSingleton']]]
 ];

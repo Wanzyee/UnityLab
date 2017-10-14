@@ -22,7 +22,7 @@ var searchData=
   ['approxvector3',['ApproxVector3',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
   ['assetbundlebuilder',['AssetBundleBuilder',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
-  ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#acfa19e08f9e81aa2a73e3cdaf7665751',1,'WanzyeeStudio.Editrix.BookmarkList.assets()'],['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()'],['../group___assets.html',1,'(Global Namespace)']]],
+  ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()'],['../group___assets.html',1,'(Global Namespace)']]],
   ['attributes',['Attributes',['../group___attributes.html',1,'']]],
   ['autodestroy',['autoDestroy',['../class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542',1,'WanzyeeStudio::BaseSingleton']]],
   ['auxcursor',['AuxCursor',['../class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html',1,'WanzyeeStudio::Editrix']]],

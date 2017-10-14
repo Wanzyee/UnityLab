@@ -1,5 +1,18 @@
-var group___notebook =
+var group___bookmark =
 [
+    [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e53001785ff30ae485a113b9b8a0ddc", null ],
+      [ "title", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a43a5eafe64b96968035e5a4013e47c75", null ],
+      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#abff1c3345bb95f3a5109abafe90cca67", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#afd1c29075e92ea72d60e802a8c3f89a3", null ],
+      [ "gridView", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e939cc4c84974937b16c43f03fdea75", null ],
+      [ "size", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a439227feff9d7f55384e8780cfc2eb82", null ],
+      [ "showLabel", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad579257eafa32fe7f08a86c0254fdaec", null ],
+      [ "showTooltip", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad4799af9280eb960789a2e6ce385acde", null ],
+      [ "clickToOpen", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a3fc46d03b3c32c78212ef29f000fd2f9", null ],
+      [ "clickToSelect", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca", null ],
+      [ "items", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af90404f766c79d65f63c80d02933adcd", null ]
+    ] ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", [
       [ "GetLabelWidth", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a", null ],
       [ "MultiFloatField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a", null ],
@@ -36,24 +49,18 @@ var group___notebook =
       [ "linkCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389", null ],
       [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ]
     ] ],
-    [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
-      [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
-      [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
-      [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
-      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ]
-    ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
     ] ],
-    [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
-      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830", null ],
-      [ "Popup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f", null ],
-      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
-      [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
+    [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", [
+      [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
+      [ "menu", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355", null ]
+    ] ],
+    [ "Bookmark", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html", [
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a3dedc6793a785ef3c8d8dcf9df1166d2", null ],
+      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a83411795db454ee7f9405fc60eb7e25e", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
@@ -67,14 +74,7 @@ var group___notebook =
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
     ] ],
-    [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
-      [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
-      [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
-    ] ],
-    [ "Note", "class_wanzyee_studio_1_1_note.html", [
-      [ "OnPointerClick", "class_wanzyee_studio_1_1_note.html#a75a4898ac9f2340bc0e07be6ee5f3a96", null ],
-      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
-      [ "color", "class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073", null ],
-      [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
+    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
+      [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ]
     ] ]
 ];
