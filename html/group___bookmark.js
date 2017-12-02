@@ -62,6 +62,17 @@ var group___bookmark =
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a83411795db454ee7f9405fc60eb7e25e", null ]
     ] ],
+    [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
+      [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],
+      [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],
+      [ "ToggleInspectorLock", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a39b12af1d8c7667d1f515cfd0f0c4e11", null ],
+      [ "Inspect", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342", null ],
+      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f", null ],
+      [ "GetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e", null ],
+      [ "SetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8", null ],
+      [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf", null ],
+      [ "SetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#abc4c3c12158f918cd4259711a549ca53", null ]
+    ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],
@@ -73,8 +84,5 @@ var group___bookmark =
       [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
-    ] ],
-    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
-      [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ]
     ] ]
 ];

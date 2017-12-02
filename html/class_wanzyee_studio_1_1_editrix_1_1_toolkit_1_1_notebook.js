@@ -6,5 +6,8 @@ var class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook =
     [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
     [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
     [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-    [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
+    [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7", null ],
+    [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ],
+    [ "iconOffset", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985", null ],
+    [ "_defaultFontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a828a4850ae63a2a72f48cbdd0c02f3bf", null ]
 ];

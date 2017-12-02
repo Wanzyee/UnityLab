@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Notebook<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___notebook.html">Notebook</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___toolkits.html">Editor Extensions</a></div></div>  </div>
@@ -135,9 +136,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a83411795db454ee7f9405fc60eb7e25e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e">search</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a83411795db454ee7f9405fc60eb7e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The search filter pattern in the search bar.  <a href="#a83411795db454ee7f9405fc60eb7e25e">More...</a><br /></td></tr>
 <tr class="separator:a83411795db454ee7f9405fc60eb7e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085590206bf3265b5bdaf851ef86efb7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7">setting</a></td></tr>
+<tr class="memdesc:a085590206bf3265b5bdaf851ef86efb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to show settings.  <a href="#a085590206bf3265b5bdaf851ef86efb7">More...</a><br /></td></tr>
+<tr class="separator:a085590206bf3265b5bdaf851ef86efb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78dc3704e7e01da52c9a93a70c5bc45d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d">fontSize</a></td></tr>
 <tr class="memdesc:a78dc3704e7e01da52c9a93a70c5bc45d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The note font size.  <a href="#a78dc3704e7e01da52c9a93a70c5bc45d">More...</a><br /></td></tr>
 <tr class="separator:a78dc3704e7e01da52c9a93a70c5bc45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:acfee73e8646b503e4fbbcd656c8d6985"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985">iconOffset</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acfee73e8646b503e4fbbcd656c8d6985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hierarchy and Project icon offset.  <a href="#acfee73e8646b503e4fbbcd656c8d6985">More...</a><br /></td></tr>
+<tr class="separator:acfee73e8646b503e4fbbcd656c8d6985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Edit and show notes for assets and scene <code>UnityEngine.GameObject</code>. </p>
@@ -287,7 +297,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "About" to open the online manual, and "New window" to open another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html" title="Edit and show notes for assets and scene UnityEngine.GameObject. ">Notebook</a></code> window. Menu "Lock" to switch lock state, and "Remove Empty Notes" to scan and remove empty <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a></code> components. </p>
+<p>Menu "About" to open the online manual, and "Settings" for common preferences. Menu "New window" to open another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html" title="Edit and show notes for assets and scene UnityEngine.GameObject. ">Notebook</a></code> window. Menu "Lock" to switch lock state, and "Remove Empty Notes" to scan and remove empty <code><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a></code> components. </p>
 <p>Menu "Scan All" to lock show all existing scene and asset notes. Menu "Scan Scene" and "Scan Asset" for scene notes or assets, and "Scan Selected" to scan from selection. Scanning will ignore scene notes with <code>HideFlags.HideInHierarchy</code>, or assets with label "Ignore". </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -327,6 +337,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a085590206bf3265b5bdaf851ef86efb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool setting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flag to show settings. </p>
+
+</div>
+</div>
 <a class="anchor" id="a78dc3704e7e01da52c9a93a70c5bc45d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -338,6 +362,30 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The note font size. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="acfee73e8646b503e4fbbcd656c8d6985"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int iconOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hierarchy and Project icon offset. </p>
+<p>Offset pixels.</p>
 
 </div>
 </div>

@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Clipboard<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___clipboard.html">Clipboard</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___toolkits.html">Editor Extensions</a></div></div>  </div>
@@ -138,6 +139,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a83411795db454ee7f9405fc60eb7e25e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e">search</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a83411795db454ee7f9405fc60eb7e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The search filter pattern in the search bar.  <a href="#a83411795db454ee7f9405fc60eb7e25e">More...</a><br /></td></tr>
 <tr class="separator:a83411795db454ee7f9405fc60eb7e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085590206bf3265b5bdaf851ef86efb7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a085590206bf3265b5bdaf851ef86efb7">setting</a></td></tr>
+<tr class="memdesc:a085590206bf3265b5bdaf851ef86efb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to show settings.  <a href="#a085590206bf3265b5bdaf851ef86efb7">More...</a><br /></td></tr>
+<tr class="separator:a085590206bf3265b5bdaf851ef86efb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a312eca1d812344a44950f24b065926ca"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a312eca1d812344a44950f24b065926ca">preferPersist</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a312eca1d812344a44950f24b065926ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to persist new copies as asset if possible.  <a href="#a312eca1d812344a44950f24b065926ca">More...</a><br /></td></tr>
+<tr class="separator:a312eca1d812344a44950f24b065926ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility to copy <code>UnityEngine.Component</code> or <code>UnityEngine.Material</code> and paste it back. </p>
@@ -317,7 +327,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "About" to open the online manual, and "New window" to open another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html" title="Utility to copy UnityEngine.Component or UnityEngine.Material and paste it back. ">Clipboard</a></code> window. </p>
+<p>Menu "About" to open the online manual, and "Settings" for common preferences. Menu "New window" to open another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html" title="Utility to copy UnityEngine.Component or UnityEngine.Material and paste it back. ">Clipboard</a></code> window. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">menu</td><td>Menu.</td></tr>
@@ -353,6 +363,45 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The search filter pattern in the search bar. </p>
+
+</div>
+</div>
+<a class="anchor" id="a085590206bf3265b5bdaf851ef86efb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool setting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flag to show settings. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a312eca1d812344a44950f24b065926ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool preferPersist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag to persist new copies as asset if possible. </p>
+<p>Enable to save the copies for next time opening the project. Disable to make copying faster without creating asset if you don't need. It only applies to copy operations after changing this setting. </p>
+<p>If to persist.</p>
 
 </div>
 </div>

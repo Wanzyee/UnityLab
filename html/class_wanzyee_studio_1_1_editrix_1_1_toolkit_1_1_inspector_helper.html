@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">InspectorHelper<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___editor_aider.html">Editor Aider</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___toolkits.html">Editor Extensions</a></div></div>  </div>
+<div class="title">InspectorHelper<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___bookmark.html">Bookmark</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___toolkits.html">Editor Extensions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,8 +117,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a39b12af1d8c7667d1f515cfd0f0c4e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle Inspector lock state, with hotkey Ctrl-Shift-I.  <a href="#a39b12af1d8c7667d1f515cfd0f0c4e11">More...</a><br /></td></tr>
 <tr class="separator:a39b12af1d8c7667d1f515cfd0f0c4e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81fbab6f57a9557aec6d8e3dc5b5f342"><td class="memItemLeft" align="right" valign="top">static EditorWindow&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342">Inspect</a> (params Object[] targets)</td></tr>
-<tr class="memdesc:a81fbab6f57a9557aec6d8e3dc5b5f342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open new locked Inspector window to show specified objects.  <a href="#a81fbab6f57a9557aec6d8e3dc5b5f342">More...</a><br /></td></tr>
+<tr class="memdesc:a81fbab6f57a9557aec6d8e3dc5b5f342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open new Inspector window locked to show specified objects.  <a href="#a81fbab6f57a9557aec6d8e3dc5b5f342">More...</a><br /></td></tr>
 <tr class="separator:a81fbab6f57a9557aec6d8e3dc5b5f342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf24cd0c1c943cab0b9e822abb878a1f"><td class="memItemLeft" align="right" valign="top">static EditorWindow&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f">Create</a> (params Object[] targets)</td></tr>
+<tr class="memdesc:acf24cd0c1c943cab0b9e822abb878a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new Inspector window locked to specified objects without showing.  <a href="#acf24cd0c1c943cab0b9e822abb878a1f">More...</a><br /></td></tr>
+<tr class="separator:acf24cd0c1c943cab0b9e822abb878a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91976dd46415a2c641c6df028ee9c67e"><td class="memItemLeft" align="right" valign="top">static InspectorMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e">GetMode</a> (EditorWindow inspector)</td></tr>
 <tr class="memdesc:a91976dd46415a2c641c6df028ee9c67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the inspector mode of specified Inspector.  <a href="#a91976dd46415a2c641c6df028ee9c67e">More...</a><br /></td></tr>
 <tr class="separator:a91976dd46415a2c641c6df028ee9c67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,8 +237,41 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Open new locked Inspector window to show specified objects. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new Inspector window.</dd></dl>
+<p>Open new Inspector window locked to show specified objects. </p>
+<dl class="section return"><dt>Returns</dt><dd>New Inspector window.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">targets</td><td>Targets.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acf24cd0c1c943cab0b9e822abb878a1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static EditorWindow Create </td>
+          <td>(</td>
+          <td class="paramtype">params Object[]&#160;</td>
+          <td class="paramname"><em>targets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new Inspector window locked to specified objects without showing. </p>
+<dl class="section return"><dt>Returns</dt><dd>New Inspector window.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">targets</td><td>Targets.</td></tr>

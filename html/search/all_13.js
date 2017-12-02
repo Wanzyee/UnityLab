@@ -28,6 +28,7 @@ var searchData=
   ['setrotation',['SetRotation',['../class_wanzyee_studio_1_1_matrix_utility.html#ae6e67c85930c6dbd7358d2e722448ac0',1,'WanzyeeStudio::MatrixUtility']]],
   ['setscale',['SetScale',['../class_wanzyee_studio_1_1_matrix_utility.html#ae8b5e1f5b984a7ac711c4da66f6a0bc4',1,'WanzyeeStudio::MatrixUtility']]],
   ['setsorting',['SetSorting',['../class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558',1,'WanzyeeStudio::Extension::ComponentExtension']]],
+  ['setting',['setting',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.setting()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a085590206bf3265b5bdaf851ef86efb7',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.setting()']]],
   ['setvalue',['SetValue',['../class_wanzyee_studio_1_1_variable_info.html#ac400227ebdd3432e3b345099f325cf03',1,'WanzyeeStudio.VariableInfo.SetValue()'],['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a6eb52ffdfaf154761e3abc58410b6298',1,'WanzyeeStudio.Editrix.Extension.PropertyValueExtension.SetValue()']]],
   ['setwindowed',['SetWindowed',['../class_wanzyee_studio_1_1_resolution_setter.html#a24bca1f372774e4f58f71e37349dc6a0',1,'WanzyeeStudio::ResolutionSetter']]],
   ['show',['show',['../class_wanzyee_studio_1_1_framerate_counter.html#a5bafc98f16f9fd53e0f929fe20b17e1c',1,'WanzyeeStudio::FramerateCounter']]],

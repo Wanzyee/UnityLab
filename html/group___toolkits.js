@@ -19,7 +19,9 @@ var group___toolkits =
       [ "Clear", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a8385b0d378201173be1357256ef356eb", null ],
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
       [ "track", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#af8a9d4eb661ab1452133e17d5ef9f0f3", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e", null ]
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a83411795db454ee7f9405fc60eb7e25e", null ],
+      [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a085590206bf3265b5bdaf851ef86efb7", null ],
+      [ "preferPersist", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a312eca1d812344a44950f24b065926ca", null ]
     ] ],
     [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", [
       [ "ClearConsole", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html#a4b3cddf734814c5437e8c97feffabe0c", null ]
@@ -32,6 +34,7 @@ var group___toolkits =
       [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],
       [ "ToggleInspectorLock", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a39b12af1d8c7667d1f515cfd0f0c4e11", null ],
       [ "Inspect", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342", null ],
+      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f", null ],
       [ "GetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e", null ],
       [ "SetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8", null ],
       [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf", null ],
@@ -48,7 +51,10 @@ var group___toolkits =
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
       [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
+      [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7", null ],
+      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ],
+      [ "iconOffset", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985", null ],
+      [ "_defaultFontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a828a4850ae63a2a72f48cbdd0c02f3bf", null ]
     ] ],
     [ "ObjectGrouper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html", [
       [ "MakeGroup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6474f6ab86c5c851bbb8008cb3925456", null ],

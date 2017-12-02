@@ -40,7 +40,8 @@ var group___notebook =
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
       [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
-      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ]
+      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
+      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
@@ -53,7 +54,10 @@ var group___notebook =
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
       [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ]
+      [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7", null ],
+      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ],
+      [ "iconOffset", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985", null ],
+      [ "_defaultFontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a828a4850ae63a2a72f48cbdd0c02f3bf", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],

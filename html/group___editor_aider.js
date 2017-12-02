@@ -4,7 +4,8 @@ var group___editor_aider =
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
       [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
-      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ]
+      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
+      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
@@ -21,6 +22,7 @@ var group___editor_aider =
       [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],
       [ "ToggleInspectorLock", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a39b12af1d8c7667d1f515cfd0f0c4e11", null ],
       [ "Inspect", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342", null ],
+      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f", null ],
       [ "GetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a91976dd46415a2c641c6df028ee9c67e", null ],
       [ "SetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8", null ],
       [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf", null ],
