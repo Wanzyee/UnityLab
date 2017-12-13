@@ -7,6 +7,7 @@ var namespace_wanzyee_studio =
     [ "AppCommonAider", "class_wanzyee_studio_1_1_app_common_aider.html", "class_wanzyee_studio_1_1_app_common_aider" ],
     [ "BaseSingleton", "class_wanzyee_studio_1_1_base_singleton.html", "class_wanzyee_studio_1_1_base_singleton" ],
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", "class_wanzyee_studio_1_1_coroutiner" ],
+    [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", "class_wanzyee_studio_1_1_crypto_prefs" ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
     [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html", "class_wanzyee_studio_1_1_enum_constraint_attribute" ],
     [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html", null ],

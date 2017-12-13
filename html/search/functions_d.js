@@ -1,6 +1,7 @@
 var searchData=
 [
   ['paste',['Paste',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e',1,'WanzyeeStudio::Editrix::Toolkit::MaterialPropertyCopier']]],
+  ['patch',['Patch',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ac87cf30e6c73bef1c2564ff94db2d52f',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['pause',['Pause',['../class_wanzyee_studio_1_1_coroutiner.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'WanzyeeStudio::Coroutiner']]],
   ['pointsinline',['PointsInLine',['../class_wanzyee_studio_1_1_math_utility.html#acb06ab4ddccd6811197d6f67e6cb218e',1,'WanzyeeStudio::MathUtility']]],
   ['pointsinplane',['PointsInPlane',['../class_wanzyee_studio_1_1_math_utility.html#adda826f437f1bbd4fe3b128c5d34c6c8',1,'WanzyeeStudio::MathUtility']]],

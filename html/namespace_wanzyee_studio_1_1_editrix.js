@@ -4,6 +4,7 @@ var namespace_wanzyee_studio_1_1_editrix =
     [ "Toolkit", "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html", "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit" ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor" ],
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list" ],
+    [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher" ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i" ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style" ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility" ],

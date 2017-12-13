@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['oldcode',['oldCode',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ae5ef72f3ef6fc675a05b8a976b27c435',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['on',['on',['../class_wanzyee_studio_1_1_event_key_invoker.html#aae56b25ba4ae0a68e9e8f8700a057061',1,'WanzyeeStudio.EventKeyInvoker.on()'],['../class_wanzyee_studio_1_1_event_mono_invoker.html#a0a0414c31f54b42afb37331be4113778',1,'WanzyeeStudio.EventMonoInvoker.on()']]],
   ['onkey',['onKey',['../class_wanzyee_studio_1_1_event_key_invoker.html#a58cecb2bf8ef43e8bbeeb3c892fea73a',1,'WanzyeeStudio::EventKeyInvoker']]],
   ['onmessage',['onMessage',['../class_wanzyee_studio_1_1_event_mono_invoker.html#aacbd0c5a056b64190be5a8bc745c2a4a',1,'WanzyeeStudio::EventMonoInvoker']]],

@@ -23,6 +23,7 @@ var searchData=
   ['clipboardicon',['clipboardIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['closetab',['CloseTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['closewindow',['CloseWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
+  ['codepatcher',['CodePatcher',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html',1,'WanzyeeStudio::Editrix']]],
   ['color',['color',['../class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073',1,'WanzyeeStudio::Note']]],
   ['colorchannel',['ColorChannel',['../group___enumerations.html#ga3ef15c9c3e32c2ec774e3cc922443898',1,'WanzyeeStudio']]],
   ['colorconverter',['ColorConverter',['../class_wanzyee_studio_1_1_json_1_1_color_converter.html',1,'WanzyeeStudio::Json']]],
@@ -38,5 +39,6 @@ var searchData=
   ['copyicon',['copyIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['coroutiner',['Coroutiner',['../class_wanzyee_studio_1_1_coroutiner.html',1,'WanzyeeStudio']]],
   ['create',['Create',['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f',1,'WanzyeeStudio.Editrix.Toolkit.InspectorHelper.Create()']]],
-  ['cryptoextension',['CryptoExtension',['../class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html',1,'WanzyeeStudio::Extension']]]
+  ['cryptoextension',['CryptoExtension',['../class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html',1,'WanzyeeStudio::Extension']]],
+  ['cryptoprefs',['CryptoPrefs',['../class_wanzyee_studio_1_1_crypto_prefs.html',1,'WanzyeeStudio']]]
 ];

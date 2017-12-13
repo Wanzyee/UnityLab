@@ -3,6 +3,7 @@ var searchData=
   ['main',['main',['../class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4',1,'WanzyeeStudio::StackWindow']]],
   ['makegroup',['MakeGroup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6474f6ab86c5c851bbb8008cb3925456',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a0da5441c557dbfd2fac034592f8c9168',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup(string name, params Transform[] children)']]],
   ['mask',['mask',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#aca4e9824b680f3e302c7c015e83a4414',1,'WanzyeeStudio::RaycastMaskFilter']]],
+  ['matches',['matches',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#a59fe83e71ae80696e795201850f2344f',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['materialpropertycopier',['MaterialPropertyCopier',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['mathextension',['MathExtension',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html',1,'WanzyeeStudio::Extension']]],
   ['mathutility',['MathUtility',['../class_wanzyee_studio_1_1_math_utility.html',1,'WanzyeeStudio']]],

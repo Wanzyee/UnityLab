@@ -6,5 +6,6 @@ var searchData=
   ['applyonawake',['applyOnAwake',['../class_wanzyee_studio_1_1_resolution_setter.html#a49abe1fcd75a7c00fcc0a74a7249dbdf',1,'WanzyeeStudio::ResolutionSetter']]],
   ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
   ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio::Editrix::PackageMaker']]],
-  ['autodestroy',['autoDestroy',['../class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542',1,'WanzyeeStudio::BaseSingleton']]]
+  ['autodestroy',['autoDestroy',['../class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542',1,'WanzyeeStudio::BaseSingleton']]],
+  ['autorun',['autorun',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#a4c351a4bda5a3c3f9f31f932d9445908',1,'WanzyeeStudio::Editrix::CodePatcher']]]
 ];
