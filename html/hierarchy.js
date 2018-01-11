@@ -3,6 +3,33 @@ var hierarchy =
     [ "BaseSingleton< FramerateCounter >", "class_wanzyee_studio_1_1_base_singleton.html", [
       [ "FramerateCounter", "class_wanzyee_studio_1_1_framerate_counter.html", null ]
     ] ],
+    [ "PartialConverter< Bounds >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "BoundsConverter", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Color >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "ColorConverter", "class_wanzyee_studio_1_1_json_1_1_color_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Matrix4x4 >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "Matrix4x4Converter", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Quaternion >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "QuaternionConverter", "class_wanzyee_studio_1_1_json_1_1_quaternion_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Rect >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "RectConverter", "class_wanzyee_studio_1_1_json_1_1_rect_converter.html", null ]
+    ] ],
+    [ "PartialConverter< RectOffset >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "RectOffsetConverter", "class_wanzyee_studio_1_1_json_1_1_rect_offset_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Vector2 >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "Vector2Converter", "class_wanzyee_studio_1_1_json_1_1_vector2_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Vector3 >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "Vector3Converter", "class_wanzyee_studio_1_1_json_1_1_vector3_converter.html", null ]
+    ] ],
+    [ "PartialConverter< Vector4 >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
+      [ "Vector4Converter", "class_wanzyee_studio_1_1_json_1_1_vector4_converter.html", null ]
+    ] ],
     [ "AidGUI", "class_wanzyee_studio_1_1_aid_g_u_i.html", null ],
     [ "AppCommonAider", "class_wanzyee_studio_1_1_app_common_aider.html", null ],
     [ "BaseSingleton< T >", "class_wanzyee_studio_1_1_base_singleton.html", null ],
@@ -59,16 +86,8 @@ var hierarchy =
       [ "StackGroupPanel", "class_wanzyee_studio_1_1_stack_group_panel.html", null ],
       [ "StackTweakPanel", "class_wanzyee_studio_1_1_stack_tweak_panel.html", null ]
     ] ],
-    [ "BoundsConverter", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html", null ],
-    [ "ColorConverter", "class_wanzyee_studio_1_1_json_1_1_color_converter.html", null ],
     [ "DictionaryConverter", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html", null ],
-    [ "Matrix4x4Converter", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html", null ],
-    [ "QuaternionConverter", "class_wanzyee_studio_1_1_json_1_1_quaternion_converter.html", null ],
-    [ "RectConverter", "class_wanzyee_studio_1_1_json_1_1_rect_converter.html", null ],
-    [ "RectOffsetConverter", "class_wanzyee_studio_1_1_json_1_1_rect_offset_converter.html", null ],
-    [ "Vector2Converter", "class_wanzyee_studio_1_1_json_1_1_vector2_converter.html", null ],
-    [ "Vector3Converter", "class_wanzyee_studio_1_1_json_1_1_vector3_converter.html", null ],
-    [ "Vector4Converter", "class_wanzyee_studio_1_1_json_1_1_vector4_converter.html", null ],
+    [ "PartialConverter< T >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", null ],
     [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_net_utility.html", null ],
     [ "MathUtility", "class_wanzyee_studio_1_1_math_utility.html", null ],
     [ "MatrixUtility", "class_wanzyee_studio_1_1_matrix_utility.html", null ],

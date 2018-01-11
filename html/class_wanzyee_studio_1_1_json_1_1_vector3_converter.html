@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_json_1_1_vect
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_json_1_1_vector3_converter-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -103,35 +104,108 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_json_1_1_vect
 </div><!--header-->
 <div class="contents">
 
-<p><code>Newtonsoft.Json.JsonConverter</code> for <code>UnityEngine.Vector3</code>.  
+<p>Custom <code>Newtonsoft.Json.JsonConverter</code> for <code>UnityEngine.Vector3</code>.  
  <a href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#details">More...</a></p>
-
-<p>Inherits JsonConverter.</p>
+<div class="dynheader">
+Inheritance diagram for Vector3Converter:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_wanzyee_studio_1_1_json_1_1_vector3_converter.png" usemap="#Vector3Converter_map" alt=""/>
+  <map id="Vector3Converter_map" name="Vector3Converter_map">
+<area href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html" alt="PartialConverter&lt; Vector3 &gt;" shape="rect" coords="0,0,174,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8cf86720a5481c744a0a551d1541f5d8"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#a8cf86720a5481c744a0a551d1541f5d8">CanConvert</a> (Type objectType)</td></tr>
-<tr class="memdesc:a8cf86720a5481c744a0a551d1541f5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the type is <code>UnityEngine.Vector3</code>.  <a href="#a8cf86720a5481c744a0a551d1541f5d8">More...</a><br /></td></tr>
+<tr class="memitem:a8cf86720a5481c744a0a551d1541f5d8"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a8cf86720a5481c744a0a551d1541f5d8">CanConvert</a> (Type objectType)</td></tr>
+<tr class="memdesc:a8cf86720a5481c744a0a551d1541f5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the object type is <code>T</code>.  <a href="#a8cf86720a5481c744a0a551d1541f5d8">More...</a><br /></td></tr>
 <tr class="separator:a8cf86720a5481c744a0a551d1541f5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63d4f63128781acfa8229a12763b5440"><td class="memItemLeft" align="right" valign="top">override object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#a63d4f63128781acfa8229a12763b5440">ReadJson</a> (JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)</td></tr>
-<tr class="memdesc:a63d4f63128781acfa8229a12763b5440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not implemented, unnecessary because <code>CanRead</code> is false.  <a href="#a63d4f63128781acfa8229a12763b5440">More...</a><br /></td></tr>
+<tr class="memitem:a63d4f63128781acfa8229a12763b5440"><td class="memItemLeft" align="right" valign="top">override object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a63d4f63128781acfa8229a12763b5440">ReadJson</a> (JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)</td></tr>
+<tr class="memdesc:a63d4f63128781acfa8229a12763b5440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the specified properties to the object.  <a href="#a63d4f63128781acfa8229a12763b5440">More...</a><br /></td></tr>
 <tr class="separator:a63d4f63128781acfa8229a12763b5440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ac0c517b46f5f9bf33cb826ca8e465"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465">WriteJson</a> (JsonWriter writer, object value, JsonSerializer serializer)</td></tr>
-<tr class="memdesc:a05ac0c517b46f5f9bf33cb826ca8e465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write <code>x</code>, <code>y</code> and <code>z</code>.  <a href="#a05ac0c517b46f5f9bf33cb826ca8e465">More...</a><br /></td></tr>
+<tr class="memitem:a05ac0c517b46f5f9bf33cb826ca8e465"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a05ac0c517b46f5f9bf33cb826ca8e465">WriteJson</a> (JsonWriter writer, object value, JsonSerializer serializer)</td></tr>
+<tr class="memdesc:a05ac0c517b46f5f9bf33cb826ca8e465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the specified properties of the object.  <a href="#a05ac0c517b46f5f9bf33cb826ca8e465">More...</a><br /></td></tr>
 <tr class="separator:a05ac0c517b46f5f9bf33cb826ca8e465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a61eca50fcecd37b6ced0c9f9a8b0672c"><td class="memItemLeft" align="right" valign="top">override string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#a61eca50fcecd37b6ced0c9f9a8b0672c">GetPropertyNames</a> ()</td></tr>
+<tr class="memdesc:a61eca50fcecd37b6ced0c9f9a8b0672c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the property names include <code>x</code>, <code>y</code>, <code>z</code>.  <a href="#a61eca50fcecd37b6ced0c9f9a8b0672c">More...</a><br /></td></tr>
+<tr class="separator:a61eca50fcecd37b6ced0c9f9a8b0672c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07606f5a91b11a5fe26eb9fbcbfbbd7d"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a07606f5a91b11a5fe26eb9fbcbfbbd7d">CreateInstance</a> ()</td></tr>
+<tr class="memdesc:a07606f5a91b11a5fe26eb9fbcbfbbd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the instance for <code><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a63d4f63128781acfa8229a12763b5440" title="Read the specified properties to the object. ">ReadJson()</a></code> to populate.  <a href="#a07606f5a91b11a5fe26eb9fbcbfbbd7d">More...</a><br /></td></tr>
+<tr class="separator:a07606f5a91b11a5fe26eb9fbcbfbbd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad722f13be7b117693e904035b7135f41"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_vector3_converter.html#ad722f13be7b117693e904035b7135f41">CanRead</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad722f13be7b117693e904035b7135f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code>false</code>, since default serializer does well.  <a href="#ad722f13be7b117693e904035b7135f41">More...</a><br /></td></tr>
+<tr class="memitem:ad722f13be7b117693e904035b7135f41"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#ad722f13be7b117693e904035b7135f41">CanRead</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad722f13be7b117693e904035b7135f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if this converter can read Json.  <a href="#ad722f13be7b117693e904035b7135f41">More...</a><br /></td></tr>
 <tr class="separator:ad722f13be7b117693e904035b7135f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><code>Newtonsoft.Json.JsonConverter</code> for <code>UnityEngine.Vector3</code>. </p>
+<div class="textblock"><p>Custom <code>Newtonsoft.Json.JsonConverter</code> for <code>UnityEngine.Vector3</code>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a61eca50fcecd37b6ced0c9f9a8b0672c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string [] GetPropertyNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the property names include <code>x</code>, <code>y</code>, <code>z</code>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The property names.</dd></dl>
+
+<p>Implements <a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a6ecff156facbd3639f7277e9e3d5fc74">PartialConverter&lt; Vector3 &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07606f5a91b11a5fe26eb9fbcbfbbd7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual T CreateInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the instance for <code><a class="el" href="class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a63d4f63128781acfa8229a12763b5440" title="Read the specified properties to the object. ">ReadJson()</a></code> to populate. </p>
+<dl class="section return"><dt>Returns</dt><dd>The instance.</dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8cf86720a5481c744a0a551d1541f5d8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">override bool CanConvert </td>
@@ -141,9 +215,14 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Determine if the type is <code>UnityEngine.Vector3</code>. </p>
+<p>Determine if the object type is <code>T</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">objectType</td><td>Type of the object.</td></tr>
@@ -157,6 +236,9 @@ Properties</h2></td></tr>
 <a class="anchor" id="a63d4f63128781acfa8229a12763b5440"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">override object ReadJson </td>
@@ -188,9 +270,14 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Not implemented, unnecessary because <code>CanRead</code> is false. </p>
+<p>Read the specified properties to the object. </p>
 <dl class="section return"><dt>Returns</dt><dd>The object value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -207,6 +294,9 @@ Properties</h2></td></tr>
 <a class="anchor" id="a05ac0c517b46f5f9bf33cb826ca8e465"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">override void WriteJson </td>
@@ -232,9 +322,14 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Write <code>x</code>, <code>y</code> and <code>z</code>. </p>
+<p>Write the specified properties of the object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">writer</td><td>The <code>Newtonsoft.Json.JsonWriter</code> to write to.</td></tr>
@@ -260,13 +355,13 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return <code>false</code>, since default serializer does well. </p>
-<p><code>true</code> if this instance can read; otherwise, <code>false</code>.</p>
+<p>Determine if this converter can read Json. </p>
+<p><code>false</code> by default, since Json.NET works fine in most of the cases.</p>
 
 </div>
 </div>
