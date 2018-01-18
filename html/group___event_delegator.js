@@ -13,6 +13,15 @@ var group___event_delegator =
       [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ab3e091236025ea85755b874ae1784452", null ],
       [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ac35e83df9b29cebf4b9ab4b10cb89ad5", null ]
     ] ],
+    [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
+      [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
+      [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
+      [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a0232ee67bfe47e44c91781cc1d7cc607", null ],
+      [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
+      [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
+      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
+    ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
@@ -70,6 +79,10 @@ var group___event_delegator =
       [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
+    ] ],
+    [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
+      [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
+      [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
     ] ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", [
       [ "IsRaycastLocationValid", "class_wanzyee_studio_1_1_raycast_mask_filter.html#a14260668bf31e7727d7e4f88fce58998", null ],
