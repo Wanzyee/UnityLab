@@ -113,9 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564">GetAllAssetLabels</a> (params Object[] assets)</td></tr>
 <tr class="memdesc:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all asset labels used in project, or only find the ones used by assigned assets.  <a href="#a001ffdf9c2d0d4e44c0fa4c0fd95d564">More...</a><br /></td></tr>
 <tr class="separator:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0232ee67bfe47e44c91781cc1d7cc607"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a0232ee67bfe47e44c91781cc1d7cc607">OpenAsset&lt; T &gt;</a> (int instanceID, Func&lt; T, Action &gt; handlerGetter)</td></tr>
-<tr class="memdesc:a0232ee67bfe47e44c91781cc1d7cc607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common template method to open an asset.  <a href="#a0232ee67bfe47e44c91781cc1d7cc607">More...</a><br /></td></tr>
-<tr class="separator:a0232ee67bfe47e44c91781cc1d7cc607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be">OpenAsset&lt; T &gt;</a> (int instanceID, Action&lt; T &gt; handler)</td></tr>
+<tr class="memdesc:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common template method to open an asset.  <a href="#a7ef6b09a920337fb9d9c29eb08ac43be">More...</a><br /></td></tr>
+<tr class="separator:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3">GetObjectOrder</a> (Object source, bool assetFirst=true)</td></tr>
 <tr class="memdesc:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given object for sorting.  <a href="#ab57b5c77c0a484adc98d8ed88d9083e3">More...</a><br /></td></tr>
 <tr class="separator:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +196,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0232ee67bfe47e44c91781cc1d7cc607"></a>
+<a class="anchor" id="a7ef6b09a920337fb9d9c29eb08ac43be"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -212,8 +212,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Func&lt; T, Action &gt;&#160;</td>
-          <td class="paramname"><em>handlerGetter</em>&#160;</td>
+          <td class="paramtype">Action&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -234,7 +234,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">instanceID</td><td>Instance ID.</td></tr>
-    <tr><td class="paramname">handlerGetter</td><td>Callback to get the real handler from the asset.</td></tr>
+    <tr><td class="paramname">handler</td><td>Callback to open the asset.</td></tr>
   </table>
   </dd>
 </dl>
@@ -247,7 +247,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>ScriptableObject</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Object</em></td><td>&#160;</td></tr>
 </table>
 </dl>
 </div>
