@@ -26,11 +26,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3",
-"class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a14ae2d6cdfa36e948fce54aa8cd0fcb9",
-"class_wanzyee_studio_1_1_file_path_attribute.html#af15212ee4fbd7036a6c9d0b122f7d3ad",
-"class_wanzyee_studio_1_1_stack_console_panel.html#aeed5e9dcbad7118e65642935a254a2c2",
-"namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383"
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194",
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a513b88d38998ec5b3a1b82fbc73afc9c",
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0",
+"class_wanzyee_studio_1_1_resolution_setter.html#a24bca1f372774e4f58f71e37349dc6a0",
+"namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4aff446c3ea95428fd5e9951dcf99d0784"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

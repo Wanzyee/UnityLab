@@ -1,6 +1,7 @@
 var searchData=
 [
   ['clipboard',['Clipboard',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
+  ['codeexecutor',['CodeExecutor',['../class_wanzyee_studio_1_1_editrix_1_1_code_executor.html',1,'WanzyeeStudio::Editrix']]],
   ['codepatcher',['CodePatcher',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html',1,'WanzyeeStudio::Editrix']]],
   ['colorconverter',['ColorConverter',['../class_wanzyee_studio_1_1_json_1_1_color_converter.html',1,'WanzyeeStudio::Json']]],
   ['componentextension',['ComponentExtension',['../class_wanzyee_studio_1_1_extension_1_1_component_extension.html',1,'WanzyeeStudio::Extension']]],

@@ -1,8 +1,13 @@
 var group___bookmark =
 [
+    [ "BookmarkItem", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html", [
+      [ "label", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a44fbddf445b66717f5ecb2168b546cd4", null ],
+      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#abff1c3345bb95f3a5109abafe90cca67", null ],
+      [ "target", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31", null ]
+    ] ],
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
       [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e53001785ff30ae485a113b9b8a0ddc", null ],
-      [ "GetItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aa29c25aa67ea00b467aa5577376e7bcc", null ],
+      [ "GetItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a28fb0d9d92379b4059ddc0cdbbb8a96a", null ],
       [ "title", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a43a5eafe64b96968035e5a4013e47c75", null ],
       [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#abff1c3345bb95f3a5109abafe90cca67", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#afd1c29075e92ea72d60e802a8c3f89a3", null ],
@@ -11,7 +16,14 @@ var group___bookmark =
       [ "showLabel", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad579257eafa32fe7f08a86c0254fdaec", null ],
       [ "showTooltip", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad4799af9280eb960789a2e6ce385acde", null ],
       [ "clickToOpen", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a3fc46d03b3c32c78212ef29f000fd2f9", null ],
-      [ "clickToSelect", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca", null ]
+      [ "clickToSelect", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca", null ],
+      [ "items", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aec8c5c37b35d879474d777f5b664dad5", null ]
+    ] ],
+    [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", [
+      [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
+      [ "usingDirective", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#abf3c20e9a432637f35073f7f5085a8e6", null ],
+      [ "codeSnippet", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#aff0c9af2c96625307bcf699a0e32fe93", null ],
+      [ "objects", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#af67b295fa099a92c8e6a6ed9b90077d9", null ]
     ] ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", [
       [ "GetLabelWidth", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a", null ],
@@ -56,7 +68,8 @@ var group___bookmark =
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
+      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ],
+      [ "globalEventHandler", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab4737410a35bd4e1604f363f7f099d24", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],

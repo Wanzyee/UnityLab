@@ -2,7 +2,7 @@ var group___assets =
 [
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
       [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e53001785ff30ae485a113b9b8a0ddc", null ],
-      [ "GetItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aa29c25aa67ea00b467aa5577376e7bcc", null ],
+      [ "GetItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a28fb0d9d92379b4059ddc0cdbbb8a96a", null ],
       [ "title", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a43a5eafe64b96968035e5a4013e47c75", null ],
       [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#abff1c3345bb95f3a5109abafe90cca67", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#afd1c29075e92ea72d60e802a8c3f89a3", null ],
@@ -11,7 +11,14 @@ var group___assets =
       [ "showLabel", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad579257eafa32fe7f08a86c0254fdaec", null ],
       [ "showTooltip", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad4799af9280eb960789a2e6ce385acde", null ],
       [ "clickToOpen", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a3fc46d03b3c32c78212ef29f000fd2f9", null ],
-      [ "clickToSelect", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca", null ]
+      [ "clickToSelect", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca", null ],
+      [ "items", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aec8c5c37b35d879474d777f5b664dad5", null ]
+    ] ],
+    [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", [
+      [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
+      [ "usingDirective", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#abf3c20e9a432637f35073f7f5085a8e6", null ],
+      [ "codeSnippet", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#aff0c9af2c96625307bcf699a0e32fe93", null ],
+      [ "objects", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#af67b295fa099a92c8e6a6ed9b90077d9", null ]
     ] ],
     [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", [
       [ "Patch", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ac87cf30e6c73bef1c2564ff94db2d52f", null ],

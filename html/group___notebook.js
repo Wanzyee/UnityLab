@@ -43,7 +43,8 @@ var group___notebook =
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
+      [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ],
+      [ "globalEventHandler", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab4737410a35bd4e1604f363f7f099d24", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
