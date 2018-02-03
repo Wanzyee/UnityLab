@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Wanzyee Studio: ReorderableListAttribute</title>
+<title>Wanzyee Studio: HotkeyOperator</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -76,7 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_reorderable_list_attribute.html','');});
+$(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -95,55 +95,33 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_reorderable_l
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_wanzyee_studio_1_1_reorderable_list_attribute-members.html">List of all members</a>  </div>
+<a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ReorderableListAttribute<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___attributes.html">Attributes</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___bookmark.html">Bookmark</a></div></div>  </div>
+<div class="title">HotkeyOperator<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___bookmark.html">Bookmark</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___toolkits.html">Editor Extensions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>UnityEngine.PropertyAttribute</code> to Drag'n'Drop to reorder an array or list.  
- <a href="class_wanzyee_studio_1_1_reorderable_list_attribute.html#details">More...</a></p>
-
-<p>Inherits PropertyAttribute.</p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5519a0194e75452fd275f056bb2588c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7">ReorderableListAttribute</a> ()</td></tr>
-<tr class="memdesc:a5519a0194e75452fd275f056bb2588c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the property order as max to ensure applying first.  <a href="#a5519a0194e75452fd275f056bb2588c7">More...</a><br /></td></tr>
-<tr class="separator:a5519a0194e75452fd275f056bb2588c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
+<p>Listen global hotkey to match items of all opened <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> to operate.  
+ <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html#details">More...</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><code>UnityEngine.PropertyAttribute</code> to Drag'n'Drop to reorder an array or list. </p>
-<p>Implemented with <code>UnityEditorInternal.ReorderableList</code>. Since an <code>UnityEngine.PropertyAttribute</code> can only be applied to the array elements. This draws elements only if existing, and leaves the original foldout label without the list header. </p>
-<p>Support nested <code>UnityEditor.PropertyDrawer</code> of custom class or attribute to draw the elements. To ensure applying, this's <code>order</code> should be set higher if there's another attribute. </p>
-<p>Support specific element height with their custom drawer or expand state. Keep the expand states after reordered, please note the expand states aren't undoable. </p>
-<p>3 </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5519a0194e75452fd275f056bb2588c7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_reorderable_list_attribute.html">ReorderableListAttribute</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the property order as max to ensure applying first. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><p>Listen global hotkey to match items of all opened <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> to operate. </p>
+<p>This makes the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> much more powerful, especially when used as a toolbox with executable items. It's easy to personalize enabled hotkey sets when you partners work on the same project. Just make your own editor layout, since this only check the opened windows. The operation, i.e., open or select, is according to the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html" title="Store the asset items to show in a Bookmark window with the layout settings. ">BookmarkList</a></code> clicking settings. </p>
+<p>Please note, it's not able to receive hotkey at the situations below:</p><ol type="1">
+<li>Conflict with editor menu items, e.g., "Ctrl+P" is for "Edit/Play", or used by custom <code>MenuItem</code>.</li>
+<li>When the Game view window gets focused, no matter in play or edit mode.</li>
+<li>When editing a text field, e.g., typing in a search bar or an Inspector property field. </li>
+</ol>
+<p>Other notes:</p><ol type="1">
+<li>Unity may beep when the modifiers are "Alt" or "Alt+Shift".</li>
+<li>This uses the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. </li>
+</ol>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.10-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_wanzyee_studio.html">WanzyeeStudio</a></li><li class="navelem"><a class="el" href="class_wanzyee_studio_1_1_reorderable_list_attribute.html">ReorderableListAttribute</a></li>
+    <li class="navelem"><a class="el" href="namespace_wanzyee_studio.html">WanzyeeStudio</a></li><li class="navelem"><a class="el" href="namespace_wanzyee_studio_1_1_editrix.html">Editrix</a></li><li class="navelem"><a class="el" href="namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html">Toolkit</a></li><li class="navelem"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html">HotkeyOperator</a></li>
     <li class="footer">
     Generated for&nbsp;
     <a href="http://wanzyeestudio.blogspot.com/" target="_blank">Wanzyee Studio</a>

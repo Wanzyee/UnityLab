@@ -103,19 +103,34 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_b
 </div><!--header-->
 <div class="contents">
 
-<p>Store assets list to show in a <code>Bookmark</code> window opened when double click this asset.  
+<p>Store the asset items to show in a <code>Bookmark</code> window with the layout settings.  
  <a href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#details">More...</a></p>
 
 <p>Inherits ScriptableObject.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e53001785ff30ae485a113b9b8a0ddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e53001785ff30ae485a113b9b8a0ddc">Open</a> ()</td></tr>
-<tr class="memdesc:a5e53001785ff30ae485a113b9b8a0ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a <code>Bookmark</code> window to show this's items.  <a href="#a5e53001785ff30ae485a113b9b8a0ddc">More...</a><br /></td></tr>
-<tr class="separator:a5e53001785ff30ae485a113b9b8a0ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28fb0d9d92379b4059ddc0cdbbb8a96a"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; GUIContent, <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a28fb0d9d92379b4059ddc0cdbbb8a96a">GetItems</a> ()</td></tr>
-<tr class="memdesc:a28fb0d9d92379b4059ddc0cdbbb8a96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the asset items with the label to show.  <a href="#a28fb0d9d92379b4059ddc0cdbbb8a96a">More...</a><br /></td></tr>
-<tr class="separator:a28fb0d9d92379b4059ddc0cdbbb8a96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae438238bc8bcfe3748b0b81d9240b5ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ae438238bc8bcfe3748b0b81d9240b5ea">OperateTargets</a> (params Object[] targets)</td></tr>
+<tr class="memdesc:ae438238bc8bcfe3748b0b81d9240b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">According to the clicking settings to operate the targets.  <a href="#ae438238bc8bcfe3748b0b81d9240b5ea">More...</a><br /></td></tr>
+<tr class="separator:ae438238bc8bcfe3748b0b81d9240b5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad181664eac6076770c84ba80f4a2d601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad181664eac6076770c84ba80f4a2d601">InsertTargets</a> (<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> before, params Object[] targets)</td></tr>
+<tr class="memdesc:ad181664eac6076770c84ba80f4a2d601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undoable create items with the targets to insert to the <code>items</code> list.  <a href="#ad181664eac6076770c84ba80f4a2d601">More...</a><br /></td></tr>
+<tr class="separator:ad181664eac6076770c84ba80f4a2d601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7d90083d12b62692e843107296d3ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a8b7d90083d12b62692e843107296d3ac">InsertItems</a> (<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> before, params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>[] collection)</td></tr>
+<tr class="memdesc:a8b7d90083d12b62692e843107296d3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undoable insert the <code>collection</code> to the <code>items</code> list.  <a href="#a8b7d90083d12b62692e843107296d3ac">More...</a><br /></td></tr>
+<tr class="separator:a8b7d90083d12b62692e843107296d3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89a46da823efd0f6a3c9e2c61b0ed30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aa89a46da823efd0f6a3c9e2c61b0ed30">RemoveItems</a> (params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>[] collection)</td></tr>
+<tr class="memdesc:aa89a46da823efd0f6a3c9e2c61b0ed30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undoable remove the <code>collection</code> from the <code>items</code> list.  <a href="#aa89a46da823efd0f6a3c9e2c61b0ed30">More...</a><br /></td></tr>
+<tr class="separator:aa89a46da823efd0f6a3c9e2c61b0ed30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4117a7101376dbb41b4efc49e2f6715c"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a4117a7101376dbb41b4efc49e2f6715c">GetValidItems</a> ()</td></tr>
+<tr class="memdesc:a4117a7101376dbb41b4efc49e2f6715c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the items with target.  <a href="#a4117a7101376dbb41b4efc49e2f6715c">More...</a><br /></td></tr>
+<tr class="separator:a4117a7101376dbb41b4efc49e2f6715c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5361622bbacdcadfda533c9674630385"><td class="memItemLeft" align="right" valign="top">List&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5361622bbacdcadfda533c9674630385">GetAllTargets</a> ()</td></tr>
+<tr class="memdesc:a5361622bbacdcadfda533c9674630385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the targets of all valid items.  <a href="#a5361622bbacdcadfda533c9674630385">More...</a><br /></td></tr>
+<tr class="separator:a5361622bbacdcadfda533c9674630385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d81097502fc8a670931b7893d2aa57"><td class="memItemLeft" align="right" valign="top">GUIContent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a47d81097502fc8a670931b7893d2aa57">GetLabel</a> (<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> item, bool tooltip=true)</td></tr>
+<tr class="memdesc:a47d81097502fc8a670931b7893d2aa57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label content of the specified item.  <a href="#a47d81097502fc8a670931b7893d2aa57">More...</a><br /></td></tr>
+<tr class="separator:a47d81097502fc8a670931b7893d2aa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -131,6 +146,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5e939cc4c84974937b16c43f03fdea75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e939cc4c84974937b16c43f03fdea75">gridView</a></td></tr>
 <tr class="memdesc:a5e939cc4c84974937b16c43f03fdea75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout as grid or list view.  <a href="#a5e939cc4c84974937b16c43f03fdea75">More...</a><br /></td></tr>
 <tr class="separator:a5e939cc4c84974937b16c43f03fdea75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3f947769880e5fd73c3bd446881df3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aeb3f947769880e5fd73c3bd446881df3">enableHotkey</a></td></tr>
+<tr class="memdesc:aeb3f947769880e5fd73c3bd446881df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Listen hotkey to operate an item.  <a href="#aeb3f947769880e5fd73c3bd446881df3">More...</a><br /></td></tr>
+<tr class="separator:aeb3f947769880e5fd73c3bd446881df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a439227feff9d7f55384e8780cfc2eb82"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a439227feff9d7f55384e8780cfc2eb82">size</a> = 16</td></tr>
 <tr class="memdesc:a439227feff9d7f55384e8780cfc2eb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">The item height in list view, or the width in grid view.  <a href="#a439227feff9d7f55384e8780cfc2eb82">More...</a><br /></td></tr>
 <tr class="separator:a439227feff9d7f55384e8780cfc2eb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,19 +164,137 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af43eb490678689b164349435570c8bca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#af43eb490678689b164349435570c8bca">clickToSelect</a></td></tr>
 <tr class="memdesc:af43eb490678689b164349435570c8bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the asset when click.  <a href="#af43eb490678689b164349435570c8bca">More...</a><br /></td></tr>
 <tr class="separator:af43eb490678689b164349435570c8bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8c5c37b35d879474d777f5b664dad5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aec8c5c37b35d879474d777f5b664dad5">items</a></td></tr>
+<tr class="memitem:aec8c5c37b35d879474d777f5b664dad5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aec8c5c37b35d879474d777f5b664dad5">items</a> = new List&lt;<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt;()</td></tr>
 <tr class="memdesc:aec8c5c37b35d879474d777f5b664dad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asset items to show in the window.  <a href="#aec8c5c37b35d879474d777f5b664dad5">More...</a><br /></td></tr>
 <tr class="separator:aec8c5c37b35d879474d777f5b664dad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Store assets list to show in a <code>Bookmark</code> window opened when double click this asset. </p>
+<div class="textblock"><p>Store the asset items to show in a <code>Bookmark</code> window with the layout settings. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5e53001785ff30ae485a113b9b8a0ddc"></a>
+<a class="anchor" id="ae438238bc8bcfe3748b0b81d9240b5ea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Open </td>
+          <td class="memname">void OperateTargets </td>
+          <td>(</td>
+          <td class="paramtype">params Object[]&#160;</td>
+          <td class="paramname"><em>targets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>According to the clicking settings to operate the targets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">targets</td><td>Targets.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad181664eac6076770c84ba80f4a2d601"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InsertTargets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&#160;</td>
+          <td class="paramname"><em>before</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params Object[]&#160;</td>
+          <td class="paramname"><em>targets</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Undoable create items with the targets to insert to the <code>items</code> list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">before</td><td>Item to insert before.</td></tr>
+    <tr><td class="paramname">targets</td><td>Targets.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8b7d90083d12b62692e843107296d3ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InsertItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&#160;</td>
+          <td class="paramname"><em>before</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>[]&#160;</td>
+          <td class="paramname"><em>collection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Undoable insert the <code>collection</code> to the <code>items</code> list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">before</td><td>Item to insert before.</td></tr>
+    <tr><td class="paramname">collection</td><td>Collection.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa89a46da823efd0f6a3c9e2c61b0ed30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoveItems </td>
+          <td>(</td>
+          <td class="paramtype">params <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>[]&#160;</td>
+          <td class="paramname"><em>collection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Undoable remove the <code>collection</code> from the <code>items</code> list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collection</td><td>Collection.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4117a7101376dbb41b4efc49e2f6715c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt; GetValidItems </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -166,16 +302,17 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Open a <code>Bookmark</code> window to show this's items. </p>
+<p>Get the items with target. </p>
+<dl class="section return"><dt>Returns</dt><dd>The valid items.</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a28fb0d9d92379b4059ddc0cdbbb8a96a"></a>
+<a class="anchor" id="a5361622bbacdcadfda533c9674630385"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;GUIContent, <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt; GetItems </td>
+          <td class="memname">List&lt;Object&gt; GetAllTargets </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -183,8 +320,44 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the asset items with the label to show. </p>
-<dl class="section return"><dt>Returns</dt><dd>The items.</dd></dl>
+<p>Get the targets of all valid items. </p>
+<dl class="section return"><dt>Returns</dt><dd>The all targets.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a47d81097502fc8a670931b7893d2aa57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GUIContent GetLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>tooltip</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the label content of the specified item. </p>
+<dl class="section return"><dt>Returns</dt><dd>The label.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Item.</td></tr>
+    <tr><td class="paramname">tooltip</td><td>If set to <code>true</code> and <code>showTooltip</code> enabled include tooltip.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -242,6 +415,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Layout as grid or list view. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeb3f947769880e5fd73c3bd446881df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool enableHotkey</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Listen hotkey to operate an item. </p>
 
 </div>
 </div>
@@ -320,7 +507,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt; items</td>
+          <td class="memname">List&lt;<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt; items = new List&lt;<a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html">BookmarkItem</a>&gt;()</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -17,7 +17,8 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "Properties", "functions_prop.html", null ],
+        [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ]
   ] ]
@@ -26,11 +27,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a513b88d38998ec5b3a1b82fbc73afc9c",
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0",
-"class_wanzyee_studio_1_1_resolution_setter.html#a24bca1f372774e4f58f71e37349dc6a0",
-"namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4aff446c3ea95428fd5e9951dcf99d0784"
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af2854ea68d6b26a16eead79aae040400",
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985",
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365",
+"class_wanzyee_studio_1_1_raycast_mask_filter.html#a14260668bf31e7727d7e4f88fce58998",
+"namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a5146696e37f7db8cab397498c5555835"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
