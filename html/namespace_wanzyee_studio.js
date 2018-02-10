@@ -9,6 +9,7 @@ var namespace_wanzyee_studio =
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", "class_wanzyee_studio_1_1_coroutiner" ],
     [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", "class_wanzyee_studio_1_1_crypto_prefs" ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", "class_wanzyee_studio_1_1_editor_event_listener" ],
     [ "EnumConstraintAttribute", "class_wanzyee_studio_1_1_enum_constraint_attribute.html", "class_wanzyee_studio_1_1_enum_constraint_attribute" ],
     [ "EnumFlagAttribute", "class_wanzyee_studio_1_1_enum_flag_attribute.html", null ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", "class_wanzyee_studio_1_1_event_delegator" ],

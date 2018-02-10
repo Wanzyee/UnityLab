@@ -2,6 +2,7 @@ var searchData=
 [
   ['editicon',['editIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['editor_20aider',['Editor Aider',['../group___editor_aider.html',1,'']]],
+  ['editoreventlistener',['EditorEventListener',['../class_wanzyee_studio_1_1_editor_event_listener.html',1,'WanzyeeStudio']]],
   ['editrixgui',['EditrixGUI',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixstyle',['EditrixStyle',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixutility',['EditrixUtility',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html',1,'WanzyeeStudio::Editrix']]],
@@ -10,8 +11,8 @@ var searchData=
   ['enablehotkey',['enableHotkey',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aeb3f947769880e5fd73c3bd446881df3',1,'WanzyeeStudio::Editrix::BookmarkList']]],
   ['encrypt',['encrypt',['../class_wanzyee_studio_1_1_variable_tweaker.html#af69c97ab299480b81e3f622d79777334',1,'WanzyeeStudio::VariableTweaker']]],
   ['ends',['ends',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a904d3e0fc15460809f7970258ac63f6c',1,'WanzyeeStudio::Editrix::TreeNode']]],
-  ['enumconstraintattribute',['EnumConstraintAttribute',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html',1,'WanzyeeStudio']]],
   ['enumconstraintattribute',['EnumConstraintAttribute',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#a42f20a7b387798caf51adecb875404c0',1,'WanzyeeStudio.EnumConstraintAttribute.EnumConstraintAttribute(params object[] constraints)'],['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#a709beaad6b2be1031ac780bb8356a189',1,'WanzyeeStudio.EnumConstraintAttribute.EnumConstraintAttribute(int min, int max)']]],
+  ['enumconstraintattribute',['EnumConstraintAttribute',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html',1,'WanzyeeStudio']]],
   ['enumerations',['Enumerations',['../group___enumerations.html',1,'']]],
   ['enumflagattribute',['EnumFlagAttribute',['../class_wanzyee_studio_1_1_enum_flag_attribute.html',1,'WanzyeeStudio']]],
   ['enummaskradio_3c_20t_20_3e',['EnumMaskRadio&lt; T &gt;',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a3332717bc792518e7c2923fbe70143db',1,'WanzyeeStudio::AidGUI']]],

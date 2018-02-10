@@ -105,15 +105,11 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_t
  <a href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html#details">More...</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Listen global hotkey to match items of all opened <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> to operate. </p>
-<p>This makes the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> much more powerful, especially when used as a toolbox with executable items. It's easy to personalize enabled hotkey sets when you partners work on the same project. Just make your own editor layout, since this only check the opened windows. The operation, i.e., open or select, is according to the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html" title="Store the asset items to show in a Bookmark window with the layout settings. ">BookmarkList</a></code> clicking settings. </p>
-<p>Please note, it's not able to receive hotkey at the situations below:</p><ol type="1">
-<li>Conflict with editor menu items, e.g., "Ctrl+P" is for "Edit/Play", or used by custom <code>MenuItem</code>.</li>
-<li>When the Game view window gets focused, no matter in play or edit mode.</li>
-<li>When editing a text field, e.g., typing in a search bar or an Inspector property field. </li>
-</ol>
-<p>Other notes:</p><ol type="1">
+<p>This makes the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html" title="Show custom assets list to open or select one when click an item. ">Bookmark</a></code> much more powerful, especially when used as a toolbox with executable items. It's easy to personalize enabled hotkey sets when you partners work on the same project. Just make your own editor layout, since this only check the opened windows. </p>
+<p>Notes:</p><ol type="1">
+<li>The operation, i.e., open or select, is according to the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html" title="Store the asset items to show in a Bookmark window with the layout settings. ">BookmarkList</a></code> clicking settings.</li>
 <li>Unity may beep when the modifiers are "Alt" or "Alt+Shift".</li>
-<li>This uses the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. </li>
+<li>This receives hotkey by listening to <code><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html" title="Wrapper to listen to editor global event to dispatch. ">EditorEventListener</a></code>, please take a look for limitations. </li>
 </ol>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['editoreventlistener',['EditorEventListener',['../class_wanzyee_studio_1_1_editor_event_listener.html',1,'WanzyeeStudio']]],
   ['editrixgui',['EditrixGUI',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixstyle',['EditrixStyle',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixutility',['EditrixUtility',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html',1,'WanzyeeStudio::Editrix']]],

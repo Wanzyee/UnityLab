@@ -36,6 +36,7 @@ var hierarchy =
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", null ],
     [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", null ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", null ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", null ],
     [ "BookmarkItem", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html", null ],
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", null ],

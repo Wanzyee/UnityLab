@@ -2,6 +2,7 @@ var searchData=
 [
   ['g',['G',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898adfcf28d0734569a6a693bc8194de62bf',1,'WanzyeeStudio']]],
   ['gameviewhelper',['GameViewHelper',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
+  ['gameviewongui',['gameViewOnGUI',['../class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8',1,'WanzyeeStudio::EditorEventListener']]],
   ['getallassetlabels',['GetAllAssetLabels',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
   ['getallassets',['GetAllAssets',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
   ['getalltargets',['GetAllTargets',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5361622bbacdcadfda533c9674630385',1,'WanzyeeStudio::Editrix::BookmarkList']]],
@@ -55,7 +56,7 @@ var searchData=
   ['getvaluetype',['GetValueType',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a853d73c7c9f2db0aa08f2d4eeb2a2285',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
   ['getvariableinfo',['GetVariableInfo',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a3b4b8b2089377966a3864414a05fe2ee',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
   ['getvariableparents',['GetVariableParents',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#ac7b284b03fc949bf635a5ff43ee2afa7',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
-  ['globaleventhandler',['globalEventHandler',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab4737410a35bd4e1604f363f7f099d24',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
+  ['globaleventhandler',['globalEventHandler',['../class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1',1,'WanzyeeStudio::EditorEventListener']]],
   ['graphic',['graphic',['../class_wanzyee_studio_1_1_raycast_visibility_filter.html#a8c33ea23dbe0368b0aa58fac54360a40',1,'WanzyeeStudio::RaycastVisibilityFilter']]],
   ['gridview',['gridView',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a5e939cc4c84974937b16c43f03fdea75',1,'WanzyeeStudio::Editrix::BookmarkList']]],
   ['guitoscreenpoint',['GUIToScreenPoint',['../class_wanzyee_studio_1_1_aid_g_u_i.html#ae2aebe0e1728273c5f5cbc85a6a5c3d5',1,'WanzyeeStudio::AidGUI']]]

@@ -11,6 +11,10 @@ var group___components =
       [ "instance", "class_wanzyee_studio_1_1_base_singleton.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
     ] ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
+      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
+      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
+    ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
       [ "OnAfterDeserialize", "class_wanzyee_studio_1_1_event_delegator.html#af97f96776a06243e316547fce49d877a", null ],

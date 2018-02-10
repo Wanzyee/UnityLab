@@ -1,15 +1,19 @@
 var group___bookmark =
 [
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
+      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
+      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
+    ] ],
     [ "BookmarkItem", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html", [
-      [ "label", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a44fbddf445b66717f5ecb2168b546cd4", null ],
-      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#abff1c3345bb95f3a5109abafe90cca67", null ],
+      [ "Clone", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a13285c38649d3392be93b1658464ad84", null ],
       [ "target", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31", null ],
+      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#abff1c3345bb95f3a5109abafe90cca67", null ],
+      [ "label", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a44fbddf445b66717f5ecb2168b546cd4", null ],
       [ "modifiers", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a02c05aa1ed535a543d06110b4187e739", null ],
       [ "hotkey", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#ab91eb666bf66b84255eaa201e8610e09", null ]
     ] ],
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
       [ "OperateTargets", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ae438238bc8bcfe3748b0b81d9240b5ea", null ],
-      [ "InsertTargets", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad181664eac6076770c84ba80f4a2d601", null ],
       [ "InsertItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a8b7d90083d12b62692e843107296d3ac", null ],
       [ "RemoveItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aa89a46da823efd0f6a3c9e2c61b0ed30", null ],
       [ "GetValidItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a4117a7101376dbb41b4efc49e2f6715c", null ],
@@ -77,19 +81,11 @@ var group___bookmark =
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "globalEventHandler", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab4737410a35bd4e1604f363f7f099d24", null ],
       [ "playmodeStateChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#af07cc65109ceeee4a0e1acc8b3002a41", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
-    ] ],
-    [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", [
-      [ "CheckValid", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ad2dc1b2f7db250b8d1421ff76e87cd3f", null ],
-      [ "CheckArray", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a", null ],
-      [ "GetParent", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a726be989760d5e68005f723484a7ddca", null ],
-      [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
-      [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
     ] ],
     [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", [
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],

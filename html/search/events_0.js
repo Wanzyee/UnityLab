@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['globaleventhandler',['globalEventHandler',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab4737410a35bd4e1604f363f7f099d24',1,'WanzyeeStudio::Editrix::EditrixUtility']]]
+  ['gameviewongui',['gameViewOnGUI',['../class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8',1,'WanzyeeStudio::EditorEventListener']]],
+  ['globaleventhandler',['globalEventHandler',['../class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1',1,'WanzyeeStudio::EditorEventListener']]]
 ];

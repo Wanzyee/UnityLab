@@ -22,6 +22,7 @@ var searchData=
   ['clipboard',['Clipboard',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['clipboard',['Clipboard',['../group___clipboard.html',1,'']]],
   ['clipboardicon',['clipboardIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
+  ['clone',['Clone',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a13285c38649d3392be93b1658464ad84',1,'WanzyeeStudio::Editrix::BookmarkItem']]],
   ['closetab',['CloseTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#afce6b8ec28268501ecc06476287f3f07',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['closewindow',['CloseWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['codeexecutor',['CodeExecutor',['../class_wanzyee_studio_1_1_editrix_1_1_code_executor.html',1,'WanzyeeStudio::Editrix']]],

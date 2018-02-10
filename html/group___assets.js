@@ -2,7 +2,6 @@ var group___assets =
 [
     [ "BookmarkList", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html", [
       [ "OperateTargets", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ae438238bc8bcfe3748b0b81d9240b5ea", null ],
-      [ "InsertTargets", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#ad181664eac6076770c84ba80f4a2d601", null ],
       [ "InsertItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a8b7d90083d12b62692e843107296d3ac", null ],
       [ "RemoveItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aa89a46da823efd0f6a3c9e2c61b0ed30", null ],
       [ "GetValidItems", "class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a4117a7101376dbb41b4efc49e2f6715c", null ],
