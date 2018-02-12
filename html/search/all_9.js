@@ -1,13 +1,13 @@
 var searchData=
 [
   ['iaiddrawer',['IAidDrawer',['../interface_wanzyee_studio_1_1_i_aid_drawer.html',1,'WanzyeeStudio']]],
-  ['icon',['icon',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#abff1c3345bb95f3a5109abafe90cca67',1,'WanzyeeStudio.Editrix.BookmarkItem.icon()'],['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#abff1c3345bb95f3a5109abafe90cca67',1,'WanzyeeStudio.Editrix.BookmarkList.icon()'],['../class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a9cd01d1cde51abbeba6afac87f7b3576',1,'WanzyeeStudio.Editrix.AuxCursor.icon()']]],
+  ['icon',['icon',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#abff1c3345bb95f3a5109abafe90cca67',1,'WanzyeeStudio.Editrix.ShortcutItem.icon()'],['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#abff1c3345bb95f3a5109abafe90cca67',1,'WanzyeeStudio.Editrix.ShortcutList.icon()'],['../class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a9cd01d1cde51abbeba6afac87f7b3576',1,'WanzyeeStudio.Editrix.AuxCursor.icon()']]],
   ['iconoffset',['iconOffset',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985',1,'WanzyeeStudio::Editrix::Toolkit::Notebook']]],
   ['includeinbuild',['includeInBuild',['../class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01',1,'WanzyeeStudio::Note']]],
   ['index',['index',['../class_wanzyee_studio_1_1_variable_info.html#a750b5d744c39a06bfb13e6eb010e35d0',1,'WanzyeeStudio::VariableInfo']]],
   ['info',['info',['../class_wanzyee_studio_1_1_www_loader.html#aa93964a62fedb28c9f2c9f4ce9324177',1,'WanzyeeStudio::WwwLoader']]],
   ['insert',['Insert',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
-  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#a8b7d90083d12b62692e843107296d3ac',1,'WanzyeeStudio::Editrix::BookmarkList']]],
+  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ab3420b6b4339802d53c9c485e18915cb',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['inspect',['Inspect',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
   ['inspectorhelper',['InspectorHelper',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['inspectselected',['InspectSelected',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
@@ -35,5 +35,5 @@ var searchData=
   ['issupported',['IsSupported',['../class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38',1,'WanzyeeStudio::EventDelegator']]],
   ['istackpanel',['IStackPanel',['../interface_wanzyee_studio_1_1_i_stack_panel.html',1,'WanzyeeStudio']]],
   ['isvalid',['isValid',['../class_wanzyee_studio_1_1_variable_info.html#a8cc8d1cb67b70386f41455552f3a56f4',1,'WanzyeeStudio::VariableInfo']]],
-  ['items',['items',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_list.html#aec8c5c37b35d879474d777f5b664dad5',1,'WanzyeeStudio::Editrix::BookmarkList']]]
+  ['items',['items',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888',1,'WanzyeeStudio::Editrix::ShortcutList']]]
 ];

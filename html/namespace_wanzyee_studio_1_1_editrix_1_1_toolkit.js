@@ -1,7 +1,6 @@
 var namespace_wanzyee_studio_1_1_editrix_1_1_toolkit =
 [
     [ "AssetBundleBuilder", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder" ],
-    [ "Bookmark", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark" ],
     [ "BuiltinIconBrowser", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser" ],
     [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard" ],
     [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper" ],
@@ -13,5 +12,6 @@ var namespace_wanzyee_studio_1_1_editrix_1_1_toolkit =
     [ "ObjectGrouper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper" ],
     [ "ObjectLocker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker" ],
     [ "SelectionFilter", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter" ],
+    [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut" ],
     [ "TabNavigator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator" ]
 ];

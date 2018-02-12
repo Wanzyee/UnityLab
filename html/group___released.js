@@ -1,7 +1,7 @@
 var group___released =
 [
     [ "Clipboard", "group___clipboard.html", "group___clipboard" ],
-    [ "Bookmark", "group___bookmark.html", "group___bookmark" ],
+    [ "Shortcut", "group___shortcut.html", "group___shortcut" ],
     [ "Notebook", "group___notebook.html", "group___notebook" ],
     [ "3P Maker", "group___p_maker.html", "group___p_maker" ],
     [ "Event Delegator", "group___event_delegator.html", "group___event_delegator" ],

@@ -18,7 +18,7 @@ var searchData=
   ['methodinfo',['methodInfo',['../class_wanzyee_studio_1_1_event_delegator.html#aeee43e411aaecf849ca03f4f73a79bb1',1,'WanzyeeStudio::EventDelegator']]],
   ['min',['min',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#ae703d36962ac787b9b3717bc6824a16e',1,'WanzyeeStudio.EnumConstraintAttribute.min()'],['../class_wanzyee_studio_1_1_math_utility.html#a67f969a8a39bc98614d6a0483b8b82de',1,'WanzyeeStudio.MathUtility.Min(params Vector2[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#aa54e04308f51d79cbf12c6e35bf1af45',1,'WanzyeeStudio.MathUtility.Min(params Vector3[] values)']]],
   ['mode',['mode',['../class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html#a7c6772c8f606b6ac20ecd99ba858a63e',1,'WanzyeeStudio::Editrix::AuxCursor']]],
-  ['modifiers',['modifiers',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a02c05aa1ed535a543d06110b4187e739',1,'WanzyeeStudio::Editrix::BookmarkItem']]],
+  ['modifiers',['modifiers',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
   ['monomessage',['MonoMessage',['../group___enumerations.html#ga0269e87b6cdff644a895ce678a8afeb4',1,'WanzyeeStudio']]],
   ['movecursor',['moveCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['multifloatfield',['MultiFloatField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a',1,'WanzyeeStudio.AidGUI.MultiFloatField()'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a',1,'WanzyeeStudio.Editrix.EditrixGUI.MultiFloatField()']]],

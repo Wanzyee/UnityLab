@@ -5,6 +5,6 @@ var searchData=
   ['max',['max',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#aa0008c24afea9eca02a46500b974b1f3',1,'WanzyeeStudio::EnumConstraintAttribute']]],
   ['menu',['menu',['../class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355',1,'WanzyeeStudio::Editrix::MenuExecutor']]],
   ['min',['min',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#ae703d36962ac787b9b3717bc6824a16e',1,'WanzyeeStudio::EnumConstraintAttribute']]],
-  ['modifiers',['modifiers',['../class_wanzyee_studio_1_1_editrix_1_1_bookmark_item.html#a02c05aa1ed535a543d06110b4187e739',1,'WanzyeeStudio::Editrix::BookmarkItem']]],
+  ['modifiers',['modifiers',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
   ['movecursor',['moveCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f',1,'WanzyeeStudio::Editrix::EditrixStyle']]]
 ];

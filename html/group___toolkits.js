@@ -3,12 +3,6 @@ var group___toolkits =
     [ "AssetBundleBuilder", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html", [
       [ "BuildAllAssetBundlesTo", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html#a37cf7339f905fb3cd145fa8773fd5fc6", null ]
     ] ],
-    [ "Bookmark", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html", [
-      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a3dedc6793a785ef3c8d8dcf9df1166d2", null ],
-      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "list", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_bookmark.html#a28f2c703676a615f0d10ff727aab8ebf", null ]
-    ] ],
     [ "BuiltinIconBrowser", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html", [
       [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ]
@@ -78,6 +72,12 @@ var group___toolkits =
       [ "FilterByType", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a0dc4e82eafe9aaa8bcbeea4a4fcccd63", null ],
       [ "FilterByLabel", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71", null ],
       [ "GetSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580", null ]
+    ] ],
+    [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", [
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83671bde762eafd23ac19d21010a2750", null ],
+      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83411795db454ee7f9405fc60eb7e25e", null ],
+      [ "list", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6cfe6d46c5d007ca2f77bdf6efef2dc0", null ]
     ] ],
     [ "TabNavigator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html", [
       [ "NextTab", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#a604d8a3964ee286c1911d5b312104982", null ],
