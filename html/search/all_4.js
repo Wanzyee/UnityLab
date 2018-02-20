@@ -8,6 +8,7 @@ var searchData=
   ['delete',['Delete',['../class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132',1,'WanzyeeStudio::IoUtility']]],
   ['deletecache',['DeleteCache',['../class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2',1,'WanzyeeStudio::WwwLoader']]],
   ['deleteicon',['deleteIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a2b8aaa376453dae4e9509ebc9ee64ac5',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
+  ['deletekey',['DeleteKey',['../class_wanzyee_studio_1_1_crypto_prefs.html#a5254b5fdae9dc485ad6fb88a867146c8',1,'WanzyeeStudio::CryptoPrefs']]],
   ['description',['description',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#a23af17c78302b71c14ef38ea40b8d1d7',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['deserialize',['Deserialize',['../class_wanzyee_studio_1_1_variable_tweaker.html#aae0f9cf197b3568bd8bc53c7d6d76ae3',1,'WanzyeeStudio::VariableTweaker']]],
   ['dictionaryconverter',['DictionaryConverter',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html',1,'WanzyeeStudio::Json']]],

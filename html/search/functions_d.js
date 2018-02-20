@@ -1,17 +1,11 @@
 var searchData=
 [
-  ['paste',['Paste',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e',1,'WanzyeeStudio::Editrix::Toolkit::MaterialPropertyCopier']]],
-  ['patch',['Patch',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ac87cf30e6c73bef1c2564ff94db2d52f',1,'WanzyeeStudio::Editrix::CodePatcher']]],
-  ['pause',['Pause',['../class_wanzyee_studio_1_1_coroutiner.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'WanzyeeStudio::Coroutiner']]],
-  ['pointsinline',['PointsInLine',['../class_wanzyee_studio_1_1_math_utility.html#acb06ab4ddccd6811197d6f67e6cb218e',1,'WanzyeeStudio::MathUtility']]],
-  ['pointsinplane',['PointsInPlane',['../class_wanzyee_studio_1_1_math_utility.html#adda826f437f1bbd4fe3b128c5d34c6c8',1,'WanzyeeStudio::MathUtility']]],
-  ['pointstocircle',['PointsToCircle',['../class_wanzyee_studio_1_1_math_utility.html#a8a058bdd3da47a2fdd6f787f8923e071',1,'WanzyeeStudio::MathUtility']]],
-  ['pointtonormalized',['PointToNormalized',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a4cd9d9a02d60331ecdbd413db4293e5e',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['popup',['Popup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f',1,'WanzyeeStudio::Editrix::Toolkit::Notebook']]],
-  ['popupmenuattribute',['PopupMenuAttribute',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#ac765acd3e0641bc72723bb9ede1bc3a5',1,'WanzyeeStudio.PopupMenuAttribute.PopupMenuAttribute(params object[] values)'],['../class_wanzyee_studio_1_1_popup_menu_attribute.html#ab7e5ebf74d757577637e3ca932ab7efb',1,'WanzyeeStudio.PopupMenuAttribute.PopupMenuAttribute(object[] values, string[] options)']]],
-  ['post',['Post',['../class_wanzyee_studio_1_1_www_loader.html#ac717b1f37099485dc751c72f1dc21164',1,'WanzyeeStudio::WwwLoader']]],
-  ['prefixlabel',['PrefixLabel',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a70340f00f89018a253d01f26cc486cfb',1,'WanzyeeStudio::AidGUI']]],
-  ['previoustab',['PreviousTab',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ab36ad2ab306faf89b070e723210e37dd',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
-  ['projectfactor',['ProjectFactor',['../class_wanzyee_studio_1_1_math_utility.html#a2bd9f8dc2092dc72a55c0dd7c585be5a',1,'WanzyeeStudio::MathUtility']]],
-  ['projectpoint',['ProjectPoint',['../class_wanzyee_studio_1_1_math_utility.html#a68a070679be96c02dbf73bb93321089f',1,'WanzyeeStudio::MathUtility']]]
+  ['onafterdeserialize',['OnAfterDeserialize',['../class_wanzyee_studio_1_1_event_delegator.html#af97f96776a06243e316547fce49d877a',1,'WanzyeeStudio::EventDelegator']]],
+  ['onbeforeserialize',['OnBeforeSerialize',['../class_wanzyee_studio_1_1_event_delegator.html#a72c4055ca88e935619de54f1aeb8f5f2',1,'WanzyeeStudio::EventDelegator']]],
+  ['onpointerclick',['OnPointerClick',['../class_wanzyee_studio_1_1_note.html#a75a4898ac9f2340bc0e07be6ee5f3a96',1,'WanzyeeStudio::Note']]],
+  ['open',['Open',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.Open()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83671bde762eafd23ac19d21010a2750',1,'WanzyeeStudio.Editrix.Toolkit.Shortcut.Open()'],['../class_wanzyee_studio_1_1_editrix_1_1_tree_view.html#a05978a4355f43f3c0df716059a6f4271',1,'WanzyeeStudio.Editrix.TreeView.Open()']]],
+  ['openasset_3c_20t_20_3e',['OpenAsset&lt; T &gt;',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
+  ['openwindow',['OpenWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html#a513b88d38998ec5b3a1b82fbc73afc9c',1,'WanzyeeStudio.Editrix.Toolkit.BuiltinIconBrowser.OpenWindow()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.OpenWindow()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a513b88d38998ec5b3a1b82fbc73afc9c',1,'WanzyeeStudio.Editrix.Toolkit.SelectionFilter.OpenWindow()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a513b88d38998ec5b3a1b82fbc73afc9c',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.OpenWindow()']]],
+  ['operatetargets',['OperateTargets',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ae438238bc8bcfe3748b0b81d9240b5ea',1,'WanzyeeStudio::Editrix::ShortcutList']]],
+  ['operator_20wwwoption',['operator WwwOption',['../class_wanzyee_studio_1_1_www_option.html#a01918ad3436731904188f3c5f8e7f30c',1,'WanzyeeStudio::WwwOption']]]
 ];
