@@ -52,6 +52,9 @@ var group___notebook =
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
     ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
+    ] ],
     [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", [
       [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
       [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830", null ],

@@ -56,6 +56,9 @@ var group___p_maker =
       [ "symbols", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#af631bbaf966711e8eab0ce019173ba21", null ],
       [ "references", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#aa545ffcded9885b9ef1f5dcb98f8e62e", null ]
     ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
+    ] ],
     [ "TreeNode", "class_wanzyee_studio_1_1_editrix_1_1_tree_node.html", [
       [ "TreeNode", "class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a4a543a37201dbde57cde38b6d437290f", null ],
       [ "TreeNode", "class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a12f012d9af35874978b02f6e12168ab3", null ],

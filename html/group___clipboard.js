@@ -48,6 +48,9 @@ var group___clipboard =
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
     ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
+    ] ],
     [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", [
       [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
       [ "IsCopyable", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a0520ff90731a357642e64d938d4d0589", null ],

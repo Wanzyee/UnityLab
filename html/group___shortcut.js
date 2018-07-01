@@ -66,6 +66,9 @@ var group___shortcut =
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
       [ "menu", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355", null ]
     ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
+    ] ],
     [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", [
       [ "Clone", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a6a117d0518e4a9eb89f56272f6cbe9b9", null ],
       [ "target", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31", null ],
