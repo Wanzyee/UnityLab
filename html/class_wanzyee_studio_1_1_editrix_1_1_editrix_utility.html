@@ -113,6 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564">GetAllAssetLabels</a> (params Object[] assets)</td></tr>
 <tr class="memdesc:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all asset labels used in project, or only find the ones used by assigned assets.  <a href="#a001ffdf9c2d0d4e44c0fa4c0fd95d564">More...</a><br /></td></tr>
 <tr class="separator:a001ffdf9c2d0d4e44c0fa4c0fd95d564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fbde7be4ff114d4bb9ac309fc928cc"><td class="memItemLeft" align="right" valign="top">static T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc">LoadAssets&lt; T &gt;</a> (string filter=null, params string[] searchInFolders)</td></tr>
+<tr class="memdesc:a61fbde7be4ff114d4bb9ac309fc928cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all specified type assets with the search filter in the folders.  <a href="#a61fbde7be4ff114d4bb9ac309fc928cc">More...</a><br /></td></tr>
+<tr class="separator:a61fbde7be4ff114d4bb9ac309fc928cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be">OpenAsset&lt; T &gt;</a> (int instanceID, Action&lt; T &gt; handler)</td></tr>
 <tr class="memdesc:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common template method to open an asset.  <a href="#a7ef6b09a920337fb9d9c29eb08ac43be">More...</a><br /></td></tr>
 <tr class="separator:a7ef6b09a920337fb9d9c29eb08ac43be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +196,63 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a61fbde7be4ff114d4bb9ac309fc928cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T [] LoadAssets&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filter</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params string[]&#160;</td>
+          <td class="paramname"><em>searchInFolders</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load all specified type assets with the search filter in the folders. </p>
+<dl class="section return"><dt>Returns</dt><dd>The assets.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>The filter string can contain search data.</td></tr>
+    <tr><td class="paramname">searchInFolders</td><td>The folders where the search will start.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The asset type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Object</em></td><td>&#160;</td></tr>
+</table>
+</dl>
+</div>
 
 </div>
 </div>

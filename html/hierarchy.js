@@ -50,6 +50,7 @@ var hierarchy =
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", null ],
     [ "PlayerMaker", "class_wanzyee_studio_1_1_editrix_1_1_player_maker.html", null ],
     [ "PluginMaker", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html", null ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", null ],
     [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", null ],
     [ "ShortcutList", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html", null ],
     [ "AssetBundleBuilder", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html", null ],

@@ -12,6 +12,7 @@ var namespace_wanzyee_studio_1_1_editrix =
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", "class_wanzyee_studio_1_1_editrix_1_1_package_maker" ],
     [ "PlayerMaker", "class_wanzyee_studio_1_1_editrix_1_1_player_maker.html", "class_wanzyee_studio_1_1_editrix_1_1_player_maker" ],
     [ "PluginMaker", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker" ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander" ],
     [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item" ],
     [ "ShortcutList", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list" ],
     [ "TreeNode", "class_wanzyee_studio_1_1_editrix_1_1_tree_node.html", "class_wanzyee_studio_1_1_editrix_1_1_tree_node" ],
