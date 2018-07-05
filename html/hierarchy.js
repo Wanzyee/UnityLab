@@ -46,6 +46,7 @@ var hierarchy =
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", null ],
     [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", null ],
     [ "PropertyValueExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html", null ],
+    [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", null ],
     [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", null ],
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", null ],
     [ "PlayerMaker", "class_wanzyee_studio_1_1_editrix_1_1_player_maker.html", null ],

@@ -15,6 +15,7 @@ var group___assets =
       [ "newCode", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ac115cb9cc20f0505584c5a9ba44c7b87", null ],
       [ "description", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#a23af17c78302b71c14ef38ea40b8d1d7", null ]
     ] ],
+    [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", null ],
     [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", [
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
       [ "menu", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355", null ]
