@@ -16,5 +16,5 @@ var searchData=
   ['stopcursor',['stopCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab6d45d275e7bd2bce0d3b45b3b872983',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['style',['style',['../class_wanzyee_studio_1_1_process_launcher.html#a47be625d57f4dbfde0cce23a1e5af19b',1,'WanzyeeStudio.ProcessLauncher.style()'],['../class_wanzyee_studio_1_1_resolution_setter.html#a68752b222317b1e1103966106fb006e5',1,'WanzyeeStudio.ResolutionSetter.style()']]],
   ['symbols',['symbols',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#af631bbaf966711e8eab0ce019173ba21',1,'WanzyeeStudio::Editrix::PluginMaker']]],
-  ['sync',['sync',['../class_wanzyee_studio_1_1_www_option.html#af5bad216eac9aefc703a450d3163e542',1,'WanzyeeStudio::WwwOption']]]
+  ['sync',['sync',['../class_wanzyee_studio_1_1_www_option.html#af5bad216eac9aefc703a450d3163e542',1,'WanzyeeStudio.WwwOption.sync()'],['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#af5bad216eac9aefc703a450d3163e542',1,'WanzyeeStudio.Editrix.FileDownloader.sync()']]]
 ];

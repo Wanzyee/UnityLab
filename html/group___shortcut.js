@@ -62,6 +62,15 @@ var group___shortcut =
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
     ] ],
+    [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", [
+      [ "Download", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02", null ],
+      [ "url", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
+      [ "sync", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#af5bad216eac9aefc703a450d3163e542", null ],
+      [ "file", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#ab2c5ab3c7a17f0969cdd40146339903a", null ],
+      [ "overwrite", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#afeea8d20025f5d6db624f2c5c2050586", null ],
+      [ "reveal", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a16010a0973cfb8dbaf8cb8817cad98db", null ],
+      [ "open", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a8c7e45250b1eb6821dd59fb2a9a016d7", null ]
+    ] ],
     [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", [
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
       [ "menu", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355", null ]
@@ -126,8 +135,19 @@ var group___shortcut =
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
     ] ],
+    [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html", [
+      [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html#af15212ee4fbd7036a6c9d0b122f7d3ad", null ],
+      [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html#aa97b95d26b73e013dd39befe782825a6", null ],
+      [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html#a1b95163c56d2bc284025d9e7224a36a7", null ],
+      [ "open", "class_wanzyee_studio_1_1_file_path_attribute.html#acebaa2bea0efdb0b60639d1e72f5c872", null ],
+      [ "folder", "class_wanzyee_studio_1_1_file_path_attribute.html#a006c7b5143b714ae2ede22b753baa11b", null ],
+      [ "extension", "class_wanzyee_studio_1_1_file_path_attribute.html#ad66f3c50a8934a7a37288f628962878b", null ]
+    ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
+    ] ],
+    [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
+      [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ]
     ] ]
 ];

@@ -5,6 +5,7 @@ var searchData=
   ['deletecache',['DeleteCache',['../class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2',1,'WanzyeeStudio::WwwLoader']]],
   ['deletekey',['DeleteKey',['../class_wanzyee_studio_1_1_crypto_prefs.html#a5254b5fdae9dc485ad6fb88a867146c8',1,'WanzyeeStudio::CryptoPrefs']]],
   ['deserialize',['Deserialize',['../class_wanzyee_studio_1_1_variable_tweaker.html#aae0f9cf197b3568bd8bc53c7d6d76ae3',1,'WanzyeeStudio::VariableTweaker']]],
+  ['download',['Download',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02',1,'WanzyeeStudio::Editrix::FileDownloader']]],
   ['drawborder',['DrawBorder',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a5871be11500ab45fa17c943d8b0bbf1d',1,'WanzyeeStudio::AidGUI']]],
   ['drawline',['DrawLine',['../class_wanzyee_studio_1_1_aid_g_u_i.html#aa24d6f5c244a0c2cc19095f8fee6a344',1,'WanzyeeStudio::AidGUI']]],
   ['drawpanelgui',['DrawPanelGUI',['../interface_wanzyee_studio_1_1_i_stack_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.IStackPanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_console_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackConsolePanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_group_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackGroupPanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_tweak_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackTweakPanel.DrawPanelGUI()']]],
