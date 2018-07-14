@@ -28,10 +28,10 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#ab29075c8ca08ab5ed8f0731674da4002",
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c",
-"class_wanzyee_studio_1_1_matrix_utility.html#a824523e358f9f0f05e6fbb6c6d3cb1fb",
-"group___specific.html"
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html",
+"class_wanzyee_studio_1_1_extension_1_1_string_extension.html",
+"class_wanzyee_studio_1_1_math_utility.html#a452a152d9b7de1aa3661089862da5e97",
+"functions_k.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

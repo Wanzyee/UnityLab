@@ -48,6 +48,7 @@ var searchData=
   ['getscaled',['GetScaled',['../class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a66a7fb48104b08c943890be9239d4105',1,'WanzyeeStudio::Extension::TextureExtension']]],
   ['getselected',['GetSelected',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#aaaa22cb4d6ff66eb891bc040f4504580',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['gettargettext',['GetTargetText',['../class_wanzyee_studio_1_1_variable_tweaker.html#afad73513c05f32f803d1d4767912dbe3',1,'WanzyeeStudio::VariableTweaker']]],
+  ['gettooltip',['GetTooltip',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ab32861161eec1809a2e79cb476dd0e6d',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
   ['gettooltiptext',['GetTooltipText',['../class_wanzyee_studio_1_1_variable_tweaker.html#ac4e261187597d90f255f487ae1878687',1,'WanzyeeStudio::VariableTweaker']]],
   ['getvaliditems',['GetValidItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a4c3a368098feeac6610e0f9178063dfc',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['getvalue',['GetValue',['../class_wanzyee_studio_1_1_variable_info.html#aff6e44a668cbb3edc2ee7e9c4e824959',1,'WanzyeeStudio.VariableInfo.GetValue()'],['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a8b087c6cf0dc5a65a05e15cb6a264c17',1,'WanzyeeStudio.Editrix.Extension.PropertyValueExtension.GetValue()']]],
