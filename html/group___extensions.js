@@ -27,24 +27,27 @@ var group___extensions =
       [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
     ] ],
     [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", [
-      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#afe190c16299b1b161ded76f44ef2a7c9", null ],
-      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#af63eff3aeebee1f67c9f380ca70732f3", null ],
-      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a2463f418b0c995491ce30bf85cf083ec", null ],
-      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a493c743b78523f72361d36a0d5588e27", null ],
-      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#aa83aae2157004214ced5ca7991d10262", null ],
-      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a27e53a272fc2d8d08c12eb89c86b8dee", null ]
+      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a948b68d3adda022d981027976ebf4ba9", null ],
+      [ "ToHash", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a2bf0727983731e707ae7a3096236e8b2", null ],
+      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a5371c0341acf6e52010ff89f2b3af879", null ],
+      [ "ToEncrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a152aef83b059f1fd9d487bb5dc2d02d9", null ],
+      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a5edab5252a8238efa2790d20652cdba3", null ],
+      [ "ToDecrypted", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html#a6deb702730470cfb0c4293d99aaafbd3", null ]
+    ] ],
+    [ "DelegateExtension", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html", [
+      [ "Notify", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html#a5f5abc58b5018d592c9a7624eb90cba8", null ]
     ] ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", [
       [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae575a2a3827a93a2bbb31b24148387b5", null ],
       [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1d9bc36bc6ba863d4d86e9be8dae9e7f", null ],
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a0d4fb3c6b8b9c66ccf2d6b013411f61c", null ],
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aced979eda13602525152efded808ed58", null ],
+      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3eade3453e126eeb419cb05e3a201a59", null ],
+      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a004f7ab62541099437a8f0fa83e84cdc", null ],
       [ "ApproxFloat", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a08a1274660b7802f03b044487a2a26d1", null ],
-      [ "ApproxVector2", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af95e6e8debd0216035da7d7194c8f666", null ],
-      [ "ApproxVector3", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767", null ],
+      [ "ApproxVector2", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a34957e0a876233f4fa7fd34ef41830c2", null ],
+      [ "ApproxVector3", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3943e87c58d8514962811e894dcf7dec", null ],
       [ "ApproxQuaternion", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aeda4606070ce94ebb9d23b7667a606f7", null ],
-      [ "ApproxColor", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1cb8415d06fbfbba91f8fd5b82436388", null ],
-      [ "ApproxColor32", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a80c0ae34e145c7af2a4fc65933a8fcac", null ],
+      [ "ApproxColor", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a2e1a0f00266f82a0b5dc258f0904118a", null ],
+      [ "ApproxColor32", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a2406f087eab140b27adae6ce390ba42f", null ],
       [ "NormalizedToPoint", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abbacaa635b94210dc8a0995afae017f5", null ],
       [ "PointToNormalized", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a4cd9d9a02d60331ecdbd413db4293e5e", null ],
       [ "GetIntersect", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3cf13d0182e48e5aee22a5d4730515a5", null ],
@@ -53,8 +56,8 @@ var group___extensions =
       [ "GetRandomPoint", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae8cba3ac15bafcc426a27c9096698ef7", null ]
     ] ],
     [ "StringExtension", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html", [
-      [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#aeb004a009c771ef8acef7c2cfe6a3ff4", null ],
-      [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#ad3b1717e4012513dca2ea2418d1403ff", null ]
+      [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a9e380d0e4897af63db2fc8366d8e215c", null ],
+      [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#afef17e962e1cfbfc11f7faa52dbc4555", null ]
     ] ],
     [ "TextureExtension", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html", [
       [ "IsEncodable", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#af7806e63e50e16e2b62795f98fb1fd19", null ],

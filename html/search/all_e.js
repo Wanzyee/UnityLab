@@ -7,5 +7,6 @@ var searchData=
   ['normalizedtopoint',['NormalizedToPoint',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abbacaa635b94210dc8a0995afae017f5',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['note',['Note',['../class_wanzyee_studio_1_1_note.html',1,'WanzyeeStudio']]],
   ['notebook',['Notebook',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
-  ['notebook',['Notebook',['../group___notebook.html',1,'']]]
+  ['notebook',['Notebook',['../group___notebook.html',1,'']]],
+  ['notify',['Notify',['../class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html#a5f5abc58b5018d592c9a7624eb90cba8',1,'WanzyeeStudio::Extension::DelegateExtension']]]
 ];

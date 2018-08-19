@@ -80,6 +80,7 @@ var hierarchy =
     [ "ExecutionOrderAttribute", "class_wanzyee_studio_1_1_execution_order_attribute.html", null ],
     [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", null ],
     [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", null ],
+    [ "DelegateExtension", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html", null ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", null ],
     [ "StringExtension", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html", null ],
     [ "TextureExtension", "class_wanzyee_studio_1_1_extension_1_1_texture_extension.html", null ],
