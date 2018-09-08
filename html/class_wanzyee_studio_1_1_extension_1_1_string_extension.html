@@ -107,6 +107,12 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_extension_1_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a76a7d3fffaa8184c2037542c6f1db06a"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a76a7d3fffaa8184c2037542c6f1db06a">To&lt; T &gt;</a> (this string text, T defaultValue=default(T))</td></tr>
+<tr class="memdesc:a76a7d3fffaa8184c2037542c6f1db06a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a <code>string</code> to the specified type, return the <code>defaultValue</code> if convert failed.  <a href="#a76a7d3fffaa8184c2037542c6f1db06a">More...</a><br /></td></tr>
+<tr class="separator:a76a7d3fffaa8184c2037542c6f1db06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f88a115051d8491984460d43d62fd69"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a1f88a115051d8491984460d43d62fd69">MustTo&lt; T &gt;</a> (this string text)</td></tr>
+<tr class="memdesc:a1f88a115051d8491984460d43d62fd69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a <code>string</code> to the specified type, throw an exception if convert failed.  <a href="#a1f88a115051d8491984460d43d62fd69">More...</a><br /></td></tr>
+<tr class="separator:a1f88a115051d8491984460d43d62fd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e380d0e4897af63db2fc8366d8e215c"><td class="memItemLeft" align="right" valign="top">static float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a9e380d0e4897af63db2fc8366d8e215c">ExtractFloats</a> (this string text)</td></tr>
 <tr class="memdesc:a9e380d0e4897af63db2fc8366d8e215c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract all the <code>float</code> from specified <code>string</code>.  <a href="#a9e380d0e4897af63db2fc8366d8e215c">More...</a><br /></td></tr>
 <tr class="separator:a9e380d0e4897af63db2fc8366d8e215c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +123,97 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>string</code>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a76a7d3fffaa8184c2037542c6f1db06a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T To&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>default(T)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a <code>string</code> to the specified type, return the <code>defaultValue</code> if convert failed. </p>
+<p>Syntactic sugar works with <code>TypeConverter.ConvertFromString()</code> for generic conversion. You may make custom <code>System.ComponentModel.TypeConverter</code> to support more types in need. </p>
+<dl class="section return"><dt>Returns</dt><dd>The value.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text.</td></tr>
+    <tr><td class="paramname">defaultValue</td><td>Default value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The value type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1f88a115051d8491984460d43d62fd69"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T MustTo&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a <code>string</code> to the specified type, throw an exception if convert failed. </p>
+<p>Syntactic sugar works with <code>TypeConverter.ConvertFromString()</code> for generic conversion. You may make custom <code>System.ComponentModel.TypeConverter</code> to support more types in need. </p>
+<dl class="section return"><dt>Returns</dt><dd>The value.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The value type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a9e380d0e4897af63db2fc8366d8e215c"></a>
 <div class="memitem">
 <div class="memproto">
