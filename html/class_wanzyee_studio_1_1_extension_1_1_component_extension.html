@@ -110,15 +110,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a360aa6c50a78947807ead752f36204ff"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff">GetPath</a> (this Transform transform, string separator=&quot;/&quot;)</td></tr>
 <tr class="memdesc:a360aa6c50a78947807ead752f36204ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hierarchy path, used for log or <code>GameObject.Find()</code> with the default separator.  <a href="#a360aa6c50a78947807ead752f36204ff">More...</a><br /></td></tr>
 <tr class="separator:a360aa6c50a78947807ead752f36204ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d456dd6caca5c347db88de44a27c8b"><td class="memItemLeft" align="right" valign="top">static Transform[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#ac3d456dd6caca5c347db88de44a27c8b">GetParents</a> (this Transform transform)</td></tr>
-<tr class="memdesc:ac3d456dd6caca5c347db88de44a27c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hierarchy transforms, sorted from self to the root.  <a href="#ac3d456dd6caca5c347db88de44a27c8b">More...</a><br /></td></tr>
-<tr class="separator:ac3d456dd6caca5c347db88de44a27c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13307766f7b003e4070607dbecaea712"><td class="memItemLeft" align="right" valign="top">static Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712">TransformQuat</a> (this Transform transform, Quaternion rotation)</td></tr>
 <tr class="memdesc:a13307766f7b003e4070607dbecaea712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms rotation from local space to world space.  <a href="#a13307766f7b003e4070607dbecaea712">More...</a><br /></td></tr>
 <tr class="separator:a13307766f7b003e4070607dbecaea712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e1eee0e19a9df45bc0566437a5b91d"><td class="memItemLeft" align="right" valign="top">static Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d">InverseTransformQuat</a> (this Transform transform, Quaternion rotation)</td></tr>
 <tr class="memdesc:a45e1eee0e19a9df45bc0566437a5b91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms position from world space to local space, opposite of <code><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712" title="Transforms rotation from local space to world space. ">TransformQuat()</a></code>.  <a href="#a45e1eee0e19a9df45bc0566437a5b91d">More...</a><br /></td></tr>
 <tr class="separator:a45e1eee0e19a9df45bc0566437a5b91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8093c683f7c3e756412ec5d1a402b4e7"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7">CenterToScreenPoint</a> (this RectTransform transform)</td></tr>
+<tr class="memdesc:a8093c683f7c3e756412ec5d1a402b4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the center of a specified <code>UnityEngine.RectTransform</code> to screen space point.  <a href="#a8093c683f7c3e756412ec5d1a402b4e7">More...</a><br /></td></tr>
+<tr class="separator:a8093c683f7c3e756412ec5d1a402b4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e9da07f159312dff311ef8636a1558"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558">SetSorting</a> (this Component component, int order)</td></tr>
 <tr class="memdesc:a55e9da07f159312dff311ef8636a1558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorting order of the UI element inside a <code>UnityEngine.Canvas</code>.  <a href="#a55e9da07f159312dff311ef8636a1558">More...</a><br /></td></tr>
 <tr class="separator:a55e9da07f159312dff311ef8636a1558"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,39 +164,6 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
     <tr><td class="paramname">separator</td><td>Separator.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="ac3d456dd6caca5c347db88de44a27c8b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Transform [] GetParents </td>
-          <td>(</td>
-          <td class="paramtype">this Transform&#160;</td>
-          <td class="paramname"><em>transform</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the hierarchy transforms, sorted from self to the root. </p>
-<dl class="section return"><dt>Returns</dt><dd>The hierarchy transforms.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">transform</td><td>Transform.</td></tr>
   </table>
   </dd>
 </dl>
@@ -285,6 +252,39 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
     <tr><td class="paramname">rotation</td><td>World rotation.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8093c683f7c3e756412ec5d1a402b4e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector2 CenterToScreenPoint </td>
+          <td>(</td>
+          <td class="paramtype">this RectTransform&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the center of a specified <code>UnityEngine.RectTransform</code> to screen space point. </p>
+<dl class="section return"><dt>Returns</dt><dd>The screen point.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td>Transform.</td></tr>
   </table>
   </dd>
 </dl>

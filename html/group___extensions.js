@@ -21,9 +21,9 @@ var group___extensions =
     ] ],
     [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", [
       [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
-      [ "GetParents", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#ac3d456dd6caca5c347db88de44a27c8b", null ],
       [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
       [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
+      [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
       [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
     ] ],
     [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", [
@@ -37,17 +37,25 @@ var group___extensions =
     [ "DelegateExtension", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html", [
       [ "Notify", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html#a5f5abc58b5018d592c9a7624eb90cba8", null ]
     ] ],
+    [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
+      [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
+      [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ],
+      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ]
+    ] ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", [
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae575a2a3827a93a2bbb31b24148387b5", null ],
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1d9bc36bc6ba863d4d86e9be8dae9e7f", null ],
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3eade3453e126eeb419cb05e3a201a59", null ],
-      [ "Abs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a004f7ab62541099437a8f0fa83e84cdc", null ],
+      [ "ToRound", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae74ae3fae03c88db67bb17a73d23967c", null ],
+      [ "ToRound", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a4603c2bf905034e65c17eb469d620633", null ],
+      [ "ToRound", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aa33cb83b15b1dd0a49cbbf779ae0ac90", null ],
+      [ "ToAbs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af9e5c04eb2621da65dace82659906fa3", null ],
+      [ "ToAbs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a55271b221cd4fde28337a0fdc8ac3676", null ],
+      [ "ToAbs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a80134f5296c6388e2dda0c23e29f53c8", null ],
+      [ "ToAbs", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a33ba49665ba9f503d800d2f370542e91", null ],
       [ "ApproxFloat", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a08a1274660b7802f03b044487a2a26d1", null ],
-      [ "ApproxVector2", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a34957e0a876233f4fa7fd34ef41830c2", null ],
-      [ "ApproxVector3", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3943e87c58d8514962811e894dcf7dec", null ],
+      [ "ApproxVector2", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af95e6e8debd0216035da7d7194c8f666", null ],
+      [ "ApproxVector3", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767", null ],
       [ "ApproxQuaternion", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aeda4606070ce94ebb9d23b7667a606f7", null ],
-      [ "ApproxColor", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a2e1a0f00266f82a0b5dc258f0904118a", null ],
-      [ "ApproxColor32", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a2406f087eab140b27adae6ce390ba42f", null ],
+      [ "ApproxColor", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a1cb8415d06fbfbba91f8fd5b82436388", null ],
+      [ "ApproxColor32", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a80c0ae34e145c7af2a4fc65933a8fcac", null ],
       [ "NormalizedToPoint", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abbacaa635b94210dc8a0995afae017f5", null ],
       [ "PointToNormalized", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a4cd9d9a02d60331ecdbd413db4293e5e", null ],
       [ "GetIntersect", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3cf13d0182e48e5aee22a5d4730515a5", null ],

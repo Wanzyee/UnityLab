@@ -2,6 +2,7 @@ var searchData=
 [
   ['cancel',['Cancel',['../class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26',1,'WanzyeeStudio::WwwLoader']]],
   ['canconvert',['CanConvert',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a8cf86720a5481c744a0a551d1541f5d8',1,'WanzyeeStudio.Json.DictionaryConverter.CanConvert()'],['../class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a8cf86720a5481c744a0a551d1541f5d8',1,'WanzyeeStudio.Json.PartialConverter.CanConvert()']]],
+  ['centertoscreenpoint',['CenterToScreenPoint',['../class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7',1,'WanzyeeStudio::Extension::ComponentExtension']]],
   ['checkarray',['CheckArray',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
   ['checkcreatable',['CheckCreatable',['../class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0',1,'WanzyeeStudio::IoUtility']]],
   ['checkdragobjects',['CheckDragObjects',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac',1,'WanzyeeStudio.Editrix.EditrixGUI.CheckDragObjects(Func&lt; Object, bool &gt; filter)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a1a497f9ec2db0ae8f53219aeb12a6ed5',1,'WanzyeeStudio.Editrix.EditrixGUI.CheckDragObjects(Func&lt; IEnumerable&lt; Object &gt;, IEnumerable&lt; Object &gt;&gt; filter=null)']]],
