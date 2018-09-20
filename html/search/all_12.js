@@ -6,6 +6,7 @@ var searchData=
   ['raycastmaskfilter',['RaycastMaskFilter',['../class_wanzyee_studio_1_1_raycast_mask_filter.html',1,'WanzyeeStudio']]],
   ['raycastvisibilityfilter',['RaycastVisibilityFilter',['../class_wanzyee_studio_1_1_raycast_visibility_filter.html',1,'WanzyeeStudio']]],
   ['readjson',['ReadJson',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a63d4f63128781acfa8229a12763b5440',1,'WanzyeeStudio.Json.DictionaryConverter.ReadJson()'],['../class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a63d4f63128781acfa8229a12763b5440',1,'WanzyeeStudio.Json.PartialConverter.ReadJson()']]],
+  ['record',['Record',['../class_wanzyee_studio_1_1_time_recorder.html#a58a1da7ad0376440e2ce84cbe4317ed5',1,'WanzyeeStudio::TimeRecorder']]],
   ['rect',['rect',['../class_wanzyee_studio_1_1_resolution_setter.html#a2a955ddc316d002f566598f340eb2af9',1,'WanzyeeStudio::ResolutionSetter']]],
   ['rectconverter',['RectConverter',['../class_wanzyee_studio_1_1_json_1_1_rect_converter.html',1,'WanzyeeStudio::Json']]],
   ['rectfield',['RectField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a593db77036feb41e38b5530897058a4b',1,'WanzyeeStudio::AidGUI']]],
@@ -21,7 +22,7 @@ var searchData=
   ['reorderablelistattribute',['ReorderableListAttribute',['../class_wanzyee_studio_1_1_reorderable_list_attribute.html',1,'WanzyeeStudio']]],
   ['reorderablelistexpander',['ReorderableListExpander',['../class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html',1,'WanzyeeStudio::Editrix']]],
   ['repeat',['repeat',['../class_wanzyee_studio_1_1_event_time_invoker.html#aa85ffe7728fe6b62d593de58cb66f232',1,'WanzyeeStudio::EventTimeInvoker']]],
-  ['reset',['Reset',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d',1,'WanzyeeStudio']]],
+  ['reset',['Reset',['../class_wanzyee_studio_1_1_time_recorder.html#a372de693ad40b3f42839c8ec6ac845f4',1,'WanzyeeStudio.TimeRecorder.Reset()'],['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d',1,'WanzyeeStudio.Reset()']]],
   ['resize',['Resize',['../class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a63926c616b2e941b5d6b42d53fb87d09',1,'WanzyeeStudio::Extension::TextureExtension']]],
   ['resolutionsetter',['ResolutionSetter',['../class_wanzyee_studio_1_1_resolution_setter.html',1,'WanzyeeStudio']]],
   ['result',['result',['../class_wanzyee_studio_1_1_event_delegator.html#af85a1eaef6be58aa7f59138b7876e953',1,'WanzyeeStudio::EventDelegator']]],
@@ -29,5 +30,6 @@ var searchData=
   ['retrievecache',['RetrieveCache',['../class_wanzyee_studio_1_1_www_loader.html#a8ba38a438da851833cdf7e4430873c1d',1,'WanzyeeStudio::WwwLoader']]],
   ['reveal',['reveal',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a16010a0973cfb8dbaf8cb8817cad98db',1,'WanzyeeStudio::Editrix::FileDownloader']]],
   ['reverse',['reverse',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#a455cbdac659b075dec33e2da705aaa20',1,'WanzyeeStudio::RaycastMaskFilter']]],
-  ['rotate',['Rotate',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa8d2de5368588552fbae54044ac5c7b3d',1,'WanzyeeStudio']]]
+  ['rotate',['Rotate',['../namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa8d2de5368588552fbae54044ac5c7b3d',1,'WanzyeeStudio']]],
+  ['running',['running',['../class_wanzyee_studio_1_1_time_recorder.html#a36f7b6be7108281af77939ceaec42fd6',1,'WanzyeeStudio::TimeRecorder']]]
 ];

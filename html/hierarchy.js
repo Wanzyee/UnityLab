@@ -108,6 +108,7 @@ var hierarchy =
     [ "ResolutionSetter", "class_wanzyee_studio_1_1_resolution_setter.html", null ],
     [ "Singleton< T >", "class_wanzyee_studio_1_1_singleton.html", null ],
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", null ],
+    [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html", null ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", null ],
     [ "VariableInfo", "class_wanzyee_studio_1_1_variable_info.html", null ],
     [ "VariableTweaker", "class_wanzyee_studio_1_1_variable_tweaker.html", null ],

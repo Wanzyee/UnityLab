@@ -38,6 +38,7 @@ var namespace_wanzyee_studio =
     [ "StackGroupPanel", "class_wanzyee_studio_1_1_stack_group_panel.html", "class_wanzyee_studio_1_1_stack_group_panel" ],
     [ "StackTweakPanel", "class_wanzyee_studio_1_1_stack_tweak_panel.html", "class_wanzyee_studio_1_1_stack_tweak_panel" ],
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", "class_wanzyee_studio_1_1_stack_window" ],
+    [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html", "class_wanzyee_studio_1_1_time_recorder" ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", "class_wanzyee_studio_1_1_type_constraint_attribute" ],
     [ "VariableInfo", "class_wanzyee_studio_1_1_variable_info.html", "class_wanzyee_studio_1_1_variable_info" ],
     [ "VariableTweaker", "class_wanzyee_studio_1_1_variable_tweaker.html", "class_wanzyee_studio_1_1_variable_tweaker" ],

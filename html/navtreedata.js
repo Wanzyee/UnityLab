@@ -30,8 +30,8 @@ var NAVTREEINDEX =
 "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc",
 "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a085590206bf3265b5bdaf851ef86efb7",
 "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html",
-"class_wanzyee_studio_1_1_json_1_1_rect_offset_converter.html#a61eca50fcecd37b6ced0c9f9a8b0672c",
-"functions.html"
+"class_wanzyee_studio_1_1_json_1_1_rect_offset_converter.html#a07606f5a91b11a5fe26eb9fbcbfbbd7d",
+"class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
