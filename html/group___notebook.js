@@ -1,5 +1,19 @@
 var group___notebook =
 [
+    [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", [
+      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830", null ],
+      [ "Popup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f", null ],
+      [ "GetNote", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a21a6ae8dfd2bf77acfcb2c7dad59d126", null ],
+      [ "SetNote", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a187fb7d011a456dddf75db4226b18e49", null ],
+      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
+      [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
+      [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7", null ],
+      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ],
+      [ "iconOffset", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985", null ],
+      [ "_defaultFontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a828a4850ae63a2a72f48cbdd0c02f3bf", null ]
+    ] ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", [
       [ "GetLabelWidth", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a", null ],
       [ "SetIconForObject", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4dff952fb5f7794bf696497e8841df45", null ],
@@ -50,6 +64,9 @@ var group___notebook =
       [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
       [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
     ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
+    ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
@@ -62,20 +79,10 @@ var group___notebook =
       [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
       [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
     ] ],
-    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
-      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
-    ] ],
-    [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", [
-      [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
-      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#afa5fc842d69b9862f34dd92d4a542830", null ],
-      [ "Popup", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f", null ],
-      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
-      [ "locked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "setting", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a085590206bf3265b5bdaf851ef86efb7", null ],
-      [ "fontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a78dc3704e7e01da52c9a93a70c5bc45d", null ],
-      [ "iconOffset", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#acfee73e8646b503e4fbbcd656c8d6985", null ],
-      [ "_defaultFontSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a828a4850ae63a2a72f48cbdd0c02f3bf", null ]
+    [ "Note", "class_wanzyee_studio_1_1_note.html", [
+      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
+      [ "color", "class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073", null ],
+      [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
@@ -90,12 +97,8 @@ var group___notebook =
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
     ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
+      [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ],
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ]
-    ] ],
-    [ "Note", "class_wanzyee_studio_1_1_note.html", [
-      [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
-      [ "color", "class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073", null ],
-      [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
     ] ]
 ];
