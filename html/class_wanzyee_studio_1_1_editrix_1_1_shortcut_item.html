@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_s
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -103,7 +104,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_s
 </div><!--header-->
 <div class="contents">
 
-<p>Settings of an item to show in a <code>Shortcut</code> window.  
+<p>Settings of an item to show and perform in a <code>Shortcut</code> window.  
  <a href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -111,6 +112,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a117d0518e4a9eb89f56272f6cbe9b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html">ShortcutItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a6a117d0518e4a9eb89f56272f6cbe9b9">Clone</a> ()</td></tr>
 <tr class="memdesc:a6a117d0518e4a9eb89f56272f6cbe9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a shallow copy of this.  <a href="#a6a117d0518e4a9eb89f56272f6cbe9b9">More...</a><br /></td></tr>
 <tr class="separator:a6a117d0518e4a9eb89f56272f6cbe9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57260c0d8cce4cac5f3539856f01035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#af57260c0d8cce4cac5f3539856f01035">Perform</a> (string other=null)</td></tr>
+<tr class="memdesc:af57260c0d8cce4cac5f3539856f01035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the specified <code>act</code> on the <code>target</code>, optional to use other act.  <a href="#af57260c0d8cce4cac5f3539856f01035">More...</a><br /></td></tr>
+<tr class="separator:af57260c0d8cce4cac5f3539856f01035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8ffb82a255f6db8fac50f279ff3558"><td class="memItemLeft" align="right" valign="top">GUIContent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2d8ffb82a255f6db8fac50f279ff3558">GetLabel</a> (bool image=true, bool text=true, bool tooltip=true, bool <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ab91eb666bf66b84255eaa201e8610e09">hotkey</a>=true)</td></tr>
+<tr class="memdesc:a2d8ffb82a255f6db8fac50f279ff3558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the label content.  <a href="#a2d8ffb82a255f6db8fac50f279ff3558">More...</a><br /></td></tr>
+<tr class="separator:a2d8ffb82a255f6db8fac50f279ff3558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac052c2d9f01ba6946898a0de75adf64c"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ac052c2d9f01ba6946898a0de75adf64c">GetActs</a> (Type type=null)</td></tr>
+<tr class="memdesc:ac052c2d9f01ba6946898a0de75adf64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the act names for the specified target type, return all if pass <code>null</code>.  <a href="#ac052c2d9f01ba6946898a0de75adf64c">More...</a><br /></td></tr>
+<tr class="separator:ac052c2d9f01ba6946898a0de75adf64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e0ca68c55dc3ad7356bfdf5f060dd08"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a9e0ca68c55dc3ad7356bfdf5f060dd08">GetActs</a> (Object <a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31">target</a>)</td></tr>
+<tr class="memdesc:a9e0ca68c55dc3ad7356bfdf5f060dd08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the act names for the specified target instance, return none if pass <code>null</code>.  <a href="#a9e0ca68c55dc3ad7356bfdf5f060dd08">More...</a><br /></td></tr>
+<tr class="separator:a9e0ca68c55dc3ad7356bfdf5f060dd08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -123,16 +139,88 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a44fbddf445b66717f5ecb2168b546cd4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a44fbddf445b66717f5ecb2168b546cd4">label</a> = &quot;&quot;</td></tr>
 <tr class="memdesc:a44fbddf445b66717f5ecb2168b546cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom label.  <a href="#a44fbddf445b66717f5ecb2168b546cd4">More...</a><br /></td></tr>
 <tr class="separator:a44fbddf445b66717f5ecb2168b546cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c05aa1ed535a543d06110b4187e739"><td class="memItemLeft" align="right" valign="top">EventModifiers&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739">modifiers</a> = <a class="el" href="namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754">EventModifiers.None</a></td></tr>
-<tr class="memdesc:a02c05aa1ed535a543d06110b4187e739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hotkey modifiers.  <a href="#a02c05aa1ed535a543d06110b4187e739">More...</a><br /></td></tr>
-<tr class="separator:a02c05aa1ed535a543d06110b4187e739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91eb666bf66b84255eaa201e8610e09"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ab91eb666bf66b84255eaa201e8610e09">hotkey</a> = <a class="el" href="namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754">KeyCode.None</a></td></tr>
+<tr class="memitem:ab91eb666bf66b84255eaa201e8610e09"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ab91eb666bf66b84255eaa201e8610e09">hotkey</a> = <a class="el" href="namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754">KeyCode.None</a></td></tr>
 <tr class="memdesc:ab91eb666bf66b84255eaa201e8610e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary hotkey.  <a href="#ab91eb666bf66b84255eaa201e8610e09">More...</a><br /></td></tr>
 <tr class="separator:ab91eb666bf66b84255eaa201e8610e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c05aa1ed535a543d06110b4187e739"><td class="memItemLeft" align="right" valign="top">EventModifiers&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739">modifiers</a> = <a class="el" href="namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754">EventModifiers.None</a></td></tr>
+<tr class="memdesc:a02c05aa1ed535a543d06110b4187e739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hotkey modifiers.  <a href="#a02c05aa1ed535a543d06110b4187e739">More...</a><br /></td></tr>
+<tr class="separator:a02c05aa1ed535a543d06110b4187e739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec9ce2df15222151ad66fcb1d74eb9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#acec9ce2df15222151ad66fcb1d74eb9f">priority</a></td></tr>
+<tr class="memdesc:acec9ce2df15222151ad66fcb1d74eb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hotkey priority.  <a href="#acec9ce2df15222151ad66fcb1d74eb9f">More...</a><br /></td></tr>
+<tr class="separator:acec9ce2df15222151ad66fcb1d74eb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de0b4917f778733f164cb9d487697ce"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce">act</a></td></tr>
+<tr class="memdesc:a2de0b4917f778733f164cb9d487697ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specified act.  <a href="#a2de0b4917f778733f164cb9d487697ce">More...</a><br /></td></tr>
+<tr class="separator:a2de0b4917f778733f164cb9d487697ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Settings of an item to show in a <code>Shortcut</code> window. </p>
+<div class="textblock"><p>Settings of an item to show and perform in a <code>Shortcut</code> window. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac052c2d9f01ba6946898a0de75adf64c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string [] GetActs </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the act names for the specified target type, return all if pass <code>null</code>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The act names.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Target type.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9e0ca68c55dc3ad7356bfdf5f060dd08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string [] GetActs </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the act names for the specified target instance, return none if pass <code>null</code>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The act names.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Target instance.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a6a117d0518e4a9eb89f56272f6cbe9b9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -147,6 +235,80 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get a shallow copy of this. </p>
+
+</div>
+</div>
+<a class="anchor" id="af57260c0d8cce4cac5f3539856f01035"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Perform </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>other</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform the specified <code>act</code> on the <code>target</code>, optional to use other act. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Other act name.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2d8ffb82a255f6db8fac50f279ff3558"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GUIContent GetLabel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>image</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>text</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>tooltip</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hotkey</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the label content. </p>
+<dl class="section return"><dt>Returns</dt><dd>The label.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>If to populate the image.</td></tr>
+    <tr><td class="paramname">text</td><td>If to populate the text.</td></tr>
+    <tr><td class="paramname">tooltip</td><td>If to populate the tooltip.</td></tr>
+    <tr><td class="paramname">hotkey</td><td>If to append hotkey to the tooltip.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -193,12 +355,26 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab91eb666bf66b84255eaa201e8610e09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyCode hotkey = <a class="el" href="namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754">KeyCode.None</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Primary hotkey. </p>
+
+</div>
+</div>
 <a class="anchor" id="a02c05aa1ed535a543d06110b4187e739"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EventModifiers modifiers = <a class="el" href="namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754">EventModifiers.None</a></td>
+          <td class="memname">EventModifiers modifiers = <a class="el" href="namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754">EventModifiers.None</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,17 +383,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab91eb666bf66b84255eaa201e8610e09"></a>
+<a class="anchor" id="acec9ce2df15222151ad66fcb1d74eb9f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">KeyCode hotkey = <a class="el" href="namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754">KeyCode.None</a></td>
+          <td class="memname">int priority</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Primary hotkey. </p>
+<p>Hotkey priority. </p>
+<p>Only the highest will be performed if there're multiple with the same hotkey. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2de0b4917f778733f164cb9d487697ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string act</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specified act. </p>
 
 </div>
 </div>

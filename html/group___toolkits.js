@@ -24,7 +24,6 @@ var group___toolkits =
     [ "GameViewHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html", [
       [ "FixGameViewSize", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html#a11df1245e772048bec691efe13601e66", null ]
     ] ],
-    [ "HotkeyOperator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html", null ],
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
       [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],
       [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],

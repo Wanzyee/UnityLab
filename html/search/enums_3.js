@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['monomessage',['MonoMessage',['../group___enumerations.html#ga0269e87b6cdff644a895ce678a8afeb4',1,'WanzyeeStudio']]]
+  ['windowstyle',['WindowStyle',['../group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368',1,'WanzyeeStudio']]]
 ];

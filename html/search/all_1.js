@@ -1,6 +1,7 @@
 var searchData=
 [
   ['a',['A',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29',1,'WanzyeeStudio']]],
+  ['act',['act',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
   ['additem',['AddItem',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9',1,'WanzyeeStudio::Editrix::Extension::MenuExtension']]],
   ['additem_3c_20t_20_3e',['AddItem&lt; T &gt;',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e',1,'WanzyeeStudio::Editrix::Extension::MenuExtension']]],
   ['additemstomenu',['AddItemsToMenu',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_builtin_icon_browser.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.BuiltinIconBrowser.AddItemsToMenu()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.AddItemsToMenu()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.AddItemsToMenu()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a839e9dda1fdb8aaed2b2c2582fa1254e',1,'WanzyeeStudio.Editrix.Toolkit.Shortcut.AddItemsToMenu()']]],

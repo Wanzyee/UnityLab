@@ -146,12 +146,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6dd0e6430963688b0f55fbdb6f2909b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a6dd0e6430963688b0f55fbdb6f2909b0">Clear</a> (this RenderTexture texture)</td></tr>
 <tr class="memdesc:a6dd0e6430963688b0f55fbdb6f2909b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the content of the <code>UnityEngine.RenderTexture</code>.  <a href="#a6dd0e6430963688b0f55fbdb6f2909b0">More...</a><br /></td></tr>
 <tr class="separator:a6dd0e6430963688b0f55fbdb6f2909b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c45a23d911cfb20da99cd2bdb59752"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a02c45a23d911cfb20da99cd2bdb59752">Flip</a> (this Color[] colors, int width, <a class="el" href="group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea">FlipType</a> type)</td></tr>
-<tr class="memdesc:a02c45a23d911cfb20da99cd2bdb59752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip image colors by <code>FlipType</code> with <code>width</code> of image.  <a href="#a02c45a23d911cfb20da99cd2bdb59752">More...</a><br /></td></tr>
-<tr class="separator:a02c45a23d911cfb20da99cd2bdb59752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30a6c76106e701b2997b615adb787b21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a30a6c76106e701b2997b615adb787b21">Flip</a> (this Color32[] colors, int width, <a class="el" href="group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea">FlipType</a> type)</td></tr>
-<tr class="memdesc:a30a6c76106e701b2997b615adb787b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip image colors by <code>FlipType</code> with <code>width</code> of image.  <a href="#a30a6c76106e701b2997b615adb787b21">More...</a><br /></td></tr>
-<tr class="separator:a30a6c76106e701b2997b615adb787b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8925899b92c900f4747374f9ef311f33"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a8925899b92c900f4747374f9ef311f33">Flip</a> (this Color[] colors, int width, bool horizontal, bool vertical)</td></tr>
+<tr class="memdesc:a8925899b92c900f4747374f9ef311f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip image colors by the specified axes and width, this will modify the original array sorting.  <a href="#a8925899b92c900f4747374f9ef311f33">More...</a><br /></td></tr>
+<tr class="separator:a8925899b92c900f4747374f9ef311f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec27fc9e4c65895bdf6dbadf7e03e27d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#aec27fc9e4c65895bdf6dbadf7e03e27d">Flip</a> (this Color32[] colors, int width, bool horizontal, bool vertical)</td></tr>
+<tr class="memdesc:aec27fc9e4c65895bdf6dbadf7e03e27d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip image colors by the specified axes and width, this will modify the original array sorting.  <a href="#aec27fc9e4c65895bdf6dbadf7e03e27d">More...</a><br /></td></tr>
+<tr class="separator:aec27fc9e4c65895bdf6dbadf7e03e27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1d8f521f0e9ec77b25cf645c843f6fa"><td class="memItemLeft" align="right" valign="top">static Color[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#aa1d8f521f0e9ec77b25cf645c843f6fa">GetPartial</a> (this Color[] colors, int width, Rect rect)</td></tr>
 <tr class="memdesc:aa1d8f521f0e9ec77b25cf645c843f6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get partial colors within the rect inside image pixel size.  <a href="#aa1d8f521f0e9ec77b25cf645c843f6fa">More...</a><br /></td></tr>
 <tr class="separator:aa1d8f521f0e9ec77b25cf645c843f6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -699,7 +699,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a02c45a23d911cfb20da99cd2bdb59752"></a>
+<a class="anchor" id="a8925899b92c900f4747374f9ef311f33"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -721,8 +721,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea">FlipType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>horizontal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>vertical</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -737,20 +743,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Flip image colors by <code>FlipType</code> with <code>width</code> of image. </p>
-<p>This will modify the original array sorting, clone new one in needed. </p>
+<p>Flip image colors by the specified axes and width, this will modify the original array sorting. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
     <tr><td class="paramname">width</td><td>Image width.</td></tr>
-    <tr><td class="paramname">type</td><td>Flip type.</td></tr>
+    <tr><td class="paramname">horizontal</td><td>Horizontal.</td></tr>
+    <tr><td class="paramname">vertical</td><td>Vertical.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a30a6c76106e701b2997b615adb787b21"></a>
+<a class="anchor" id="aec27fc9e4c65895bdf6dbadf7e03e27d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -772,8 +778,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea">FlipType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>horizontal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>vertical</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -788,13 +800,13 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Flip image colors by <code>FlipType</code> with <code>width</code> of image. </p>
-<p>This will modify the original array sorting, clone new one in needed. </p>
+<p>Flip image colors by the specified axes and width, this will modify the original array sorting. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
     <tr><td class="paramname">width</td><td>Image width.</td></tr>
-    <tr><td class="paramname">type</td><td>Flip type.</td></tr>
+    <tr><td class="paramname">horizontal</td><td>Horizontal.</td></tr>
+    <tr><td class="paramname">vertical</td><td>Vertical.</td></tr>
   </table>
   </dd>
 </dl>

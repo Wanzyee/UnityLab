@@ -1,7 +1,7 @@
 var searchData=
 [
   ['insert',['Insert',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
-  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ab3420b6b4339802d53c9c485e18915cb',1,'WanzyeeStudio::Editrix::ShortcutList']]],
+  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a13afca7b862e210180763440032fd461',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['inspect',['Inspect',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
   ['inspectselected',['InspectSelected',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
   ['intfield',['IntField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a8236a94e7a6e21abda61d26271ee7154',1,'WanzyeeStudio::AidGUI']]],

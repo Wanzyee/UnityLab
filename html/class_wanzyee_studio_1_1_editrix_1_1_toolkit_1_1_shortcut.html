@@ -132,19 +132,31 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A favorite asset shortcut list for quick operations. </p>
-<p>Support multiple windows with custom tab title, and save the settings in a <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> asset. It's easy to personalize which list to open by saving layout at the top-right of the editor. This won't ping the asset when clicking by default, since it's annoying if lots of folders expand. </p>
-<p>You can also build your own toolbox with executable assets and dock it anywhere, for example:</p><ol type="1">
+<p>Support multiple windows with custom tab title, and save the settings in a <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> asset. Easy to personalize which lists to keep opening by saving layout at the top-right of the editor. This won't ping the asset when clicking by default, since it's annoying if lots of folders expand. </p>
+<p>Generally, pin your frequently used assets:</p><ol type="1">
+<li>Daily working scenes to open.</li>
+<li>Common prefab library to drag into a scene.</li>
+<li>WIP assets, e.g., script or psd, to open and edit. </li>
+</ol>
+<p>Furthermore, build your own toolbox with executable assets and dock it anywhere, for example:</p><ol type="1">
 <li>File <code>*.url</code> to open a web page, e.g., the Unity Scripting Reference.</li>
 <li>File <code>*.lnk</code> to open another application, e.g., Photoshop or SourceTree.</li>
 <li><code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html" title="Execute specified editor menu item when double click this asset. ">MenuExecutor</a></code> to execute an editor menu item, e.g., "File/Save Project".</li>
 <li><code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_code_executor.html" title="Execute simple C# code when double click this asset. ">CodeExecutor</a></code> to run a simple code snippet, e.g., "Time.timeScale = 0.5f;" for testing.</li>
 <li>And so on, depend on your demand and imagination. </li>
 </ol>
+<p>Custom Hotkey, efficient and Unity's lost feature, especially powerful in toolbox mode:</p><ol type="1">
+<li>Globally matches items of all opened <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html" title="A favorite asset shortcut list for quick operations. ">Shortcut</a></code> windows to perform.</li>
+<li>The act is just the same as clicking the item in the window.</li>
+<li>Performed only when key up, to avoid repeat opening while pressing.</li>
+<li>This receives hotkey from <code><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html" title="Wrapper to listen to editor global event to dispatch. ">EditorEventListener</a></code>, please take a look for limitations.</li>
+<li>Easy to divide hotkeys from partners' by custom editor layout. </li>
+</ol>
 <p>To setup:</p><ol type="1">
 <li>Create a <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> by menu "Assets/Create/WanzyeeStudio/Shortcut List".</li>
 <li>You may follow each option's tooltip to setup the layout in the Inspector.</li>
-<li>Then add and reorder the asset items, also able to set the custom label and icon.</li>
-<li>Double click it to open the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html" title="A favorite asset shortcut list for quick operations. ">Shortcut</a></code> window, or use the context menu "Open". </li>
+<li>Add and reorder the asset items, also able to set the custom label and icon, and hotkey if need.</li>
+<li>Double click the list asset to open the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html" title="A favorite asset shortcut list for quick operations. ">Shortcut</a></code> window, or use the context menu "Open". </li>
 </ol>
 <p>The window:</p><ol type="1">
 <li>Context menu "Setup List" to edit the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> and apply immediately.</li>
@@ -154,13 +166,16 @@ Public Attributes</h2></td></tr>
 <p>Drag'n'Drop:</p><ol type="1">
 <li>Drag assets in to add new items.</li>
 <li>Drag an item inside to reorder.</li>
-<li>Drag an item out for common operation, e.g., instantiate a prefab.</li>
-<li>Drag an item to another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html" title="A favorite asset shortcut list for quick operations. ">Shortcut</a></code> window to copy with the same item settings. </li>
+<li>Drag an item out for common operation, e.g., instantiate a prefab or assign an image.</li>
+<li>Drag an item to another <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html" title="A favorite asset shortcut list for quick operations. ">Shortcut</a></code> window to copy with the same item settings.</li>
+<li>Toggle the window top-right icon to lock or enable dragging to add and reorder. </li>
 </ol>
-<p>To operate:</p><ol type="1">
-<li>Click an item to open or select the asset, the action is according to the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> settings.</li>
-<li>Right click to specify the action with a popup menu.</li>
-<li>Press "Ctrl" and right click to show the asset's context menu, just like in the Inspector title bar. </li>
+<p>To perform:</p><ol type="1">
+<li>Click an item to open or select the asset, according to the <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html" title="Store the asset items to show in a Shortcut window with the layout settings. ">ShortcutList</a></code> clicking settings.</li>
+<li>Or you can specify a custom clicking act to an item, override the list common setting.</li>
+<li>Right click to specify the act with a popup menu.</li>
+<li>Press "Ctrl" and right click to show the asset's context menu, just like in the Inspector title bar.</li>
+<li>For adding your own act into the menu, please reference <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html" title="System.Attribute to add custom item act to Shortcut to perform. ">ShortcutActAttribute</a></code>. </li>
 </ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a83671bde762eafd23ac19d21010a2750"></a>
@@ -211,7 +226,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add the window context menu items. </p>
-<p>Menu "About" to open the online manual. Menu "Change List" to pick another list to show, and "Setup List" to edit the list in the Inspector. </p>
+<p>Menu "About" to open the online manual, and "Change List" to pick another list to show. Menu "Setup List" to edit the current list settings, and "Find List" to select it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">menu</td><td>Menu.</td></tr>

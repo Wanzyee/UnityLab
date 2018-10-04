@@ -2,7 +2,7 @@ var searchData=
 [
   ['data',['data',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#aec20ae32b842c2b269a3911d50fe6d49',1,'WanzyeeStudio::Editrix::TreeNode']]],
   ['debug',['debug',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#a398527b3e9e358c345c5047b16871957',1,'WanzyeeStudio::Editrix::PluginMaker']]],
-  ['defaultsettings',['defaultSettings',['../class_wanzyee_studio_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120',1,'WanzyeeStudio::JsonNetUtility']]],
+  ['defaultsettings',['defaultSettings',['../class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120',1,'WanzyeeStudio::Json::JsonNetUtility']]],
   ['delay',['delay',['../class_wanzyee_studio_1_1_event_time_invoker.html#abdc33cf25e725134a9b48e79c7031bcf',1,'WanzyeeStudio.EventTimeInvoker.delay()'],['../class_wanzyee_studio_1_1_coroutiner.html#ae447a7d8984781277716a20e2f141261',1,'WanzyeeStudio.Coroutiner.Delay()']]],
   ['delegateextension',['DelegateExtension',['../class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html',1,'WanzyeeStudio::Extension']]],
   ['delegators',['delegators',['../class_wanzyee_studio_1_1_event_delegator_group.html#a6d180c7bc82466a8f144225ffff27c45',1,'WanzyeeStudio::EventDelegatorGroup']]],
@@ -15,6 +15,7 @@ var searchData=
   ['dictionaryconverter',['DictionaryConverter',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html',1,'WanzyeeStudio::Json']]],
   ['documentation',['documentation',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#aa2dfe04e55f0bea2d7df82388aef66ed',1,'WanzyeeStudio::Editrix::PluginMaker']]],
   ['download',['Download',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02',1,'WanzyeeStudio::Editrix::FileDownloader']]],
+  ['dragtoarrange',['dragToArrange',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ab4355cfe8c406b47259a924944c8d900',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['drawborder',['DrawBorder',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a5871be11500ab45fa17c943d8b0bbf1d',1,'WanzyeeStudio::AidGUI']]],
   ['drawline',['DrawLine',['../class_wanzyee_studio_1_1_aid_g_u_i.html#aa24d6f5c244a0c2cc19095f8fee6a344',1,'WanzyeeStudio::AidGUI']]],
   ['drawpanelgui',['DrawPanelGUI',['../interface_wanzyee_studio_1_1_i_stack_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.IStackPanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_console_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackConsolePanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_group_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackGroupPanel.DrawPanelGUI()'],['../class_wanzyee_studio_1_1_stack_tweak_panel.html#a6ca8463195508caf752d23f380675cb0',1,'WanzyeeStudio.StackTweakPanel.DrawPanelGUI()']]],

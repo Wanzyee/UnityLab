@@ -113,12 +113,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dff952fb5f7794bf696497e8841df45"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4dff952fb5f7794bf696497e8841df45">SetIconForObject</a> (Object obj, Texture2D icon)</td></tr>
 <tr class="memdesc:a4dff952fb5f7794bf696497e8841df45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the icon for the specified <code>UnityEngine.Object</code> to show in the Inspector or Project window.  <a href="#a4dff952fb5f7794bf696497e8841df45">More...</a><br /></td></tr>
 <tr class="separator:a4dff952fb5f7794bf696497e8841df45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482b8e7d5a837b30565fbe61eb103cfa"><td class="memItemLeft" align="right" valign="top">static ReorderableList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a482b8e7d5a837b30565fbe61eb103cfa">CreateReorderableList</a> (SerializedProperty property, ReorderableList.ElementCallbackDelegate drawElementCallback, float elementHeight)</td></tr>
-<tr class="memdesc:a482b8e7d5a837b30565fbe61eb103cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obsolete, create a <code>UnityEditorInternal.ReorderableList</code> with common settings.  <a href="#a482b8e7d5a837b30565fbe61eb103cfa">More...</a><br /></td></tr>
-<tr class="separator:a482b8e7d5a837b30565fbe61eb103cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c25887028665ff3d516a4bc1e32f6c0"><td class="memItemLeft" align="right" valign="top">static ReorderableList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a8c25887028665ff3d516a4bc1e32f6c0">CreateReorderableList</a> (SerializedProperty property, ReorderableList.ElementCallbackDelegate drawElementCallback=null, ReorderableList.ElementHeightCallbackDelegate elementHeightCallback=null)</td></tr>
-<tr class="memdesc:a8c25887028665ff3d516a4bc1e32f6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <code>UnityEditorInternal.ReorderableList</code> with common settings.  <a href="#a8c25887028665ff3d516a4bc1e32f6c0">More...</a><br /></td></tr>
-<tr class="separator:a8c25887028665ff3d516a4bc1e32f6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51739ea4e5528c6a587dad7f095ab38a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a">MultiFloatField</a> (GUIContent label, GUIContent[] subLabels, float[] values, params GUILayoutOption[] options)</td></tr>
 <tr class="memdesc:a51739ea4e5528c6a587dad7f095ab38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a multi-control with text fields for entering multiple floats in the same line.  <a href="#a51739ea4e5528c6a587dad7f095ab38a">More...</a><br /></td></tr>
 <tr class="separator:a51739ea4e5528c6a587dad7f095ab38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,110 +226,6 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">obj</td><td>Object.</td></tr>
     <tr><td class="paramname">icon</td><td>Icon.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a482b8e7d5a837b30565fbe61eb103cfa"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static ReorderableList CreateReorderableList </td>
-          <td>(</td>
-          <td class="paramtype">SerializedProperty&#160;</td>
-          <td class="paramname"><em>property</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ReorderableList.ElementCallbackDelegate&#160;</td>
-          <td class="paramname"><em>drawElementCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>elementHeight</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Obsolete, create a <code>UnityEditorInternal.ReorderableList</code> with common settings. </p>
-<p>This may be removed after 2018, please use the overload method with <code>elementHeightCallback</code> instead. </p>
-<dl class="section return"><dt>Returns</dt><dd>The reorderable list.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">property</td><td>Property.</td></tr>
-    <tr><td class="paramname">drawElementCallback</td><td>Draw element callback.</td></tr>
-    <tr><td class="paramname">elementHeight</td><td>Element height.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a8c25887028665ff3d516a4bc1e32f6c0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static ReorderableList CreateReorderableList </td>
-          <td>(</td>
-          <td class="paramtype">SerializedProperty&#160;</td>
-          <td class="paramname"><em>property</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ReorderableList.ElementCallbackDelegate&#160;</td>
-          <td class="paramname"><em>drawElementCallback</em> = <code>null</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ReorderableList.ElementHeightCallbackDelegate&#160;</td>
-          <td class="paramname"><em>elementHeightCallback</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a <code>UnityEditorInternal.ReorderableList</code> with common settings. </p>
-<p>I.e., the property label as the header, click to fold or expand the list, basic add and remove buttons. </p>
-<dl class="section return"><dt>Returns</dt><dd>The reorderable list.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">property</td><td>Property.</td></tr>
-    <tr><td class="paramname">drawElementCallback</td><td>Draw element callback.</td></tr>
-    <tr><td class="paramname">elementHeightCallback</td><td>Element height callback.</td></tr>
   </table>
   </dd>
 </dl>

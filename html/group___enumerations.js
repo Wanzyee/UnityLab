@@ -6,18 +6,6 @@ var group___enumerations =
       [ "B", "namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a9d5ed678fe57bcca610140957afab571", null ],
       [ "A", "namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29", null ]
     ] ],
-    [ "Coordinate", "group___enumerations.html#gaf8f339ad433d08316f2b66477f69083f", [
-      [ "None", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "X", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa02129bb861061d1a052c592e2dc6b383", null ],
-      [ "Y", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa57cec4137b614c87cb4e24a3d003a3e0", null ],
-      [ "Z", "namespace_wanzyee_studio.html#gaf8f339ad433d08316f2b66477f69083fa21c2e59531c8710156d34a3c30ac81d5", null ]
-    ] ],
-    [ "FlipType", "group___enumerations.html#ga4adb0d0799aa7e5cb6cdb4c5070224ea", [
-      [ "None", "namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "Horizontal", "namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaac1b5fa03ecdb95d4a45dd1c40b02527f", null ],
-      [ "Vertical", "namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa06ce2a25e5d12c166a36f654dbea6012", null ],
-      [ "Rotate", "namespace_wanzyee_studio.html#ga4adb0d0799aa7e5cb6cdb4c5070224eaa8d2de5368588552fbae54044ac5c7b3d", null ]
-    ] ],
     [ "KeyState", "group___enumerations.html#ga7e51438e5f6bf556512ce7103cddac09", [
       [ "None", "namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Press", "namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09a0610123bdd4ffc191a3ea05a847e1307", null ],
@@ -88,12 +76,6 @@ var group___enumerations =
       [ "Reset", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d", null ],
       [ "Start", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4aa6122a65eaa676f700ae68d393054a37", null ],
       [ "Update", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a06933067aafd48425d67bcb01bba5cb6", null ]
-    ] ],
-    [ "PlayState", "group___enumerations.html#gac50b7a27648377985d393a152187b7f0", [
-      [ "None", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "Stop", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a11a755d598c0c417f9a36758c3da7481", null ],
-      [ "Play", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0ade3c731be5633838089a07179d301d7b", null ],
-      [ "Pause", "namespace_wanzyee_studio.html#gac50b7a27648377985d393a152187b7f0a105b296a83f9c105355403f3332af50f", null ]
     ] ],
     [ "WindowStyle", "group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368", [
       [ "Fullscreen", "namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a0829ea6734059d66e6bf87096b215dc1", null ],

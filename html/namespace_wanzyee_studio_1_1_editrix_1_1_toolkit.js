@@ -5,7 +5,6 @@ var namespace_wanzyee_studio_1_1_editrix_1_1_toolkit =
     [ "Clipboard", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard" ],
     [ "ConsoleHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_console_helper" ],
     [ "GameViewHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper" ],
-    [ "HotkeyOperator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_hotkey_operator.html", null ],
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper" ],
     [ "MaterialPropertyCopier", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier" ],
     [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook" ],

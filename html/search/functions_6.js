@@ -1,8 +1,8 @@
 var searchData=
 [
+  ['getacts',['GetActs',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ac052c2d9f01ba6946898a0de75adf64c',1,'WanzyeeStudio.Editrix.ShortcutItem.GetActs(Type type=null)'],['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a9e0ca68c55dc3ad7356bfdf5f060dd08',1,'WanzyeeStudio.Editrix.ShortcutItem.GetActs(Object target)']]],
   ['getallassetlabels',['GetAllAssetLabels',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
   ['getallassets',['GetAllAssets',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
-  ['getalltargets',['GetAllTargets',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a5361622bbacdcadfda533c9674630385',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['getassetpaths',['GetAssetPaths',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#a85f7d5fd753c3b2e701a07bd7bb9474c',1,'WanzyeeStudio::Editrix::PackageMaker']]],
   ['getaxisx',['GetAxisX',['../class_wanzyee_studio_1_1_matrix_utility.html#af41b5700f60829aeb33804d5db277a66',1,'WanzyeeStudio::MatrixUtility']]],
   ['getaxisy',['GetAxisY',['../class_wanzyee_studio_1_1_matrix_utility.html#a20e5f973514dcc0f3695bcda7b374c5e',1,'WanzyeeStudio::MatrixUtility']]],
@@ -18,8 +18,9 @@ var searchData=
   ['getexposingtypes',['GetExposingTypes',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3',1,'WanzyeeStudio::Editrix::EditrixUtility']]],
   ['getfield',['GetField',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499',1,'WanzyeeStudio::Extension::TypeExtension']]],
   ['getintersect',['GetIntersect',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a3cf13d0182e48e5aee22a5d4730515a5',1,'WanzyeeStudio::Extension::MathExtension']]],
+  ['getitemlabel',['GetItemLabel',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ad2875a89cc46dde30298dd0f76b870a6',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['getitemtype',['GetItemType',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c',1,'WanzyeeStudio::Extension::TypeExtension']]],
-  ['getlabel',['GetLabel',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#aa4d72b86f02862e556222859e644290f',1,'WanzyeeStudio::Editrix::ShortcutList']]],
+  ['getlabel',['GetLabel',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2d8ffb82a255f6db8fac50f279ff3558',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
   ['getlabelwidth',['GetLabelWidth',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a',1,'WanzyeeStudio::Editrix::EditrixGUI']]],
   ['getlocked',['GetLocked',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf',1,'WanzyeeStudio.Editrix.Toolkit.InspectorHelper.GetLocked()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html#af20728ee7aedcaee4e47510eb6b10e7a',1,'WanzyeeStudio.Editrix.Toolkit.ObjectLocker.GetLocked()']]],
   ['getmembertext',['GetMemberText',['../class_wanzyee_studio_1_1_variable_tweaker.html#abd27185a90473f484d059baca7f160ff',1,'WanzyeeStudio::VariableTweaker']]],
@@ -52,6 +53,7 @@ var searchData=
   ['gettooltip',['GetTooltip',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ab32861161eec1809a2e79cb476dd0e6d',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
   ['gettooltiptext',['GetTooltipText',['../class_wanzyee_studio_1_1_variable_tweaker.html#ac4e261187597d90f255f487ae1878687',1,'WanzyeeStudio::VariableTweaker']]],
   ['getvaliditems',['GetValidItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a4c3a368098feeac6610e0f9178063dfc',1,'WanzyeeStudio::Editrix::ShortcutList']]],
+  ['getvalidtargets',['GetValidTargets',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#adc241e848c4d02ed6d8889753762fcbd',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['getvalue',['GetValue',['../class_wanzyee_studio_1_1_variable_info.html#aff6e44a668cbb3edc2ee7e9c4e824959',1,'WanzyeeStudio.VariableInfo.GetValue()'],['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a8b087c6cf0dc5a65a05e15cb6a264c17',1,'WanzyeeStudio.Editrix.Extension.PropertyValueExtension.GetValue()']]],
   ['getvalue_3c_20t_20_3e',['GetValue&lt; T &gt;',['../class_wanzyee_studio_1_1_crypto_prefs.html#a9023320894eda781078cdad2d630e216',1,'WanzyeeStudio::CryptoPrefs']]],
   ['getvaluetype',['GetValueType',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a853d73c7c9f2db0aa08f2d4eeb2a2285',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],

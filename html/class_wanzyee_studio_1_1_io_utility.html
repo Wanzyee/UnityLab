@@ -110,12 +110,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4cb610ec2957213804a5b980c54bdfe6"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6">GetDeepFiles</a> (params string[] paths)</td></tr>
 <tr class="memdesc:a4cb610ec2957213804a5b980c54bdfe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter to get the paths of all files and files in directories except "*.meta".  <a href="#a4cb610ec2957213804a5b980c54bdfe6">More...</a><br /></td></tr>
 <tr class="separator:a4cb610ec2957213804a5b980c54bdfe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1812936da781201d1c7eb87ac8f28de0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0">CheckCreatable</a> (string path, bool exception=false)</td></tr>
-<tr class="memdesc:a1812936da781201d1c7eb87ac8f28de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the path can be used to create a file or directory.  <a href="#a1812936da781201d1c7eb87ac8f28de0">More...</a><br /></td></tr>
-<tr class="separator:a1812936da781201d1c7eb87ac8f28de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83b34f1f7ea2e6d4b182211a80057132"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132">Delete</a> (string path, bool ancestor=false)</td></tr>
 <tr class="memdesc:a83b34f1f7ea2e6d4b182211a80057132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to delete a file or directory at the specified path.  <a href="#a83b34f1f7ea2e6d4b182211a80057132">More...</a><br /></td></tr>
 <tr class="separator:a83b34f1f7ea2e6d4b182211a80057132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1812936da781201d1c7eb87ac8f28de0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0">CheckCreatable</a> (string path, bool exception=false)</td></tr>
+<tr class="memdesc:a1812936da781201d1c7eb87ac8f28de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the path can be used to create a file or directory.  <a href="#a1812936da781201d1c7eb87ac8f28de0">More...</a><br /></td></tr>
+<tr class="separator:a1812936da781201d1c7eb87ac8f28de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Include some convenient methods to extend IO operation. </p>
@@ -148,6 +148,50 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">paths</td><td>Paths.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a83b34f1f7ea2e6d4b182211a80057132"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Delete </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ancestor</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try to delete a file or directory at the specified path. </p>
+<p>This doesn't work in Web Player. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, the operation is permanently and irreversibly. Optional to trace and delete ancestor directories if became empty. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Path.</td></tr>
+    <tr><td class="paramname">ancestor</td><td>If set to <code>true</code> delete ancestor directories if empty.</td></tr>
   </table>
   </dd>
 </dl>
@@ -198,50 +242,6 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path.</td></tr>
     <tr><td class="paramname">exception</td><td>Flag to throw an exception or return <code>false</code>.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a83b34f1f7ea2e6d4b182211a80057132"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void Delete </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>ancestor</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Try to delete a file or directory at the specified path. </p>
-<p>This doesn't work in Web Player. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, the operation is permanently and irreversibly. Optional to trace and delete ancestor directories if became empty. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">path</td><td>Path.</td></tr>
-    <tr><td class="paramname">ancestor</td><td>If set to <code>true</code> delete ancestor directories if empty.</td></tr>
   </table>
   </dd>
 </dl>

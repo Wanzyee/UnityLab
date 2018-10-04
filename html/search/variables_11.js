@@ -11,6 +11,7 @@ var searchData=
   ['showtooltip',['showTooltip',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#ad4799af9280eb960789a2e6ce385acde',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['size',['size',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a439227feff9d7f55384e8780cfc2eb82',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['skin',['skin',['../class_wanzyee_studio_1_1_stack_window.html#ab7b985bc528ecc1c55bfabaa7ee7a1e0',1,'WanzyeeStudio::StackWindow']]],
+  ['specifyact',['specifyAct',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#aed108c283b9205d6d3c75748e0819280',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['splitterpixel',['splitterPixel',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aa35ecf15cd244e96dec6cf0d21ef89d8',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['statusbar',['statusBar',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae4358dbdc23372131882726541eff46f',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['stopcursor',['stopCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab6d45d275e7bd2bce0d3b45b3b872983',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
