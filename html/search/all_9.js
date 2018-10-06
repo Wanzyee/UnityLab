@@ -7,7 +7,7 @@ var searchData=
   ['index',['index',['../class_wanzyee_studio_1_1_variable_info.html#a750b5d744c39a06bfb13e6eb010e35d0',1,'WanzyeeStudio::VariableInfo']]],
   ['info',['info',['../class_wanzyee_studio_1_1_www_loader.html#aa93964a62fedb28c9f2c9f4ce9324177',1,'WanzyeeStudio::WwwLoader']]],
   ['insert',['Insert',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
-  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a13afca7b862e210180763440032fd461',1,'WanzyeeStudio::Editrix::ShortcutList']]],
+  ['insertitems',['InsertItems',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a0ee6650897f238a3fd6640714eb448b2',1,'WanzyeeStudio.Editrix.ShortcutList.InsertItems(ShortcutItem before, params Object[] source)'],['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a13afca7b862e210180763440032fd461',1,'WanzyeeStudio.Editrix.ShortcutList.InsertItems(ShortcutItem before, params ShortcutItem[] source)']]],
   ['inspect',['Inspect',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a81fbab6f57a9557aec6d8e3dc5b5f342',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
   ['inspectorhelper',['InspectorHelper',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['inspectselected',['InspectSelected',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d',1,'WanzyeeStudio::Editrix::Toolkit::InspectorHelper']]],
