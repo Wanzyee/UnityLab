@@ -62,21 +62,9 @@ var group___notebook =
       [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
       [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
     ] ],
-    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
-      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30", null ],
-      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
-    ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
-    ] ],
-    [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", [
-      [ "CheckValid", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ad2dc1b2f7db250b8d1421ff76e87cd3f", null ],
-      [ "GetParent", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a726be989760d5e68005f723484a7ddca", null ],
-      [ "GetTooltip", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ab32861161eec1809a2e79cb476dd0e6d", null ],
-      [ "CheckArray", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a", null ],
-      [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
-      [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
     ] ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", [
       [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],

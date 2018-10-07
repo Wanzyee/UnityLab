@@ -12,7 +12,7 @@ var searchData=
   ['vector3converter',['Vector3Converter',['../class_wanzyee_studio_1_1_json_1_1_vector3_converter.html',1,'WanzyeeStudio::Json']]],
   ['vector3field',['Vector3Field',['../class_wanzyee_studio_1_1_aid_g_u_i.html#ada8def5028f162ba790bd359f6225003',1,'WanzyeeStudio::AidGUI']]],
   ['vector4converter',['Vector4Converter',['../class_wanzyee_studio_1_1_json_1_1_vector4_converter.html',1,'WanzyeeStudio::Json']]],
-  ['vector4field',['Vector4Field',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c',1,'WanzyeeStudio.AidGUI.Vector4Field()'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c',1,'WanzyeeStudio.Editrix.EditrixGUI.Vector4Field()']]],
+  ['vector4field',['Vector4Field',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c',1,'WanzyeeStudio.Editrix.EditrixGUI.Vector4Field()'],['../class_wanzyee_studio_1_1_aid_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c',1,'WanzyeeStudio.AidGUI.Vector4Field()']]],
   ['vectorsinline',['VectorsInLine',['../class_wanzyee_studio_1_1_math_utility.html#abe2da5bea5bcaf6012403b06ac3ebe90',1,'WanzyeeStudio::MathUtility']]],
   ['vectorsinplane',['VectorsInPlane',['../class_wanzyee_studio_1_1_math_utility.html#a452a152d9b7de1aa3661089862da5e97',1,'WanzyeeStudio::MathUtility']]],
   ['view',['view',['../class_wanzyee_studio_1_1_stack_console_panel.html#a1cb6f035a0e9565bbf12c3ef04c3c229',1,'WanzyeeStudio::StackConsolePanel']]],

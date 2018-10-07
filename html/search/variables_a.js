@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['label',['label',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a44fbddf445b66717f5ecb2168b546cd4',1,'WanzyeeStudio.Editrix.ShortcutItem.label()'],['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#ac0210d7ab6535a76a81c7214add169dc',1,'WanzyeeStudio.Editrix.TreeNode.label()']]],
+  ['label',['label',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#ac0210d7ab6535a76a81c7214add169dc',1,'WanzyeeStudio.Editrix.TreeNode.label()'],['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a44fbddf445b66717f5ecb2168b546cd4',1,'WanzyeeStudio.Editrix.ShortcutItem.label()']]],
   ['launchonawake',['launchOnAwake',['../class_wanzyee_studio_1_1_process_launcher.html#aeffec4953bb59b225b9143c0a8b898de',1,'WanzyeeStudio::ProcessLauncher']]],
   ['linkcursor',['linkCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['linkicon',['linkIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a97cab6a3edcf5ed0b64fb44527428fa4',1,'WanzyeeStudio::Editrix::EditrixStyle']]],

@@ -103,6 +103,13 @@ var group___event_delegator =
       [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a", null ],
       [ "constraints", "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5", null ]
     ] ],
+    [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", [
+      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
+      [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
+      [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
+      [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
+      [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
+    ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],
