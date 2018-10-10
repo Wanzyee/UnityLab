@@ -1,5 +1,13 @@
 var group___shortcut =
 [
+    [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", [
+      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83671bde762eafd23ac19d21010a2750", null ],
+      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
+      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83411795db454ee7f9405fc60eb7e25e", null ],
+      [ "list", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6cfe6d46c5d007ca2f77bdf6efef2dc0", null ],
+      [ "_dragArranger", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a8b831de1462cce0e55dd4bcf96d4e673", null ],
+      [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6f926a3151fada07010c19752f2bd74b", null ]
+    ] ],
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
       [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],
       [ "ToggleInspectorMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a14bbf128b0ad653575f44599d30002bc", null ],
@@ -10,14 +18,6 @@ var group___shortcut =
       [ "SetMode", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8", null ],
       [ "GetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a36ffdfdcc31952e80da0b535c72defbf", null ],
       [ "SetLocked", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#abc4c3c12158f918cd4259711a549ca53", null ]
-    ] ],
-    [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", [
-      [ "Open", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83671bde762eafd23ac19d21010a2750", null ],
-      [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
-      [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83411795db454ee7f9405fc60eb7e25e", null ],
-      [ "list", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6cfe6d46c5d007ca2f77bdf6efef2dc0", null ],
-      [ "_dragArranger", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a8b831de1462cce0e55dd4bcf96d4e673", null ],
-      [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6f926a3151fada07010c19752f2bd74b", null ]
     ] ],
     [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", [
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
@@ -63,6 +63,26 @@ var group___shortcut =
       [ "_actsGetter", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a7b162369afa76863a8e0cdf71f84c118", null ],
       [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ],
       [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a6f926a3151fada07010c19752f2bd74b", null ]
+    ] ],
+    [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", [
+      [ "Clone", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a6a117d0518e4a9eb89f56272f6cbe9b9", null ],
+      [ "target", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31", null ],
+      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#abff1c3345bb95f3a5109abafe90cca67", null ],
+      [ "label", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a44fbddf445b66717f5ecb2168b546cd4", null ],
+      [ "hotkey", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ab91eb666bf66b84255eaa201e8610e09", null ],
+      [ "modifiers", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739", null ],
+      [ "priority", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#acec9ce2df15222151ad66fcb1d74eb9f", null ],
+      [ "act", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce", null ]
+    ] ],
+    [ "ShortcutActAttribute", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html", [
+      [ "ShortcutActAttribute", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#ad44f1262560aa355c7e30b9a6cc5a3f4", null ],
+      [ "name", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#a87d1e0d4ee90cf07650d73b28707dc50", null ],
+      [ "order", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#ae08f04f4b92ab5c32607c486b43ccb67", null ],
+      [ "type", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#a4f922e6f5e09574dccd4cdd19e26da9d", null ]
+    ] ],
+    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
+      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30", null ],
+      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
     ] ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", [
       [ "GetLabelWidth", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a4c8f3ef121f92c960189a770e6671f9a", null ],
@@ -112,26 +132,6 @@ var group___shortcut =
       [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
       [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
     ] ],
-    [ "ReorderableListExpander", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html", [
-      [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30", null ],
-      [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
-    ] ],
-    [ "ShortcutActAttribute", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html", [
-      [ "ShortcutActAttribute", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#ad44f1262560aa355c7e30b9a6cc5a3f4", null ],
-      [ "name", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#a87d1e0d4ee90cf07650d73b28707dc50", null ],
-      [ "order", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#ae08f04f4b92ab5c32607c486b43ccb67", null ],
-      [ "type", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html#a4f922e6f5e09574dccd4cdd19e26da9d", null ]
-    ] ],
-    [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", [
-      [ "Clone", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a6a117d0518e4a9eb89f56272f6cbe9b9", null ],
-      [ "target", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#af1ef69cd9c1f88be0915bb85c4b5ef31", null ],
-      [ "icon", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#abff1c3345bb95f3a5109abafe90cca67", null ],
-      [ "label", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a44fbddf445b66717f5ecb2168b546cd4", null ],
-      [ "hotkey", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#ab91eb666bf66b84255eaa201e8610e09", null ],
-      [ "modifiers", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a02c05aa1ed535a543d06110b4187e739", null ],
-      [ "priority", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#acec9ce2df15222151ad66fcb1d74eb9f", null ],
-      [ "act", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce", null ]
-    ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
@@ -144,10 +144,6 @@ var group___shortcut =
       [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
       [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
     ] ],
-    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
-      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
-      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
-    ] ],
     [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html", [
       [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html#af15212ee4fbd7036a6c9d0b122f7d3ad", null ],
       [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html#aa97b95d26b73e013dd39befe782825a6", null ],
@@ -158,6 +154,15 @@ var group___shortcut =
     ] ],
     [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
       [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ]
+    ] ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
+      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
+      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
+    ] ],
+    [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
+      [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
+      [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ],
+      [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
@@ -170,10 +175,5 @@ var group___shortcut =
       [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
       [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
-    ] ],
-    [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
-      [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
-      [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ],
-      [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ]
 ];
