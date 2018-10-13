@@ -5,6 +5,7 @@ var class_wanzyee_studio_1_1_editrix_1_1_editrix_style =
     [ "LoadIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af5cab4898fec4d31c85e626f9cf4d5ee", null ],
     [ "LoadCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a5f653e9f1a4bac1cb290b4f6c373432c", null ],
     [ "splitterPixel", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aa35ecf15cd244e96dec6cf0d21ef89d8", null ],
+    [ "backgroundPixel", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a41fce3fca323921a53c90c04d3a0ce1e", null ],
     [ "statusBar", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae4358dbdc23372131882726541eff46f", null ],
     [ "editIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba", null ],
     [ "copyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436", null ],

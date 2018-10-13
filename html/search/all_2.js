@@ -2,6 +2,7 @@ var searchData=
 [
   ['b',['B',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a9d5ed678fe57bcca610140957afab571',1,'WanzyeeStudio']]],
   ['backgroundcolor',['backgroundColor',['../class_wanzyee_studio_1_1_framerate_counter.html#adbf5605c4713bff8f1944882ad7abda2',1,'WanzyeeStudio::FramerateCounter']]],
+  ['backgroundpixel',['backgroundPixel',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a41fce3fca323921a53c90c04d3a0ce1e',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['basesingleton',['BaseSingleton',['../class_wanzyee_studio_1_1_base_singleton.html',1,'WanzyeeStudio']]],
   ['basesingleton',['BaseSingleton',['../class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4',1,'WanzyeeStudio::BaseSingleton']]],
   ['basesingleton_3c_20frameratecounter_20_3e',['BaseSingleton&lt; FramerateCounter &gt;',['../class_wanzyee_studio_1_1_base_singleton.html',1,'WanzyeeStudio']]],
