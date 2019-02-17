@@ -21,5 +21,7 @@ var class_wanzyee_studio_1_1_editrix_1_1_editrix_style =
     [ "stopCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab6d45d275e7bd2bce0d3b45b3b872983", null ],
     [ "copyCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea", null ],
     [ "linkCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389", null ],
-    [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ]
+    [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ],
+    [ "utilityHeader", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae004d504f90db31ab5e2bf71e14f9f59", null ],
+    [ "utilityFooter", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac2648095c2845383ec3308567420b4ea", null ]
 ];

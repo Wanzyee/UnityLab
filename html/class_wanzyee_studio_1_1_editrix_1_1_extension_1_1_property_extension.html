@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_e
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PropertyExtension<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___event_delegator.html">Event Delegator</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___extensions.html">Extensions</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___shortcut.html">Shortcut</a></div></div>  </div>
+<div class="title">PropertyExtension<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___event_delegator.html">Event Delegator</a><a class="el" href="group___specific.html">Specific Classes</a> &raquo;  &#124; <a class="el" href="group___extensions.html">Extensions</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___shortcut.html">Shortcut</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -128,7 +128,6 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_editrix_1_1_extension.html" title="All extension methods for editor classes are defined within. ">Extension</a> methods for <code>UnityEditor.SerializedProperty</code>. </p>
-<p>3 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ad2dc1b2f7db250b8d1421ff76e87cd3f"></a>
 <div class="memitem">
@@ -186,13 +185,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the parent <code>UnityEditor.SerializedProperty</code> contains this. </p>
 <p>Return <code>null</code> if this is a root within target object. </p>
-<dl class="section return"><dt>Returns</dt><dd>The parent.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">property</td><td>Property.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The parent.</dd></dl>
 
 </div>
 </div>
@@ -220,13 +219,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the tooltip of the property, return <code>string.Empty</code> if none. </p>
 <p>The built-in <code>SerializedProperty.tooltip</code> never works with unknown reason. This uses <code>EditorGUI.BeginProperty()</code> to fetch the tooltip, must be called in <code>OnGUI()</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The tooltip.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">property</td><td>Property.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The tooltip.</dd></dl>
 
 </div>
 </div>
@@ -302,7 +301,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Insert an array element at the specified index and return it. </p>
 <p>Optional to copy values from the original element at the index, like the Unity's default behavior. Otherwise Leave all the values empty. </p>
-<dl class="section return"><dt>Returns</dt><dd>Element property.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">property</td><td>Property.</td></tr>
@@ -311,6 +309,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Element property.</dd></dl>
 
 </div>
 </div>

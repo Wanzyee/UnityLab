@@ -27,11 +27,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html",
-"class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712",
-"class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a63d4f63128781acfa8229a12763b5440",
-"class_wanzyee_studio_1_1_variable_tweaker.html#ab2c5ab3c7a17f0969cdd40146339903a"
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae004d504f90db31ab5e2bf71e14f9f59",
+"class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a0ee6650897f238a3fd6640714eb448b2",
+"class_wanzyee_studio_1_1_event_delegator_group.html#a23c893f7feb7f6a5e9509ad1945a27da",
+"class_wanzyee_studio_1_1_framerate_counter.html#adbf5605c4713bff8f1944882ad7abda2",
+"class_wanzyee_studio_1_1_resolution_setter.html#a68752b222317b1e1103966106fb006e5",
+"namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4abd307275ee4e2fd82f789ddfb8c96674"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -17,11 +17,9 @@ var group___components =
     ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
-      [ "OnAfterDeserialize", "class_wanzyee_studio_1_1_event_delegator.html#af97f96776a06243e316547fce49d877a", null ],
-      [ "OnBeforeSerialize", "class_wanzyee_studio_1_1_event_delegator.html#a72c4055ca88e935619de54f1aeb8f5f2", null ],
       [ "SetMethod", "class_wanzyee_studio_1_1_event_delegator.html#a6f2e4127a33bab2c96b7c72ea9f62972", null ],
       [ "Invoke", "class_wanzyee_studio_1_1_event_delegator.html#ae0a1971d24b447511741cc2c90595e3f", null ],
-      [ "Invoke< T >", "class_wanzyee_studio_1_1_event_delegator.html#a7c9c2e807c19bb1e2c154ab0a2232798", null ],
+      [ "InvokeCall< T >", "class_wanzyee_studio_1_1_event_delegator.html#a38571128b355daf8a8c18f8b228b2f8e", null ],
       [ "instance", "class_wanzyee_studio_1_1_event_delegator.html#a401e6c2ee0732f2e506bcba1aa841f04", null ],
       [ "methodInfo", "class_wanzyee_studio_1_1_event_delegator.html#aeee43e411aaecf849ca03f4f73a79bb1", null ],
       [ "parameters", "class_wanzyee_studio_1_1_event_delegator.html#a6a453747e0c39159a7856a920bc88866", null ],
@@ -67,12 +65,20 @@ var group___components =
       [ "instance", "class_wanzyee_studio_1_1_framerate_counter.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
     ] ],
     [ "KeyClickExecutor", "class_wanzyee_studio_1_1_key_click_executor.html", [
-      [ "key", "class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48", null ]
+      [ "key", "class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48", null ],
+      [ "selfOnly", "class_wanzyee_studio_1_1_key_click_executor.html#a3f9a2d643c86340cc9a78059fce37409", null ],
+      [ "camera3D", "class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143", null ]
     ] ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", [
       [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
       [ "color", "class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073", null ],
       [ "includeInBuild", "class_wanzyee_studio_1_1_note.html#adeb930a4db84ec73f5ff72bb1c0f1f01", null ]
+    ] ],
+    [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", [
+      [ "OnRequireFromPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#af2cad11196a141bcf36a1828303545d8", null ],
+      [ "OnReleaseIntoPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a7f039d3732df8c99e817478b7dbb2873", null ],
+      [ "onRequire", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a69d04ac151a1bbb482a4b610faa6fcde", null ],
+      [ "onRelease", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a380f71e49b6660ef9ade55179f5ab6cb", null ]
     ] ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", [
       [ "Launch", "class_wanzyee_studio_1_1_process_launcher.html#abe9b413e3c019ccee4f87ab0071c5aad", null ],

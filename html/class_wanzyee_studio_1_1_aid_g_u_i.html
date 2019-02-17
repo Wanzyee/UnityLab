@@ -168,7 +168,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad30522f12ebd72c3149953b9b7f2c532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the value field formatted by the value type.  <a href="#ad30522f12ebd72c3149953b9b7f2c532">More...</a><br /></td></tr>
 <tr class="separator:ad30522f12ebd72c3149953b9b7f2c532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924a360f14cdfb22d17f040c1f22fc4b"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a924a360f14cdfb22d17f040c1f22fc4b">TextField&lt; T &gt;</a> (GUIContent label, T value, params GUILayoutOption[] options)</td></tr>
-<tr class="memdesc:a924a360f14cdfb22d17f040c1f22fc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the text field to display json serialized value.  <a href="#a924a360f14cdfb22d17f040c1f22fc4b">More...</a><br /></td></tr>
+<tr class="memdesc:a924a360f14cdfb22d17f040c1f22fc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the text field to display JSON serialized value.  <a href="#a924a360f14cdfb22d17f040c1f22fc4b">More...</a><br /></td></tr>
 <tr class="separator:a924a360f14cdfb22d17f040c1f22fc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2aebe0e1728273c5f5cbc85a6a5c3d5"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#ae2aebe0e1728273c5f5cbc85a6a5c3d5">GUIToScreenPoint</a> (Vector2 guiPoint)</td></tr>
 <tr class="memdesc:ae2aebe0e1728273c5f5cbc85a6a5c3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a point from GUI position to screen space.  <a href="#ae2aebe0e1728273c5f5cbc85a6a5c3d5">More...</a><br /></td></tr>
@@ -226,7 +226,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Check if currently focus on a text field, and unfocus if click outside or press ESC key. </p>
 <p>Optional to assign extra keys to unfocus besides escape key. If specify control ID, check extra keys only if focus on it now, and return if still focused. Otherwise, check extra keys whenever key down, and return if any text control focused. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if focused, <code>false</code> otherwise.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>Control ID.</td></tr>
@@ -234,6 +233,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if focused, <code>false</code> otherwise.</dd></dl>
 
 </div>
 </div>
@@ -309,7 +309,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw multiline text field with prefix label. </p>
 <p>Unfocus if click outside or press escape key. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -318,6 +317,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -361,7 +361,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>bool</code> toggle with prefix label, and the value <code>string</code> behind. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -370,6 +369,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -425,7 +425,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>int</code> field with limited slider, or shuttle if limitations are the same. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -436,6 +435,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -491,7 +491,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>float</code> field with limited slider, or shuttle if limitations are the same. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -502,6 +501,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -661,7 +661,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Vector2</code> field with 2 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code> in one line. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -670,6 +669,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -713,7 +713,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Vector3</code> field with 3 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code> in one line. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -722,6 +721,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -765,7 +765,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Vector4</code> field with 4 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code> in one line. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -774,6 +773,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -817,7 +817,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Quaternion</code> field with 4 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code> in one line. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -826,6 +825,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -869,7 +869,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Rect</code> field with 4 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code> in one line. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -878,6 +877,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -921,7 +921,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.RectOffset</code> field with 4 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a8236a94e7a6e21abda61d26271ee7154" title="Draw int field with limited slider, or shuttle if limitations are the same. ">IntField()</a></code> in one line. </p>
 <p>This will return new instance although it's <code>class</code>. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -930,6 +929,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -973,7 +973,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Bounds</code> field with 2 lines of <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#ada8def5028f162ba790bd359f6225003" title="Draw UnityEngine.Vector3 field with 3 FloatField() in one line. ">Vector3Field()</a></code>. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -982,6 +981,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1025,7 +1025,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Matrix4x4</code> field in 4 lines, each has 4 <code><a class="el" href="class_wanzyee_studio_1_1_aid_g_u_i.html#a352b67834c201c35bd9ed40e4a49808c" title="Draw float field with limited slider, or shuttle if limitations are the same. ">FloatField()</a></code>. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1034,6 +1033,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1077,7 +1077,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw <code>UnityEngine.Color</code> field with preview and 4 sliders to tweak RGBA or HSVA. </p>
 <p>Click preview field to switch color mode. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1086,6 +1085,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1129,7 +1129,12 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw radio toggles to select enum. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The enum type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1138,12 +1143,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The enum type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1187,7 +1187,12 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Draw radio toggles to multi select mask enum. </p>
 <p>This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The enum type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1196,12 +1201,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The enum type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1249,7 +1249,12 @@ Static Public Member Functions</h2></td></tr>
 <li><code>UnityEngine.MonoBehaviour</code>.</li>
 <li><code>UnityEngine.ScriptableObject</code>. </li>
 </ol>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The value type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1258,12 +1263,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The value type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1305,9 +1305,14 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Draw the text field to display json serialized value. </p>
+<p>Draw the text field to display JSON serialized value. </p>
 <p>Use temporary content if focused, highlight if different from the original. Unfocus if click outside, press escape or enter key. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, this will return new deserialized value instance if changed, otherwise original. This applies options to horizontal group, may cause 4px more than normal above and below. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The value type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -1316,12 +1321,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The value type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -1348,13 +1348,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Convert a point from GUI position to screen space. </p>
-<dl class="section return"><dt>Returns</dt><dd>The screen point.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">guiPoint</td><td>GUI point.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The screen point.</dd></dl>
 
 </div>
 </div>
@@ -1382,13 +1382,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Convert a point from screen space to GUI position. </p>
 <p>The result is the same as <code>Event.mousePosition</code> if assigning <code>Input.mousePosition</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The GUI point.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">screenPoint</td><td>Screen point.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The GUI point.</dd></dl>
 
 </div>
 </div>

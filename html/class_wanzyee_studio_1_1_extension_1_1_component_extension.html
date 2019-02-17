@@ -116,6 +116,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a45e1eee0e19a9df45bc0566437a5b91d"><td class="memItemLeft" align="right" valign="top">static Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d">InverseTransformQuat</a> (this Transform transform, Quaternion rotation)</td></tr>
 <tr class="memdesc:a45e1eee0e19a9df45bc0566437a5b91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms position from world space to local space, opposite of <code><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712" title="Transforms rotation from local space to world space. ">TransformQuat()</a></code>.  <a href="#a45e1eee0e19a9df45bc0566437a5b91d">More...</a><br /></td></tr>
 <tr class="separator:a45e1eee0e19a9df45bc0566437a5b91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959e3acec6f1952a82d72fb64ef99b81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81">SetCentimeterDragThreshold</a> (this EventSystem eventSystem, float centimeter=0.3f, float fallbackDpi=200f)</td></tr>
+<tr class="memdesc:a959e3acec6f1952a82d72fb64ef99b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the drag threshold by centimeter for different resolution.  <a href="#a959e3acec6f1952a82d72fb64ef99b81">More...</a><br /></td></tr>
+<tr class="separator:a959e3acec6f1952a82d72fb64ef99b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8093c683f7c3e756412ec5d1a402b4e7"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7">CenterToScreenPoint</a> (this RectTransform transform)</td></tr>
 <tr class="memdesc:a8093c683f7c3e756412ec5d1a402b4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the center of a specified <code>UnityEngine.RectTransform</code> to screen space point.  <a href="#a8093c683f7c3e756412ec5d1a402b4e7">More...</a><br /></td></tr>
 <tr class="separator:a8093c683f7c3e756412ec5d1a402b4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,7 +162,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the hierarchy path, used for log or <code>GameObject.Find()</code> with the default separator. </p>
-<dl class="section return"><dt>Returns</dt><dd>The hierarchy path.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
@@ -167,6 +169,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The hierarchy path.</dd></dl>
 
 </div>
 </div>
@@ -203,7 +206,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Transforms rotation from local space to world space. </p>
-<dl class="section return"><dt>Returns</dt><dd>The world rotation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
@@ -211,6 +213,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The world rotation.</dd></dl>
 
 </div>
 </div>
@@ -247,11 +250,61 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Transforms position from world space to local space, opposite of <code><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712" title="Transforms rotation from local space to world space. ">TransformQuat()</a></code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The local rotation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
     <tr><td class="paramname">rotation</td><td>World rotation.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The local rotation.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a959e3acec6f1952a82d72fb64ef99b81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SetCentimeterDragThreshold </td>
+          <td>(</td>
+          <td class="paramtype">this EventSystem&#160;</td>
+          <td class="paramname"><em>eventSystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>centimeter</em> = <code>0.3f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fallbackDpi</em> = <code>200f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the drag threshold by centimeter for different resolution. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventSystem</td><td>The <code>UnityEngine.EventSystems.EventSystem</code>.</td></tr>
+    <tr><td class="paramname">centimeter</td><td>Centimeter.</td></tr>
+    <tr><td class="paramname">fallbackDpi</td><td>The fallback DPI used when failed to fetch.</td></tr>
   </table>
   </dd>
 </dl>
@@ -281,13 +334,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Convert the center of a specified <code>UnityEngine.RectTransform</code> to screen space point. </p>
-<dl class="section return"><dt>Returns</dt><dd>The screen point.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Transform.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The screen point.</dd></dl>
 
 </div>
 </div>

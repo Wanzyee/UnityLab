@@ -2,6 +2,8 @@ var searchData=
 [
   ['cancel',['Cancel',['../class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26',1,'WanzyeeStudio::WwwLoader']]],
   ['canconvert',['CanConvert',['../class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html#a8cf86720a5481c744a0a551d1541f5d8',1,'WanzyeeStudio.Json.DictionaryConverter.CanConvert()'],['../class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a8cf86720a5481c744a0a551d1541f5d8',1,'WanzyeeStudio.Json.PartialConverter.CanConvert()']]],
+  ['canconvertfrom',['CanConvertFrom',['../class_wanzyee_studio_1_1_converter_1_1_base_string_converter.html#a14f7da9d091fde1c40ce1b8253bd6c07',1,'WanzyeeStudio::Converter::BaseStringConverter']]],
+  ['canconvertto',['CanConvertTo',['../class_wanzyee_studio_1_1_converter_1_1_base_string_converter.html#af9b70d1f4ae006b564c868e13da9a67e',1,'WanzyeeStudio::Converter::BaseStringConverter']]],
   ['centertoscreenpoint',['CenterToScreenPoint',['../class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7',1,'WanzyeeStudio::Extension::ComponentExtension']]],
   ['checkarray',['CheckArray',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a',1,'WanzyeeStudio::Editrix::Extension::PropertyExtension']]],
   ['checkcreatable',['CheckCreatable',['../class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0',1,'WanzyeeStudio::IoUtility']]],
@@ -18,8 +20,12 @@ var searchData=
   ['closewindow',['CloseWindow',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html#ad578d48fab98891fbdc3f0020ab36fbc',1,'WanzyeeStudio::Editrix::Toolkit::TabNavigator']]],
   ['colorfield',['ColorField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a7a1c3ca93a21621e8df6b4e14a2c8afa',1,'WanzyeeStudio::AidGUI']]],
   ['convert',['Convert',['../class_wanzyee_studio_1_1_matrix_utility.html#a6497a87374655aa9dcc1430d1d519851',1,'WanzyeeStudio::MatrixUtility']]],
+  ['convertfrom',['ConvertFrom',['../class_wanzyee_studio_1_1_converter_1_1_base_string_converter.html#a06591ee72163b0b057935e66464eaa41',1,'WanzyeeStudio::Converter::BaseStringConverter']]],
+  ['convertto',['ConvertTo',['../class_wanzyee_studio_1_1_converter_1_1_base_string_converter.html#ab4493a3dc4055ad1a6edb1fa22223934',1,'WanzyeeStudio::Converter::BaseStringConverter']]],
   ['copy',['Copy',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#abdcfe7e62493cf8f023b311aea775ab9',1,'WanzyeeStudio.Editrix.Toolkit.Clipboard.Copy()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#ab29075c8ca08ab5ed8f0731674da4002',1,'WanzyeeStudio.Editrix.Toolkit.MaterialPropertyCopier.Copy()']]],
   ['copyrecords',['CopyRecords',['../class_wanzyee_studio_1_1_time_recorder.html#a969739de6b14e307295a33a70cf7b564',1,'WanzyeeStudio::TimeRecorder']]],
   ['create',['Create',['../class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30',1,'WanzyeeStudio.Editrix.ReorderableListExpander.Create()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#acf24cd0c1c943cab0b9e822abb878a1f',1,'WanzyeeStudio.Editrix.Toolkit.InspectorHelper.Create()'],['../class_wanzyee_studio_1_1_matrix_utility.html#af5d6ae107bd54443ef798bf502e3e19f',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 scale, Vector3 axisX, Vector3 axisY, Vector3 axisZ)'],['../class_wanzyee_studio_1_1_matrix_utility.html#ac633faed78e399a83757d04af8b00275',1,'WanzyeeStudio.MatrixUtility.Create(Vector3 position, Vector3 axisX, Vector3 axisY, Vector3 axisZ)']]],
-  ['createinstance',['CreateInstance',['../class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a07606f5a91b11a5fe26eb9fbcbfbbd7d',1,'WanzyeeStudio::Json::PartialConverter']]]
+  ['createinstance',['CreateInstance',['../class_wanzyee_studio_1_1_json_1_1_partial_converter.html#a07606f5a91b11a5fe26eb9fbcbfbbd7d',1,'WanzyeeStudio::Json::PartialConverter']]],
+  ['cryptoobject',['CryptoObject',['../class_wanzyee_studio_1_1_crypto_object.html#a86475bfd089b6c50086fb642f36a90c0',1,'WanzyeeStudio.CryptoObject.CryptoObject(string json=null)'],['../class_wanzyee_studio_1_1_crypto_object.html#a852dc5651c77aa19dcd0aa7b7e8068fc',1,'WanzyeeStudio.CryptoObject.CryptoObject(T value)']]],
+  ['cryptostring',['CryptoString',['../class_wanzyee_studio_1_1_crypto_string.html#a6d632b9db8afc9db244343943ef8d2d2',1,'WanzyeeStudio::CryptoString']]]
 ];

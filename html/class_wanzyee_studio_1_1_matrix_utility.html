@@ -230,7 +230,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Create a TRS matrix with position, abs scale and normalized axes. </p>
 <p>A normalized axis multiplies the scale as length to fill up the matrix. Different from <code>Matrix4x4.TRS()</code>, using axes to include skew. </p>
-<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">position</td><td>Position.</td></tr>
@@ -241,6 +240,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 
 </div>
 </div>
@@ -290,7 +290,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Create a TRS matrix, directly fill up the columns with position and axes. </p>
 <p>An axis is a segment with direction and length. Different from <code>Matrix4x4.TRS()</code>, using axes to include skew. </p>
-<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">position</td><td>Position.</td></tr>
@@ -300,6 +299,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 
 </div>
 </div>
@@ -349,7 +349,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get converted matrix from a parent matrix to another. </p>
 <p>If set scale <code>false</code>, treat the parent space with scale one. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -359,6 +358,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 
 </div>
 </div>
@@ -402,7 +402,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get converted matrix from local in parent to world space. </p>
 <p>If set scale <code>false</code>, treat the parent space with scale one. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -411,6 +410,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 
 </div>
 </div>
@@ -454,7 +454,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get converted matrix from world to local in parent space. </p>
 <p>If set scale <code>false</code>, treat the parent space with scale one. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -463,6 +462,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The matrix.</dd></dl>
 
 </div>
 </div>
@@ -490,13 +490,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the determinant of the matrix. </p>
 <p>This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The determinant.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The determinant.</dd></dl>
 
 </div>
 </div>
@@ -524,13 +524,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the X axis from TRS matrix. </p>
 <p>The axis vector means direction and magnitude. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The axis x.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The axis x.</dd></dl>
 
 </div>
 </div>
@@ -602,13 +602,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the Y axis from TRS matrix. </p>
 <p>The axis vector means direction and magnitude. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The axis y.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The axis y.</dd></dl>
 
 </div>
 </div>
@@ -680,13 +680,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the Z axis from TRS matrix. </p>
 <p>The axis vector means direction and magnitude. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The axis z.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The axis z.</dd></dl>
 
 </div>
 </div>
@@ -758,13 +758,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the position from TRS matrix. </p>
 <p>This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The position.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The position.</dd></dl>
 
 </div>
 </div>
@@ -836,13 +836,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the rotation from TRS matrix. </p>
 <p><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a> first, <code>UnityEngine.Quaternion</code> can't represent the correct axes if matrix skewed. Second, the directions might be incorrect if matrix made from negative or zero scale. The other, the sign might differ from the rotation passed to <code>Matrix4x4.TRS()</code>. If you wanna compare the rotation, for use, you could compare eulerAngles instead. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The rotation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The rotation.</dd></dl>
 
 </div>
 </div>
@@ -880,7 +880,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the rotation from TRS matrix. </p>
 <p>Correct direction with signed scale of matrix to handle with negative value. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The rotation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -888,6 +887,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The rotation.</dd></dl>
 
 </div>
 </div>
@@ -959,13 +959,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the scale from TRS matrix. </p>
 <p>This method can only calculate scale into positive value. It might not the same as the scale passed to <code>Matrix4x4.TRS()</code> if with negative. Since it's able to generate the same matrix by different scale and rotation pair. There's not enough information to know the correct signs of scale components. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The scale.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The scale.</dd></dl>
 
 </div>
 </div>
@@ -1003,7 +1003,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the scale from TRS matrix. </p>
 <p>This corrects the sign with known rotation of the matrix. If the matrix is made from <code>UnityEngine.Transform</code>, the return is <code>lossyScale</code>. Calculating might cause little tolerance, it's better to compare by approx. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd>The scale.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -1011,6 +1010,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The scale.</dd></dl>
 
 </div>
 </div>
@@ -1092,7 +1092,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Determine if the specified TRS matrix skewed. </p>
 <p>Return <code>false</code> if all the axes pairs are perpendicular or zero. This will NOT modify the referred matrix. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is skewed matrix; otherwise, <code>false</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>Matrix.</td></tr>
@@ -1100,6 +1099,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is skewed matrix; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -1149,7 +1149,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Determine if the matrix skewed by axes. </p>
 <p>Return <code>true</code> if anyone of pairs axes includes non-right angle, means skewed. Otherwise, the vectors are perpendicular or zero. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is skewed axes; otherwise, <code>false</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">axisX</td><td>X-Axis.</td></tr>
@@ -1159,6 +1158,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is skewed axes; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>

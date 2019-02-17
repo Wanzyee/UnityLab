@@ -123,6 +123,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3">GetObjectOrder</a> (Object source, bool assetFirst=true)</td></tr>
 <tr class="memdesc:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given object for sorting.  <a href="#ab57b5c77c0a484adc98d8ed88d9083e3">More...</a><br /></td></tr>
 <tr class="separator:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b">OpenAbout</a> (Object obj)</td></tr>
+<tr class="memdesc:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the about message of the specified object.  <a href="#aeedc9a9e974e8949234ab6ebb6533d1b">More...</a><br /></td></tr>
+<tr class="separator:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ca6dcc3f26a9c48a639e7b85ffc194"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194">CheckIoCreatable</a> (string path, bool overwrite=false, bool exception=false)</td></tr>
 <tr class="memdesc:a53ca6dcc3f26a9c48a639e7b85ffc194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the path can be used to create a file or directory.  <a href="#a53ca6dcc3f26a9c48a639e7b85ffc194">More...</a><br /></td></tr>
 <tr class="separator:a53ca6dcc3f26a9c48a639e7b85ffc194"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,13 +172,13 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all main assets in the project folder. </p>
-<dl class="section return"><dt>Returns</dt><dd>The all assets.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">progressBar</td><td>If set to <code>true</code> show progress bar while scanning.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The all assets.</dd></dl>
 
 </div>
 </div>
@@ -202,13 +205,13 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all asset labels used in project, or only find the ones used by assigned assets. </p>
-<dl class="section return"><dt>Returns</dt><dd>The asset labels.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">assets</td><td>Assets.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The asset labels.</dd></dl>
 
 </div>
 </div>
@@ -245,7 +248,12 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Load all specified type assets with the search filter in the folders. </p>
-<dl class="section return"><dt>Returns</dt><dd>The assets.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The asset type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filter</td><td>The filter string can contain search data.</td></tr>
@@ -253,12 +261,7 @@ Events</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The asset type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The assets.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -303,7 +306,12 @@ Events</h2></td></tr>
 
 <p>Common template method to open an asset. </p>
 <p>Basically for usage of <code>UnityEditor.Callbacks.OnOpenAssetAttribute</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if handled the opening of the asset.</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Asset type.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">instanceID</td><td>Instance ID.</td></tr>
@@ -311,12 +319,7 @@ Events</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>Asset type.</td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if handled the opening of the asset.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -361,11 +364,48 @@ Events</h2></td></tr>
 
 <p>Get an order <code>string</code> of given object for sorting. </p>
 <p>It's asset path, append with sibling if relative to <code>UnityEngine.GameObject</code>. Optional to sort asset or hierarchy object first. </p>
-<dl class="section return"><dt>Returns</dt><dd>The order.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">source</td><td>Source object.</td></tr>
     <tr><td class="paramname">assetFirst</td><td>If set to <code>true</code> asset first.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The order.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeedc9a9e974e8949234ab6ebb6533d1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OpenAbout </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open the about message of the specified object. </p>
+<p>This fetches the messages from the object type attributes:</p><ol type="1">
+<li>Brief message from <code>System.ComponentModel.DescriptionAttribute</code>.</li>
+<li>Online manual URL from <code>UnityEngine.HelpURLAttribute</code>. </li>
+</ol>
+<p>Show a dialog if there's the brief, and with a button to open the URL if exists. Otherwise, directly open the URL, or warning if not any message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>The object to retrieve documentation for.</td></tr>
   </table>
   </dd>
 </dl>
@@ -412,7 +452,6 @@ Events</h2></td></tr>
 
 <p>Determine if the path can be used to create a file or directory. </p>
 <p>Optional to throw an exception message or just return <code>false</code> if invalid. Check <code><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0" title="Determine if the path can be used to create a file or directory. ">IoUtility.CheckCreatable()</a></code> at the first. Then return <code>true</code> if the file doesn't exist yet or force to <code>overwrite</code>. Otherwise popup a dialog for the user to make the decision. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is creatable; otherwise, <code>false</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path.</td></tr>
@@ -421,6 +460,7 @@ Events</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is creatable; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -448,13 +488,13 @@ Events</h2></td></tr>
 
 <p>Get types appropriate to expose in the Inspector to select members, optional to include editor types. </p>
 <p>Include types from Unity and assemblies in the project folder. And what excluded is non-public, <code>interface</code>, <code>enum</code>, array or generic types. </p>
-<dl class="section return"><dt>Returns</dt><dd>The types.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">editor</td><td>If set to <code>true</code> include editor types.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The types.</dd></dl>
 
 </div>
 </div>

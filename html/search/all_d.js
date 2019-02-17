@@ -2,6 +2,7 @@ var searchData=
 [
   ['main',['main',['../class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4',1,'WanzyeeStudio::StackWindow']]],
   ['makegroup',['MakeGroup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6474f6ab86c5c851bbb8008cb3925456',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a0da5441c557dbfd2fac034592f8c9168',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup(string name, params Transform[] children)']]],
+  ['manual',['manual',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#ad2f2beba0f66dae861029446627d50b9',1,'WanzyeeStudio::PopupMenuAttribute']]],
   ['mask',['mask',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#aca4e9824b680f3e302c7c015e83a4414',1,'WanzyeeStudio::RaycastMaskFilter']]],
   ['matches',['matches',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#a59fe83e71ae80696e795201850f2344f',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['materialpropertycopier',['MaterialPropertyCopier',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
@@ -22,6 +23,5 @@ var searchData=
   ['monomessage',['MonoMessage',['../group___enumerations.html#ga0269e87b6cdff644a895ce678a8afeb4',1,'WanzyeeStudio']]],
   ['movecursor',['moveCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['multifloatfield',['MultiFloatField',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a',1,'WanzyeeStudio.Editrix.EditrixGUI.MultiFloatField()'],['../class_wanzyee_studio_1_1_aid_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a',1,'WanzyeeStudio.AidGUI.MultiFloatField()']]],
-  ['multiintfield',['MultiIntField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a4c1a5ec9b39e2d38b71f495d2de8ae56',1,'WanzyeeStudio::AidGUI']]],
-  ['mustto_3c_20t_20_3e',['MustTo&lt; T &gt;',['../class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a1f88a115051d8491984460d43d62fd69',1,'WanzyeeStudio::Extension::StringExtension']]]
+  ['multiintfield',['MultiIntField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a4c1a5ec9b39e2d38b71f495d2de8ae56',1,'WanzyeeStudio::AidGUI']]]
 ];

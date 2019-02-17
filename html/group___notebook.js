@@ -22,6 +22,7 @@ var group___notebook =
       [ "QuaternionField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aa426bfdd5dfa3f09430ce7e7685b8024", null ],
       [ "SearchField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aea464400a82329230da40a81aa7bf263", null ],
       [ "ErrorField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10", null ],
+      [ "NamelessField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a519a274e3a3432565a3d4fee84f6479f", null ],
       [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac", null ],
       [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a1a497f9ec2db0ae8f53219aeb12a6ed5", null ],
       [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ab3e091236025ea85755b874ae1784452", null ],
@@ -49,7 +50,9 @@ var group___notebook =
       [ "stopCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab6d45d275e7bd2bce0d3b45b3b872983", null ],
       [ "copyCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea", null ],
       [ "linkCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389", null ],
-      [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ]
+      [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ],
+      [ "utilityHeader", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae004d504f90db31ab5e2bf71e14f9f59", null ],
+      [ "utilityFooter", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac2648095c2845383ec3308567420b4ea", null ]
     ] ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
@@ -57,6 +60,7 @@ var group___notebook =
       [ "LoadAssets< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc", null ],
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
       [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576", null ],

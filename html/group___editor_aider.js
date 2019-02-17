@@ -54,6 +54,7 @@ var group___editor_aider =
       [ "LoadAssets< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc", null ],
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
       [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576", null ],
@@ -63,14 +64,6 @@ var group___editor_aider =
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
       [ "AddItem", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9", null ]
-    ] ],
-    [ "PropertyExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html", [
-      [ "CheckValid", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ad2dc1b2f7db250b8d1421ff76e87cd3f", null ],
-      [ "GetParent", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a726be989760d5e68005f723484a7ddca", null ],
-      [ "GetTooltip", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ab32861161eec1809a2e79cb476dd0e6d", null ],
-      [ "CheckArray", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a", null ],
-      [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
-      [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
     ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
       [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],

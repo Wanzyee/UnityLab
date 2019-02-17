@@ -128,6 +128,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a142d3221442a8ab72da400346ebcfd10"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10">ErrorField</a> (Rect position, GUIContent label, GUIContent error)</td></tr>
 <tr class="memdesc:a142d3221442a8ab72da400346ebcfd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an error message after the prefix label.  <a href="#a142d3221442a8ab72da400346ebcfd10">More...</a><br /></td></tr>
 <tr class="separator:a142d3221442a8ab72da400346ebcfd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519a274e3a3432565a3d4fee84f6479f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a519a274e3a3432565a3d4fee84f6479f">NamelessField</a> (Rect rect, SerializedProperty property, string path=&quot;&quot;, bool border=false)</td></tr>
+<tr class="memdesc:a519a274e3a3432565a3d4fee84f6479f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a simple property field without the label, but still tooltip.  <a href="#a519a274e3a3432565a3d4fee84f6479f">More...</a><br /></td></tr>
+<tr class="separator:a519a274e3a3432565a3d4fee84f6479f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c5c03e989a96da4f14a8fc428c885ac"><td class="memItemLeft" align="right" valign="top">static Object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac">CheckDragObjects</a> (Func&lt; Object, bool &gt; filter)</td></tr>
 <tr class="memdesc:a3c5c03e989a96da4f14a8fc428c885ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references.  <a href="#a3c5c03e989a96da4f14a8fc428c885ac">More...</a><br /></td></tr>
 <tr class="separator:a3c5c03e989a96da4f14a8fc428c885ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,13 +172,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the label width within the specified view width. </p>
 <p>Commonly used for a prefix label in a resizable window. Use <code>EditorGUIUtility.currentViewWidth</code> instead if not assign. </p>
-<dl class="section return"><dt>Returns</dt><dd>The label width.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">viewWidth</td><td>View width.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The label width.</dd></dl>
 
 </div>
 </div>
@@ -330,7 +333,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Make an X, Y, Z and W field for entering a <code>UnityEngine.Vector4</code>. </p>
 <p>Copycat of <code>EditorGUILayout.Vector4Field()</code> but use <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a51739ea4e5528c6a587dad7f095ab38a" title="Make a multi-control with text fields for entering multiple floats in the same line. ">MultiFloatField()</a></code>. Contrast to original, this correct line wrap and indent level. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -339,6 +341,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -382,7 +385,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Make an X, Y, Z and W field for entering a <code>UnityEngine.Quaternion</code>. </p>
 <p>Just looks like <code><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c" title="Make an X, Y, Z and W field for entering a UnityEngine.Vector4. ">Vector4Field()</a></code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">label</td><td>Label.</td></tr>
@@ -391,6 +393,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new value.</dd></dl>
 
 </div>
 </div>
@@ -433,7 +436,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Make a toolbar style search field, optional to set a callback invoked when click the magnifier popup icon. </p>
-<dl class="section return"><dt>Returns</dt><dd>The new text.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>The text to edit.</td></tr>
@@ -442,6 +444,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The new text.</dd></dl>
 
 </div>
 </div>
@@ -495,6 +498,63 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a519a274e3a3432565a3d4fee84f6479f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void NamelessField </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SerializedProperty&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>border</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make a simple property field without the label, but still tooltip. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rect</td><td>Rect.</td></tr>
+    <tr><td class="paramname">property</td><td>Property.</td></tr>
+    <tr><td class="paramname">path</td><td>Relative property path.</td></tr>
+    <tr><td class="paramname">border</td><td>Background border.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a3c5c03e989a96da4f14a8fc428c885ac"></a>
 <div class="memitem">
 <div class="memproto">
@@ -518,13 +578,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references. </p>
-<dl class="section return"><dt>Returns</dt><dd>The filtered objects, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filter</td><td>The callback invoked to filter each object only when drag updated.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The filtered objects, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 
 </div>
 </div>
@@ -551,13 +611,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if Drag'n'Drop performed with the filtered dragged <code>UnityEngine.Object</code> references. </p>
-<dl class="section return"><dt>Returns</dt><dd>The filtered objects, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filter</td><td>The callback invoked to filter all objects only when drag updated.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The filtered objects, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 
 </div>
 </div>
@@ -584,13 +644,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if Drag'n'Drop performed with the filtered dragged <code>string</code> paths. </p>
-<dl class="section return"><dt>Returns</dt><dd>The filtered paths, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filter</td><td>The callback invoked to filter each path only when drag updated.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The filtered paths, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 
 </div>
 </div>
@@ -617,13 +677,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if Drag'n'Drop performed with the filtered dragged <code>string</code> paths. </p>
-<dl class="section return"><dt>Returns</dt><dd>The filtered paths, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filter</td><td>The callback invoked to filter all paths only when drag updated.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The filtered paths, only valid when drag performed, otherwise <code>null</code>.</dd></dl>
 
 </div>
 </div>

@@ -11,5 +11,6 @@ var searchData=
   ['reset',['Reset',['../class_wanzyee_studio_1_1_time_recorder.html#a372de693ad40b3f42839c8ec6ac845f4',1,'WanzyeeStudio::TimeRecorder']]],
   ['resize',['Resize',['../class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#a63926c616b2e941b5d6b42d53fb87d09',1,'WanzyeeStudio::Extension::TextureExtension']]],
   ['resume',['Resume',['../class_wanzyee_studio_1_1_coroutiner.html#a8af8fb637c7ae9d71a23bf3ac80d3c86',1,'WanzyeeStudio::Coroutiner']]],
-  ['retrievecache',['RetrieveCache',['../class_wanzyee_studio_1_1_www_loader.html#a8ba38a438da851833cdf7e4430873c1d',1,'WanzyeeStudio::WwwLoader']]]
+  ['retrievecache',['RetrieveCache',['../class_wanzyee_studio_1_1_www_loader.html#a8ba38a438da851833cdf7e4430873c1d',1,'WanzyeeStudio::WwwLoader']]],
+  ['run',['Run',['../class_wanzyee_studio_1_1_time_recorder.html#ab96c36c46e9b8016531f133bf72e9099',1,'WanzyeeStudio::TimeRecorder']]]
 ];

@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_coroutiner.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_coroutiner-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_coroutiner.ht
 </div><!--header-->
 <div class="contents">
 
-<p>Run coroutine globally, for static usage, classes not <code>UnityEngine.MonoBehaviour</code>, even in edit mode.  
+<p>Run coroutines globally.  
  <a href="class_wanzyee_studio_1_1_coroutiner.html#details">More...</a></p>
 
 <p>Inherits CustomYieldInstruction.</p>
@@ -123,15 +124,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a176d222f27ee4e9191d12d01e4e4ac79"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a176d222f27ee4e9191d12d01e4e4ac79">Start</a> (IEnumerator routine)</td></tr>
-<tr class="memdesc:a176d222f27ee4e9191d12d01e4e4ac79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the coroutine, used to replace <code>MonoBehaviour.StartCoroutine</code>.  <a href="#a176d222f27ee4e9191d12d01e4e4ac79">More...</a><br /></td></tr>
-<tr class="separator:a176d222f27ee4e9191d12d01e4e4ac79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae447a7d8984781277716a20e2f141261"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ae447a7d8984781277716a20e2f141261">Delay</a> (Action action, object delay=null)</td></tr>
-<tr class="memdesc:ae447a7d8984781277716a20e2f141261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay invoke the <code>action</code>, e.g., <code>UnityEngine.WaitForSeconds</code>, or <code>null</code> as a frame, etc.  <a href="#ae447a7d8984781277716a20e2f141261">More...</a><br /></td></tr>
-<tr class="separator:ae447a7d8984781277716a20e2f141261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae070067863b9aeeee9d086da04e26be1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ae070067863b9aeeee9d086da04e26be1">Invoke</a> (Action action, float time, float repeatRate=0f, bool unscaled=false)</td></tr>
-<tr class="memdesc:ae070067863b9aeeee9d086da04e26be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoke the <code>action</code> after a <code>time</code>, optional to set repeat or only once.  <a href="#ae070067863b9aeeee9d086da04e26be1">More...</a><br /></td></tr>
-<tr class="separator:ae070067863b9aeeee9d086da04e26be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56da34a0b931c9943eb5eea40517bd30"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a56da34a0b931c9943eb5eea40517bd30">Start</a> (IEnumerator routine, Object owner=null)</td></tr>
+<tr class="memdesc:a56da34a0b931c9943eb5eea40517bd30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the coroutine, used to replace <code>MonoBehaviour.StartCoroutine</code>.  <a href="#a56da34a0b931c9943eb5eea40517bd30">More...</a><br /></td></tr>
+<tr class="separator:a56da34a0b931c9943eb5eea40517bd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0add3c4c012448827c25cd4151b8aa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a2e0add3c4c012448827c25cd4151b8aa">Delay</a> (Action action, object delay=null, Object owner=null)</td></tr>
+<tr class="memdesc:a2e0add3c4c012448827c25cd4151b8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay invoke the <code>action</code>, e.g., <code>UnityEngine.WaitForSeconds</code>, or <code>null</code> as a frame, etc.  <a href="#a2e0add3c4c012448827c25cd4151b8aa">More...</a><br /></td></tr>
+<tr class="separator:a2e0add3c4c012448827c25cd4151b8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc0d4942bcffc71eea6af2656afa84c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#adc0d4942bcffc71eea6af2656afa84c0">Invoke</a> (Action action, float time, float repeatRate=0f, bool unscaled=false, Object owner=null)</td></tr>
+<tr class="memdesc:adc0d4942bcffc71eea6af2656afa84c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoke the <code>action</code> after a <code>time</code>, optional to set repeat or only once.  <a href="#adc0d4942bcffc71eea6af2656afa84c0">More...</a><br /></td></tr>
+<tr class="separator:adc0d4942bcffc71eea6af2656afa84c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="memItemLeft" align="right" valign="top">Func&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ac8c0f7bda9ca64cfde819e1da1f07d52">stopper</a></td></tr>
+<tr class="memdesc:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback to stop the coroutine, if exists and returns <code>true</code>.  <a href="#ac8c0f7bda9ca64cfde819e1da1f07d52">More...</a><br /></td></tr>
+<tr class="separator:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -146,13 +153,19 @@ Properties</h2></td></tr>
 <tr class="separator:a2778689fc3def0f49cc9c61de04a9484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Run coroutine globally, for static usage, classes not <code>UnityEngine.MonoBehaviour</code>, even in edit mode. </p>
+<div class="textblock"><p>Run coroutines globally. </p>
+<p>Common usages:</p><ol type="1">
+<li>For classes not <code>UnityEngine.MonoBehaviour</code>.</li>
+<li>For components on inactive <code>UnityEngine.GameObject</code>.</li>
+<li>For static classes or methods.</li>
+<li>For editor classes, or other situation to run in edit mode. </li>
+</ol>
 <p>This flattens the coroutine for update stepping to:</p><ol type="1">
 <li>Support to control, i.e., <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a70babc5227ddd16ca31dccc6cec0bb22" title="Pause the coroutine. ">Pause()</a></code>, <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a8af8fb637c7ae9d71a23bf3ac80d3c86" title="Resume the coroutine. ">Resume()</a></code>, and <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a17a237457e57625296e6b24feb19c60a" title="Stop the coroutine. ">Stop()</a></code>.</li>
 <li>Support to run in both play and edit mode.</li>
 <li>Support multi-level nested coroutines. </li>
 </ol>
-<p>Examples below to use this easily, just like <code>UnityEngine.MonoBehaviour</code>, even with nested coroutine. </p>
+<p>Examples below to use easily, just like <code>UnityEngine.MonoBehaviour</code>, even with nested coroutine. </p>
 <div class="fragment"><div class="line"><span class="keyword">private</span> <span class="keywordtype">void</span> Run(){</div>
 <div class="line">    Coroutiner.Start(Wait(<span class="stringliteral">&quot;All&quot;</span>, All()));</div>
 <div class="line">}</div>
@@ -172,16 +185,21 @@ Properties</h2></td></tr>
 <div class="line">    yield <span class="keywordflow">return</span> what;</div>
 <div class="line">    <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;End &quot;</span> + label);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>And examples below to easily Fire'n'Forget repeat or delay invoke: </p>
+</div><!-- fragment --><p>Examples below to easily Fire'n'Forget repeat or delay invoke: </p>
 <div class="fragment"><div class="line">Coroutiner.Invoke(() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(Time.time), 1f, 1f);</div>
-<div class="line">Coroutiner.Delay(() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;Delay Call&quot;</span>), <span class="keyword">new</span> WaitForSeconds(2f));</div>
+<div class="line">Coroutiner.Delay(() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;Delayed&quot;</span>), <span class="keyword">new</span> WaitForSeconds(2f));</div>
+<div class="line">Coroutiner.Delay(() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;Delayed&quot;</span>), Nest(<span class="stringliteral">&quot;Delay&quot;</span>));</div>
+</div><!-- fragment --><p>Examples below to auto stop, e.g., when destroy the owner, or unfocus the window: </p>
+<div class="fragment"><div class="line">Coroutiner.Start(All(), gameObject);</div>
+<div class="line">Coroutiner.Start(All()).stopper = () =&gt; <span class="keyword">this</span> != EditorWindow.focusedWindow;</div>
 </div><!-- fragment --><p>The mechanism under the hood:</p><ol type="1">
 <li>For edit mode, use <code>EditorApplication.update</code> to step.</li>
 <li>For play mode, create a hidden host <code>UnityEngine.MonoBehaviour</code> to run.</li>
-<li><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, DON'T find the host to stop or deactive, otherwise interrupt all coroutines silently. </li>
+<li>Please don't find the host to stop or deactive, otherwise interrupt all coroutines silently.</li>
+<li>All coroutines will be stopped when scripts reloaded or toggle edit and play mode in the editor. </li>
 </ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a176d222f27ee4e9191d12d01e4e4ac79"></a>
+<a class="anchor" id="a56da34a0b931c9943eb5eea40517bd30"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -192,8 +210,18 @@ Properties</h2></td></tr>
           <td class="memname">static <a class="el" href="class_wanzyee_studio_1_1_coroutiner.html">Coroutiner</a> Start </td>
           <td>(</td>
           <td class="paramtype">IEnumerator&#160;</td>
-          <td class="paramname"><em>routine</em></td><td>)</td>
+          <td class="paramname"><em>routine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>owner</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -204,17 +232,18 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start the coroutine, used to replace <code>MonoBehaviour.StartCoroutine</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutine globally, for static usage, classes not UnityEngine.MonoBehaviour, even in edit mode...">Coroutiner</a></code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">routine</td><td>Routine to run.</td></tr>
+    <tr><td class="paramname">owner</td><td>Set the <code>stopper</code> to check if to stop when the owner is destroyed.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutines globally. ">Coroutiner</a></code>.</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae447a7d8984781277716a20e2f141261"></a>
+<a class="anchor" id="a2e0add3c4c012448827c25cd4151b8aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -231,7 +260,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">object&#160;</td>
-          <td class="paramname"><em>delay</em> = <code>null</code>&#160;</td>
+          <td class="paramname"><em>delay</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>owner</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -247,18 +282,19 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Delay invoke the <code>action</code>, e.g., <code>UnityEngine.WaitForSeconds</code>, or <code>null</code> as a frame, etc. </p>
-<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutine globally, for static usage, classes not UnityEngine.MonoBehaviour, even in edit mode...">Coroutiner</a></code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>Action to invoke.</td></tr>
     <tr><td class="paramname">delay</td><td>The delay objcet to yield return.</td></tr>
+    <tr><td class="paramname">owner</td><td>Set the <code>stopper</code> to check if to stop when the owner is destroyed.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutines globally. ">Coroutiner</a></code>.</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae070067863b9aeeee9d086da04e26be1"></a>
+<a class="anchor" id="adc0d4942bcffc71eea6af2656afa84c0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -287,7 +323,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>unscaled</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>unscaled</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>owner</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -304,16 +346,17 @@ Properties</h2></td></tr>
 
 <p>Invoke the <code>action</code> after a <code>time</code>, optional to set repeat or only once. </p>
 <p>Used to replace <code>MonoBehaviour.Invoke</code> and <code>MonoBehaviour.InvokeRepeating</code>. The time parameters are in seconds, the default zero <code>repeatRate</code> means only once. To stop repeating, just call <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a17a237457e57625296e6b24feb19c60a" title="Stop the coroutine. ">Stop()</a></code> on the returned instance. </p>
-<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutine globally, for static usage, classes not UnityEngine.MonoBehaviour, even in edit mode...">Coroutiner</a></code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>Action to invoke.</td></tr>
     <tr><td class="paramname">time</td><td>Start time.</td></tr>
     <tr><td class="paramname">repeatRate</td><td>Repeat interval.</td></tr>
     <tr><td class="paramname">unscaled</td><td>Use unscaled time.</td></tr>
+    <tr><td class="paramname">owner</td><td>Set the <code>stopper</code> to check if to stop when the owner is destroyed.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The running <code><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html" title="Run coroutines globally. ">Coroutiner</a></code>.</dd></dl>
 
 </div>
 </div>
@@ -368,6 +411,21 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac8c0f7bda9ca64cfde819e1da1f07d52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Func&lt;bool&gt; stopper</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The callback to stop the coroutine, if exists and returns <code>true</code>. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a9e9483098282f7e475601c37b1f6496d"></a>
 <div class="memitem">
@@ -388,7 +446,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the coroutine is paused. </p>
-<p><code>true</code> if is paused; otherwise, <code>false</code>.</p>
 
 </div>
 </div>
@@ -411,7 +468,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the coroutine is done, i.e., it finished properly or stopped manually. </p>
-<p><code>true</code> if is done; otherwise, <code>false</code>.</p>
 
 </div>
 </div>
@@ -434,7 +490,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Indicates if coroutine should be kept suspended. </p>
-<p><code>true</code> if keep waiting; otherwise, <code>false</code>.</p>
 
 </div>
 </div>

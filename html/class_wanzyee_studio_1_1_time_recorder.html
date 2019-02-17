@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_time_recorder
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_time_recorder-members.html">List of all members</a>  </div>
@@ -121,15 +122,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07aaf1227e4d645f15e0a964f54ef291"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a07aaf1227e4d645f15e0a964f54ef291">Start</a> ()</td></tr>
 <tr class="memdesc:a07aaf1227e4d645f15e0a964f54ef291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start or resume measuring.  <a href="#a07aaf1227e4d645f15e0a964f54ef291">More...</a><br /></td></tr>
 <tr class="separator:a07aaf1227e4d645f15e0a964f54ef291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a362b9e8e7d136e6a19551bec70146d70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a362b9e8e7d136e6a19551bec70146d70">Stop</a> (string section=null)</td></tr>
-<tr class="memdesc:a362b9e8e7d136e6a19551bec70146d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop measuring, optional to record if the <code>section</code> name set.  <a href="#a362b9e8e7d136e6a19551bec70146d70">More...</a><br /></td></tr>
-<tr class="separator:a362b9e8e7d136e6a19551bec70146d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a2d710dbedb88207d4593fc1845074"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#ac1a2d710dbedb88207d4593fc1845074">Stop</a> (string section=null, bool log=false)</td></tr>
+<tr class="memdesc:ac1a2d710dbedb88207d4593fc1845074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop measuring, optional to record if the <code>section</code> name set.  <a href="#ac1a2d710dbedb88207d4593fc1845074">More...</a><br /></td></tr>
+<tr class="separator:ac1a2d710dbedb88207d4593fc1845074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a1da7ad0376440e2ce84cbe4317ed5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a58a1da7ad0376440e2ce84cbe4317ed5">Record</a> (string section=&quot;&quot;)</td></tr>
 <tr class="memdesc:a58a1da7ad0376440e2ce84cbe4317ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record the current elapsed time, optional to append the <code>section</code> name to the default index.  <a href="#a58a1da7ad0376440e2ce84cbe4317ed5">More...</a><br /></td></tr>
 <tr class="separator:a58a1da7ad0376440e2ce84cbe4317ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a372de693ad40b3f42839c8ec6ac845f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a372de693ad40b3f42839c8ec6ac845f4">Reset</a> ()</td></tr>
 <tr class="memdesc:a372de693ad40b3f42839c8ec6ac845f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop and reset all records.  <a href="#a372de693ad40b3f42839c8ec6ac845f4">More...</a><br /></td></tr>
 <tr class="separator:a372de693ad40b3f42839c8ec6ac845f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab96c36c46e9b8016531f133bf72e9099"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_wanzyee_studio_1_1_time_recorder.html">TimeRecorder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#ab96c36c46e9b8016531f133bf72e9099">Run</a> (Action&lt; int &gt; action, string <a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a87d1e0d4ee90cf07650d73b28707dc50">name</a>=null, int count=10000, bool log=true)</td></tr>
+<tr class="memdesc:ab96c36c46e9b8016531f133bf72e9099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the action in the specified count of the times, then stop and log the elapsed time.  <a href="#ab96c36c46e9b8016531f133bf72e9099">More...</a><br /></td></tr>
+<tr class="separator:ab96c36c46e9b8016531f133bf72e9099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -186,6 +193,64 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab96c36c46e9b8016531f133bf72e9099"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_wanzyee_studio_1_1_time_recorder.html">TimeRecorder</a> Run </td>
+          <td>(</td>
+          <td class="paramtype">Action&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>action</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em> = <code>10000</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>log</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run the action in the specified count of the times, then stop and log the elapsed time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">action</td><td>The action, the parameter is the current count started from 0.</td></tr>
+    <tr><td class="paramname">name</td><td>The name.</td></tr>
+    <tr><td class="paramname">count</td><td>The count.</td></tr>
+    <tr><td class="paramname">log</td><td>If to log when done.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The time recorder.</dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a969739de6b14e307295a33a70cf7b564"></a>
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +305,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a362b9e8e7d136e6a19551bec70146d70"></a>
+<a class="anchor" id="ac1a2d710dbedb88207d4593fc1845074"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -248,8 +313,18 @@ Properties</h2></td></tr>
           <td class="memname">void Stop </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>section</em> = <code>null</code></td><td>)</td>
+          <td class="paramname"><em>section</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>log</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -258,6 +333,7 @@ Properties</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">section</td><td>Section name.</td></tr>
+    <tr><td class="paramname">log</td><td>If to log when done.</td></tr>
   </table>
   </dd>
 </dl>
@@ -340,7 +416,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the timer is currently running. </p>
-<p><code>true</code> if running; otherwise, <code>false</code>.</p>
 
 </div>
 </div>
@@ -363,7 +438,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the total elapsed time in milliseconds. </p>
-<p>The elapsed milliseconds.</p>
 
 </div>
 </div>

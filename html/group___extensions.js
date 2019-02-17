@@ -23,6 +23,7 @@ var group___extensions =
       [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
       [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
       [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
+      [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
       [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
       [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
     ] ],
@@ -40,8 +41,8 @@ var group___extensions =
     [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
       [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ],
-      [ "ToText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8806cd5273b40069a82cf2ae5a054f62", null ],
-      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ]
+      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
+      [ "ToText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8806cd5273b40069a82cf2ae5a054f62", null ]
     ] ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", [
       [ "ToRound", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae74ae3fae03c88db67bb17a73d23967c", null ],
@@ -65,8 +66,8 @@ var group___extensions =
       [ "GetRandomPoint", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae8cba3ac15bafcc426a27c9096698ef7", null ]
     ] ],
     [ "StringExtension", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html", [
-      [ "To< T >", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a76a7d3fffaa8184c2037542c6f1db06a", null ],
-      [ "MustTo< T >", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a1f88a115051d8491984460d43d62fd69", null ],
+      [ "To< T >", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#aa69c92f8f97d1a9bac8495170564cb50", null ],
+      [ "To", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#ad5596ce311f6ab51df23045a7311d792", null ],
       [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a9e380d0e4897af63db2fc8366d8e215c", null ],
       [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#afef17e962e1cfbfc11f7faa52dbc4555", null ]
     ] ],

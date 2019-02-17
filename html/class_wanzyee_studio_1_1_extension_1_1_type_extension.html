@@ -176,7 +176,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get a pretty readable name of the type, even generic, optional to use the full name. </p>
 <p>This doesn't handle anonymous types. </p>
-<dl class="section return"><dt>Returns</dt><dd>The pretty name.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -184,6 +183,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The pretty name.</dd></dl>
 
 </div>
 </div>
@@ -226,7 +226,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the named public or nonpublic nested type of the specified type. </p>
-<dl class="section return"><dt>Returns</dt><dd>The nested type.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -235,6 +234,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The nested type.</dd></dl>
 
 </div>
 </div>
@@ -283,7 +283,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the named public or nonpublic <code>FieldInfo</code> of the specified type. </p>
-<dl class="section return"><dt>Returns</dt><dd>The field.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -293,6 +292,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The field.</dd></dl>
 
 </div>
 </div>
@@ -347,7 +347,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the named public or nonpublic <code>PropertyInfo</code> of the specified type. </p>
-<dl class="section return"><dt>Returns</dt><dd>The property.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -358,6 +357,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The property.</dd></dl>
 
 </div>
 </div>
@@ -412,7 +412,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the named public or nonpublic <code>MethodInfo</code> of the specified type. </p>
-<dl class="section return"><dt>Returns</dt><dd>The method.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -423,6 +422,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The method.</dd></dl>
 
 </div>
 </div>
@@ -449,13 +449,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the parent hierarchy array, sorted from self to root type. </p>
-<dl class="section return"><dt>Returns</dt><dd>The parent hierarchy array.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The parent hierarchy array.</dd></dl>
 
 </div>
 </div>
@@ -492,7 +492,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all child types, excluding self, optional to find deep or directly inheritance only. </p>
-<dl class="section return"><dt>Returns</dt><dd>The child types.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -500,6 +499,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The child types.</dd></dl>
 
 </div>
 </div>
@@ -526,13 +526,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return the element type of an array or list type, otherwise <code>null</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The element type.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The element type.</dd></dl>
 
 </div>
 </div>
@@ -559,13 +559,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the default value of the type, just like <code>default(T)</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The default value.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The default value.</dd></dl>
 
 </div>
 </div>
@@ -608,7 +608,6 @@ Static Public Member Functions</h2></td></tr>
 <li>Recurse to check the element type of an array type.</li>
 <li>Recurse to check the generic arguments of a list or dictionary type. </li>
 </ol>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if creatable, <code>false</code> otherwise.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type.</td></tr>
@@ -616,6 +615,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if creatable, <code>false</code> otherwise.</dd></dl>
 
 </div>
 </div>

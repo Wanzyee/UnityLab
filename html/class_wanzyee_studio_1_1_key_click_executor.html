@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_key_click_exe
 </div><!--header-->
 <div class="contents">
 
-<p>Execute click event on this object when the center touchable and the specified key pressed.  
+<p>Execute click event on an object when the specified key pressed and this center clickable.  
  <a href="class_wanzyee_studio_1_1_key_click_executor.html#details">More...</a></p>
 
 <p>Inherits MonoBehaviour.</p>
@@ -110,12 +110,22 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_key_click_exe
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab74d86e61479cd4349198a5190b3da48"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48">key</a> = KeyCode.Escape</td></tr>
-<tr class="memdesc:ab74d86e61479cd4349198a5190b3da48"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input key to listen.  <a href="#ab74d86e61479cd4349198a5190b3da48">More...</a><br /></td></tr>
+<tr class="memdesc:ab74d86e61479cd4349198a5190b3da48"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input key pressed to execute.  <a href="#ab74d86e61479cd4349198a5190b3da48">More...</a><br /></td></tr>
 <tr class="separator:ab74d86e61479cd4349198a5190b3da48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f9a2d643c86340cc9a78059fce37409"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_key_click_executor.html#a3f9a2d643c86340cc9a78059fce37409">selfOnly</a> = true</td></tr>
+<tr class="memdesc:a3f9a2d643c86340cc9a78059fce37409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only execute if the clickable target is this, or allow other targets.  <a href="#a3f9a2d643c86340cc9a78059fce37409">More...</a><br /></td></tr>
+<tr class="separator:a3f9a2d643c86340cc9a78059fce37409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9fb24a5b4565a7f4e8254c9aea7143"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143">camera3D</a></td></tr>
+<tr class="memdesc:aeb9fb24a5b4565a7f4e8254c9aea7143"><td class="mdescLeft">&#160;</td><td class="mdescRight">The camera to get screen position, only used if this's on a 3D object.  <a href="#aeb9fb24a5b4565a7f4e8254c9aea7143">More...</a><br /></td></tr>
+<tr class="separator:aeb9fb24a5b4565a7f4e8254c9aea7143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Execute click event on this object when the center touchable and the specified key pressed. </p>
-<p>Usage example, redirect the mobile back button, i.e., "Esc" key, to a UI button. This executes all <code>UnityEngine.EventSystems.IPointerClickHandler</code> attached together. </p>
+<div class="textblock"><p>Execute click event on an object when the specified key pressed and this center clickable. </p>
+<p>This executes all <code>UnityEngine.EventSystems.IPointerClickHandler</code> attached together. For raycast order of world space canvas and 3D object, you may set <code>GraphicRaycaster.blockingObjects</code>. </p>
+<p>The main purpose and usage examples:</p><ol type="1">
+<li>Redirect the mobile back button, i.e., "Esc" key, to a UI button.</li>
+<li>Layout and map virtual keys with unchecked <code>selfOnly</code> flag. </li>
+</ol>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ab74d86e61479cd4349198a5190b3da48"></a>
 <div class="memitem">
@@ -127,7 +137,35 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The input key to listen. </p>
+<p>The input key pressed to execute. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3f9a2d643c86340cc9a78059fce37409"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool selfOnly = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Only execute if the clickable target is this, or allow other targets. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeb9fb24a5b4565a7f4e8254c9aea7143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera camera3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The camera to get screen position, only used if this's on a 3D object. </p>
 
 </div>
 </div>

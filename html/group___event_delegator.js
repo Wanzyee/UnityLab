@@ -12,6 +12,7 @@ var group___event_delegator =
       [ "QuaternionField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aa426bfdd5dfa3f09430ce7e7685b8024", null ],
       [ "SearchField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aea464400a82329230da40a81aa7bf263", null ],
       [ "ErrorField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10", null ],
+      [ "NamelessField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a519a274e3a3432565a3d4fee84f6479f", null ],
       [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac", null ],
       [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a1a497f9ec2db0ae8f53219aeb12a6ed5", null ],
       [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ab3e091236025ea85755b874ae1784452", null ],
@@ -23,6 +24,7 @@ var group___event_delegator =
       [ "LoadAssets< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc", null ],
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
       [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576", null ],
@@ -43,11 +45,9 @@ var group___event_delegator =
     ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
-      [ "OnAfterDeserialize", "class_wanzyee_studio_1_1_event_delegator.html#af97f96776a06243e316547fce49d877a", null ],
-      [ "OnBeforeSerialize", "class_wanzyee_studio_1_1_event_delegator.html#a72c4055ca88e935619de54f1aeb8f5f2", null ],
       [ "SetMethod", "class_wanzyee_studio_1_1_event_delegator.html#a6f2e4127a33bab2c96b7c72ea9f62972", null ],
       [ "Invoke", "class_wanzyee_studio_1_1_event_delegator.html#ae0a1971d24b447511741cc2c90595e3f", null ],
-      [ "Invoke< T >", "class_wanzyee_studio_1_1_event_delegator.html#a7c9c2e807c19bb1e2c154ab0a2232798", null ],
+      [ "InvokeCall< T >", "class_wanzyee_studio_1_1_event_delegator.html#a38571128b355daf8a8c18f8b228b2f8e", null ],
       [ "instance", "class_wanzyee_studio_1_1_event_delegator.html#a401e6c2ee0732f2e506bcba1aa841f04", null ],
       [ "methodInfo", "class_wanzyee_studio_1_1_event_delegator.html#aeee43e411aaecf849ca03f4f73a79bb1", null ],
       [ "parameters", "class_wanzyee_studio_1_1_event_delegator.html#a6a453747e0c39159a7856a920bc88866", null ],
@@ -79,7 +79,15 @@ var group___event_delegator =
       [ "onTime", "class_wanzyee_studio_1_1_event_time_invoker.html#a590189d1b282688fb5c1b304b4489535", null ]
     ] ],
     [ "KeyClickExecutor", "class_wanzyee_studio_1_1_key_click_executor.html", [
-      [ "key", "class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48", null ]
+      [ "key", "class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48", null ],
+      [ "selfOnly", "class_wanzyee_studio_1_1_key_click_executor.html#a3f9a2d643c86340cc9a78059fce37409", null ],
+      [ "camera3D", "class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143", null ]
+    ] ],
+    [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", [
+      [ "OnRequireFromPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#af2cad11196a141bcf36a1828303545d8", null ],
+      [ "OnReleaseIntoPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a7f039d3732df8c99e817478b7dbb2873", null ],
+      [ "onRequire", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a69d04ac151a1bbb482a4b610faa6fcde", null ],
+      [ "onRelease", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a380f71e49b6660ef9ade55179f5ab6cb", null ]
     ] ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", [
       [ "IsRaycastLocationValid", "class_wanzyee_studio_1_1_raycast_mask_filter.html#a14260668bf31e7727d7e4f88fce58998", null ],
@@ -112,6 +120,7 @@ var group___event_delegator =
       [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
       [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
       [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
+      [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
       [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
       [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
     ] ],

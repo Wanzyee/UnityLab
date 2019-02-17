@@ -192,13 +192,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Determine if the texture is able to encode to PNG or JPG. </p>
 <p><a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, this only checks the texture format, not check the readable flag. Unity will throw exception if not readable, but only log if format wrong when encode. </p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is encodable; otherwise, <code>false</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if is encodable; otherwise, <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -236,7 +236,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Save a <code>UnityEngine.Texture2D</code>, with supported format and readable flag, to a file. </p>
 <p>Encode to JPG if the file path ends with ".jpg" extension, otherwise to PNG. <a class="el" href="class_wanzyee_studio_1_1_note.html" title="Note of UnityEngine.GameObject for the Notebook window. ">Note</a>, this directly overwrite original file if exists. </p>
-<dl class="section return"><dt>Returns</dt><dd>The file full path.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
@@ -244,6 +243,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The file full path.</dd></dl>
 
 </div>
 </div>
@@ -373,13 +373,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the <code>UnityEngine.RenderTextureFormat</code> by given texture format. </p>
 <p>Used to create <code>UnityEngine.RenderTexture</code> for this to read pixels from. </p>
-<dl class="section return"><dt>Returns</dt><dd>The <code>UnityEngine.RenderTextureFormat</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The <code>UnityEngine.RenderTextureFormat</code>.</dd></dl>
 
 </div>
 </div>
@@ -407,13 +407,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the <code>UnityEngine.TextureFormat</code> by given render texture format. </p>
 <p>Used to create <code>UnityEngine.Texture2D</code> to read pixels from this. </p>
-<dl class="section return"><dt>Returns</dt><dd>The <code>UnityEngine.TextureFormat</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The <code>UnityEngine.TextureFormat</code>.</dd></dl>
 
 </div>
 </div>
@@ -441,13 +441,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get a block of pixel colors. </p>
 <p>Process pass through <code>UnityEngine.Texture2D</code> in fact. </p>
-<dl class="section return"><dt>Returns</dt><dd>The pixels.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The pixels.</dd></dl>
 
 </div>
 </div>
@@ -475,13 +475,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get a block of pixel colors. </p>
 <p>Process pass through <code>UnityEngine.Texture2D</code> in fact. </p>
-<dl class="section return"><dt>Returns</dt><dd>The pixels.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>Texture.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The pixels.</dd></dl>
 
 </div>
 </div>
@@ -853,7 +853,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get partial colors within the rect inside image pixel size. </p>
 <p>You can use <code>Rect.NormalizedToPoint()</code> to convert the rect from UV space in need. </p>
-<dl class="section return"><dt>Returns</dt><dd>The partial colors.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
@@ -862,6 +861,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The partial colors.</dd></dl>
 
 </div>
 </div>
@@ -905,7 +905,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get partial colors within the rect inside image pixel size. </p>
 <p>You can use <code>Rect.NormalizedToPoint()</code> to convert the rect from UV space in need. </p>
-<dl class="section return"><dt>Returns</dt><dd>The partial colors.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
@@ -914,6 +913,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The partial colors.</dd></dl>
 
 </div>
 </div>
@@ -957,7 +957,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the colors of scaled image with antialiasing. </p>
 <p>This cost performance, not to use too often. </p>
-<dl class="section return"><dt>Returns</dt><dd>The scaled image colors.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
@@ -966,6 +965,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The scaled image colors.</dd></dl>
 
 </div>
 </div>
@@ -1015,7 +1015,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get blurred color at the specific position in image colors. </p>
 <p>Calculate average color surround center within extend range. </p>
-<dl class="section return"><dt>Returns</dt><dd>The blurred color.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">colors</td><td>Color array.</td></tr>
@@ -1025,6 +1024,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The blurred color.</dd></dl>
 
 </div>
 </div>

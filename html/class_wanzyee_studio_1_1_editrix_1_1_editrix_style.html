@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_e
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_style-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">EditrixStyle<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___clipboard.html">Clipboard</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___notebook.html">Notebook</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___shortcut.html">Shortcut</a></div></div>  </div>
@@ -177,6 +178,15 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aadfeba17b079a57388d20a8e3ce0a32f"><td class="memItemLeft" align="right" valign="top">static readonly Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f">moveCursor</a></td></tr>
 <tr class="memdesc:aadfeba17b079a57388d20a8e3ce0a32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The aux cursor represents a dotted frame, 13 x 9.  <a href="#aadfeba17b079a57388d20a8e3ce0a32f">More...</a><br /></td></tr>
 <tr class="separator:aadfeba17b079a57388d20a8e3ce0a32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:ae004d504f90db31ab5e2bf71e14f9f59"><td class="memItemLeft" align="right" valign="top">static GUIStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae004d504f90db31ab5e2bf71e14f9f59">utilityHeader</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae004d504f90db31ab5e2bf71e14f9f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the utility window header style.  <a href="#ae004d504f90db31ab5e2bf71e14f9f59">More...</a><br /></td></tr>
+<tr class="separator:ae004d504f90db31ab5e2bf71e14f9f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2648095c2845383ec3308567420b4ea"><td class="memItemLeft" align="right" valign="top">static GUIStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac2648095c2845383ec3308567420b4ea">utilityFooter</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac2648095c2845383ec3308567420b4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the utility window footer style.  <a href="#ac2648095c2845383ec3308567420b4ea">More...</a><br /></td></tr>
+<tr class="separator:ac2648095c2845383ec3308567420b4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Extend editor GUI style, and include some premade icons or styles. </p>
@@ -215,7 +225,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Load a <code>UnityEngine.Texture2D</code> with color <code>pixels</code> for editor usage. </p>
 <p>Return the texture with the same pixels created by this if exists, otherwise create new one. </p>
-<dl class="section return"><dt>Returns</dt><dd>The texture.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>Width.</td></tr>
@@ -223,6 +232,7 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The texture.</dd></dl>
 
 </div>
 </div>
@@ -266,7 +276,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Trick to load a <code>UnityEngine.Texture2D</code> by parsing pixel <code>string</code> array. </p>
 <p>Array length as texture height, element <code>string</code> length as width. Set each <code>char</code> pixel by <code>colors</code> map if existing, otherwise the <code>other</code> color. Return the texture with the same pixels created by this if exists, otherwise create new one. </p>
-<dl class="section return"><dt>Returns</dt><dd>The texture.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pixels</td><td>Pixel bits.</td></tr>
@@ -275,6 +284,7 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The texture.</dd></dl>
 
 </div>
 </div>
@@ -318,7 +328,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>Trick to load icon <code>UnityEngine.Texture2D</code> by parsing pixel <code>string</code> array. </p>
 <p>Array length as icon height, element <code>string</code> length as width. Any space char as transparent, others color light if pro skin, otherwise dark. Return the texture with the same pixels created by this if exists, otherwise create new one. </p>
-<dl class="section return"><dt>Returns</dt><dd>The icon <code>UnityEngine.Texture2D</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pixels</td><td>Pixel bits.</td></tr>
@@ -327,6 +336,7 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The icon <code>UnityEngine.Texture2D</code>.</dd></dl>
 
 </div>
 </div>
@@ -354,13 +364,13 @@ Static Public Attributes</h2></td></tr>
 
 <p>Trick to load cursor <code>UnityEngine.Texture2D</code> by parsing pixel <code>string</code> array. </p>
 <p>Array length as cursor height, element <code>string</code> length as width. Any '1' char as white, '0' as black, otherwise transparent. Return the texture with the same pixels created by this if exists, otherwise create new one. </p>
-<dl class="section return"><dt>Returns</dt><dd>The cursor <code>UnityEngine.Texture2D</code>.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pixels</td><td>Pixel bits.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The cursor <code>UnityEngine.Texture2D</code>.</dd></dl>
 
 </div>
 </div>
@@ -759,6 +769,51 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The aux cursor represents a dotted frame, 13 x 9. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="ae004d504f90db31ab5e2bf71e14f9f59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GUIStyle utilityHeader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the utility window header style. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac2648095c2845383ec3308567420b4ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GUIStyle utilityFooter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the utility window footer style. </p>
 
 </div>
 </div>

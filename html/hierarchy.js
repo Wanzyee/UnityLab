@@ -18,6 +18,21 @@ var hierarchy =
     [ "IAidDrawer< Vector2 >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IAidDrawer< Vector3 >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IAidDrawer< Vector4 >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
+    [ "NumericStringConverter< Color >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", [
+      [ "ColorStringConverter", "class_wanzyee_studio_1_1_converter_1_1_color_string_converter.html", null ]
+    ] ],
+    [ "NumericStringConverter< Rect >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", [
+      [ "RectStringConverter", "class_wanzyee_studio_1_1_converter_1_1_rect_string_converter.html", null ]
+    ] ],
+    [ "NumericStringConverter< RectOffset >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", [
+      [ "RectOffsetStringConverter", "class_wanzyee_studio_1_1_converter_1_1_rect_offset_string_converter.html", null ]
+    ] ],
+    [ "NumericStringConverter< Vector2 >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", [
+      [ "Vector2StringConverter", "class_wanzyee_studio_1_1_converter_1_1_vector2_string_converter.html", null ]
+    ] ],
+    [ "NumericStringConverter< Vector3 >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", [
+      [ "Vector3StringConverter", "class_wanzyee_studio_1_1_converter_1_1_vector3_string_converter.html", null ]
+    ] ],
     [ "PartialConverter< Bounds >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", [
       [ "BoundsConverter", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html", null ]
     ] ],
@@ -48,8 +63,14 @@ var hierarchy =
     [ "AidGUI", "class_wanzyee_studio_1_1_aid_g_u_i.html", null ],
     [ "AppCommonAider", "class_wanzyee_studio_1_1_app_common_aider.html", null ],
     [ "BaseSingleton< T >", "class_wanzyee_studio_1_1_base_singleton.html", null ],
+    [ "BaseStringConverter< T >", "class_wanzyee_studio_1_1_converter_1_1_base_string_converter.html", [
+      [ "NumericStringConverter< T >", "class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html", null ]
+    ] ],
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", null ],
     [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", null ],
+    [ "CryptoString", "class_wanzyee_studio_1_1_crypto_string.html", [
+      [ "CryptoObject< T >", "class_wanzyee_studio_1_1_crypto_object.html", null ]
+    ] ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
     [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", null ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", null ],
@@ -63,6 +84,7 @@ var hierarchy =
     [ "PropertyValueExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html", null ],
     [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", null ],
     [ "MenuExecutor", "class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html", null ],
+    [ "ObjectPicker", "class_wanzyee_studio_1_1_editrix_1_1_object_picker.html", null ],
     [ "PackageMaker", "class_wanzyee_studio_1_1_editrix_1_1_package_maker.html", null ],
     [ "PlayerMaker", "class_wanzyee_studio_1_1_editrix_1_1_player_maker.html", null ],
     [ "PluginMaker", "class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html", null ],
@@ -103,6 +125,9 @@ var hierarchy =
     [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html", null ],
     [ "IAidDrawer< T >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", null ],
+    [ "IPoolee", "interface_wanzyee_studio_1_1_i_poolee.html", [
+      [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", null ]
+    ] ],
     [ "IStackPanel", "interface_wanzyee_studio_1_1_i_stack_panel.html", [
       [ "StackConsolePanel", "class_wanzyee_studio_1_1_stack_console_panel.html", null ],
       [ "StackGroupPanel", "class_wanzyee_studio_1_1_stack_group_panel.html", null ],
@@ -115,6 +140,7 @@ var hierarchy =
     [ "MathUtility", "class_wanzyee_studio_1_1_math_utility.html", null ],
     [ "MatrixUtility", "class_wanzyee_studio_1_1_matrix_utility.html", null ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", null ],
+    [ "PeriodicInquirer< T >", "class_wanzyee_studio_1_1_periodic_inquirer.html", null ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", null ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", null ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", null ],
@@ -125,6 +151,7 @@ var hierarchy =
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", null ],
     [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html", null ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", null ],
+    [ "UniqueTimestamp", "class_wanzyee_studio_1_1_unique_timestamp.html", null ],
     [ "VariableInfo", "class_wanzyee_studio_1_1_variable_info.html", null ],
     [ "VariableTweaker", "class_wanzyee_studio_1_1_variable_tweaker.html", null ],
     [ "WwwLoader", "class_wanzyee_studio_1_1_www_loader.html", null ],

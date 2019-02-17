@@ -12,6 +12,8 @@ var searchData=
   ['rectfield',['RectField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a593db77036feb41e38b5530897058a4b',1,'WanzyeeStudio::AidGUI']]],
   ['rectoffsetconverter',['RectOffsetConverter',['../class_wanzyee_studio_1_1_json_1_1_rect_offset_converter.html',1,'WanzyeeStudio::Json']]],
   ['rectoffsetfield',['RectOffsetField',['../class_wanzyee_studio_1_1_aid_g_u_i.html#aa3067e3c56bcb11514e7f477dc31cfd4',1,'WanzyeeStudio::AidGUI']]],
+  ['rectoffsetstringconverter',['RectOffsetStringConverter',['../class_wanzyee_studio_1_1_converter_1_1_rect_offset_string_converter.html',1,'WanzyeeStudio::Converter']]],
+  ['rectstringconverter',['RectStringConverter',['../class_wanzyee_studio_1_1_converter_1_1_rect_string_converter.html',1,'WanzyeeStudio::Converter']]],
   ['references',['references',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#aa545ffcded9885b9ef1f5dcb98f8e62e',1,'WanzyeeStudio::Editrix::PluginMaker']]],
   ['release',['Release',['../namespace_wanzyee_studio.html#ga7e51438e5f6bf556512ce7103cddac09ab8e7b465df7c5979dc731d06e84ce2cf',1,'WanzyeeStudio']]],
   ['released_20packages',['Released Packages',['../group___released.html',1,'']]],
@@ -30,5 +32,6 @@ var searchData=
   ['retrievecache',['RetrieveCache',['../class_wanzyee_studio_1_1_www_loader.html#a8ba38a438da851833cdf7e4430873c1d',1,'WanzyeeStudio::WwwLoader']]],
   ['reveal',['reveal',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a16010a0973cfb8dbaf8cb8817cad98db',1,'WanzyeeStudio::Editrix::FileDownloader']]],
   ['reverse',['reverse',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#a455cbdac659b075dec33e2da705aaa20',1,'WanzyeeStudio::RaycastMaskFilter']]],
-  ['running',['running',['../class_wanzyee_studio_1_1_time_recorder.html#a36f7b6be7108281af77939ceaec42fd6',1,'WanzyeeStudio::TimeRecorder']]]
+  ['run',['Run',['../class_wanzyee_studio_1_1_time_recorder.html#ab96c36c46e9b8016531f133bf72e9099',1,'WanzyeeStudio::TimeRecorder']]],
+  ['running',['running',['../class_wanzyee_studio_1_1_time_recorder.html#a36f7b6be7108281af77939ceaec42fd6',1,'WanzyeeStudio.TimeRecorder.running()'],['../class_wanzyee_studio_1_1_periodic_inquirer.html#a36f7b6be7108281af77939ceaec42fd6',1,'WanzyeeStudio.PeriodicInquirer.running()']]]
 ];
