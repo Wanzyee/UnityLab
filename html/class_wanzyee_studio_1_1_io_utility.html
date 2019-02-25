@@ -231,7 +231,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the path can be used to create a file or directory. </p>
-<p>Optional to throw an exception message or just return <code>false</code> if invalid. A legal path might not be in good format, e.g., "C:dir\ //file" or "/\pc\share\\new.txt". But it's safe to pass to <code>Directory</code> or <code>FileInfo</code> to create. Path in situations below is invalid, even dangerous:</p><ol type="1">
+<p>A legal path might not be in good format, e.g., "C:dir\ //file" or "/\pc\share\\new.txt". But it's safe to pass to <code>Directory</code> or <code>FileInfo</code> to create. </p>
+<p>Path in situations below is invalid, even dangerous:</p><ol type="1">
 <li>Nothing but empty or white-spaces, nowhere to go.</li>
 <li>Starts with 3 slashes, this causes crash while system looking for parent directories.</li>
 <li>Includes invalid chars, can't name a file.</li>
@@ -240,7 +241,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path.</td></tr>
-    <tr><td class="paramname">exception</td><td>Flag to throw an exception or return <code>false</code>.</td></tr>
+    <tr><td class="paramname">exception</td><td>If invalid, throw an exception or return <code>false</code>.</td></tr>
   </table>
   </dd>
 </dl>

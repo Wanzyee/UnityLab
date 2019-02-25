@@ -10,6 +10,8 @@ var searchData=
   ['aimicon',['aimIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac11b691c2ce5059673c02130ec766839',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['alignment',['alignment',['../class_wanzyee_studio_1_1_framerate_counter.html#a31ad2b54102828c810308fa063710c3d',1,'WanzyeeStudio::FramerateCounter']]],
   ['all',['all',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#a012dace6de0d421ef8e0a552b5af8b64',1,'WanzyeeStudio::Editrix::TreeNode']]],
+  ['allocate',['Allocate',['../class_wanzyee_studio_1_1_prefab_pool.html#a1f2140feac1c607887013672ce91621c',1,'WanzyeeStudio::PrefabPool']]],
+  ['allocate_3c_20t_20_3e',['Allocate&lt; T &gt;',['../class_wanzyee_studio_1_1_prefab_pool.html#a892e4985cd39e99ed7750fd2806056b8',1,'WanzyeeStudio::PrefabPool']]],
   ['alpha',['alpha',['../class_wanzyee_studio_1_1_raycast_visibility_filter.html#ab1551d8043c2aa4410fb7dbb1fe3be7b',1,'WanzyeeStudio::RaycastVisibilityFilter']]],
   ['appcommonaider',['AppCommonAider',['../class_wanzyee_studio_1_1_app_common_aider.html',1,'WanzyeeStudio']]],
   ['apply',['Apply',['../class_wanzyee_studio_1_1_resolution_setter.html#a83547725c7532a8ebd835d603857bc2d',1,'WanzyeeStudio::ResolutionSetter']]],

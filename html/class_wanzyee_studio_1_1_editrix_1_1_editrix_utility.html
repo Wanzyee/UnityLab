@@ -451,12 +451,12 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the path can be used to create a file or directory. </p>
-<p>Optional to throw an exception message or just return <code>false</code> if invalid. Check <code><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0" title="Determine if the path can be used to create a file or directory. ">IoUtility.CheckCreatable()</a></code> at the first. Then return <code>true</code> if the file doesn't exist yet or force to <code>overwrite</code>. Otherwise popup a dialog for the user to make the decision. </p>
+<p>Check <code><a class="el" href="class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0" title="Determine if the path can be used to create a file or directory. ">IoUtility.CheckCreatable()</a></code> at the first. Then return <code>true</code> if the file doesn't exist yet or force to <code>overwrite</code>. Otherwise popup a dialog for the user to make the decision. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path.</td></tr>
     <tr><td class="paramname">overwrite</td><td>Overwrite.</td></tr>
-    <tr><td class="paramname">exception</td><td>Flag to throw an exception or return <code>false</code>.</td></tr>
+    <tr><td class="paramname">exception</td><td>If invalid, throw an exception or return <code>false</code>.</td></tr>
   </table>
   </dd>
 </dl>

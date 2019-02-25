@@ -142,6 +142,7 @@ var hierarchy =
     [ "Note", "class_wanzyee_studio_1_1_note.html", null ],
     [ "PeriodicInquirer< T >", "class_wanzyee_studio_1_1_periodic_inquirer.html", null ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", null ],
+    [ "PrefabPool", "class_wanzyee_studio_1_1_prefab_pool.html", null ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", null ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", null ],
     [ "RaycastVisibilityFilter", "class_wanzyee_studio_1_1_raycast_visibility_filter.html", null ],

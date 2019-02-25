@@ -33,6 +33,7 @@ var namespace_wanzyee_studio =
     [ "PeriodicInquirer", "class_wanzyee_studio_1_1_periodic_inquirer.html", "class_wanzyee_studio_1_1_periodic_inquirer" ],
     [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", "class_wanzyee_studio_1_1_poolee_event_trigger" ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", "class_wanzyee_studio_1_1_popup_menu_attribute" ],
+    [ "PrefabPool", "class_wanzyee_studio_1_1_prefab_pool.html", "class_wanzyee_studio_1_1_prefab_pool" ],
     [ "ProcessLauncher", "class_wanzyee_studio_1_1_process_launcher.html", "class_wanzyee_studio_1_1_process_launcher" ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", "class_wanzyee_studio_1_1_raycast_mask_filter" ],
     [ "RaycastVisibilityFilter", "class_wanzyee_studio_1_1_raycast_visibility_filter.html", "class_wanzyee_studio_1_1_raycast_visibility_filter" ],
