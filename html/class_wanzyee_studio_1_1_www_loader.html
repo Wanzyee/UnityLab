@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4a8d21e2aef1e3b02186cc61175d115"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#ab4a8d21e2aef1e3b02186cc61175d115">ClearCache</a> (bool ancestor=false)</td></tr>
-<tr class="memdesc:ab4a8d21e2aef1e3b02186cc61175d115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the cache folder with cache files.  <a href="#ab4a8d21e2aef1e3b02186cc61175d115">More...</a><br /></td></tr>
+<tr class="memdesc:ab4a8d21e2aef1e3b02186cc61175d115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the cache folder contains all cache files if cacheable.  <a href="#ab4a8d21e2aef1e3b02186cc61175d115">More...</a><br /></td></tr>
 <tr class="separator:ab4a8d21e2aef1e3b02186cc61175d115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda1f0c6c9d334d55b3300b22ff858b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2">DeleteCache</a> (<a class="el" href="class_wanzyee_studio_1_1_www_option.html">WwwOption</a> option)</td></tr>
-<tr class="memdesc:adda1f0c6c9d334d55b3300b22ff858b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the cache file by corresponding URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code>.  <a href="#adda1f0c6c9d334d55b3300b22ff858b2">More...</a><br /></td></tr>
+<tr class="memdesc:adda1f0c6c9d334d55b3300b22ff858b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the cache file by corresponding URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code> if cacheable.  <a href="#adda1f0c6c9d334d55b3300b22ff858b2">More...</a><br /></td></tr>
 <tr class="separator:adda1f0c6c9d334d55b3300b22ff858b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba38a438da851833cdf7e4430873c1d"><td class="memItemLeft" align="right" valign="top">static FileInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#a8ba38a438da851833cdf7e4430873c1d">RetrieveCache</a> (<a class="el" href="class_wanzyee_studio_1_1_www_option.html">WwwOption</a> option)</td></tr>
 <tr class="memdesc:a8ba38a438da851833cdf7e4430873c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the cache file by corresponding URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code> if cacheable.  <a href="#a8ba38a438da851833cdf7e4430873c1d">More...</a><br /></td></tr>
@@ -153,6 +153,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a912354a1bcf6da4b5a2aea39b3fec561"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#a912354a1bcf6da4b5a2aea39b3fec561">isCacheable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a912354a1bcf6da4b5a2aea39b3fec561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if is cache supported, i.e., the platform is not WebGL.  <a href="#a912354a1bcf6da4b5a2aea39b3fec561">More...</a><br /></td></tr>
+<tr class="separator:a912354a1bcf6da4b5a2aea39b3fec561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafc9e204718308ac72f8b69e82b894b3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#aafc9e204718308ac72f8b69e82b894b3">cacheFolder</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:aafc9e204718308ac72f8b69e82b894b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The folder to save cache files.  <a href="#aafc9e204718308ac72f8b69e82b894b3">More...</a><br /></td></tr>
 <tr class="separator:aafc9e204718308ac72f8b69e82b894b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +225,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Delete the cache folder with cache files. </p>
+<p>Delete the cache folder contains all cache files if cacheable. </p>
 <p>Only valid when the <code>cacheFolder</code> isn't drive root. Optional to clear ancestor folders if empty. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -255,7 +258,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Delete the cache file by corresponding URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code>. </p>
+<p>Delete the cache file by corresponding URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code> if cacheable. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">option</td><td>Option.</td></tr>
@@ -660,6 +663,28 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a912354a1bcf6da4b5a2aea39b3fec561"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isCacheable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine if is cache supported, i.e., the platform is not WebGL. </p>
+
+</div>
+</div>
 <a class="anchor" id="aafc9e204718308ac72f8b69e82b894b3"></a>
 <div class="memitem">
 <div class="memproto">

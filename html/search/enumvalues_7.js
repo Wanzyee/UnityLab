@@ -37,6 +37,7 @@ var searchData=
   ['onmouseupasbutton',['OnMouseUpAsButton',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a619d353182e058f4ed7c985a60850716',1,'WanzyeeStudio']]],
   ['onnetworkinstantiate',['OnNetworkInstantiate',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a1b708c0cd474383f6da38087578c7a00',1,'WanzyeeStudio']]],
   ['onparticlecollision',['OnParticleCollision',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4ab75d7e7dd47cf2e27e09f9f92ba58dd5',1,'WanzyeeStudio']]],
+  ['onparticlesystemstopped',['OnParticleSystemStopped',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a0776892b0e903f9c302582f02c95b7cb',1,'WanzyeeStudio']]],
   ['onparticletrigger',['OnParticleTrigger',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a43c0f086c95ecae3f90c21006fd87489',1,'WanzyeeStudio']]],
   ['onplayerconnected',['OnPlayerConnected',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a0656c6a9b388584d4292138816762f7b',1,'WanzyeeStudio']]],
   ['onplayerdisconnected',['OnPlayerDisconnected',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a3df04b046b5c36f983d33b4b95aef3c9',1,'WanzyeeStudio']]],

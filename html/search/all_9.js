@@ -39,6 +39,7 @@ var searchData=
   ['invokecall_3c_20t_20_3e',['InvokeCall&lt; T &gt;',['../class_wanzyee_studio_1_1_event_delegator.html#a38571128b355daf8a8c18f8b228b2f8e',1,'WanzyeeStudio::EventDelegator']]],
   ['ioutility',['IoUtility',['../class_wanzyee_studio_1_1_io_utility.html',1,'WanzyeeStudio']]],
   ['ipoolee',['IPoolee',['../interface_wanzyee_studio_1_1_i_poolee.html',1,'WanzyeeStudio']]],
+  ['iscacheable',['isCacheable',['../class_wanzyee_studio_1_1_www_loader.html#a912354a1bcf6da4b5a2aea39b3fec561',1,'WanzyeeStudio::WwwLoader']]],
   ['iscopyable',['IsCopyable',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_clipboard.html#a0520ff90731a357642e64d938d4d0589',1,'WanzyeeStudio::Editrix::Toolkit::Clipboard']]],
   ['iscreatable',['IsCreatable',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6',1,'WanzyeeStudio::Extension::TypeExtension']]],
   ['isdone',['isDone',['../class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666',1,'WanzyeeStudio.Coroutiner.isDone()'],['../class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666',1,'WanzyeeStudio.WwwLoader.isDone()']]],

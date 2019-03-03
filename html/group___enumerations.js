@@ -75,7 +75,8 @@ var group___enumerations =
       [ "OnWillRenderObject", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a1ee45de32237c8e3cef94d9d8476bb5c", null ],
       [ "Reset", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a526d688f37a86d3c3f27d0c5016eb71d", null ],
       [ "Start", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4aa6122a65eaa676f700ae68d393054a37", null ],
-      [ "Update", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a06933067aafd48425d67bcb01bba5cb6", null ]
+      [ "Update", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a06933067aafd48425d67bcb01bba5cb6", null ],
+      [ "OnParticleSystemStopped", "namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a0776892b0e903f9c302582f02c95b7cb", null ]
     ] ],
     [ "WindowStyle", "group___enumerations.html#ga6a30232b7e1aab0b849cb9a71610b368", [
       [ "Fullscreen", "namespace_wanzyee_studio.html#ga6a30232b7e1aab0b849cb9a71610b368a0829ea6734059d66e6bf87096b215dc1", null ],
