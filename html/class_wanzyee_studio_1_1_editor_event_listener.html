@@ -140,10 +140,10 @@ Events</h2></td></tr>
 
 <p>Callback of the global input event. </p>
 <p>Wrapper for the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. </p>
-<p>Please note, this may be NOT invoked if:</p><ol type="1">
+<p>Please note, this may not be invoked if:</p><ol type="1">
 <li>The <code>GameView</code> window gets focused.</li>
-<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl+P" is "Edit/Play".</li>
-<li>When edit a text field, or press the "Shift" key only. </li>
+<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl-P" is "Edit/Play".</li>
+<li>When edit a text field, or only press "Shift". </li>
 </ol>
 
 </div>
@@ -168,10 +168,10 @@ Events</h2></td></tr>
 
 <p>Callback of the <code>GameView</code> GUI evant. </p>
 <p>Work with a hidden component for event handling, not recommended to draw any GUI with this. </p>
-<p>Please note, this may be NOT invoked if:</p><ol type="1">
+<p>Please note, this may not be invoked if:</p><ol type="1">
 <li>The <code>GameView</code> window isn't focused.</li>
-<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl+P" is "Edit/Play".</li>
-<li>When edit a text field, or press the "Shift" key only. </li>
+<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl-P" is "Edit/Play".</li>
+<li>When edit a text field, or only press "Shift". </li>
 </ol>
 
 </div>

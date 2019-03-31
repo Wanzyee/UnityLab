@@ -123,6 +123,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3">GetObjectOrder</a> (Object source, bool assetFirst=true)</td></tr>
 <tr class="memdesc:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given object for sorting.  <a href="#ab57b5c77c0a484adc98d8ed88d9083e3">More...</a><br /></td></tr>
 <tr class="separator:ab57b5c77c0a484adc98d8ed88d9083e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601af02a125716ba03ee1c05590b5adc"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc">GetTypeOrder</a> (Type source, bool builtinFirst=true)</td></tr>
+<tr class="memdesc:a601af02a125716ba03ee1c05590b5adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given type for sorting.  <a href="#a601af02a125716ba03ee1c05590b5adc">More...</a><br /></td></tr>
+<tr class="separator:a601af02a125716ba03ee1c05590b5adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b">OpenAbout</a> (Object obj)</td></tr>
 <tr class="memdesc:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the about message of the specified object.  <a href="#aeedc9a9e974e8949234ab6ebb6533d1b">More...</a><br /></td></tr>
 <tr class="separator:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,9 +138,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:ae6a4c98b941d3bd4eda1723495fcf576"><td class="memItemLeft" align="right" valign="top">static EditorApplication.CallbackFunction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576">playmodeChanged</a> = () =&gt; {}</td></tr>
-<tr class="memdesc:ae6a4c98b941d3bd4eda1723495fcf576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of play mode state changed event, for compatibility before Unity 2017.2.  <a href="#ae6a4c98b941d3bd4eda1723495fcf576">More...</a><br /></td></tr>
-<tr class="separator:ae6a4c98b941d3bd4eda1723495fcf576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980f7715e1f059572d2f79cbb84684e0"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a980f7715e1f059572d2f79cbb84684e0">playmodeChanged</a> = () =&gt; {}</td></tr>
+<tr class="memdesc:a980f7715e1f059572d2f79cbb84684e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of play mode state changed event, for compatibility before Unity 2017.2.  <a href="#a980f7715e1f059572d2f79cbb84684e0">More...</a><br /></td></tr>
+<tr class="separator:a980f7715e1f059572d2f79cbb84684e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ec5b5182c50a09f4aa52532a35398ad"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad">projectChanged</a> = () =&gt; {}</td></tr>
 <tr class="memdesc:a7ec5b5182c50a09f4aa52532a35398ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of project changed event, for compatibility before Unity 2018.1.  <a href="#a7ec5b5182c50a09f4aa52532a35398ad">More...</a><br /></td></tr>
 <tr class="separator:a7ec5b5182c50a09f4aa52532a35398ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,6 +378,51 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a601af02a125716ba03ee1c05590b5adc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string GetTypeOrder </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>builtinFirst</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get an order <code>string</code> of given type for sorting. </p>
+<p>It's type full name, optional to sort Unity and System type first. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>Source type.</td></tr>
+    <tr><td class="paramname">builtinFirst</td><td>If set to <code>true</code> built-in type first.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The order.</dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aeedc9a9e974e8949234ab6ebb6533d1b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -499,7 +547,7 @@ Events</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
-<a class="anchor" id="ae6a4c98b941d3bd4eda1723495fcf576"></a>
+<a class="anchor" id="a980f7715e1f059572d2f79cbb84684e0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -507,7 +555,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">EditorApplication.CallbackFunction playmodeChanged = () =&gt; {}</td>
+          <td class="memname">Action playmodeChanged = () =&gt; {}</td>
         </tr>
       </table>
   </td>

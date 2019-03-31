@@ -26,5 +26,5 @@ var class_wanzyee_studio_1_1_aid_g_u_i =
     [ "DrawLine", "class_wanzyee_studio_1_1_aid_g_u_i.html#aa24d6f5c244a0c2cc19095f8fee6a344", null ],
     [ "DrawPolygon", "class_wanzyee_studio_1_1_aid_g_u_i.html#a747c474dbac2802cd59cf5719861e313", null ],
     [ "DrawPolygon", "class_wanzyee_studio_1_1_aid_g_u_i.html#a9591c2f40280a438763ac912d853d892", null ],
-    [ "DrawBorder", "class_wanzyee_studio_1_1_aid_g_u_i.html#a5871be11500ab45fa17c943d8b0bbf1d", null ]
+    [ "DrawBorder", "class_wanzyee_studio_1_1_aid_g_u_i.html#a53b439f5f4ab37a5ebcb55b17049c319", null ]
 ];

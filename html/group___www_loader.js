@@ -52,6 +52,14 @@ var group___www_loader =
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ],
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ],
+    [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
+      [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
+      [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
+      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
+      [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
+      [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
+    ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],

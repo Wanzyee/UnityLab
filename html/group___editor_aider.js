@@ -1,7 +1,6 @@
 var group___editor_aider =
 [
     [ "SelectionFilter", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html", [
-      [ "SelectNone", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ad467dc48e16e25a9915e7b11b9067f3e", null ],
       [ "OpenWindow", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a513b88d38998ec5b3a1b82fbc73afc9c", null ],
       [ "FilterByType", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a0dc4e82eafe9aaa8bcbeea4a4fcccd63", null ],
       [ "FilterByLabel", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71", null ],
@@ -48,16 +47,45 @@ var group___editor_aider =
       [ "Create", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30", null ],
       [ "Wrap", "class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767", null ]
     ] ],
+    [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", [
+      [ "LoadTexture", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7fd9eb3e5ed4d5588be5d74b36b135fc", null ],
+      [ "LoadTexture", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a85846ecf0ae5a03b1f698c003c36050a", null ],
+      [ "LoadIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af5cab4898fec4d31c85e626f9cf4d5ee", null ],
+      [ "LoadCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a5f653e9f1a4bac1cb290b4f6c373432c", null ],
+      [ "splitterPixel", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aa35ecf15cd244e96dec6cf0d21ef89d8", null ],
+      [ "backgroundPixel", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a41fce3fca323921a53c90c04d3a0ce1e", null ],
+      [ "statusBar", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae4358dbdc23372131882726541eff46f", null ],
+      [ "popupBorder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7cb6b83b1d39c5b1978b93ae9e34ad01", null ],
+      [ "editIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba", null ],
+      [ "copyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436", null ],
+      [ "removeIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7d25ee49df9864a55df45232e204c4dd", null ],
+      [ "deleteIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a2b8aaa376453dae4e9509ebc9ee64ac5", null ],
+      [ "aimIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac11b691c2ce5059673c02130ec766839", null ],
+      [ "fingerIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aa14e95d6d0db038d849e81eeaa6a3a9d", null ],
+      [ "hierarchyIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab737c95489a39be23f3185b4a48d2646", null ],
+      [ "clipboardIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d", null ],
+      [ "bookmarkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a0cb21b948e0c2db48ec7eb7dcdca1cb0", null ],
+      [ "questionIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#afa45ca183b22145713a46c7af98ce763", null ],
+      [ "linkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a97cab6a3edcf5ed0b64fb44527428fa4", null ],
+      [ "unlinkIcon", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af2854ea68d6b26a16eead79aae040400", null ],
+      [ "stopCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ab6d45d275e7bd2bce0d3b45b3b872983", null ],
+      [ "copyCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea", null ],
+      [ "linkCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ade56500cdc624c1da2a3d6d2810c4389", null ],
+      [ "moveCursor", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aadfeba17b079a57388d20a8e3ce0a32f", null ],
+      [ "utilityHeader", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ae004d504f90db31ab5e2bf71e14f9f59", null ],
+      [ "utilityFooter", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac2648095c2845383ec3308567420b4ea", null ]
+    ] ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
       [ "GetAllAssetLabels", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a001ffdf9c2d0d4e44c0fa4c0fd95d564", null ],
       [ "LoadAssets< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc", null ],
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "GetTypeOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc", null ],
       [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576", null ],
+      [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a980f7715e1f059572d2f79cbb84684e0", null ],
       [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
       [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
     ] ],
@@ -69,6 +97,14 @@ var group___editor_aider =
       [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ],
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
+    ] ],
+    [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
+      [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
+      [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
+      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
+      [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
+      [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],

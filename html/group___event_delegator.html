@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('group___event_delegator.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html">ReorderableListExpander</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to make a <code>UnityEditorInternal.ReorderableList</code> foldable.  <a href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to make <code>UnityEditorInternal.ReorderableList</code> more friendly.  <a href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html">EditrixGUI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include some convenient methods for editor GUI.  <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#details">More...</a><br /></td></tr>
@@ -120,6 +120,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html">PropertyExtension</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_wanzyee_studio_1_1_editrix_1_1_extension.html" title="All extension methods for editor classes are defined within. ">Extension</a> methods for <code>UnityEditor.SerializedProperty</code>.  <a href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html">FallbackPropertyDrawer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mechanism to make nested <code>UnityEditor.CustomPropertyDrawer</code> possible.  <a href="class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_event_delegator.html">EventDelegator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a method to be invoked by <code>UnityEngine.Events.UnityEvent</code>.  <a href="class_wanzyee_studio_1_1_event_delegator.html#details">More...</a><br /></td></tr>
@@ -139,9 +142,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_key_click_executor.html">KeyClickExecutor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute click event on an object when the specified key pressed and this center clickable.  <a href="class_wanzyee_studio_1_1_key_click_executor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_poolee_event_trigger.html">PooleeEventTrigger</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger events when the object pool moves this in or out.  <a href="class_wanzyee_studio_1_1_poolee_event_trigger.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_raycast_mask_filter.html">RaycastMaskFilter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter raycasts by a mask <code>UnityEngine.Texture2D</code> for non-rectangle area of effect.  <a href="class_wanzyee_studio_1_1_raycast_mask_filter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +156,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html">ComponentExtension</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>UnityEngine.Component</code>.  <a href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html">LinqExtension</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for linq operation.  <a href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html">TypeExtension</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>System.Type</code>.  <a href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#details">More...</a><br /></td></tr>

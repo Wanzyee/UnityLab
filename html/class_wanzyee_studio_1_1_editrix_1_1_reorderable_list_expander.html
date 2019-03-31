@@ -102,20 +102,26 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_r
 </div><!--header-->
 <div class="contents">
 
-<p>Helper to make a <code>UnityEditorInternal.ReorderableList</code> foldable.  
+<p>Helper to make <code>UnityEditorInternal.ReorderableList</code> more friendly.  
  <a href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a93f9a127b8a255db0a066d88b0b6ac30"><td class="memItemLeft" align="right" valign="top">static ReorderableList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#a93f9a127b8a255db0a066d88b0b6ac30">Create</a> (SerializedProperty property, ReorderableList.ElementCallbackDelegate drawElementCallback=null, ReorderableList.ElementHeightCallbackDelegate elementHeightCallback=null)</td></tr>
-<tr class="memdesc:a93f9a127b8a255db0a066d88b0b6ac30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <code>UnityEditorInternal.ReorderableList</code> with common settings.  <a href="#a93f9a127b8a255db0a066d88b0b6ac30">More...</a><br /></td></tr>
+<tr class="memdesc:a93f9a127b8a255db0a066d88b0b6ac30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a reorderable list with enhanced features.  <a href="#a93f9a127b8a255db0a066d88b0b6ac30">More...</a><br /></td></tr>
 <tr class="separator:a93f9a127b8a255db0a066d88b0b6ac30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc2d4ab1763ab19c3528a6689a8f4767"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_reorderable_list_expander.html#afc2d4ab1763ab19c3528a6689a8f4767">Wrap</a> (ReorderableList list)</td></tr>
-<tr class="memdesc:afc2d4ab1763ab19c3528a6689a8f4767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap the specified list's layout callbacks and settings to support folding.  <a href="#afc2d4ab1763ab19c3528a6689a8f4767">More...</a><br /></td></tr>
+<tr class="memdesc:afc2d4ab1763ab19c3528a6689a8f4767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap the specified reorderable list with enhanced features.  <a href="#afc2d4ab1763ab19c3528a6689a8f4767">More...</a><br /></td></tr>
 <tr class="separator:afc2d4ab1763ab19c3528a6689a8f4767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper to make a <code>UnityEditorInternal.ReorderableList</code> foldable. </p>
+<div class="textblock"><p>Helper to make <code>UnityEditorInternal.ReorderableList</code> more friendly. </p>
+<p>The enhanced features below:</p><ol type="1">
+<li>Make the header support tooltip attributes, only valid if no custom callback.</li>
+<li>Click the header to fold or expand the list.</li>
+<li>Press "Ctrl-D" to duplicate the current element when focused, and "Delete" to remove it. </li>
+</ol>
+<p>Please note, this only supports a list with <code>ReorderableList.serializedProperty</code>. </p>
 <p>3 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a93f9a127b8a255db0a066d88b0b6ac30"></a>
@@ -156,8 +162,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create a <code>UnityEditorInternal.ReorderableList</code> with common settings. </p>
-<p>I.e., the property label as the header, click to fold or expand the list, basic add and remove buttons. </p>
+<p>Create a reorderable list with enhanced features. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">property</td><td>Property.</td></tr>
@@ -192,11 +197,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Wrap the specified list's layout callbacks and settings to support folding. </p>
-<p>This only supports a list with <code>ReorderableList.serializedProperty</code>. And draw the header with the property name and tooltip if no <code>ReorderableList.drawHeaderCallback</code>. </p>
+<p>Wrap the specified reorderable list with enhanced features. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">list</td><td>List.</td></tr>
+    <tr><td class="paramname">list</td><td>The reorderable list.</td></tr>
   </table>
   </dd>
 </dl>

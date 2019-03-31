@@ -76,6 +76,7 @@ var hierarchy =
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", null ],
     [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", null ],
     [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", null ],
+    [ "FallbackPropertyDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html", null ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", null ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", null ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", null ],

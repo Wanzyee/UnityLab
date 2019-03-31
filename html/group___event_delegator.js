@@ -11,12 +11,17 @@ var group___event_delegator =
       [ "Vector4Field", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9aa1d4e203bdf46277fcc70585cdcc3c", null ],
       [ "QuaternionField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aa426bfdd5dfa3f09430ce7e7685b8024", null ],
       [ "SearchField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#aea464400a82329230da40a81aa7bf263", null ],
-      [ "ErrorField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a142d3221442a8ab72da400346ebcfd10", null ],
+      [ "ErrorField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a2230aca70b9c37635883bfa3003f54f6", null ],
       [ "NamelessField", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a519a274e3a3432565a3d4fee84f6479f", null ],
-      [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3c5c03e989a96da4f14a8fc428c885ac", null ],
-      [ "CheckDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a1a497f9ec2db0ae8f53219aeb12a6ed5", null ],
-      [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ab3e091236025ea85755b874ae1784452", null ],
-      [ "CheckDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ac35e83df9b29cebf4b9ab4b10cb89ad5", null ]
+      [ "CheckClick", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#abd9d9a8b44cad0f33fb07a098422a70c", null ],
+      [ "StartDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#af019fbea11406a645e2cf7affce623b5", null ],
+      [ "StartDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a1a7f5852bdef99dc5cfb133c6c715b99", null ],
+      [ "StartDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a06198dc0873de7cc4ce9fc3187010295", null ],
+      [ "StartDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#afdc6362fe8c981a78012ae1ce4b49962", null ],
+      [ "AcceptDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a77a0bedb4c6f80c38b14797351c1f0b4", null ],
+      [ "AcceptDragObjects", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9b666b51df9478964480e2545b95f4d0", null ],
+      [ "AcceptDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3d77983842d57211c90f6689b5045d64", null ],
+      [ "AcceptDragPaths", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ae160ba5906fd23762e08b981dbae4ba2", null ]
     ] ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", [
       [ "GetAllAssets", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aea2be257836234a5552d1798e49bb56a", null ],
@@ -24,10 +29,11 @@ var group___event_delegator =
       [ "LoadAssets< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a61fbde7be4ff114d4bb9ac309fc928cc", null ],
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
+      [ "GetTypeOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc", null ],
       [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae6a4c98b941d3bd4eda1723495fcf576", null ],
+      [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a980f7715e1f059572d2f79cbb84684e0", null ],
       [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
       [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
     ] ],
@@ -42,6 +48,11 @@ var group___event_delegator =
       [ "CheckArray", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a630a4b2331cc158ee9b791dc1f8f738a", null ],
       [ "Insert", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#a3d8e9f8a86a4164baa218cbd004fb33f", null ],
       [ "AddRange", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_extension.html#ae631e6da7d79f3d3903fd3d827b5f6fb", null ]
+    ] ],
+    [ "FallbackPropertyDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html", [
+      [ "CreateFallback", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html#a654166a79193b4c33f7d932f4dc8d5d8", null ],
+      [ "OnGUI", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html#a6368afd3accd8cd2a0f3a712b3757dc3", null ],
+      [ "GetPropertyHeight", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html#a86eb5925231ee42d7cda36bd88efea00", null ]
     ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
@@ -83,12 +94,6 @@ var group___event_delegator =
       [ "selfOnly", "class_wanzyee_studio_1_1_key_click_executor.html#a3f9a2d643c86340cc9a78059fce37409", null ],
       [ "camera3D", "class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143", null ]
     ] ],
-    [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", [
-      [ "OnRequireFromPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#af2cad11196a141bcf36a1828303545d8", null ],
-      [ "OnReleaseIntoPool", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a7f039d3732df8c99e817478b7dbb2873", null ],
-      [ "onRequire", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a69d04ac151a1bbb482a4b610faa6fcde", null ],
-      [ "onRelease", "class_wanzyee_studio_1_1_poolee_event_trigger.html#a380f71e49b6660ef9ade55179f5ab6cb", null ]
-    ] ],
     [ "RaycastMaskFilter", "class_wanzyee_studio_1_1_raycast_mask_filter.html", [
       [ "IsRaycastLocationValid", "class_wanzyee_studio_1_1_raycast_mask_filter.html#a14260668bf31e7727d7e4f88fce58998", null ],
       [ "mask", "class_wanzyee_studio_1_1_raycast_mask_filter.html#aca4e9824b680f3e302c7c015e83a4414", null ],
@@ -123,6 +128,14 @@ var group___event_delegator =
       [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
       [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
       [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
+    ] ],
+    [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
+      [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
+      [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
+      [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
+      [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
+      [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],

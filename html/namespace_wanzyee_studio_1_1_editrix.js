@@ -1,5 +1,6 @@
 var namespace_wanzyee_studio_1_1_editrix =
 [
+    [ "Drawer", "namespace_wanzyee_studio_1_1_editrix_1_1_drawer.html", "namespace_wanzyee_studio_1_1_editrix_1_1_drawer" ],
     [ "Extension", "namespace_wanzyee_studio_1_1_editrix_1_1_extension.html", "namespace_wanzyee_studio_1_1_editrix_1_1_extension" ],
     [ "Toolkit", "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit.html", "namespace_wanzyee_studio_1_1_editrix_1_1_toolkit" ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor" ],

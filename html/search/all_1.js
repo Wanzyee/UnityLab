@@ -1,6 +1,8 @@
 var searchData=
 [
   ['a',['A',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29',1,'WanzyeeStudio']]],
+  ['acceptdragobjects',['AcceptDragObjects',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a77a0bedb4c6f80c38b14797351c1f0b4',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragObjects(Rect rect, Func&lt; Object, bool &gt; filter)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9b666b51df9478964480e2545b95f4d0',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragObjects(Rect rect, Func&lt; IEnumerable&lt; Object &gt;, IEnumerable&lt; Object &gt;&gt; filter=null)']]],
+  ['acceptdragpaths',['AcceptDragPaths',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3d77983842d57211c90f6689b5045d64',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragPaths(Rect rect, Func&lt; string, bool &gt; filter)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ae160ba5906fd23762e08b981dbae4ba2',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragPaths(Rect rect, Func&lt; IEnumerable&lt; string &gt;, IEnumerable&lt; string &gt;&gt; filter=null)']]],
   ['act',['act',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
   ['additem',['AddItem',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#a858d242978a784dee34e6386ac4755f9',1,'WanzyeeStudio::Editrix::Extension::MenuExtension']]],
   ['additem_3c_20t_20_3e',['AddItem&lt; T &gt;',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e',1,'WanzyeeStudio::Editrix::Extension::MenuExtension']]],
