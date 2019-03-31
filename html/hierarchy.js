@@ -103,6 +103,7 @@ var hierarchy =
     [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", null ],
     [ "ObjectGrouper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html", null ],
     [ "ObjectLocker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html", null ],
+    [ "ObjectSelector", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html", null ],
     [ "SelectionFilter", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html", null ],
     [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", null ],
     [ "TabNavigator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html", null ],

@@ -22,6 +22,6 @@ var searchData=
   ['loadtext',['LoadText',['../class_wanzyee_studio_1_1_www_loader.html#a6d95ed1f42502f96c23787d1da6de5b1',1,'WanzyeeStudio::WwwLoader']]],
   ['loadtexture',['LoadTexture',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a7fd9eb3e5ed4d5588be5d74b36b135fc',1,'WanzyeeStudio.Editrix.EditrixStyle.LoadTexture(int width, Color32[] pixels)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a85846ecf0ae5a03b1f698c003c36050a',1,'WanzyeeStudio.Editrix.EditrixStyle.LoadTexture(string[] pixels, Dictionary&lt; char, Color32 &gt; colors, Color32 other)']]],
   ['localtoworld',['LocalToWorld',['../class_wanzyee_studio_1_1_matrix_utility.html#a0b1ae8bef0c8fee99c0708fca90c5863',1,'WanzyeeStudio::MatrixUtility']]],
-  ['locked',['locked',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff',1,'WanzyeeStudio::Editrix::Toolkit::Notebook']]],
+  ['locked',['locked',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a18a0f1e6c3d21c252b14ea6ae162e2ff',1,'WanzyeeStudio.Editrix.Toolkit.Notebook.locked()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html#a18a0f1e6c3d21c252b14ea6ae162e2ff',1,'WanzyeeStudio.Editrix.Toolkit.ObjectSelector.locked()']]],
   ['logslimit',['logsLimit',['../class_wanzyee_studio_1_1_stack_console_panel.html#ad80f82a3c2dccba80b4b0b9d4c5f0156',1,'WanzyeeStudio::StackConsolePanel']]]
 ];

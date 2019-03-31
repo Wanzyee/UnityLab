@@ -53,5 +53,5 @@ var searchData=
   ['issupported',['IsSupported',['../class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38',1,'WanzyeeStudio::EventDelegator']]],
   ['istackpanel',['IStackPanel',['../interface_wanzyee_studio_1_1_i_stack_panel.html',1,'WanzyeeStudio']]],
   ['isvalid',['isValid',['../class_wanzyee_studio_1_1_variable_info.html#a8cc8d1cb67b70386f41455552f3a56f4',1,'WanzyeeStudio::VariableInfo']]],
-  ['items',['items',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888',1,'WanzyeeStudio::Editrix::ShortcutList']]]
+  ['items',['items',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888',1,'WanzyeeStudio.Editrix.ShortcutList.items()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html#af90404f766c79d65f63c80d02933adcd',1,'WanzyeeStudio.Editrix.Toolkit.ObjectSelector.items()']]]
 ];

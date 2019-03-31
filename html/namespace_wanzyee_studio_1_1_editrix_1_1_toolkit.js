@@ -10,6 +10,7 @@ var namespace_wanzyee_studio_1_1_editrix_1_1_toolkit =
     [ "Notebook", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook" ],
     [ "ObjectGrouper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper" ],
     [ "ObjectLocker", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_locker" ],
+    [ "ObjectSelector", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector" ],
     [ "SelectionFilter", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter" ],
     [ "Shortcut", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut" ],
     [ "TabNavigator", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator.html", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_tab_navigator" ]

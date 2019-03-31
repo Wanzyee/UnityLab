@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main',['main',['../class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4',1,'WanzyeeStudio::StackWindow']]],
+  ['main',['main',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html#ab95c721e37373b09d59c9ae625adda89',1,'WanzyeeStudio.Editrix.Toolkit.ObjectSelector.main()'],['../class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4',1,'WanzyeeStudio.StackWindow.main()']]],
   ['makegroup',['MakeGroup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6474f6ab86c5c851bbb8008cb3925456',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a0da5441c557dbfd2fac034592f8c9168',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.MakeGroup(string name, params Transform[] children)']]],
   ['manual',['manual',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#ad2f2beba0f66dae861029446627d50b9',1,'WanzyeeStudio::PopupMenuAttribute']]],
   ['mask',['mask',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#aca4e9824b680f3e302c7c015e83a4414',1,'WanzyeeStudio::RaycastMaskFilter']]],
@@ -13,6 +13,7 @@ var searchData=
   ['matrixutility',['MatrixUtility',['../class_wanzyee_studio_1_1_matrix_utility.html',1,'WanzyeeStudio']]],
   ['max',['max',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#aa0008c24afea9eca02a46500b974b1f3',1,'WanzyeeStudio.EnumConstraintAttribute.max()'],['../class_wanzyee_studio_1_1_math_utility.html#a9b195c4d19388ae2f0fce4dd6b7603f0',1,'WanzyeeStudio.MathUtility.Max(params Vector2[] values)'],['../class_wanzyee_studio_1_1_math_utility.html#a1102c934918ad168bd915842d40b3acf',1,'WanzyeeStudio.MathUtility.Max(params Vector3[] values)']]],
   ['member',['member',['../class_wanzyee_studio_1_1_variable_info.html#a34bfd9af5e9390d2dc6dd490cb8bb59d',1,'WanzyeeStudio::VariableInfo']]],
+  ['memo',['memo',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_selector.html#a4879e5c796365b441a2b5aea8d0b1787',1,'WanzyeeStudio::Editrix::Toolkit::ObjectSelector']]],
   ['menu',['menu',['../class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html#ad6922ff43af3a671085e355d52668355',1,'WanzyeeStudio::Editrix::MenuExecutor']]],
   ['menuexecutor',['MenuExecutor',['../class_wanzyee_studio_1_1_editrix_1_1_menu_executor.html',1,'WanzyeeStudio::Editrix']]],
   ['menuextension',['MenuExtension',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html',1,'WanzyeeStudio::Editrix::Extension']]],
