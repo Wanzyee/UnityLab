@@ -18,6 +18,7 @@ var namespace_wanzyee_studio =
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", "class_wanzyee_studio_1_1_event_delegator" ],
     [ "EventDelegatorGroup", "class_wanzyee_studio_1_1_event_delegator_group.html", "class_wanzyee_studio_1_1_event_delegator_group" ],
     [ "EventKeyInvoker", "class_wanzyee_studio_1_1_event_key_invoker.html", "class_wanzyee_studio_1_1_event_key_invoker" ],
+    [ "EventManualInvoker", "class_wanzyee_studio_1_1_event_manual_invoker.html", "class_wanzyee_studio_1_1_event_manual_invoker" ],
     [ "EventMonoInvoker", "class_wanzyee_studio_1_1_event_mono_invoker.html", "class_wanzyee_studio_1_1_event_mono_invoker" ],
     [ "EventTimeInvoker", "class_wanzyee_studio_1_1_event_time_invoker.html", "class_wanzyee_studio_1_1_event_time_invoker" ],
     [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html", "class_wanzyee_studio_1_1_file_path_attribute" ],

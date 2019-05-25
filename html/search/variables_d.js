@@ -3,6 +3,7 @@ var searchData=
   ['objects',['objects',['../class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#ab524644a786fa1b71c6060f71adc9ae2',1,'WanzyeeStudio::Editrix::CodeExecutor']]],
   ['oldcode',['oldCode',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ae5ef72f3ef6fc675a05b8a976b27c435',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['on',['on',['../class_wanzyee_studio_1_1_event_key_invoker.html#aae56b25ba4ae0a68e9e8f8700a057061',1,'WanzyeeStudio.EventKeyInvoker.on()'],['../class_wanzyee_studio_1_1_event_mono_invoker.html#a0a0414c31f54b42afb37331be4113778',1,'WanzyeeStudio.EventMonoInvoker.on()']]],
+  ['oninvoke',['onInvoke',['../class_wanzyee_studio_1_1_event_manual_invoker.html#a34946e154314a9acb326b0629f49519b',1,'WanzyeeStudio::EventManualInvoker']]],
   ['onkey',['onKey',['../class_wanzyee_studio_1_1_event_key_invoker.html#a58cecb2bf8ef43e8bbeeb3c892fea73a',1,'WanzyeeStudio::EventKeyInvoker']]],
   ['onmessage',['onMessage',['../class_wanzyee_studio_1_1_event_mono_invoker.html#aacbd0c5a056b64190be5a8bc745c2a4a',1,'WanzyeeStudio::EventMonoInvoker']]],
   ['onrelease',['onRelease',['../class_wanzyee_studio_1_1_poolee_event_trigger.html#a380f71e49b6660ef9ade55179f5ab6cb',1,'WanzyeeStudio::PooleeEventTrigger']]],

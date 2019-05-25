@@ -176,6 +176,11 @@ var group___shortcut =
     [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", [
       [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html#a5519a0194e75452fd275f056bb2588c7", null ]
     ] ],
+    [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", [
+      [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#acdd63f65f8c6829ba74b9018a7e74fb0", null ],
+      [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a", null ],
+      [ "constraints", "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5", null ]
+    ] ],
     [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
       [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
       [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
@@ -195,14 +200,17 @@ var group___shortcut =
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
+      [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
+      [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],
       [ "GetField", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499", null ],
       [ "GetProperty", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a", null ],
       [ "GetMethod", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4", null ],
+      [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetParents", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e", null ],
       [ "GetChildren", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245", null ],
-      [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
-      [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
-      [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
+      [ "GetDerivatives", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a9a114d6024c1e5d213231bb2454fdc88", null ],
+      [ "FindTypes", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#ad20e0e88fffc28a58577d4b832f5323e", null ],
+      [ "GetLocation", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#ae1ce7bca4df13d9b8fd23f8e445d67a1", null ]
     ] ]
 ];

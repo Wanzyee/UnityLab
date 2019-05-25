@@ -8,6 +8,7 @@ var searchData=
   ['filterbylabel',['FilterByLabel',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#ae330851a1d468e3060311889d85ceb71',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['filterbytype',['FilterByType',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html#a0dc4e82eafe9aaa8bcbeea4a4fcccd63',1,'WanzyeeStudio::Editrix::Toolkit::SelectionFilter']]],
   ['filtertops',['FilterTops',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a404cf09d3689ceb23ee288a50efbc465',1,'WanzyeeStudio::Editrix::Toolkit::ObjectGrouper']]],
+  ['findtypes',['FindTypes',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#ad20e0e88fffc28a58577d4b832f5323e',1,'WanzyeeStudio::Extension::TypeExtension']]],
   ['fingericon',['fingerIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aa14e95d6d0db038d849e81eeaa6a3a9d',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['fixedupdate',['FixedUpdate',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a9c1ca4069e206318b33ef896d3dd204e',1,'WanzyeeStudio']]],
   ['fixgameviewsize',['FixGameViewSize',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_game_view_helper.html#a11df1245e772048bec691efe13601e66',1,'WanzyeeStudio::Editrix::Toolkit::GameViewHelper']]],

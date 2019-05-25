@@ -89,6 +89,14 @@ var group___notebook =
       [ "Delete", "class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132", null ],
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ],
+    [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", [
+      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
+      [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
+      [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
+      [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
+      [ "CenterToScreenPoint", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a8093c683f7c3e756412ec5d1a402b4e7", null ],
+      [ "SetSorting", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a55e9da07f159312dff311ef8636a1558", null ]
+    ] ],
     [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
       [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
       [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
@@ -99,14 +107,17 @@ var group___notebook =
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
+      [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
+      [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ],
       [ "GetNestedType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0", null ],
       [ "GetField", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499", null ],
       [ "GetProperty", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a", null ],
       [ "GetMethod", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4", null ],
+      [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetParents", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e", null ],
       [ "GetChildren", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245", null ],
-      [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
-      [ "GetDefault", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365", null ],
-      [ "IsCreatable", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a638f802af7a6ba8bb6cbd5b1a499dae6", null ]
+      [ "GetDerivatives", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a9a114d6024c1e5d213231bb2454fdc88", null ],
+      [ "FindTypes", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#ad20e0e88fffc28a58577d4b832f5323e", null ],
+      [ "GetLocation", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#ae1ce7bca4df13d9b8fd23f8e445d67a1", null ]
     ] ]
 ];

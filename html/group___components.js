@@ -38,6 +38,11 @@ var group___components =
       [ "key", "class_wanzyee_studio_1_1_event_key_invoker.html#ab74d86e61479cd4349198a5190b3da48", null ],
       [ "onKey", "class_wanzyee_studio_1_1_event_key_invoker.html#a58cecb2bf8ef43e8bbeeb3c892fea73a", null ]
     ] ],
+    [ "EventManualInvoker", "class_wanzyee_studio_1_1_event_manual_invoker.html", [
+      [ "Invoke", "class_wanzyee_studio_1_1_event_manual_invoker.html#a9aa0070cd5a4112e2bb2f5c08b3f3fb3", null ],
+      [ "Invoke", "class_wanzyee_studio_1_1_event_manual_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
+      [ "onInvoke", "class_wanzyee_studio_1_1_event_manual_invoker.html#a34946e154314a9acb326b0629f49519b", null ]
+    ] ],
     [ "EventMonoInvoker", "class_wanzyee_studio_1_1_event_mono_invoker.html", [
       [ "Invoke", "class_wanzyee_studio_1_1_event_mono_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
       [ "on", "class_wanzyee_studio_1_1_event_mono_invoker.html#a0a0414c31f54b42afb37331be4113778", null ],

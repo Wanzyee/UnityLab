@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['scriptextension',['ScriptExtension',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_script_extension.html',1,'WanzyeeStudio::Editrix::Extension']]],
   ['selectionfilter',['SelectionFilter',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_selection_filter.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['shortcut',['Shortcut',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['shortcutactattribute',['ShortcutActAttribute',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_act_attribute.html',1,'WanzyeeStudio::Editrix']]],
