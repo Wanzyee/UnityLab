@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['validateproperty',['ValidateProperty',['../class_wanzyee_studio_1_1_crypto_date.html#ae6d67c68f9e761ca2c0d6779183c433c',1,'WanzyeeStudio.CryptoDate.ValidateProperty()'],['../class_wanzyee_studio_1_1_crypto_period.html#ae6d67c68f9e761ca2c0d6779183c433c',1,'WanzyeeStudio.CryptoPeriod.ValidateProperty()'],['../class_wanzyee_studio_1_1_crypto_value.html#a2af2d76da7d1362303526d7369974fc8',1,'WanzyeeStudio.CryptoValue.ValidateProperty()']]],
+  ['value',['value',['../class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812',1,'WanzyeeStudio.CryptoCache.value()'],['../class_wanzyee_studio_1_1_crypto_value.html#ac8276201102e59dd8f2754f3c16c48bb',1,'WanzyeeStudio.CryptoValue.value()']]],
   ['valuefield_3c_20t_20_3e',['ValueField&lt; T &gt;',['../class_wanzyee_studio_1_1_aid_g_u_i.html#ad30522f12ebd72c3149953b9b7f2c532',1,'WanzyeeStudio::AidGUI']]],
   ['values',['values',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#aa1897900b2201759d8d870693a9132ea',1,'WanzyeeStudio::PopupMenuAttribute']]],
   ['valuetype',['valueType',['../class_wanzyee_studio_1_1_variable_info.html#aa243ddb98a03f1f89a00820fdbd487a6',1,'WanzyeeStudio::VariableInfo']]],

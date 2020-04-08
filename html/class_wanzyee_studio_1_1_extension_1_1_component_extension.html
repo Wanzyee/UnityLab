@@ -107,9 +107,12 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_extension_1_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a360aa6c50a78947807ead752f36204ff"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff">GetPath</a> (this Transform transform, string separator=&quot;/&quot;)</td></tr>
-<tr class="memdesc:a360aa6c50a78947807ead752f36204ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hierarchy path, used for log or <code>GameObject.Find()</code> with the default separator.  <a href="#a360aa6c50a78947807ead752f36204ff">More...</a><br /></td></tr>
-<tr class="separator:a360aa6c50a78947807ead752f36204ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211e54c4267a4e32e3b3db3d23c19485"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a211e54c4267a4e32e3b3db3d23c19485">GetPath</a> (this Component component, string separator=&quot;/&quot;)</td></tr>
+<tr class="memdesc:a211e54c4267a4e32e3b3db3d23c19485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hierarchy path, used for log or <code>GameObject.Find()</code> with the default separator.  <a href="#a211e54c4267a4e32e3b3db3d23c19485">More...</a><br /></td></tr>
+<tr class="separator:a211e54c4267a4e32e3b3db3d23c19485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c6cfa02bdc00f27803d000406d3b76"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a00c6cfa02bdc00f27803d000406d3b76">GetIndex</a> (this Component component)</td></tr>
+<tr class="memdesc:a00c6cfa02bdc00f27803d000406d3b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the component sibling index on the attaching <code>UnityEngine.GameObject</code>.  <a href="#a00c6cfa02bdc00f27803d000406d3b76">More...</a><br /></td></tr>
+<tr class="separator:a00c6cfa02bdc00f27803d000406d3b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13307766f7b003e4070607dbecaea712"><td class="memItemLeft" align="right" valign="top">static Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712">TransformQuat</a> (this Transform transform, Quaternion rotation)</td></tr>
 <tr class="memdesc:a13307766f7b003e4070607dbecaea712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms rotation from local space to world space.  <a href="#a13307766f7b003e4070607dbecaea712">More...</a><br /></td></tr>
 <tr class="separator:a13307766f7b003e4070607dbecaea712"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +132,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>UnityEngine.Component</code>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a360aa6c50a78947807ead752f36204ff"></a>
+<a class="anchor" id="a211e54c4267a4e32e3b3db3d23c19485"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -139,8 +142,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static string GetPath </td>
           <td>(</td>
-          <td class="paramtype">this Transform&#160;</td>
-          <td class="paramname"><em>transform</em>, </td>
+          <td class="paramtype">this Component&#160;</td>
+          <td class="paramname"><em>component</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -164,12 +167,45 @@ Static Public Member Functions</h2></td></tr>
 <p>Get the hierarchy path, used for log or <code>GameObject.Find()</code> with the default separator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transform</td><td>Transform.</td></tr>
+    <tr><td class="paramname">component</td><td>Component.</td></tr>
     <tr><td class="paramname">separator</td><td>Separator.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The hierarchy path.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a00c6cfa02bdc00f27803d000406d3b76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int GetIndex </td>
+          <td>(</td>
+          <td class="paramtype">this Component&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the component sibling index on the attaching <code>UnityEngine.GameObject</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>Component.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The sibling index.</dd></dl>
 
 </div>
 </div>

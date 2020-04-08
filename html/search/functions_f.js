@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['parse',['Parse',['../struct_wanzyee_studio_1_1_span.html#a8f91566a27183583374c006287a898ac',1,'WanzyeeStudio::Span']]],
   ['paste',['Paste',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_material_property_copier.html#afae0217cbb3f536ac6feb3c21ae2073e',1,'WanzyeeStudio::Editrix::Toolkit::MaterialPropertyCopier']]],
   ['patch',['Patch',['../class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html#ac87cf30e6c73bef1c2564ff94db2d52f',1,'WanzyeeStudio::Editrix::CodePatcher']]],
   ['pause',['Pause',['../class_wanzyee_studio_1_1_coroutiner.html#a70babc5227ddd16ca31dccc6cec0bb22',1,'WanzyeeStudio::Coroutiner']]],
@@ -9,7 +10,7 @@ var searchData=
   ['pointsinplane',['PointsInPlane',['../class_wanzyee_studio_1_1_math_utility.html#adda826f437f1bbd4fe3b128c5d34c6c8',1,'WanzyeeStudio::MathUtility']]],
   ['pointstocircle',['PointsToCircle',['../class_wanzyee_studio_1_1_math_utility.html#a8a058bdd3da47a2fdd6f787f8923e071',1,'WanzyeeStudio::MathUtility']]],
   ['pointtonormalized',['PointToNormalized',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#a4cd9d9a02d60331ecdbd413db4293e5e',1,'WanzyeeStudio::Extension::MathExtension']]],
-  ['popup',['Popup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#a2036fce61f2284e3d3a2d3ff60695c9f',1,'WanzyeeStudio::Editrix::Toolkit::Notebook']]],
+  ['popup',['Popup',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html#aec9febd1b8395ef5ab063db253688e3c',1,'WanzyeeStudio::Editrix::Toolkit::Notebook']]],
   ['popupmenuattribute',['PopupMenuAttribute',['../class_wanzyee_studio_1_1_popup_menu_attribute.html#ac765acd3e0641bc72723bb9ede1bc3a5',1,'WanzyeeStudio.PopupMenuAttribute.PopupMenuAttribute(params object[] values)'],['../class_wanzyee_studio_1_1_popup_menu_attribute.html#a0140e48f172d4b476476cc2fd7e207bc',1,'WanzyeeStudio.PopupMenuAttribute.PopupMenuAttribute(bool manual, params object[] values)'],['../class_wanzyee_studio_1_1_popup_menu_attribute.html#a4ba2c08acd21896360dbea554cab9b10',1,'WanzyeeStudio.PopupMenuAttribute.PopupMenuAttribute(object[] values, string[] options, bool manual=false)']]],
   ['post',['Post',['../class_wanzyee_studio_1_1_www_loader.html#ac717b1f37099485dc751c72f1dc21164',1,'WanzyeeStudio::WwwLoader']]],
   ['prefixlabel',['PrefixLabel',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a70340f00f89018a253d01f26cc486cfb',1,'WanzyeeStudio::AidGUI']]],

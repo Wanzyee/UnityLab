@@ -119,6 +119,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac20d0c2f9baab24456413d61412246d6"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6">JoinText&lt; T &gt;</a> (this IEnumerable&lt; T &gt; source, string separator=&quot;\n&quot;)</td></tr>
 <tr class="memdesc:ac20d0c2f9baab24456413d61412246d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join the specified sequence to a <code>string</code>, basically for logging.  <a href="#ac20d0c2f9baab24456413d61412246d6">More...</a><br /></td></tr>
 <tr class="separator:ac20d0c2f9baab24456413d61412246d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd837a365e8e45fede13cd9148cce8fd"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; T, U &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd">ToDictionary&lt; T, U &gt;</a> (this IEnumerable&lt; IGrouping&lt; T, U &gt;&gt; source)</td></tr>
+<tr class="memdesc:acd837a365e8e45fede13cd9148cce8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence of <code>IGrouping&lt;TKey, TValue&gt;</code>.  <a href="#acd837a365e8e45fede13cd9148cce8fd">More...</a><br /></td></tr>
+<tr class="separator:acd837a365e8e45fede13cd9148cce8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8aaef5119edad827b713c11f0d8ebbb"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; T, U &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb">ToDictionary&lt; T, U &gt;</a> (this IEnumerable&lt; KeyValuePair&lt; T, U &gt;&gt; source)</td></tr>
+<tr class="memdesc:ac8aaef5119edad827b713c11f0d8ebbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence of <code>KeyValuePair&lt;TKey, TValue&gt;</code>.  <a href="#ac8aaef5119edad827b713c11f0d8ebbb">More...</a><br /></td></tr>
+<tr class="separator:ac8aaef5119edad827b713c11f0d8ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba7ec300142d8852ab8746901e00f06"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; T, U &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06">KeysToDictionary&lt; T, U &gt;</a> (this IEnumerable&lt; T &gt; source, Func&lt; T, U &gt; elementSelector)</td></tr>
+<tr class="memdesc:a8ba7ec300142d8852ab8746901e00f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence according to an element selector function.  <a href="#a8ba7ec300142d8852ab8746901e00f06">More...</a><br /></td></tr>
+<tr class="separator:a8ba7ec300142d8852ab8746901e00f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cad3d1f3f3edb6cf1bc4973d218d57"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57">OrderByRandom&lt; T &gt;</a> (this IEnumerable&lt; T &gt; source)</td></tr>
+<tr class="memdesc:a01cad3d1f3f3edb6cf1bc4973d218d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the elements of a sequence in random order.  <a href="#a01cad3d1f3f3edb6cf1bc4973d218d57">More...</a><br /></td></tr>
+<tr class="separator:a01cad3d1f3f3edb6cf1bc4973d218d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df2fa74aaa70ec9e2e10306c9b79edf"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf">RandomElement&lt; T &gt;</a> (this IEnumerable&lt; T &gt; source)</td></tr>
 <tr class="memdesc:a7df2fa74aaa70ec9e2e10306c9b79edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the random element of a sequence, or a default value if no element.  <a href="#a7df2fa74aaa70ec9e2e10306c9b79edf">More...</a><br /></td></tr>
 <tr class="separator:a7df2fa74aaa70ec9e2e10306c9b79edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,6 +300,178 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <code>string</code>.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acd837a365e8e45fede13cd9148cce8fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Dictionary&lt;T, U&gt; ToDictionary&lt; T, U &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; IGrouping&lt; T, U &gt;&gt;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence of <code>IGrouping&lt;TKey, TValue&gt;</code>. </p>
+<p>This uses the group key paired with the first element of the group. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The key type.</td></tr>
+    <tr><td class="paramname">U</td><td>The element type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source sequence.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The dictionary.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac8aaef5119edad827b713c11f0d8ebbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Dictionary&lt;T, U&gt; ToDictionary&lt; T, U &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; KeyValuePair&lt; T, U &gt;&gt;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence of <code>KeyValuePair&lt;TKey, TValue&gt;</code>. </p>
+<p>Useful for arranging a dictionary, e.g., filtering, combining, or sorting. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The key type.</td></tr>
+    <tr><td class="paramname">U</td><td>The element type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source sequence.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The dictionary.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ba7ec300142d8852ab8746901e00f06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Dictionary&lt;T, U&gt; KeysToDictionary&lt; T, U &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; T, U &gt;&#160;</td>
+          <td class="paramname"><em>elementSelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a <code>Dictionary&lt;TKey, TValue&gt;</code> from the sequence according to an element selector function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The key type.</td></tr>
+    <tr><td class="paramname">U</td><td>The element type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source sequence.</td></tr>
+    <tr><td class="paramname">elementSelector</td><td>A transform function to produce an element value from each key.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The dictionary.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a01cad3d1f3f3edb6cf1bc4973d218d57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IEnumerable&lt;T&gt; OrderByRandom&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sort the elements of a sequence in random order. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The element type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source sequence.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The sequence.</dd></dl>
 
 </div>
 </div>

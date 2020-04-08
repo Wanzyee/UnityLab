@@ -126,6 +126,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a601af02a125716ba03ee1c05590b5adc"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc">GetTypeOrder</a> (Type source, bool builtinFirst=true)</td></tr>
 <tr class="memdesc:a601af02a125716ba03ee1c05590b5adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an order <code>string</code> of given type for sorting.  <a href="#a601af02a125716ba03ee1c05590b5adc">More...</a><br /></td></tr>
 <tr class="separator:a601af02a125716ba03ee1c05590b5adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e27d25d4513e8843fba7820587fc2b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae7e27d25d4513e8843fba7820587fc2b">ReplaceDrawerType</a> (Type type, Type drawer, bool children=true, Type original=null)</td></tr>
+<tr class="memdesc:ae7e27d25d4513e8843fba7820587fc2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the default property drawer type for the specified type.  <a href="#ae7e27d25d4513e8843fba7820587fc2b">More...</a><br /></td></tr>
+<tr class="separator:ae7e27d25d4513e8843fba7820587fc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd58f360ec17efd8662460cf16a6673e"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#acd58f360ec17efd8662460cf16a6673e">GetDrawerType</a> (Type type)</td></tr>
+<tr class="memdesc:acd58f360ec17efd8662460cf16a6673e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the creatable property drawer type for the specified type.  <a href="#acd58f360ec17efd8662460cf16a6673e">More...</a><br /></td></tr>
+<tr class="separator:acd58f360ec17efd8662460cf16a6673e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7796f702b0216ac710151956ce2c4245"><td class="memItemLeft" align="right" valign="top">static PropertyDrawer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7796f702b0216ac710151956ce2c4245">CreateDrawer</a> (Type type, FieldInfo field, PropertyAttribute attribute)</td></tr>
+<tr class="memdesc:a7796f702b0216ac710151956ce2c4245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a property drawer instance.  <a href="#a7796f702b0216ac710151956ce2c4245">More...</a><br /></td></tr>
+<tr class="separator:a7796f702b0216ac710151956ce2c4245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b">OpenAbout</a> (Object obj)</td></tr>
 <tr class="memdesc:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the about message of the specified object.  <a href="#aeedc9a9e974e8949234ab6ebb6533d1b">More...</a><br /></td></tr>
 <tr class="separator:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,6 +429,147 @@ Events</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The order.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae7e27d25d4513e8843fba7820587fc2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ReplaceDrawerType </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>drawer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>children</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>original</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace the default property drawer type for the specified type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The drawn type.</td></tr>
+    <tr><td class="paramname">drawer</td><td>New drawer type.</td></tr>
+    <tr><td class="paramname">children</td><td>If set to use for children types.</td></tr>
+    <tr><td class="paramname">original</td><td>Only replace when match the original drawer type if set.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acd58f360ec17efd8662460cf16a6673e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Type GetDrawerType </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the creatable property drawer type for the specified type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The drawn type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The drawer type.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7796f702b0216ac710151956ce2c4245"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static PropertyDrawer CreateDrawer </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FieldInfo&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropertyAttribute&#160;</td>
+          <td class="paramname"><em>attribute</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a property drawer instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The drawer type.</td></tr>
+    <tr><td class="paramname">field</td><td>The field info.</td></tr>
+    <tr><td class="paramname">attribute</td><td>The attribute.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The property drawer.</dd></dl>
 
 </div>
 </div>

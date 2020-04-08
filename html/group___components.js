@@ -12,8 +12,8 @@ var group___components =
     ] ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
     [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
-      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
-      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
+      [ "lastEvent", "class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
+      [ "eventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
     ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
@@ -150,10 +150,10 @@ var group___components =
       [ "DrawPanelGUI", "class_wanzyee_studio_1_1_stack_tweak_panel.html#a6ca8463195508caf752d23f380675cb0", null ]
     ] ],
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", [
+      [ "main", "class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4", null ],
       [ "title", "class_wanzyee_studio_1_1_stack_window.html#a43a5eafe64b96968035e5a4013e47c75", null ],
       [ "skin", "class_wanzyee_studio_1_1_stack_window.html#ab7b985bc528ecc1c55bfabaa7ee7a1e0", null ],
-      [ "panels", "class_wanzyee_studio_1_1_stack_window.html#a326c7d7e08c506413c2d1c2dc2fc62ae", null ],
-      [ "main", "class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4", null ]
+      [ "panels", "class_wanzyee_studio_1_1_stack_window.html#a326c7d7e08c506413c2d1c2dc2fc62ae", null ]
     ] ],
     [ "VariableTweaker", "class_wanzyee_studio_1_1_variable_tweaker.html", [
       [ "Serialize", "class_wanzyee_studio_1_1_variable_tweaker.html#aed3ca7335e50d73cff912e24f8c88317", null ],

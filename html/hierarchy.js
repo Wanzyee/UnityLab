@@ -3,6 +3,28 @@ var hierarchy =
     [ "BaseSingleton< FramerateCounter >", "class_wanzyee_studio_1_1_base_singleton.html", [
       [ "FramerateCounter", "class_wanzyee_studio_1_1_framerate_counter.html", null ]
     ] ],
+    [ "CryptoCache< bool, bool >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoBool", "class_wanzyee_studio_1_1_crypto_bool.html", null ]
+    ] ],
+    [ "CryptoCache< float, float >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoFloat", "class_wanzyee_studio_1_1_crypto_float.html", null ]
+    ] ],
+    [ "CryptoCache< int, int >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoInt", "class_wanzyee_studio_1_1_crypto_int.html", null ]
+    ] ],
+    [ "CryptoValue< DateTime, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoDate", "class_wanzyee_studio_1_1_crypto_date.html", null ]
+    ] ],
+    [ "CryptoValue< string, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoString", "class_wanzyee_studio_1_1_crypto_string.html", null ]
+    ] ],
+    [ "CryptoValue< T, U >", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoCache< T, U >", "class_wanzyee_studio_1_1_crypto_cache.html", null ],
+      [ "CryptoObject< T, U >", "class_wanzyee_studio_1_1_crypto_object.html", null ]
+    ] ],
+    [ "CryptoValue< TimeSpan, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoPeriod", "class_wanzyee_studio_1_1_crypto_period.html", null ]
+    ] ],
     [ "IAidDrawer< bool >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IAidDrawer< Bounds >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IAidDrawer< Color >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
@@ -68,14 +90,15 @@ var hierarchy =
     ] ],
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", null ],
     [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", null ],
-    [ "CryptoString", "class_wanzyee_studio_1_1_crypto_string.html", [
-      [ "CryptoObject< T >", "class_wanzyee_studio_1_1_crypto_object.html", null ]
+    [ "CryptoValue", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoValue< T, U >", "class_wanzyee_studio_1_1_crypto_value.html", null ]
     ] ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
     [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", null ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", null ],
     [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", null ],
     [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", null ],
+    [ "CryptoValueDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_crypto_value_drawer.html", null ],
     [ "FallbackPropertyDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html", null ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", null ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", null ],
@@ -121,6 +144,7 @@ var hierarchy =
     [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", null ],
     [ "CryptoExtension", "class_wanzyee_studio_1_1_extension_1_1_crypto_extension.html", null ],
     [ "DelegateExtension", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html", null ],
+    [ "GuiExtension", "class_wanzyee_studio_1_1_extension_1_1_gui_extension.html", null ],
     [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", null ],
     [ "MathExtension", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html", null ],
     [ "StringExtension", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html", null ],
@@ -128,6 +152,12 @@ var hierarchy =
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", null ],
     [ "FilePathAttribute", "class_wanzyee_studio_1_1_file_path_attribute.html", null ],
     [ "IAidDrawer< T >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
+    [ "ILanguageTranslator", "interface_wanzyee_studio_1_1_i_language_translator.html", [
+      [ "ILanguageInstantTranslator", "interface_wanzyee_studio_1_1_i_language_instant_translator.html", [
+        [ "GoogleLegacyLanguageTranslator", "class_wanzyee_studio_1_1_google_legacy_language_translator.html", null ],
+        [ "MyMemoryLanguageTranslator", "class_wanzyee_studio_1_1_my_memory_language_translator.html", null ]
+      ] ]
+    ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", null ],
     [ "IPoolee", "interface_wanzyee_studio_1_1_i_poolee.html", [
       [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", null ]
@@ -153,6 +183,7 @@ var hierarchy =
     [ "ReorderableListAttribute", "class_wanzyee_studio_1_1_reorderable_list_attribute.html", null ],
     [ "ResolutionSetter", "class_wanzyee_studio_1_1_resolution_setter.html", null ],
     [ "Singleton< T >", "class_wanzyee_studio_1_1_singleton.html", null ],
+    [ "Span", "struct_wanzyee_studio_1_1_span.html", null ],
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", null ],
     [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html", null ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", null ],

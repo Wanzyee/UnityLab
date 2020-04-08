@@ -22,6 +22,5 @@ var class_wanzyee_studio_1_1_editrix_1_1_shortcut_list =
     [ "specifyAct", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#aed108c283b9205d6d3c75748e0819280", null ],
     [ "items", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888", null ],
     [ "_actsGetter", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a7b162369afa76863a8e0cdf71f84c118", null ],
-    [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ],
-    [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a6f926a3151fada07010c19752f2bd74b", null ]
+    [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ]
 ];

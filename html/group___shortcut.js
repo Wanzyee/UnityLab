@@ -27,8 +27,9 @@ var group___shortcut =
     ] ],
     [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", [
       [ "Download", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02", null ],
-      [ "url", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
       [ "sync", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#af5bad216eac9aefc703a450d3163e542", null ],
+      [ "url", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
+      [ "args", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a79e34d840321d9c9ddb8daa8d995bf55", null ],
       [ "file", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#ab2c5ab3c7a17f0969cdd40146339903a", null ],
       [ "overwrite", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#afeea8d20025f5d6db624f2c5c2050586", null ],
       [ "reveal", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a16010a0973cfb8dbaf8cb8817cad98db", null ],
@@ -61,8 +62,7 @@ var group___shortcut =
       [ "specifyAct", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#aed108c283b9205d6d3c75748e0819280", null ],
       [ "items", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888", null ],
       [ "_actsGetter", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a7b162369afa76863a8e0cdf71f84c118", null ],
-      [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ],
-      [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a6f926a3151fada07010c19752f2bd74b", null ]
+      [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ]
     ] ],
     [ "ShortcutItem", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html", [
       [ "Clone", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a6a117d0518e4a9eb89f56272f6cbe9b9", null ],
@@ -141,6 +141,9 @@ var group___shortcut =
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
       [ "GetTypeOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc", null ],
+      [ "ReplaceDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae7e27d25d4513e8843fba7820587fc2b", null ],
+      [ "GetDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#acd58f360ec17efd8662460cf16a6673e", null ],
+      [ "CreateDrawer", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7796f702b0216ac710151956ce2c4245", null ],
       [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
@@ -182,8 +185,8 @@ var group___shortcut =
       [ "constraints", "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5", null ]
     ] ],
     [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
-      [ "globalEventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1", null ],
-      [ "gameViewOnGUI", "class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8", null ]
+      [ "lastEvent", "class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
+      [ "eventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
     ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
       [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
@@ -195,6 +198,10 @@ var group___shortcut =
       [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
       [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
       [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb", null ],
+      [ "KeysToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06", null ],
+      [ "OrderByRandom< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57", null ],
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
       [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],

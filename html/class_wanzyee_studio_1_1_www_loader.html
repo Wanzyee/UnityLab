@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_www_loader.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_www_loader-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -151,6 +152,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3f47d301eb978750c114911bf164adc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a <code>UnityEngine.MovieTexture</code> from specified URL or <code><a class="el" href="class_wanzyee_studio_1_1_www_option.html" title="URL and some options for WwwLoader, cast from string to create if use URL only. ">WwwOption</a></code>.  <a href="#a3f47d301eb978750c114911bf164adc6">More...</a><br /></td></tr>
 <tr class="separator:a3f47d301eb978750c114911bf164adc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2778689fc3def0f49cc9c61de04a9484"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484">keepWaiting</a> =&gt; !<a class="el" href="class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a></td></tr>
+<tr class="memdesc:a2778689fc3def0f49cc9c61de04a9484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if coroutine should be kept suspended.  <a href="#a2778689fc3def0f49cc9c61de04a9484">More...</a><br /></td></tr>
+<tr class="separator:a2778689fc3def0f49cc9c61de04a9484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a912354a1bcf6da4b5a2aea39b3fec561"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#a912354a1bcf6da4b5a2aea39b3fec561">isCacheable</a><code> [get]</code></td></tr>
@@ -180,9 +187,6 @@ Properties</h2></td></tr>
 <tr class="memitem:ae0a3e971a44e6337c81cc728d3d81666"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae0a3e971a44e6337c81cc728d3d81666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if loading process done.  <a href="#ae0a3e971a44e6337c81cc728d3d81666">More...</a><br /></td></tr>
 <tr class="separator:ae0a3e971a44e6337c81cc728d3d81666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2778689fc3def0f49cc9c61de04a9484"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484">keepWaiting</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2778689fc3def0f49cc9c61de04a9484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if coroutine should be kept suspended.  <a href="#a2778689fc3def0f49cc9c61de04a9484">More...</a><br /></td></tr>
-<tr class="separator:a2778689fc3def0f49cc9c61de04a9484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basically a wrapper of <code>UnityEngine.WWW</code> for work easier. </p>
@@ -662,6 +666,21 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a2778689fc3def0f49cc9c61de04a9484"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool keepWaiting =&gt; !<a class="el" href="class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates if coroutine should be kept suspended. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a912354a1bcf6da4b5a2aea39b3fec561"></a>
 <div class="memitem">
@@ -863,28 +882,6 @@ Properties</h2></td></tr>
 
 <p>Flag if loading process done. </p>
 <p>This doesn't guarantee process success, check <code>error</code> in need. </p>
-
-</div>
-</div>
-<a class="anchor" id="a2778689fc3def0f49cc9c61de04a9484"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override bool keepWaiting</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Indicates if coroutine should be kept suspended. </p>
 
 </div>
 </div>

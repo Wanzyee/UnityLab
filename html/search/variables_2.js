@@ -2,6 +2,8 @@ var searchData=
 [
   ['cache',['cache',['../class_wanzyee_studio_1_1_www_option.html#ad442ec4a16baeb87f4782a65fb706c7b',1,'WanzyeeStudio::WwwOption']]],
   ['camera3d',['camera3D',['../class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143',1,'WanzyeeStudio::KeyClickExecutor']]],
+  ['canread',['canRead',['../class_wanzyee_studio_1_1_variable_info.html#aadfa638586457f07b3b0c3804db6f6c4',1,'WanzyeeStudio::VariableInfo']]],
+  ['canwrite',['canWrite',['../class_wanzyee_studio_1_1_variable_info.html#ad9efd84dc828c02bdedc54ef51a67d16',1,'WanzyeeStudio::VariableInfo']]],
   ['channel',['channel',['../class_wanzyee_studio_1_1_raycast_mask_filter.html#a8b084a106d3b155584bf58f46f8ec915',1,'WanzyeeStudio::RaycastMaskFilter']]],
   ['clicktoopen',['clickToOpen',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a3fc46d03b3c32c78212ef29f000fd2f9',1,'WanzyeeStudio::Editrix::ShortcutList']]],
   ['clicktoselect',['clickToSelect',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#af43eb490678689b164349435570c8bca',1,'WanzyeeStudio::Editrix::ShortcutList']]],

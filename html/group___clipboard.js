@@ -75,6 +75,9 @@ var group___clipboard =
       [ "OpenAsset< T >", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ef6b09a920337fb9d9c29eb08ac43be", null ],
       [ "GetObjectOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab57b5c77c0a484adc98d8ed88d9083e3", null ],
       [ "GetTypeOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc", null ],
+      [ "ReplaceDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae7e27d25d4513e8843fba7820587fc2b", null ],
+      [ "GetDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#acd58f360ec17efd8662460cf16a6673e", null ],
+      [ "CreateDrawer", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7796f702b0216ac710151956ce2c4245", null ],
       [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
       [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
@@ -92,7 +95,8 @@ var group___clipboard =
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ],
     [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", [
-      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
+      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a211e54c4267a4e32e3b3db3d23c19485", null ],
+      [ "GetIndex", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a00c6cfa02bdc00f27803d000406d3b76", null ],
       [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
       [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
       [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
@@ -104,6 +108,10 @@ var group___clipboard =
       [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
       [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
       [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb", null ],
+      [ "KeysToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06", null ],
+      [ "OrderByRandom< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57", null ],
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
       [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],

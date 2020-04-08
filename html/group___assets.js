@@ -17,8 +17,9 @@ var group___assets =
     ] ],
     [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", [
       [ "Download", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02", null ],
-      [ "url", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
       [ "sync", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#af5bad216eac9aefc703a450d3163e542", null ],
+      [ "url", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
+      [ "args", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a79e34d840321d9c9ddb8daa8d995bf55", null ],
       [ "file", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#ab2c5ab3c7a17f0969cdd40146339903a", null ],
       [ "overwrite", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#afeea8d20025f5d6db624f2c5c2050586", null ],
       [ "reveal", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a16010a0973cfb8dbaf8cb8817cad98db", null ],
@@ -80,7 +81,6 @@ var group___assets =
       [ "specifyAct", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#aed108c283b9205d6d3c75748e0819280", null ],
       [ "items", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a09e66781e6c024c222dea1efc0f7e888", null ],
       [ "_actsGetter", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a7b162369afa76863a8e0cdf71f84c118", null ],
-      [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ],
-      [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a6f926a3151fada07010c19752f2bd74b", null ]
+      [ "_actPerformer", "class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a26b4905f7f8047d543a8206e7c42f141", null ]
     ] ]
 ];

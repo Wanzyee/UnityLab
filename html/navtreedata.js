@@ -27,13 +27,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a49fba5b9a101e3c5f920c4a4e17def9d",
-"class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a8c7e45250b1eb6821dd59fb2a9a016d7",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a0da5441c557dbfd2fac034592f8c9168",
-"class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35",
-"class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132",
-"class_wanzyee_studio_1_1_stack_tweak_panel.html#a6ca8463195508caf752d23f380675cb0",
-"namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898ae1e1d3d40573127e9ee0480caf1283d6"
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#abd9d9a8b44cad0f33fb07a098422a70c",
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b",
+"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8",
+"class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81",
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0",
+"class_wanzyee_studio_1_1_periodic_inquirer.html",
+"functions_v.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

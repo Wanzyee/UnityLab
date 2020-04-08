@@ -23,8 +23,8 @@ var class_wanzyee_studio_1_1_aid_g_u_i =
     [ "TextField< T >", "class_wanzyee_studio_1_1_aid_g_u_i.html#a924a360f14cdfb22d17f040c1f22fc4b", null ],
     [ "GUIToScreenPoint", "class_wanzyee_studio_1_1_aid_g_u_i.html#ae2aebe0e1728273c5f5cbc85a6a5c3d5", null ],
     [ "ScreenToGUIPoint", "class_wanzyee_studio_1_1_aid_g_u_i.html#a6198186bdda5ded823d28941effa3e40", null ],
-    [ "DrawLine", "class_wanzyee_studio_1_1_aid_g_u_i.html#aa24d6f5c244a0c2cc19095f8fee6a344", null ],
+    [ "DrawLine", "class_wanzyee_studio_1_1_aid_g_u_i.html#a61bbd0e67c1f0781398d5b7c5ec8c971", null ],
     [ "DrawPolygon", "class_wanzyee_studio_1_1_aid_g_u_i.html#a747c474dbac2802cd59cf5719861e313", null ],
     [ "DrawPolygon", "class_wanzyee_studio_1_1_aid_g_u_i.html#a9591c2f40280a438763ac912d853d892", null ],
-    [ "DrawBorder", "class_wanzyee_studio_1_1_aid_g_u_i.html#a53b439f5f4ab37a5ebcb55b17049c319", null ]
+    [ "DrawBorder", "class_wanzyee_studio_1_1_aid_g_u_i.html#a2ed97c015945747fa2696404ff97fcef", null ]
 ];

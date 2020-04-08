@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Wanzyee Studio: CryptoObject&lt; T &gt;</title>
+<title>Wanzyee Studio: CryptoObject&lt; T, U &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,74 +96,44 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_crypto_object
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#properties">Properties</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_wanzyee_studio_1_1_crypto_object-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CryptoObject&lt; T &gt;</div>  </div>
+<div class="title">CryptoObject&lt; T, U &gt;</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Wrapper to encrypt and store an object by <code><a class="el" href="class_wanzyee_studio_1_1_crypto_string.html" title="Wrapper to encrypt and store a string to avoid leave plain text in the memory. ">CryptoString</a></code> and <code>UnityEngine.JsonUtility</code>.  
+<p>Wrapper to encrypt and store an object supported by <code>UnityEngine.JsonUtility</code>.  
  <a href="class_wanzyee_studio_1_1_crypto_object.html#details">More...</a></p>
 
-<p>Inherits <a class="el" href="class_wanzyee_studio_1_1_crypto_string.html">CryptoString</a>.</p>
+<p>Inherits <a class="el" href="class_wanzyee_studio_1_1_crypto_value.html">CryptoValue&lt; T, U &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a86475bfd089b6c50086fb642f36a90c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#a86475bfd089b6c50086fb642f36a90c0">CryptoObject</a> (string json=null)</td></tr>
-<tr class="memdesc:a86475bfd089b6c50086fb642f36a90c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <code>text</code> as the specified JSON <code>string</code>.  <a href="#a86475bfd089b6c50086fb642f36a90c0">More...</a><br /></td></tr>
-<tr class="separator:a86475bfd089b6c50086fb642f36a90c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a852dc5651c77aa19dcd0aa7b7e8068fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#a852dc5651c77aa19dcd0aa7b7e8068fc">CryptoObject</a> (T value)</td></tr>
-<tr class="memdesc:a852dc5651c77aa19dcd0aa7b7e8068fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize by serializing the specified object value.  <a href="#a852dc5651c77aa19dcd0aa7b7e8068fc">More...</a><br /></td></tr>
-<tr class="separator:a852dc5651c77aa19dcd0aa7b7e8068fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada06ba24e19880cf154a8941b00c2ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#ada06ba24e19880cf154a8941b00c2ed3">Serialize</a> (T value)</td></tr>
-<tr class="memdesc:ada06ba24e19880cf154a8941b00c2ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the specified object value to <code>text</code>.  <a href="#ada06ba24e19880cf154a8941b00c2ed3">More...</a><br /></td></tr>
-<tr class="separator:ada06ba24e19880cf154a8941b00c2ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bbfed812fefef5efddbf10dbf4486a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#a35bbfed812fefef5efddbf10dbf4486a">Deserialize</a> ()</td></tr>
-<tr class="memdesc:a35bbfed812fefef5efddbf10dbf4486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the <code>text</code> to a new object.  <a href="#a35bbfed812fefef5efddbf10dbf4486a">More...</a><br /></td></tr>
-<tr class="separator:a35bbfed812fefef5efddbf10dbf4486a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35a3a9105f59604800436882dfb7bdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#ae35a3a9105f59604800436882dfb7bdc">CryptoObject</a> (T value=default)</td></tr>
+<tr class="memdesc:ae35a3a9105f59604800436882dfb7bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize by serializing the specified object value.  <a href="#ae35a3a9105f59604800436882dfb7bdc">More...</a><br /></td></tr>
+<tr class="separator:ae35a3a9105f59604800436882dfb7bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a739bd7e413e61c963681e085a990979a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_string.html#a739bd7e413e61c963681e085a990979a">text</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a739bd7e413e61c963681e085a990979a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The plain text, if need, please keep this wrapper instead of the real text.  <a href="#a739bd7e413e61c963681e085a990979a">More...</a><br /></td></tr>
-<tr class="separator:a739bd7e413e61c963681e085a990979a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:acc4ea68bb901bfe36b8ce5587d16dc27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html">CryptoObject</a>(string json) override T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#acc4ea68bb901bfe36b8ce5587d16dc27">ToValue</a> (string text)</td></tr>
+<tr class="memdesc:acc4ea68bb901bfe36b8ce5587d16dc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize with the specified JSON <code>string</code>.  <a href="#acc4ea68bb901bfe36b8ce5587d16dc27">More...</a><br /></td></tr>
+<tr class="separator:acc4ea68bb901bfe36b8ce5587d16dc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6760b70cb6c0c27879f4c66c8dda671"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#aa6760b70cb6c0c27879f4c66c8dda671">ToText</a> (T value)</td></tr>
+<tr class="memdesc:aa6760b70cb6c0c27879f4c66c8dda671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the real value to the text to encrypt.  <a href="#aa6760b70cb6c0c27879f4c66c8dda671">More...</a><br /></td></tr>
+<tr class="separator:aa6760b70cb6c0c27879f4c66c8dda671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Wrapper to encrypt and store an object by <code><a class="el" href="class_wanzyee_studio_1_1_crypto_string.html" title="Wrapper to encrypt and store a string to avoid leave plain text in the memory. ">CryptoString</a></code> and <code>UnityEngine.JsonUtility</code>. </p>
-<p>Please be aware, the object type must be supported by <code>UnityEngine.JsonUtility</code>. </p>
+<div class="textblock"><p>Wrapper to encrypt and store an object supported by <code>UnityEngine.JsonUtility</code>. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The object type.</td></tr>
+    <tr><td class="paramname">U</td><td>The property type for editing, commonly use <code>T</code> or <code>string</code>.</td></tr>
   </table>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a86475bfd089b6c50086fb642f36a90c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html">CryptoObject</a> </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>json</em> = <code>null</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the <code>text</code> as the specified JSON <code>string</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">json</td><td>The JSON string.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a852dc5651c77aa19dcd0aa7b7e8068fc"></a>
+<a class="anchor" id="ae35a3a9105f59604800436882dfb7bdc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -171,7 +141,7 @@ Properties</h2></td></tr>
           <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html">CryptoObject</a> </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramname"><em>value</em> = <code>default</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -180,7 +150,7 @@ Properties</h2></td></tr>
 <p>Initialize by serializing the specified object value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">value</td><td>The object value.</td></tr>
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
   </table>
   </dd>
 </dl>
@@ -188,50 +158,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ada06ba24e19880cf154a8941b00c2ed3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Serialize </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Serialize the specified object value to <code>text</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>The object value.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a35bbfed812fefef5efddbf10dbf4486a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T Deserialize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deserialize the <code>text</code> to a new object. </p>
-<dl class="section return"><dt>Returns</dt><dd>The object value.</dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="a739bd7e413e61c963681e085a990979a"></a>
+<a class="anchor" id="acc4ea68bb901bfe36b8ce5587d16dc27"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -239,17 +166,68 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string text</td>
+          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_crypto_object.html">CryptoObject</a> (string json) override T ToValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>The plain text, if need, please keep this wrapper instead of the real text. </p>
+<p>Initialize with the specified JSON <code>string</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">json</td><td>The JSON string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Convert the decrypted text to the real value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6760b70cb6c0c27879f4c66c8dda671"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string ToText </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the real value to the text to encrypt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Text.</dd></dl>
 
 </div>
 </div>

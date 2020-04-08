@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editor_event_
 
 <div class="header">
   <div class="summary">
+<a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
 <a href="class_wanzyee_studio_1_1_editor_event_listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -107,20 +108,23 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editor_event_
 
 <p>Inherits MonoBehaviour.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a13bb42a50beb84b37480ab40f95f4003"><td class="memItemLeft" align="right" valign="top">static Event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003">lastEvent</a><code> [get]</code></td></tr>
+<tr class="memdesc:a13bb42a50beb84b37480ab40f95f4003"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last event data of <code>eventHandler</code>.  <a href="#a13bb42a50beb84b37480ab40f95f4003">More...</a><br /></td></tr>
+<tr class="separator:a13bb42a50beb84b37480ab40f95f4003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a7b3e7d06e403713d1e11d8834efed8e1"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a7b3e7d06e403713d1e11d8834efed8e1">globalEventHandler</a></td></tr>
-<tr class="memdesc:a7b3e7d06e403713d1e11d8834efed8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the global input event.  <a href="#a7b3e7d06e403713d1e11d8834efed8e1">More...</a><br /></td></tr>
-<tr class="separator:a7b3e7d06e403713d1e11d8834efed8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a146b5da88cfd51615d7601fa335621b8"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a146b5da88cfd51615d7601fa335621b8">gameViewOnGUI</a></td></tr>
-<tr class="memdesc:a146b5da88cfd51615d7601fa335621b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the <code>GameView</code> GUI evant.  <a href="#a146b5da88cfd51615d7601fa335621b8">More...</a><br /></td></tr>
-<tr class="separator:a146b5da88cfd51615d7601fa335621b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86fd76cfec5574a0817bb2562d3d5118"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118">eventHandler</a></td></tr>
+<tr class="memdesc:a86fd76cfec5574a0817bb2562d3d5118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the global input or <code>GameView</code> GUI evant.  <a href="#a86fd76cfec5574a0817bb2562d3d5118">More...</a><br /></td></tr>
+<tr class="separator:a86fd76cfec5574a0817bb2562d3d5118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wrapper to listen to editor global event to dispatch. </p>
 <p>This's an editor-only <code>UnityEngine.Component</code>, please don't add this manually nor by a script. </p>
-</div><h2 class="groupheader">Event Documentation</h2>
-<a class="anchor" id="a7b3e7d06e403713d1e11d8834efed8e1"></a>
+</div><h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a13bb42a50beb84b37480ab40f95f4003"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -128,7 +132,30 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Action globalEventHandler</td>
+          <td class="memname">Event lastEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last event data of <code>eventHandler</code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a class="anchor" id="a86fd76cfec5574a0817bb2562d3d5118"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action eventHandler</td>
         </tr>
       </table>
   </td>
@@ -138,38 +165,9 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Callback of the global input event. </p>
-<p>Wrapper for the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. </p>
+<p>Callback of the global input or <code>GameView</code> GUI evant. </p>
+<p>Wrapper for the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. And work with a hidden component for <code>GameView</code> event handling. It's not recommended to draw any GUI with this. </p>
 <p>Please note, this may not be invoked if:</p><ol type="1">
-<li>The <code>GameView</code> window gets focused.</li>
-<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl-P" is "Edit/Play".</li>
-<li>When edit a text field, or only press "Shift". </li>
-</ol>
-
-</div>
-</div>
-<a class="anchor" id="a146b5da88cfd51615d7601fa335621b8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action gameViewOnGUI</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback of the <code>GameView</code> GUI evant. </p>
-<p>Work with a hidden component for event handling, not recommended to draw any GUI with this. </p>
-<p>Please note, this may not be invoked if:</p><ol type="1">
-<li>The <code>GameView</code> window isn't focused.</li>
 <li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl-P" is "Edit/Play".</li>
 <li>When edit a text field, or only press "Shift". </li>
 </ol>

@@ -23,7 +23,8 @@ var group___extensions =
       [ "GuessClass", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_script_extension.html#af38ee03c9d065769021d7e562be3cede", null ]
     ] ],
     [ "ComponentExtension", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html", [
-      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a360aa6c50a78947807ead752f36204ff", null ],
+      [ "GetPath", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a211e54c4267a4e32e3b3db3d23c19485", null ],
+      [ "GetIndex", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a00c6cfa02bdc00f27803d000406d3b76", null ],
       [ "TransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a13307766f7b003e4070607dbecaea712", null ],
       [ "InverseTransformQuat", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a45e1eee0e19a9df45bc0566437a5b91d", null ],
       [ "SetCentimeterDragThreshold", "class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81", null ],
@@ -41,11 +42,16 @@ var group___extensions =
     [ "DelegateExtension", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html", [
       [ "Notify", "class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html#a5f5abc58b5018d592c9a7624eb90cba8", null ]
     ] ],
+    [ "GuiExtension", "class_wanzyee_studio_1_1_extension_1_1_gui_extension.html", null ],
     [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
       [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
       [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
       [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
       [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb", null ],
+      [ "KeysToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06", null ],
+      [ "OrderByRandom< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57", null ],
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
       [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],
@@ -71,7 +77,7 @@ var group___extensions =
       [ "GetRandomPoint", "class_wanzyee_studio_1_1_extension_1_1_math_extension.html#ae8cba3ac15bafcc426a27c9096698ef7", null ]
     ] ],
     [ "StringExtension", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html", [
-      [ "To< T >", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#aa69c92f8f97d1a9bac8495170564cb50", null ],
+      [ "To< T >", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a7682537c65db5eeb14f09845509bfdc2", null ],
       [ "To", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#ad5596ce311f6ab51df23045a7311d792", null ],
       [ "ExtractFloats", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a9e380d0e4897af63db2fc8366d8e215c", null ],
       [ "ExtractBytes", "class_wanzyee_studio_1_1_extension_1_1_string_extension.html#afef17e962e1cfbfc11f7faa52dbc4555", null ]

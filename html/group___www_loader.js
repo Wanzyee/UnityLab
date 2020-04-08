@@ -8,9 +8,9 @@ var group___www_loader =
       [ "Resume", "class_wanzyee_studio_1_1_coroutiner.html#a8af8fb637c7ae9d71a23bf3ac80d3c86", null ],
       [ "Stop", "class_wanzyee_studio_1_1_coroutiner.html#a17a237457e57625296e6b24feb19c60a", null ],
       [ "stopper", "class_wanzyee_studio_1_1_coroutiner.html#ac8c0f7bda9ca64cfde819e1da1f07d52", null ],
+      [ "keepWaiting", "class_wanzyee_studio_1_1_coroutiner.html#a2778689fc3def0f49cc9c61de04a9484", null ],
       [ "isPaused", "class_wanzyee_studio_1_1_coroutiner.html#a9e9483098282f7e475601c37b1f6496d", null ],
-      [ "isDone", "class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666", null ],
-      [ "keepWaiting", "class_wanzyee_studio_1_1_coroutiner.html#a2778689fc3def0f49cc9c61de04a9484", null ]
+      [ "isDone", "class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666", null ]
     ] ],
     [ "WwwLoader", "class_wanzyee_studio_1_1_www_loader.html", [
       [ "ClearCache", "class_wanzyee_studio_1_1_www_loader.html#ab4a8d21e2aef1e3b02186cc61175d115", null ],
@@ -25,6 +25,7 @@ var group___www_loader =
       [ "LoadMovie", "class_wanzyee_studio_1_1_www_loader.html#a3f47d301eb978750c114911bf164adc6", null ],
       [ "Cancel", "class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26", null ],
       [ "ToString", "class_wanzyee_studio_1_1_www_loader.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
+      [ "keepWaiting", "class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484", null ],
       [ "isCacheable", "class_wanzyee_studio_1_1_www_loader.html#a912354a1bcf6da4b5a2aea39b3fec561", null ],
       [ "cacheFolder", "class_wanzyee_studio_1_1_www_loader.html#aafc9e204718308ac72f8b69e82b894b3", null ],
       [ "url", "class_wanzyee_studio_1_1_www_loader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
@@ -33,11 +34,10 @@ var group___www_loader =
       [ "duration", "class_wanzyee_studio_1_1_www_loader.html#a66625d8d6c0894b4828b43f826a09b8f", null ],
       [ "progress", "class_wanzyee_studio_1_1_www_loader.html#ac7abb4766cd3f65c31f56279d7decff8", null ],
       [ "error", "class_wanzyee_studio_1_1_www_loader.html#a3de5a7021a3455b560470aadacdbbea3", null ],
-      [ "isDone", "class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666", null ],
-      [ "keepWaiting", "class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484", null ]
+      [ "isDone", "class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666", null ]
     ] ],
     [ "WwwOption", "class_wanzyee_studio_1_1_www_option.html", [
-      [ "WwwOption", "class_wanzyee_studio_1_1_www_option.html#ad998fcf0df090ccf471a02c6e3522f20", null ],
+      [ "WwwOption", "class_wanzyee_studio_1_1_www_option.html#a75703417c5c035fdc3942a3567d33e6a", null ],
       [ "ToString", "class_wanzyee_studio_1_1_www_option.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
       [ "operator WwwOption", "class_wanzyee_studio_1_1_www_option.html#a01918ad3436731904188f3c5f8e7f30c", null ],
       [ "url", "class_wanzyee_studio_1_1_www_option.html#ab7f7e4a227dcefa48ab674928030bff8", null ],
@@ -57,6 +57,10 @@ var group___www_loader =
       [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
       [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
       [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd", null ],
+      [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb", null ],
+      [ "KeysToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06", null ],
+      [ "OrderByRandom< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57", null ],
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
       [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
     ] ],

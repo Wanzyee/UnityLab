@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a',['A',['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29',1,'WanzyeeStudio']]],
+  ['a',['a',['../struct_wanzyee_studio_1_1_span.html#a4aec1a5be9d9a4a394a2e49e9744286e',1,'WanzyeeStudio.Span.a()'],['../namespace_wanzyee_studio.html#ga3ef15c9c3e32c2ec774e3cc922443898a7fc56270e7a70fa81a5935b72eacbe29',1,'WanzyeeStudio.A()']]],
   ['acceptdragobjects',['AcceptDragObjects',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a77a0bedb4c6f80c38b14797351c1f0b4',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragObjects(Rect rect, Func&lt; Object, bool &gt; filter)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a9b666b51df9478964480e2545b95f4d0',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragObjects(Rect rect, Func&lt; IEnumerable&lt; Object &gt;, IEnumerable&lt; Object &gt;&gt; filter=null)']]],
   ['acceptdragpaths',['AcceptDragPaths',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#a3d77983842d57211c90f6689b5045d64',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragPaths(Rect rect, Func&lt; string, bool &gt; filter)'],['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#ae160ba5906fd23762e08b981dbae4ba2',1,'WanzyeeStudio.Editrix.EditrixGUI.AcceptDragPaths(Rect rect, Func&lt; IEnumerable&lt; string &gt;, IEnumerable&lt; string &gt;&gt; filter=null)']]],
   ['act',['act',['../class_wanzyee_studio_1_1_editrix_1_1_shortcut_item.html#a2de0b4917f778733f164cb9d487697ce',1,'WanzyeeStudio::Editrix::ShortcutItem']]],
@@ -24,6 +24,7 @@ var searchData=
   ['approxquaternion',['ApproxQuaternion',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#aeda4606070ce94ebb9d23b7667a606f7',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['approxvector2',['ApproxVector2',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#af95e6e8debd0216035da7d7194c8f666',1,'WanzyeeStudio::Extension::MathExtension']]],
   ['approxvector3',['ApproxVector3',['../class_wanzyee_studio_1_1_extension_1_1_math_extension.html#abc6921ceb5c8c27f16b6e93234cc1767',1,'WanzyeeStudio::Extension::MathExtension']]],
+  ['args',['args',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a79e34d840321d9c9ddb8daa8d995bf55',1,'WanzyeeStudio::Editrix::FileDownloader']]],
   ['arguments',['arguments',['../class_wanzyee_studio_1_1_process_launcher.html#a2d08db6714c27cee3e92be3bec8a783d',1,'WanzyeeStudio::ProcessLauncher']]],
   ['assetbundlebuilder',['AssetBundleBuilder',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_asset_bundle_builder.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['assets',['assets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#aef572a0627310f78028419b57019aff8',1,'WanzyeeStudio.Editrix.PackageMaker.assets()'],['../group___assets.html',1,'(Global Namespace)']]],

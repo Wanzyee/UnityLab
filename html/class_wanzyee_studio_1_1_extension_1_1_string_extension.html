@@ -107,9 +107,9 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_extension_1_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa69c92f8f97d1a9bac8495170564cb50"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#aa69c92f8f97d1a9bac8495170564cb50">To&lt; T &gt;</a> (this string text, T defaultValue=default(T), bool exception=false)</td></tr>
-<tr class="memdesc:aa69c92f8f97d1a9bac8495170564cb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syntactic sugar to convert a <code>string</code> to the specified type.  <a href="#aa69c92f8f97d1a9bac8495170564cb50">More...</a><br /></td></tr>
-<tr class="separator:aa69c92f8f97d1a9bac8495170564cb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7682537c65db5eeb14f09845509bfdc2"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#a7682537c65db5eeb14f09845509bfdc2">To&lt; T &gt;</a> (this string text, T defaultValue=default, bool exception=false)</td></tr>
+<tr class="memdesc:a7682537c65db5eeb14f09845509bfdc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syntactic sugar to convert a <code>string</code> to the specified type.  <a href="#a7682537c65db5eeb14f09845509bfdc2">More...</a><br /></td></tr>
+<tr class="separator:a7682537c65db5eeb14f09845509bfdc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5596ce311f6ab51df23045a7311d792"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_string_extension.html#ad5596ce311f6ab51df23045a7311d792">To</a> (this string text, Type type, object defaultValue=null, bool exception=false)</td></tr>
 <tr class="memdesc:ad5596ce311f6ab51df23045a7311d792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syntactic sugar to convert a <code>string</code> to the specified type.  <a href="#ad5596ce311f6ab51df23045a7311d792">More...</a><br /></td></tr>
 <tr class="separator:ad5596ce311f6ab51df23045a7311d792"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,7 +123,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_extension.html" title="All extension methods for runtime classes are defined within. ">Extension</a> methods for <code>string</code>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa69c92f8f97d1a9bac8495170564cb50"></a>
+<a class="anchor" id="a7682537c65db5eeb14f09845509bfdc2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -140,7 +140,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>defaultValue</em> = <code>default(T)</code>, </td>
+          <td class="paramname"><em>defaultValue</em> = <code>default</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -162,7 +162,11 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Syntactic sugar to convert a <code>string</code> to the specified type. </p>
-<p>Use <code>TypeConverter.ConvertFromString()</code> or <code>UnityEngine.JsonUtility</code> for generic conversion. You may make custom <code>System.ComponentModel.TypeConverter</code> to support more types in need. </p>
+<p>Use methods below for generic conversion:</p><ol type="1">
+<li><code>TypeConverter.ConvertFromString()</code>, you may make custom converter to support in need.</li>
+<li>Static <code>Parse()</code> method declared by the value type.</li>
+<li><code>JsonUtility.FromJson()</code> as fallback. </li>
+</ol>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The value type.</td></tr>
@@ -226,7 +230,11 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Syntactic sugar to convert a <code>string</code> to the specified type. </p>
-<p>Use <code>TypeConverter.ConvertFromString()</code> or <code>UnityEngine.JsonUtility</code> for generic conversion. You may make custom <code>System.ComponentModel.TypeConverter</code> to support more types in need. </p>
+<p>Use methods below for generic conversion:</p><ol type="1">
+<li><code>TypeConverter.ConvertFromString()</code>, you may make custom converter to support in need.</li>
+<li>Static <code>Parse()</code> method declared by the value type.</li>
+<li><code>JsonUtility.FromJson()</code> as fallback. </li>
+</ol>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>Text.</td></tr>

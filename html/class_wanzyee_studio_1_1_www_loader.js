@@ -12,6 +12,7 @@ var class_wanzyee_studio_1_1_www_loader =
     [ "LoadMovie", "class_wanzyee_studio_1_1_www_loader.html#a3f47d301eb978750c114911bf164adc6", null ],
     [ "Cancel", "class_wanzyee_studio_1_1_www_loader.html#a98fd5d588027adeb8d4545c78347cd26", null ],
     [ "ToString", "class_wanzyee_studio_1_1_www_loader.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
+    [ "keepWaiting", "class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484", null ],
     [ "isCacheable", "class_wanzyee_studio_1_1_www_loader.html#a912354a1bcf6da4b5a2aea39b3fec561", null ],
     [ "cacheFolder", "class_wanzyee_studio_1_1_www_loader.html#aafc9e204718308ac72f8b69e82b894b3", null ],
     [ "url", "class_wanzyee_studio_1_1_www_loader.html#aa03c1ef4c41f36b048cf58d5aade7653", null ],
@@ -20,6 +21,5 @@ var class_wanzyee_studio_1_1_www_loader =
     [ "duration", "class_wanzyee_studio_1_1_www_loader.html#a66625d8d6c0894b4828b43f826a09b8f", null ],
     [ "progress", "class_wanzyee_studio_1_1_www_loader.html#ac7abb4766cd3f65c31f56279d7decff8", null ],
     [ "error", "class_wanzyee_studio_1_1_www_loader.html#a3de5a7021a3455b560470aadacdbbea3", null ],
-    [ "isDone", "class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666", null ],
-    [ "keepWaiting", "class_wanzyee_studio_1_1_www_loader.html#a2778689fc3def0f49cc9c61de04a9484", null ]
+    [ "isDone", "class_wanzyee_studio_1_1_www_loader.html#ae0a3e971a44e6337c81cc728d3d81666", null ]
 ];

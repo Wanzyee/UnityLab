@@ -139,6 +139,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="memItemLeft" align="right" valign="top">Func&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ac8c0f7bda9ca64cfde819e1da1f07d52">stopper</a></td></tr>
 <tr class="memdesc:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The callback to stop the coroutine, if exists and returns <code>true</code>.  <a href="#ac8c0f7bda9ca64cfde819e1da1f07d52">More...</a><br /></td></tr>
 <tr class="separator:ac8c0f7bda9ca64cfde819e1da1f07d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2778689fc3def0f49cc9c61de04a9484"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a2778689fc3def0f49cc9c61de04a9484">keepWaiting</a> =&gt; !<a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a></td></tr>
+<tr class="memdesc:a2778689fc3def0f49cc9c61de04a9484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if coroutine should be kept suspended.  <a href="#a2778689fc3def0f49cc9c61de04a9484">More...</a><br /></td></tr>
+<tr class="separator:a2778689fc3def0f49cc9c61de04a9484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -148,9 +151,6 @@ Properties</h2></td></tr>
 <tr class="memitem:ae0a3e971a44e6337c81cc728d3d81666"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae0a3e971a44e6337c81cc728d3d81666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the coroutine is done, i.e., it finished properly or stopped manually.  <a href="#ae0a3e971a44e6337c81cc728d3d81666">More...</a><br /></td></tr>
 <tr class="separator:ae0a3e971a44e6337c81cc728d3d81666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2778689fc3def0f49cc9c61de04a9484"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#a2778689fc3def0f49cc9c61de04a9484">keepWaiting</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2778689fc3def0f49cc9c61de04a9484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if coroutine should be kept suspended.  <a href="#a2778689fc3def0f49cc9c61de04a9484">More...</a><br /></td></tr>
-<tr class="separator:a2778689fc3def0f49cc9c61de04a9484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Run coroutines globally. </p>
@@ -426,6 +426,20 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2778689fc3def0f49cc9c61de04a9484"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool keepWaiting =&gt; !<a class="el" href="class_wanzyee_studio_1_1_coroutiner.html#ae0a3e971a44e6337c81cc728d3d81666">isDone</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates if coroutine should be kept suspended. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a9e9483098282f7e475601c37b1f6496d"></a>
 <div class="memitem">
@@ -468,28 +482,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if the coroutine is done, i.e., it finished properly or stopped manually. </p>
-
-</div>
-</div>
-<a class="anchor" id="a2778689fc3def0f49cc9c61de04a9484"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override bool keepWaiting</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Indicates if coroutine should be kept suspended. </p>
 
 </div>
 </div>

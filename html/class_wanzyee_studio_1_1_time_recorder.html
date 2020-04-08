@@ -98,7 +98,6 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_time_recorder
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_time_recorder-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">TimeRecorder</div>  </div>
@@ -143,13 +142,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a87d1e0d4ee90cf07650d73b28707dc50"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a87d1e0d4ee90cf07650d73b28707dc50">name</a></td></tr>
 <tr class="memdesc:a87d1e0d4ee90cf07650d73b28707dc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name.  <a href="#a87d1e0d4ee90cf07650d73b28707dc50">More...</a><br /></td></tr>
 <tr class="separator:a87d1e0d4ee90cf07650d73b28707dc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a36f7b6be7108281af77939ceaec42fd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a36f7b6be7108281af77939ceaec42fd6">running</a><code> [get]</code></td></tr>
+<tr class="memitem:a36f7b6be7108281af77939ceaec42fd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#a36f7b6be7108281af77939ceaec42fd6">running</a> =&gt; _watch.IsRunning</td></tr>
 <tr class="memdesc:a36f7b6be7108281af77939ceaec42fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the timer is currently running.  <a href="#a36f7b6be7108281af77939ceaec42fd6">More...</a><br /></td></tr>
 <tr class="separator:a36f7b6be7108281af77939ceaec42fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0d1f5542c8e6d6d966a679e17e34e1d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#ac0d1f5542c8e6d6d966a679e17e34e1d">elapsed</a><code> [get]</code></td></tr>
+<tr class="memitem:ac0d1f5542c8e6d6d966a679e17e34e1d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_time_recorder.html#ac0d1f5542c8e6d6d966a679e17e34e1d">elapsed</a> =&gt; _watch.ElapsedMilliseconds</td></tr>
 <tr class="memdesc:ac0d1f5542c8e6d6d966a679e17e34e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total elapsed time in milliseconds.  <a href="#ac0d1f5542c8e6d6d966a679e17e34e1d">More...</a><br /></td></tr>
 <tr class="separator:ac0d1f5542c8e6d6d966a679e17e34e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -396,23 +392,14 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a36f7b6be7108281af77939ceaec42fd6"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool running</td>
+          <td class="memname">bool running =&gt; _watch.IsRunning</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Determine if the timer is currently running. </p>
@@ -422,19 +409,11 @@ Properties</h2></td></tr>
 <a class="anchor" id="ac0d1f5542c8e6d6d966a679e17e34e1d"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long elapsed</td>
+          <td class="memname">long elapsed =&gt; _watch.ElapsedMilliseconds</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get the total elapsed time in milliseconds. </p>
