@@ -2,7 +2,6 @@ var class_wanzyee_studio_1_1_time_recorder =
 [
     [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html#abfcab4d9b4546f7b6017d42c0b50d836", null ],
     [ "Run", "class_wanzyee_studio_1_1_time_recorder.html#ab96c36c46e9b8016531f133bf72e9099", null ],
-    [ "CopyRecords", "class_wanzyee_studio_1_1_time_recorder.html#a969739de6b14e307295a33a70cf7b564", null ],
     [ "ToString", "class_wanzyee_studio_1_1_time_recorder.html#aa73e7c4dd1df5fd5fbf81c7764ee1533", null ],
     [ "Start", "class_wanzyee_studio_1_1_time_recorder.html#a07aaf1227e4d645f15e0a964f54ef291", null ],
     [ "Stop", "class_wanzyee_studio_1_1_time_recorder.html#ac1a2d710dbedb88207d4593fc1845074", null ],

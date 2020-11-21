@@ -11,6 +11,7 @@ var searchData=
   ['notebook',['Notebook',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_notebook.html',1,'WanzyeeStudio::Editrix::Toolkit']]],
   ['notebook',['Notebook',['../group___notebook.html',1,'']]],
   ['notify',['Notify',['../class_wanzyee_studio_1_1_extension_1_1_delegate_extension.html#a5f5abc58b5018d592c9a7624eb90cba8',1,'WanzyeeStudio::Extension::DelegateExtension']]],
+  ['now',['now',['../class_wanzyee_studio_1_1_unique_timestamp.html#ac023874b2154eac7297a7575008605fe',1,'WanzyeeStudio::UniqueTimestamp']]],
   ['numericstringconverter',['NumericStringConverter',['../class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html',1,'WanzyeeStudio::Converter']]],
   ['numericstringconverter_3c_20color_20_3e',['NumericStringConverter&lt; Color &gt;',['../class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html',1,'WanzyeeStudio::Converter']]],
   ['numericstringconverter_3c_20rect_20_3e',['NumericStringConverter&lt; Rect &gt;',['../class_wanzyee_studio_1_1_converter_1_1_numeric_string_converter.html',1,'WanzyeeStudio::Converter']]],

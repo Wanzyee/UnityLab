@@ -95,9 +95,9 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_base_singleto
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_base_singleton-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">BaseSingleton&lt; T &gt;<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___components.html">Components</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___singleton_liberation.html">Singleton Liberation</a></div></div>  </div>
@@ -109,6 +109,12 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_base_singleto
 
 <p>Inherits MonoBehaviour.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac0091740a1a1b13daab37328b10bdc3f"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#ac0091740a1a1b13daab37328b10bdc3f">instance</a> =&gt; <a class="el" href="class_wanzyee_studio_1_1_singleton.html">Singleton</a>&lt;T&gt;.instance</td></tr>
+<tr class="memdesc:ac0091740a1a1b13daab37328b10bdc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the singleton instance.  <a href="#ac0091740a1a1b13daab37328b10bdc3f">More...</a><br /></td></tr>
+<tr class="separator:ac0091740a1a1b13daab37328b10bdc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab9ed9ef46104ee8a785cd634c1c793e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4">BaseSingleton</a> ()</td></tr>
@@ -123,12 +129,6 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:acbff696df3563aa61c6997716c133542"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#acbff696df3563aa61c6997716c133542">autoDestroy</a></td></tr>
 <tr class="memdesc:acbff696df3563aa61c6997716c133542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if to destroy excess instance automatically when it <code><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#affb6ac8f8f08d515a8b74f5c213c2c52" title="Awake, check and handle duplicated instances. ">Awake()</a></code>.  <a href="#acbff696df3563aa61c6997716c133542">More...</a><br /></td></tr>
 <tr class="separator:acbff696df3563aa61c6997716c133542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:ac0091740a1a1b13daab37328b10bdc3f"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_base_singleton.html#ac0091740a1a1b13daab37328b10bdc3f">instance</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac0091740a1a1b13daab37328b10bdc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the singleton instance.  <a href="#ac0091740a1a1b13daab37328b10bdc3f">More...</a><br /></td></tr>
-<tr class="separator:ac0091740a1a1b13daab37328b10bdc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class to implement the singleton pattern for <code>UnityEngine.MonoBehaviour</code>. </p>
@@ -138,9 +138,7 @@ Properties</h2></td></tr>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>SomeComp : <a class="code" href="class_wanzyee_studio_1_1_base_singleton.html#ab9ed9ef46104ee8a785cd634c1c793e4">BaseSingleton</a>&lt;SomeComp&gt;{}</div>
 </div><!-- fragment --><p>Example to access from another class: </p>
 <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>AnotherClass{</div>
-<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> DoSomething(){</div>
-<div class="line">        <a class="code" href="namespace_debug.html">Debug</a>.Log(SomeComp.instance);</div>
-<div class="line">    }</div>
+<div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> DoSomething() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(SomeComp.instance);</div>
 <div class="line">}</div>
 </div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -233,7 +231,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="ac0091740a1a1b13daab37328b10bdc3f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -242,12 +239,12 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T instance</td>
+          <td class="memname">T instance =&gt; <a class="el" href="class_wanzyee_studio_1_1_singleton.html">Singleton</a>&lt;T&gt;.instance</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

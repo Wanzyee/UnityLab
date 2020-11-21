@@ -2,6 +2,7 @@ var namespace_wanzyee_studio_1_1_json =
 [
     [ "BoundsConverter", "class_wanzyee_studio_1_1_json_1_1_bounds_converter.html", "class_wanzyee_studio_1_1_json_1_1_bounds_converter" ],
     [ "ColorConverter", "class_wanzyee_studio_1_1_json_1_1_color_converter.html", "class_wanzyee_studio_1_1_json_1_1_color_converter" ],
+    [ "DataContractResolver", "class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html", "class_wanzyee_studio_1_1_json_1_1_data_contract_resolver" ],
     [ "DictionaryConverter", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter" ],
     [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_1_1_json_net_utility.html", "class_wanzyee_studio_1_1_json_1_1_json_net_utility" ],
     [ "Matrix4x4Converter", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter.html", "class_wanzyee_studio_1_1_json_1_1_matrix4x4_converter" ],

@@ -11,6 +11,7 @@ var searchData=
   ['codesnippet',['codeSnippet',['../class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#aff0c9af2c96625307bcf699a0e32fe93',1,'WanzyeeStudio::Editrix::CodeExecutor']]],
   ['color',['color',['../class_wanzyee_studio_1_1_note.html#aa5f4d1eda21c196bd8401ff73f105073',1,'WanzyeeStudio::Note']]],
   ['constraints',['constraints',['../class_wanzyee_studio_1_1_enum_constraint_attribute.html#a177adac8e75573b2630eec8845c886b9',1,'WanzyeeStudio.EnumConstraintAttribute.constraints()'],['../class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5',1,'WanzyeeStudio.TypeConstraintAttribute.constraints()']]],
+  ['converters',['converters',['../class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a73553f9db5ab0c8290b5223c1f092d8b',1,'WanzyeeStudio::Json::JsonNetUtility']]],
   ['copycursor',['copyCursor',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#aef7396942c457397051476cc609c99ea',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['copyicon',['copyIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#ac0fe68d9478ca2bd7066a7c198a19436',1,'WanzyeeStudio::Editrix::EditrixStyle']]]
 ];

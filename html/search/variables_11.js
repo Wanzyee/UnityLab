@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sample',['sample',['../class_wanzyee_studio_1_1_raycast_visibility_filter.html#aaaebd885ac2fc0f51ac1a470c2946056',1,'WanzyeeStudio::RaycastVisibilityFilter']]],
+  ['scale',['scale',['../class_wanzyee_studio_1_1_stack_window.html#a1d28dec57cce925ad92342891bd71e7c',1,'WanzyeeStudio::StackWindow']]],
   ['scenes',['scenes',['../class_wanzyee_studio_1_1_editrix_1_1_player_maker.html#ab9f1f222caad3a79d69844089282d9a6',1,'WanzyeeStudio::Editrix::PlayerMaker']]],
   ['screenshotfolder',['screenshotFolder',['../class_wanzyee_studio_1_1_app_common_aider.html#a9371ec2e0aa39b881223e7be7b13fdf9',1,'WanzyeeStudio::AppCommonAider']]],
   ['scripts',['scripts',['../class_wanzyee_studio_1_1_editrix_1_1_plugin_maker.html#ac754df2932d53d231864da5a5a2e1f96',1,'WanzyeeStudio::Editrix::PluginMaker']]],

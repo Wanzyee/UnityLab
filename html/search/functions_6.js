@@ -9,6 +9,7 @@ var searchData=
   ['getaxisz',['GetAxisZ',['../class_wanzyee_studio_1_1_matrix_utility.html#a9b8c04bec8bc50ebc4b439a6dae49476',1,'WanzyeeStudio::MatrixUtility']]],
   ['getblurred',['GetBlurred',['../class_wanzyee_studio_1_1_extension_1_1_texture_extension.html#ad1bd4c2c4e5cff1e02f9e78b49f053f2',1,'WanzyeeStudio::Extension::TextureExtension']]],
   ['getchildren',['GetChildren',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245',1,'WanzyeeStudio::Extension::TypeExtension']]],
+  ['getdeclarer',['GetDeclarer',['../class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a3cd7ebfce513bce60b78d1abea5df701',1,'WanzyeeStudio::Editrix::Extension::PropertyValueExtension']]],
   ['getdeepassets',['GetDeepAssets',['../class_wanzyee_studio_1_1_editrix_1_1_package_maker.html#af3bb6090a129d8b56a414affee186940',1,'WanzyeeStudio::Editrix::PackageMaker']]],
   ['getdeepfiles',['GetDeepFiles',['../class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6',1,'WanzyeeStudio::IoUtility']]],
   ['getdefault',['GetDefault',['../class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a1c09c78706f1d93dac790e792f699365',1,'WanzyeeStudio::Extension::TypeExtension']]],

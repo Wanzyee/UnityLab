@@ -11,9 +11,9 @@ var group___components =
       [ "instance", "class_wanzyee_studio_1_1_base_singleton.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
     ] ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
-    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
-      [ "lastEvent", "class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
-      [ "eventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html", [
+      [ "lastEvent", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
+      [ "eventHandler", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
     ] ],
     [ "EventDelegator", "class_wanzyee_studio_1_1_event_delegator.html", [
       [ "IsSupported", "class_wanzyee_studio_1_1_event_delegator.html#a9b556752b86ab2723dde0f312a9f1f38", null ],
@@ -30,7 +30,7 @@ var group___components =
       [ "Invoke", "class_wanzyee_studio_1_1_event_delegator_group.html#ae0a1971d24b447511741cc2c90595e3f", null ],
       [ "invokeAbove", "class_wanzyee_studio_1_1_event_delegator_group.html#a0b1cc7f6946fa2a4cb3ea485f4b71ed7", null ],
       [ "invokeBelow", "class_wanzyee_studio_1_1_event_delegator_group.html#a610e13e008802d6950127324d2d95d7f", null ],
-      [ "delegators", "class_wanzyee_studio_1_1_event_delegator_group.html#a6d180c7bc82466a8f144225ffff27c45", null ]
+      [ "delegators", "class_wanzyee_studio_1_1_event_delegator_group.html#ac05fd5f44c47552d814af6a3c320a486", null ]
     ] ],
     [ "EventKeyInvoker", "class_wanzyee_studio_1_1_event_key_invoker.html", [
       [ "Invoke", "class_wanzyee_studio_1_1_event_key_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
@@ -57,6 +57,7 @@ var group___components =
     ] ],
     [ "FramerateCounter", "class_wanzyee_studio_1_1_framerate_counter.html", [
       [ "Awake", "class_wanzyee_studio_1_1_framerate_counter.html#aa03e617e0a51b3f91f3ab6b34f625fed", null ],
+      [ "fps", "class_wanzyee_studio_1_1_framerate_counter.html#a4f50e96f11c68d45dc109185efe011ad", null ],
       [ "interval", "class_wanzyee_studio_1_1_framerate_counter.html#a97df6cb71ca1ed54f2f4fadb312c9bb3", null ],
       [ "showHud", "class_wanzyee_studio_1_1_framerate_counter.html#a307c695c69adb453c57e21a78355df02", null ],
       [ "alignment", "class_wanzyee_studio_1_1_framerate_counter.html#a31ad2b54102828c810308fa063710c3d", null ],
@@ -65,14 +66,29 @@ var group___components =
       [ "frameRange", "class_wanzyee_studio_1_1_framerate_counter.html#a1a584589e7cb641d7ca450af9687bd31", null ],
       [ "backgroundColor", "class_wanzyee_studio_1_1_framerate_counter.html#adbf5605c4713bff8f1944882ad7abda2", null ],
       [ "autoDestroy", "class_wanzyee_studio_1_1_framerate_counter.html#acbff696df3563aa61c6997716c133542", null ],
-      [ "fps", "class_wanzyee_studio_1_1_framerate_counter.html#a4f50e96f11c68d45dc109185efe011ad", null ],
-      [ "show", "class_wanzyee_studio_1_1_framerate_counter.html#a5bafc98f16f9fd53e0f929fe20b17e1c", null ],
-      [ "instance", "class_wanzyee_studio_1_1_framerate_counter.html#ac0091740a1a1b13daab37328b10bdc3f", null ]
+      [ "instance", "class_wanzyee_studio_1_1_framerate_counter.html#ac0091740a1a1b13daab37328b10bdc3f", null ],
+      [ "show", "class_wanzyee_studio_1_1_framerate_counter.html#a5bafc98f16f9fd53e0f929fe20b17e1c", null ]
     ] ],
     [ "KeyClickExecutor", "class_wanzyee_studio_1_1_key_click_executor.html", [
       [ "key", "class_wanzyee_studio_1_1_key_click_executor.html#ab74d86e61479cd4349198a5190b3da48", null ],
       [ "selfOnly", "class_wanzyee_studio_1_1_key_click_executor.html#a3f9a2d643c86340cc9a78059fce37409", null ],
       [ "camera3D", "class_wanzyee_studio_1_1_key_click_executor.html#aeb9fb24a5b4565a7f4e8254c9aea7143", null ]
+    ] ],
+    [ "MonoEnableInvoker", "class_wanzyee_studio_1_1_mono_enable_invoker.html", [
+      [ "onEnable", "class_wanzyee_studio_1_1_mono_enable_invoker.html#ad2c1a54f5301b4f1ab49d5f532c6670d", null ],
+      [ "onDisable", "class_wanzyee_studio_1_1_mono_enable_invoker.html#a23b52564308774978aa9a690ec6a38c5", null ]
+    ] ],
+    [ "MonoFixedUpdateInvoker", "class_wanzyee_studio_1_1_mono_fixed_update_invoker.html", [
+      [ "Invoke", "class_wanzyee_studio_1_1_mono_fixed_update_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
+      [ "onMessage", "class_wanzyee_studio_1_1_mono_fixed_update_invoker.html#aacbd0c5a056b64190be5a8bc745c2a4a", null ]
+    ] ],
+    [ "MonoLateUpdateInvoker", "class_wanzyee_studio_1_1_mono_late_update_invoker.html", [
+      [ "Invoke", "class_wanzyee_studio_1_1_mono_late_update_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
+      [ "onMessage", "class_wanzyee_studio_1_1_mono_late_update_invoker.html#aacbd0c5a056b64190be5a8bc745c2a4a", null ]
+    ] ],
+    [ "MonoUpdateInvoker", "class_wanzyee_studio_1_1_mono_update_invoker.html", [
+      [ "Invoke", "class_wanzyee_studio_1_1_mono_update_invoker.html#ae0a1971d24b447511741cc2c90595e3f", null ],
+      [ "onMessage", "class_wanzyee_studio_1_1_mono_update_invoker.html#aacbd0c5a056b64190be5a8bc745c2a4a", null ]
     ] ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", [
       [ "text", "class_wanzyee_studio_1_1_note.html#a739bd7e413e61c963681e085a990979a", null ],
@@ -141,7 +157,7 @@ var group___components =
       [ "DrawTitleAddon", "class_wanzyee_studio_1_1_stack_group_panel.html#aeed5e9dcbad7118e65642935a254a2c2", null ],
       [ "DrawPanelGUI", "class_wanzyee_studio_1_1_stack_group_panel.html#a6ca8463195508caf752d23f380675cb0", null ],
       [ "title", "class_wanzyee_studio_1_1_stack_group_panel.html#a43a5eafe64b96968035e5a4013e47c75", null ],
-      [ "panels", "class_wanzyee_studio_1_1_stack_group_panel.html#a326c7d7e08c506413c2d1c2dc2fc62ae", null ],
+      [ "panels", "class_wanzyee_studio_1_1_stack_group_panel.html#a36d60c85aec5cc5a211041b4960c750a", null ],
       [ "_stacks", "class_wanzyee_studio_1_1_stack_group_panel.html#a90d621ce6fc090d5beab707aca4632a8", null ]
     ] ],
     [ "StackTweakPanel", "class_wanzyee_studio_1_1_stack_tweak_panel.html", [
@@ -153,7 +169,9 @@ var group___components =
       [ "main", "class_wanzyee_studio_1_1_stack_window.html#a9ffa594ff54fd25acc4d9059e572fbe4", null ],
       [ "title", "class_wanzyee_studio_1_1_stack_window.html#a43a5eafe64b96968035e5a4013e47c75", null ],
       [ "skin", "class_wanzyee_studio_1_1_stack_window.html#ab7b985bc528ecc1c55bfabaa7ee7a1e0", null ],
-      [ "panels", "class_wanzyee_studio_1_1_stack_window.html#a326c7d7e08c506413c2d1c2dc2fc62ae", null ]
+      [ "scale", "class_wanzyee_studio_1_1_stack_window.html#a1d28dec57cce925ad92342891bd71e7c", null ],
+      [ "fullscreen", "class_wanzyee_studio_1_1_stack_window.html#a5a9147cb82d1cbeefadd62beb9e6910b", null ],
+      [ "panels", "class_wanzyee_studio_1_1_stack_window.html#a36d60c85aec5cc5a211041b4960c750a", null ]
     ] ],
     [ "VariableTweaker", "class_wanzyee_studio_1_1_variable_tweaker.html", [
       [ "Serialize", "class_wanzyee_studio_1_1_variable_tweaker.html#aed3ca7335e50d73cff912e24f8c88317", null ],

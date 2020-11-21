@@ -6,24 +6,26 @@ var hierarchy =
     [ "CryptoCache< bool, bool >", "class_wanzyee_studio_1_1_crypto_cache.html", [
       [ "CryptoBool", "class_wanzyee_studio_1_1_crypto_bool.html", null ]
     ] ],
+    [ "CryptoCache< DateTime, DateTimeField >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoDate", "class_wanzyee_studio_1_1_crypto_date.html", null ]
+    ] ],
     [ "CryptoCache< float, float >", "class_wanzyee_studio_1_1_crypto_cache.html", [
       [ "CryptoFloat", "class_wanzyee_studio_1_1_crypto_float.html", null ]
     ] ],
     [ "CryptoCache< int, int >", "class_wanzyee_studio_1_1_crypto_cache.html", [
       [ "CryptoInt", "class_wanzyee_studio_1_1_crypto_int.html", null ]
     ] ],
-    [ "CryptoValue< DateTime, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
-      [ "CryptoDate", "class_wanzyee_studio_1_1_crypto_date.html", null ]
+    [ "CryptoCache< long, long >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoLong", "class_wanzyee_studio_1_1_crypto_long.html", null ]
+    ] ],
+    [ "CryptoCache< string, string >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoAscii", "class_wanzyee_studio_1_1_crypto_ascii.html", null ]
+    ] ],
+    [ "CryptoCache< TimeSpan, TimeSpanField >", "class_wanzyee_studio_1_1_crypto_cache.html", [
+      [ "CryptoPeriod", "class_wanzyee_studio_1_1_crypto_period.html", null ]
     ] ],
     [ "CryptoValue< string, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
       [ "CryptoString", "class_wanzyee_studio_1_1_crypto_string.html", null ]
-    ] ],
-    [ "CryptoValue< T, U >", "class_wanzyee_studio_1_1_crypto_value.html", [
-      [ "CryptoCache< T, U >", "class_wanzyee_studio_1_1_crypto_cache.html", null ],
-      [ "CryptoObject< T, U >", "class_wanzyee_studio_1_1_crypto_object.html", null ]
-    ] ],
-    [ "CryptoValue< TimeSpan, string >", "class_wanzyee_studio_1_1_crypto_value.html", [
-      [ "CryptoPeriod", "class_wanzyee_studio_1_1_crypto_period.html", null ]
     ] ],
     [ "IAidDrawer< bool >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
     [ "IAidDrawer< Bounds >", "interface_wanzyee_studio_1_1_i_aid_drawer.html", null ],
@@ -90,16 +92,19 @@ var hierarchy =
     ] ],
     [ "Coroutiner", "class_wanzyee_studio_1_1_coroutiner.html", null ],
     [ "CryptoPrefs", "class_wanzyee_studio_1_1_crypto_prefs.html", null ],
-    [ "CryptoValue", "class_wanzyee_studio_1_1_crypto_value.html", [
-      [ "CryptoValue< T, U >", "class_wanzyee_studio_1_1_crypto_value.html", null ]
+    [ "CryptoValue< T, U >", "class_wanzyee_studio_1_1_crypto_value.html", [
+      [ "CryptoCache< T, U >", "class_wanzyee_studio_1_1_crypto_cache.html", null ],
+      [ "CryptoObject< T, U >", "class_wanzyee_studio_1_1_crypto_object.html", null ]
     ] ],
+    [ "DateTimeField", "struct_wanzyee_studio_1_1_date_time_field.html", null ],
     [ "DummyBehaviour", "class_wanzyee_studio_1_1_dummy_behaviour.html", null ],
-    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", null ],
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", null ],
     [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", null ],
     [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", null ],
     [ "CryptoValueDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_crypto_value_drawer.html", null ],
     [ "FallbackPropertyDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_fallback_property_drawer.html", null ],
+    [ "ObjectDrawer", "class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_object_drawer.html", null ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html", null ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", null ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", null ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", null ],
@@ -158,21 +163,31 @@ var hierarchy =
         [ "MyMemoryLanguageTranslator", "class_wanzyee_studio_1_1_my_memory_language_translator.html", null ]
       ] ]
     ] ],
+    [ "InitializeMethodAttribute", "class_wanzyee_studio_1_1_initialize_method_attribute.html", null ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", null ],
     [ "IPoolee", "interface_wanzyee_studio_1_1_i_poolee.html", [
       [ "PooleeEventTrigger", "class_wanzyee_studio_1_1_poolee_event_trigger.html", null ]
+    ] ],
+    [ "ISerializer", "interface_wanzyee_studio_1_1_i_serializer.html", [
+      [ "JsonNetSerializer", "class_wanzyee_studio_1_1_json_net_serializer.html", null ],
+      [ "UnityJsonSerializer", "class_wanzyee_studio_1_1_unity_json_serializer.html", null ]
     ] ],
     [ "IStackPanel", "interface_wanzyee_studio_1_1_i_stack_panel.html", [
       [ "StackConsolePanel", "class_wanzyee_studio_1_1_stack_console_panel.html", null ],
       [ "StackGroupPanel", "class_wanzyee_studio_1_1_stack_group_panel.html", null ],
       [ "StackTweakPanel", "class_wanzyee_studio_1_1_stack_tweak_panel.html", null ]
     ] ],
+    [ "DataContractResolver", "class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html", null ],
     [ "DictionaryConverter", "class_wanzyee_studio_1_1_json_1_1_dictionary_converter.html", null ],
     [ "JsonNetUtility", "class_wanzyee_studio_1_1_json_1_1_json_net_utility.html", null ],
     [ "PartialConverter< T >", "class_wanzyee_studio_1_1_json_1_1_partial_converter.html", null ],
     [ "KeyClickExecutor", "class_wanzyee_studio_1_1_key_click_executor.html", null ],
     [ "MathUtility", "class_wanzyee_studio_1_1_math_utility.html", null ],
     [ "MatrixUtility", "class_wanzyee_studio_1_1_matrix_utility.html", null ],
+    [ "MonoEnableInvoker", "class_wanzyee_studio_1_1_mono_enable_invoker.html", null ],
+    [ "MonoFixedUpdateInvoker", "class_wanzyee_studio_1_1_mono_fixed_update_invoker.html", null ],
+    [ "MonoLateUpdateInvoker", "class_wanzyee_studio_1_1_mono_late_update_invoker.html", null ],
+    [ "MonoUpdateInvoker", "class_wanzyee_studio_1_1_mono_update_invoker.html", null ],
     [ "Note", "class_wanzyee_studio_1_1_note.html", null ],
     [ "PeriodicInquirer< T >", "class_wanzyee_studio_1_1_periodic_inquirer.html", null ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", null ],
@@ -186,6 +201,7 @@ var hierarchy =
     [ "Span", "struct_wanzyee_studio_1_1_span.html", null ],
     [ "StackWindow", "class_wanzyee_studio_1_1_stack_window.html", null ],
     [ "TimeRecorder", "class_wanzyee_studio_1_1_time_recorder.html", null ],
+    [ "TimeSpanField", "struct_wanzyee_studio_1_1_time_span_field.html", null ],
     [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html", null ],
     [ "UniqueTimestamp", "class_wanzyee_studio_1_1_unique_timestamp.html", null ],
     [ "VariableInfo", "class_wanzyee_studio_1_1_variable_info.html", null ],

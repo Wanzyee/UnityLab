@@ -5,6 +5,7 @@ var searchData=
   ['ungroupparent',['UngroupParent',['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a6c12b3a79e107db0ff8fa292c6cf8de0',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.UngroupParent()'],['../class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_object_grouper.html#a419dd41f730296cfc19bbd2aeb7bb8b9',1,'WanzyeeStudio.Editrix.Toolkit.ObjectGrouper.UngroupParent(Transform parent, bool destroy=false)']]],
   ['uniquetimestamp',['UniqueTimestamp',['../class_wanzyee_studio_1_1_unique_timestamp.html',1,'WanzyeeStudio']]],
   ['uniquetimestamp',['UniqueTimestamp',['../class_wanzyee_studio_1_1_unique_timestamp.html#ab1db06077a1aa22ef495559025d434d5',1,'WanzyeeStudio::UniqueTimestamp']]],
+  ['unityjsonserializer',['UnityJsonSerializer',['../class_wanzyee_studio_1_1_unity_json_serializer.html',1,'WanzyeeStudio']]],
   ['unlinkicon',['unlinkIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#af2854ea68d6b26a16eead79aae040400',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
   ['update',['Update',['../namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a06933067aafd48425d67bcb01bba5cb6',1,'WanzyeeStudio']]],
   ['url',['url',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#aa03c1ef4c41f36b048cf58d5aade7653',1,'WanzyeeStudio.Editrix.FileDownloader.url()'],['../class_wanzyee_studio_1_1_www_loader.html#aa03c1ef4c41f36b048cf58d5aade7653',1,'WanzyeeStudio.WwwLoader.url()'],['../class_wanzyee_studio_1_1_www_option.html#ab7f7e4a227dcefa48ab674928030bff8',1,'WanzyeeStudio.WwwOption.url()']]],

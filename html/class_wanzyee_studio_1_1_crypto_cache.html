@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a7ffb1a862e7beb0c3ffa4e3359387d3a">OnAfterDeserialize</a> ()</td></tr>
 <tr class="memdesc:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">OnAfterDeserialize, read the real value to the obfuscated cache.  <a href="#a7ffb1a862e7beb0c3ffa4e3359387d3a">More...</a><br /></td></tr>
 <tr class="separator:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#aa73e7c4dd1df5fd5fbf81c7764ee1533">ToString</a> ()</td></tr>
+<tr class="memdesc:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the plain text.  <a href="#aa73e7c4dd1df5fd5fbf81c7764ee1533">More...</a><br /></td></tr>
+<tr class="separator:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -129,6 +132,33 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1932bcdccc7515fffb44ff863dec02df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a1932bcdccc7515fffb44ff863dec02df">RandomValue</a> (int min=int.MinValue, int max=int.MaxValue)</td></tr>
 <tr class="memdesc:a1932bcdccc7515fffb44ff863dec02df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a random value in the specified range.  <a href="#a1932bcdccc7515fffb44ff863dec02df">More...</a><br /></td></tr>
 <tr class="separator:a1932bcdccc7515fffb44ff863dec02df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd38b0fd8bfaa8b3ef1b489afcff8cde"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#abd38b0fd8bfaa8b3ef1b489afcff8cde">ReadValue</a> ()</td></tr>
+<tr class="memdesc:abd38b0fd8bfaa8b3ef1b489afcff8cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the stored real value.  <a href="#abd38b0fd8bfaa8b3ef1b489afcff8cde">More...</a><br /></td></tr>
+<tr class="separator:abd38b0fd8bfaa8b3ef1b489afcff8cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb15134adff975289f0b1d1d399d73d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#aadb15134adff975289f0b1d1d399d73d">WriteValue</a> (T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>)</td></tr>
+<tr class="memdesc:aadb15134adff975289f0b1d1d399d73d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the real value to store.  <a href="#aadb15134adff975289f0b1d1d399d73d">More...</a><br /></td></tr>
+<tr class="separator:aadb15134adff975289f0b1d1d399d73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6f233d0f1d21148edce7fbc5dc75c5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#acc6f233d0f1d21148edce7fbc5dc75c5">ReadText</a> ()</td></tr>
+<tr class="memdesc:acc6f233d0f1d21148edce7fbc5dc75c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the decrypted plain text.  <a href="#acc6f233d0f1d21148edce7fbc5dc75c5">More...</a><br /></td></tr>
+<tr class="separator:acc6f233d0f1d21148edce7fbc5dc75c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7d137408816207f883037f13fc8d32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a3b7d137408816207f883037f13fc8d32">WriteText</a> (string text, bool force=false)</td></tr>
+<tr class="memdesc:a3b7d137408816207f883037f13fc8d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypt the plain text and write with a new key.  <a href="#a3b7d137408816207f883037f13fc8d32">More...</a><br /></td></tr>
+<tr class="separator:a3b7d137408816207f883037f13fc8d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c59add39d2c3535dc0f10d5d0c6c067"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a8c59add39d2c3535dc0f10d5d0c6c067">ToValue</a> (string text)</td></tr>
+<tr class="memdesc:a8c59add39d2c3535dc0f10d5d0c6c067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the decrypted text to the real value.  <a href="#a8c59add39d2c3535dc0f10d5d0c6c067">More...</a><br /></td></tr>
+<tr class="separator:a8c59add39d2c3535dc0f10d5d0c6c067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a20bad7621ad9060f89aaf35ba026d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a03a20bad7621ad9060f89aaf35ba026d">ToText</a> (T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>)</td></tr>
+<tr class="memdesc:a03a20bad7621ad9060f89aaf35ba026d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the real value to the text to encrypt.  <a href="#a03a20bad7621ad9060f89aaf35ba026d">More...</a><br /></td></tr>
+<tr class="separator:a03a20bad7621ad9060f89aaf35ba026d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7426bb44636c341c7f5f9b98cb03c753"><td class="memItemLeft" align="right" valign="top">virtual U&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a7426bb44636c341c7f5f9b98cb03c753">ReadEditee</a> ()</td></tr>
+<tr class="memdesc:a7426bb44636c341c7f5f9b98cb03c753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the stored value to the editee value.  <a href="#a7426bb44636c341c7f5f9b98cb03c753">More...</a><br /></td></tr>
+<tr class="separator:a7426bb44636c341c7f5f9b98cb03c753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dcb1e4c6a228da812c82c28f50b740"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a04dcb1e4c6a228da812c82c28f50b740">WriteEditee</a> (U editee)</td></tr>
+<tr class="memdesc:a04dcb1e4c6a228da812c82c28f50b740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the editee value to the stored value.  <a href="#a04dcb1e4c6a228da812c82c28f50b740">More...</a><br /></td></tr>
+<tr class="separator:a04dcb1e4c6a228da812c82c28f50b740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da71bd1838adbc4fed0a4f352e73225"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a7da71bd1838adbc4fed0a4f352e73225">ValidateEditee</a> ()</td></tr>
+<tr class="memdesc:a7da71bd1838adbc4fed0a4f352e73225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate the editee value, return <code>null</code> if correct, otherwise the warning message.  <a href="#a7da71bd1838adbc4fed0a4f352e73225">More...</a><br /></td></tr>
+<tr class="separator:a7da71bd1838adbc4fed0a4f352e73225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -150,6 +180,9 @@ Properties</h2></td></tr>
 <a class="anchor" id="a35f6b52ba995bde7bfc1d9835b5d48b6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html">CryptoCache</a> (T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a> = default) override void OnBeforeSerialize </td>
@@ -158,6 +191,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Initialize with the specified value. </p>
@@ -169,11 +207,16 @@ Properties</h2></td></tr>
 </dl>
 <p>OnBeforeSerialize, write the obfuscated cache to the real value. </p>
 
+<p>Reimplemented from <a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a00284b733f6bf47c3dc34acdeffe3068">CryptoValue&lt; T, U &gt;</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a7ffb1a862e7beb0c3ffa4e3359387d3a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">override void OnAfterDeserialize </td>
@@ -182,9 +225,16 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>OnAfterDeserialize, read the real value to the obfuscated cache. </p>
+
+<p>Reimplemented from <a class="el" href="class_wanzyee_studio_1_1_crypto_value.html#a94ef4b58509c2b9956217a229d91b888">CryptoValue&lt; T, U &gt;</a>.</p>
 
 </div>
 </div>
@@ -212,7 +262,7 @@ Properties</h2></td></tr>
 <p>Read the obfuscated cache value. </p>
 <dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
 
-<p>Implemented in <a class="el" href="class_wanzyee_studio_1_1_crypto_float.html#a18c6b39ba3deb41ffedb2b548eea2a57">CryptoFloat</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_bool.html#af67a287ac8d58d77bb9e7bb3f44ced39">CryptoBool</a>, and <a class="el" href="class_wanzyee_studio_1_1_crypto_int.html#af6e08cdb4dd5ca19eaef19b1db71d4f3">CryptoInt</a>.</p>
+<p>Implemented in <a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a19151b416b4eb31bc51ec7df498550f2">CryptoDate</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_period.html#ad13945a459ae13803f8bdc7ee86caeef">CryptoPeriod</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_float.html#a18c6b39ba3deb41ffedb2b548eea2a57">CryptoFloat</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_ascii.html#a7fa25bfe023e67848ff388a52bce0f56">CryptoAscii</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_bool.html#af67a287ac8d58d77bb9e7bb3f44ced39">CryptoBool</a>, <a class="el" href="class_wanzyee_studio_1_1_crypto_int.html#af6e08cdb4dd5ca19eaef19b1db71d4f3">CryptoInt</a>, and <a class="el" href="class_wanzyee_studio_1_1_crypto_long.html#af57cdb2e3959435a73f296e10919600e">CryptoLong</a>.</p>
 
 </div>
 </div>
@@ -289,6 +339,313 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa73e7c4dd1df5fd5fbf81c7764ee1533"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string ToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the plain text. </p>
+<dl class="section return"><dt>Returns</dt><dd>A <code>string</code> represents this.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abd38b0fd8bfaa8b3ef1b489afcff8cde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T ReadValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the stored real value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aadb15134adff975289f0b1d1d399d73d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WriteValue </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write the real value to store. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acc6f233d0f1d21148edce7fbc5dc75c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ReadText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the decrypted plain text. </p>
+<dl class="section return"><dt>Returns</dt><dd>Plain text.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3b7d137408816207f883037f13fc8d32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WriteText </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Encrypt the plain text and write with a new key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Plain text.</td></tr>
+    <tr><td class="paramname">force</td><td>If to force update, otherwise check changed in editor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8c59add39d2c3535dc0f10d5d0c6c067"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual T ToValue </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the decrypted text to the real value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#acc4ea68bb901bfe36b8ce5587d16dc27">CryptoObject&lt; T, U &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a03a20bad7621ad9060f89aaf35ba026d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string ToText </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the real value to the text to encrypt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Text.</dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_wanzyee_studio_1_1_crypto_object.html#aa6760b70cb6c0c27879f4c66c8dda671">CryptoObject&lt; T, U &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7426bb44636c341c7f5f9b98cb03c753"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual U ReadEditee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the stored value to the editee value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Editee.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a04dcb1e4c6a228da812c82c28f50b740"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void WriteEditee </td>
+          <td>(</td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>editee</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write the editee value to the stored value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">editee</td><td>Editee.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7da71bd1838adbc4fed0a4f352e73225"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string ValidateEditee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validate the editee value, return <code>null</code> if correct, otherwise the warning message. </p>
+<dl class="section return"><dt>Returns</dt><dd>Message.</dd></dl>
 
 </div>
 </div>

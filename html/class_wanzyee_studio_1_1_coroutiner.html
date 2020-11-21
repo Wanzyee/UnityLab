@@ -181,9 +181,9 @@ Properties</h2></td></tr>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">private</span> IEnumerator Wait(<span class="keywordtype">string</span> label, <span class="keywordtype">object</span> what){</div>
-<div class="line">    <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;Start &quot;</span> + label);</div>
+<div class="line">    <a class="code" href="namespace_debug.html">Debug</a>.Log($<span class="stringliteral">&quot;Start {label}&quot;</span>);</div>
 <div class="line">    yield <span class="keywordflow">return</span> what;</div>
-<div class="line">    <a class="code" href="namespace_debug.html">Debug</a>.Log(<span class="stringliteral">&quot;End &quot;</span> + label);</div>
+<div class="line">    <a class="code" href="namespace_debug.html">Debug</a>.Log($<span class="stringliteral">&quot;End {label}&quot;</span>);</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Examples below to easily Fire'n'Forget repeat or delay invoke: </p>
 <div class="fragment"><div class="line">Coroutiner.Invoke(() =&gt; <a class="code" href="namespace_debug.html">Debug</a>.Log(Time.time), 1f, 1f);</div>

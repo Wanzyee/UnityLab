@@ -22,6 +22,14 @@ var group___attributes =
       [ "folder", "class_wanzyee_studio_1_1_file_path_attribute.html#a006c7b5143b714ae2ede22b753baa11b", null ],
       [ "extension", "class_wanzyee_studio_1_1_file_path_attribute.html#ad66f3c50a8934a7a37288f628962878b", null ]
     ] ],
+    [ "InitializeMethodAttribute", "class_wanzyee_studio_1_1_initialize_method_attribute.html", [
+      [ "InitializeMethodAttribute", "class_wanzyee_studio_1_1_initialize_method_attribute.html#ab88accb8a355daaccac0d86590c08dbe", null ],
+      [ "InitializeMethodAttribute", "class_wanzyee_studio_1_1_initialize_method_attribute.html#a8c2d24dfd414e63585827a01a2c27385", null ],
+      [ "InitializeMethodAttribute", "class_wanzyee_studio_1_1_initialize_method_attribute.html#a66da1b759665ff7b3bd1e7c9c4496f38", null ],
+      [ "order", "class_wanzyee_studio_1_1_initialize_method_attribute.html#ae08f04f4b92ab5c32607c486b43ccb67", null ],
+      [ "editor", "class_wanzyee_studio_1_1_initialize_method_attribute.html#ad0cf4ba26cc3a932cfdfaff3f64d9cee", null ],
+      [ "runtime", "class_wanzyee_studio_1_1_initialize_method_attribute.html#aec5ae6ecc6fcb7a95d4c42eb54568930", null ]
+    ] ],
     [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html", [
       [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html#ac765acd3e0641bc72723bb9ede1bc3a5", null ],
       [ "PopupMenuAttribute", "class_wanzyee_studio_1_1_popup_menu_attribute.html#a0140e48f172d4b476476cc2fd7e207bc", null ],

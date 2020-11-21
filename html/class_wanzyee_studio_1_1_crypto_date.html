@@ -97,34 +97,65 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_crypto_date.h
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_wanzyee_studio_1_1_crypto_date-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CryptoDate</div>  </div>
+<div class="title">CryptoDate<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Wrapper to encrypt and store a <code>System.DateTime</code>.  
  <a href="class_wanzyee_studio_1_1_crypto_date.html#details">More...</a></p>
 
-<p>Inherits <a class="el" href="class_wanzyee_studio_1_1_crypto_value.html">CryptoValue&lt; DateTime, string &gt;</a>.</p>
+<p>Inherits <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html">CryptoCache&lt; DateTime, DateTimeField &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9dc451993a843f7aebf6164a6811ff8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#ad9dc451993a843f7aebf6164a6811ff8">CryptoDate</a> (DateTime value=default)</td></tr>
+<tr class="memitem:ad9dc451993a843f7aebf6164a6811ff8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#ad9dc451993a843f7aebf6164a6811ff8">CryptoDate</a> (DateTime <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>=default)</td></tr>
 <tr class="memdesc:ad9dc451993a843f7aebf6164a6811ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize with the specified value.  <a href="#ad9dc451993a843f7aebf6164a6811ff8">More...</a><br /></td></tr>
 <tr class="separator:ad9dc451993a843f7aebf6164a6811ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#aa73e7c4dd1df5fd5fbf81c7764ee1533">ToString</a> ()</td></tr>
+<tr class="memdesc:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the date time text.  <a href="#aa73e7c4dd1df5fd5fbf81c7764ee1533">More...</a><br /></td></tr>
+<tr class="separator:aa73e7c4dd1df5fd5fbf81c7764ee1533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f6b52ba995bde7bfc1d9835b5d48b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html">CryptoCache</a>(T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>=default) override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a35f6b52ba995bde7bfc1d9835b5d48b6">OnBeforeSerialize</a> ()</td></tr>
+<tr class="memdesc:a35f6b52ba995bde7bfc1d9835b5d48b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize with the specified value.  <a href="#a35f6b52ba995bde7bfc1d9835b5d48b6">More...</a><br /></td></tr>
+<tr class="separator:a35f6b52ba995bde7bfc1d9835b5d48b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a7ffb1a862e7beb0c3ffa4e3359387d3a">OnAfterDeserialize</a> ()</td></tr>
+<tr class="memdesc:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">OnAfterDeserialize, read the real value to the obfuscated cache.  <a href="#a7ffb1a862e7beb0c3ffa4e3359387d3a">More...</a><br /></td></tr>
+<tr class="separator:a7ffb1a862e7beb0c3ffa4e3359387d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1f438b3a5282b31f921794607ebbae4f"><td class="memItemLeft" align="right" valign="top">override DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a1f438b3a5282b31f921794607ebbae4f">ToValue</a> (string text)</td></tr>
 <tr class="memdesc:a1f438b3a5282b31f921794607ebbae4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the decrypted text to the real value.  <a href="#a1f438b3a5282b31f921794607ebbae4f">More...</a><br /></td></tr>
 <tr class="separator:a1f438b3a5282b31f921794607ebbae4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08777da371dcb67cada9a493775488c4"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a08777da371dcb67cada9a493775488c4">ToText</a> (DateTime value)</td></tr>
+<tr class="memitem:a08777da371dcb67cada9a493775488c4"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a08777da371dcb67cada9a493775488c4">ToText</a> (DateTime <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>)</td></tr>
 <tr class="memdesc:a08777da371dcb67cada9a493775488c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the real value to the text to encrypt.  <a href="#a08777da371dcb67cada9a493775488c4">More...</a><br /></td></tr>
 <tr class="separator:a08777da371dcb67cada9a493775488c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6d67c68f9e761ca2c0d6779183c433c"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#ae6d67c68f9e761ca2c0d6779183c433c">ValidateProperty</a> ()</td></tr>
-<tr class="memdesc:ae6d67c68f9e761ca2c0d6779183c433c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate the editing property, return <code>null</code> if correct, otherwise the warning message.  <a href="#ae6d67c68f9e761ca2c0d6779183c433c">More...</a><br /></td></tr>
-<tr class="separator:ae6d67c68f9e761ca2c0d6779183c433c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab001efe3c215c2101a3fe1c7c718e8b"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="struct_wanzyee_studio_1_1_date_time_field.html">DateTimeField</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#aab001efe3c215c2101a3fe1c7c718e8b">ReadEditee</a> ()</td></tr>
+<tr class="memdesc:aab001efe3c215c2101a3fe1c7c718e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the stored value to the editee value.  <a href="#aab001efe3c215c2101a3fe1c7c718e8b">More...</a><br /></td></tr>
+<tr class="separator:aab001efe3c215c2101a3fe1c7c718e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283fd5db578d51bd46e1de9bc6d3ad0e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a283fd5db578d51bd46e1de9bc6d3ad0e">WriteEditee</a> (<a class="el" href="struct_wanzyee_studio_1_1_date_time_field.html">DateTimeField</a> editee)</td></tr>
+<tr class="memdesc:a283fd5db578d51bd46e1de9bc6d3ad0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the editee value to the stored value.  <a href="#a283fd5db578d51bd46e1de9bc6d3ad0e">More...</a><br /></td></tr>
+<tr class="separator:a283fd5db578d51bd46e1de9bc6d3ad0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19151b416b4eb31bc51ec7df498550f2"><td class="memItemLeft" align="right" valign="top">override DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a19151b416b4eb31bc51ec7df498550f2">ReadObfuscated</a> ()</td></tr>
+<tr class="memdesc:a19151b416b4eb31bc51ec7df498550f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the obfuscated cache value.  <a href="#a19151b416b4eb31bc51ec7df498550f2">More...</a><br /></td></tr>
+<tr class="separator:a19151b416b4eb31bc51ec7df498550f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c0ae33240b26db91bfd28b0fe5c23b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_date.html#a68c0ae33240b26db91bfd28b0fe5c23b">WriteObfuscated</a> (DateTime <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>)</td></tr>
+<tr class="memdesc:a68c0ae33240b26db91bfd28b0fe5c23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write value to the obfuscated cache.  <a href="#a68c0ae33240b26db91bfd28b0fe5c23b">More...</a><br /></td></tr>
+<tr class="separator:a68c0ae33240b26db91bfd28b0fe5c23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d11ebb7643d8d31f9727471f10d8d3"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#ad2d11ebb7643d8d31f9727471f10d8d3">WriteObfuscated</a> (T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a>)</td></tr>
+<tr class="memdesc:ad2d11ebb7643d8d31f9727471f10d8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write value to the obfuscated cache.  <a href="#ad2d11ebb7643d8d31f9727471f10d8d3">More...</a><br /></td></tr>
+<tr class="separator:ad2d11ebb7643d8d31f9727471f10d8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1932bcdccc7515fffb44ff863dec02df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a1932bcdccc7515fffb44ff863dec02df">RandomValue</a> (int min=int.MinValue, int max=int.MaxValue)</td></tr>
+<tr class="memdesc:a1932bcdccc7515fffb44ff863dec02df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a random value in the specified range.  <a href="#a1932bcdccc7515fffb44ff863dec02df">More...</a><br /></td></tr>
+<tr class="separator:a1932bcdccc7515fffb44ff863dec02df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:abcf64b84c9ecb7087867368699e3d812"><td class="memItemLeft" align="right" valign="top">override T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abcf64b84c9ecb7087867368699e3d812"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stored value.  <a href="#abcf64b84c9ecb7087867368699e3d812">More...</a><br /></td></tr>
+<tr class="separator:abcf64b84c9ecb7087867368699e3d812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wrapper to encrypt and store a <code>System.DateTime</code>. </p>
@@ -154,6 +185,24 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa73e7c4dd1df5fd5fbf81c7764ee1533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string ToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the date time text. </p>
+<dl class="section return"><dt>Returns</dt><dd>A <code>string</code> represents this.</dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1f438b3a5282b31f921794607ebbae4f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +269,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae6d67c68f9e761ca2c0d6779183c433c"></a>
+<a class="anchor" id="aab001efe3c215c2101a3fe1c7c718e8b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -228,7 +277,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override string ValidateProperty </td>
+          <td class="memname">override <a class="el" href="struct_wanzyee_studio_1_1_date_time_field.html">DateTimeField</a> ReadEditee </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -241,8 +290,256 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Validate the editing property, return <code>null</code> if correct, otherwise the warning message. </p>
-<dl class="section return"><dt>Returns</dt><dd>Message.</dd></dl>
+<p>Read the stored value to the editee value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Editee.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a283fd5db578d51bd46e1de9bc6d3ad0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void WriteEditee </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_wanzyee_studio_1_1_date_time_field.html">DateTimeField</a>&#160;</td>
+          <td class="paramname"><em>editee</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write the editee value to the stored value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">editee</td><td>Editee.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a19151b416b4eb31bc51ec7df498550f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override DateTime ReadObfuscated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the obfuscated cache value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+<p>Implements <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#a8a7a30c55e793d3285438570675a3d52">CryptoCache&lt; DateTime, DateTimeField &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68c0ae33240b26db91bfd28b0fe5c23b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void WriteObfuscated </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write value to the obfuscated cache. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a35f6b52ba995bde7bfc1d9835b5d48b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html">CryptoCache</a> (T <a class="el" href="class_wanzyee_studio_1_1_crypto_cache.html#abcf64b84c9ecb7087867368699e3d812">value</a> = default) override void OnBeforeSerialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize with the specified value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>OnBeforeSerialize, write the obfuscated cache to the real value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7ffb1a862e7beb0c3ffa4e3359387d3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void OnAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>OnAfterDeserialize, read the real value to the obfuscated cache. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2d11ebb7643d8d31f9727471f10d8d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void WriteObfuscated </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write value to the obfuscated cache. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1932bcdccc7515fffb44ff863dec02df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RandomValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>min</em> = <code>int.MinValue</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max</em> = <code>int.MaxValue</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a random value in the specified range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>Min value.</td></tr>
+    <tr><td class="paramname">max</td><td>Max value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Value.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="abcf64b84c9ecb7087867368699e3d812"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override T value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The stored value. </p>
 
 </div>
 </div>

@@ -124,9 +124,7 @@ Properties</h2></td></tr>
 <p>Example to wrap to access, call this in a method or property: </p>
 <div class="fragment"><div class="line"><span class="keyword">using</span> <a class="code" href="namespace_wanzyee_studio.html">WanzyeeStudio</a>;</div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>SomeComp : MonoBehaviour{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> SomeComp <a class="code" href="class_wanzyee_studio_1_1_singleton.html#ac0091740a1a1b13daab37328b10bdc3f">instance</a>{</div>
-<div class="line">        <span class="keyword">get</span>{ <span class="keywordflow">return</span> Singleton&lt;SomeComp&gt;.instance; }</div>
-<div class="line">    }</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> SomeComp <a class="code" href="class_wanzyee_studio_1_1_singleton.html#ac0091740a1a1b13daab37328b10bdc3f">instance</a> =&gt; Singleton&lt;SomeComp&gt;.instance;</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Example to maintain in <code><a class="el" href="namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a9ca8bcac74fbf1f118cc3589aeca836f" title="Awake is called when the script instance is being loaded. ">Awake()</a></code> to avoid duplicated, check to keep or destroy: </p>
 <div class="fragment"><div class="line"><span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a9ca8bcac74fbf1f118cc3589aeca836f">Awake</a>(){</div>

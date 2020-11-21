@@ -122,6 +122,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6eb52ffdfaf154761e3abc58410b6298"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a6eb52ffdfaf154761e3abc58410b6298">SetValue</a> (this SerializedProperty property, object value)</td></tr>
 <tr class="memdesc:a6eb52ffdfaf154761e3abc58410b6298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of the property with recording undo.  <a href="#a6eb52ffdfaf154761e3abc58410b6298">More...</a><br /></td></tr>
 <tr class="separator:a6eb52ffdfaf154761e3abc58410b6298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd7ebfce513bce60b78d1abea5df701"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_property_value_extension.html#a3cd7ebfce513bce60b78d1abea5df701">GetDeclarer</a> (this SerializedProperty property)</td></tr>
+<tr class="memdesc:a3cd7ebfce513bce60b78d1abea5df701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the instance which declares the specified <code>UnityEditor.SerializedProperty</code>.  <a href="#a3cd7ebfce513bce60b78d1abea5df701">More...</a><br /></td></tr>
+<tr class="separator:a3cd7ebfce513bce60b78d1abea5df701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_wanzyee_studio_1_1_editrix_1_1_extension.html" title="All extension methods for editor classes are defined within. ">Extension</a> methods for <code>UnityEditor.SerializedProperty</code> using <code><a class="el" href="class_wanzyee_studio_1_1_variable_info.html" title="Contain FieldInfo or PropertyInfo and instance to access variable. ">VariableInfo</a></code>. </p>
@@ -157,7 +160,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The <code><a class="el" href="class_wanzyee_studio_1_1_variable_info.html" title="Contain FieldInfo or PropertyInfo and instance to access variable. ">VariableInfo</a></code> hierarchy array.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The hierarchy <code><a class="el" href="class_wanzyee_studio_1_1_variable_info.html" title="Contain FieldInfo or PropertyInfo and instance to access variable. ">VariableInfo</a></code> array.</dd></dl>
 
 </div>
 </div>
@@ -304,6 +307,39 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a3cd7ebfce513bce60b78d1abea5df701"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static object GetDeclarer </td>
+          <td>(</td>
+          <td class="paramtype">this SerializedProperty&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the instance which declares the specified <code>UnityEditor.SerializedProperty</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">property</td><td>Property.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Instance.</dd></dl>
 
 </div>
 </div>

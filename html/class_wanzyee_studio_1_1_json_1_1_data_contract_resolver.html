@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>Wanzyee Studio: EditorEventListener</title>
+<title>Wanzyee Studio: DataContractResolver</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -76,7 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editor_event_listener.html','');});
+$(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -95,36 +95,43 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editor_event_
 
 <div class="header">
   <div class="summary">
-<a href="#properties">Properties</a> &#124;
-<a href="#events">Events</a> &#124;
-<a href="class_wanzyee_studio_1_1_editor_event_listener-members.html">List of all members</a>  </div>
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">EditorEventListener<div class="ingroups"><a class="el" href="group___specific.html">Specific Classes</a> &raquo; <a class="el" href="group___components.html">Components</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___shortcut.html">Shortcut</a></div></div>  </div>
+<div class="title">DataContractResolver<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___json_net_converters.html">Json.NET Converters</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Wrapper to listen to editor global event to dispatch.  
- <a href="class_wanzyee_studio_1_1_editor_event_listener.html#details">More...</a></p>
+<p>The resolver to make sure custom classes with <code>DataContractAttribute</code> work.  
+ <a href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html#details">More...</a></p>
 
-<p>Inherits MonoBehaviour.</p>
+<p>Inherits DefaultContractResolver.</p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a13bb42a50beb84b37480ab40f95f4003"><td class="memItemLeft" align="right" valign="top">static Event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003">lastEvent</a><code> [get]</code></td></tr>
-<tr class="memdesc:a13bb42a50beb84b37480ab40f95f4003"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last event data of <code>eventHandler</code>.  <a href="#a13bb42a50beb84b37480ab40f95f4003">More...</a><br /></td></tr>
-<tr class="separator:a13bb42a50beb84b37480ab40f95f4003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:acf94cada6e68ac698fc1e8cdd4033746"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html">DataContractResolver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html#acf94cada6e68ac698fc1e8cdd4033746">instance</a> = new <a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html">DataContractResolver</a>()</td></tr>
+<tr class="memdesc:acf94cada6e68ac698fc1e8cdd4033746"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance.  <a href="#acf94cada6e68ac698fc1e8cdd4033746">More...</a><br /></td></tr>
+<tr class="separator:acf94cada6e68ac698fc1e8cdd4033746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
-Events</h2></td></tr>
-<tr class="memitem:a86fd76cfec5574a0817bb2562d3d5118"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118">eventHandler</a></td></tr>
-<tr class="memdesc:a86fd76cfec5574a0817bb2562d3d5118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the global input or <code>GameView</code> GUI evant.  <a href="#a86fd76cfec5574a0817bb2562d3d5118">More...</a><br /></td></tr>
-<tr class="separator:a86fd76cfec5574a0817bb2562d3d5118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a6b08ecf931749747c4b0b8235bae8589"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b08ecf931749747c4b0b8235bae8589"></a>
+override JsonContract&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html#a6b08ecf931749747c4b0b8235bae8589">CreateContract</a> (Type objectType)</td></tr>
+<tr class="memdesc:a6b08ecf931749747c4b0b8235bae8589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines which contract type is created for the given type. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">objectType</td><td>Type of the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <code>JsonContract</code> for the given type.</dd></dl>
+<br /></td></tr>
+<tr class="separator:a6b08ecf931749747c4b0b8235bae8589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Wrapper to listen to editor global event to dispatch. </p>
-<p>This's an editor-only <code>UnityEngine.Component</code>, please don't add this manually nor by a script. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="a13bb42a50beb84b37480ab40f95f4003"></a>
+<div class="textblock"><p>The resolver to make sure custom classes with <code>DataContractAttribute</code> work. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="acf94cada6e68ac698fc1e8cdd4033746"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -132,30 +139,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Event lastEvent</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The last event data of <code>eventHandler</code>. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Event Documentation</h2>
-<a class="anchor" id="a86fd76cfec5574a0817bb2562d3d5118"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action eventHandler</td>
+          <td class="memname">readonly <a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html">DataContractResolver</a> instance = new <a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html">DataContractResolver</a>()</td>
         </tr>
       </table>
   </td>
@@ -165,12 +149,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Callback of the global input or <code>GameView</code> GUI evant. </p>
-<p>Wrapper for the undocumented internal <code>EditorApplication.globalEventHandler</code>, hope it keeps alive. And work with a hidden component for <code>GameView</code> event handling. It's not recommended to draw any GUI with this. </p>
-<p>Please note, this may not be invoked if:</p><ol type="1">
-<li>A hotkey is captured by editor menu or custom <code>MenuItem</code>, e.g., "Ctrl-P" is "Edit/Play".</li>
-<li>When edit a text field, or only press "Shift". </li>
-</ol>
+<p>The singleton instance. </p>
 
 </div>
 </div>
@@ -180,7 +159,7 @@ Events</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_wanzyee_studio.html">WanzyeeStudio</a></li><li class="navelem"><a class="el" href="class_wanzyee_studio_1_1_editor_event_listener.html">EditorEventListener</a></li>
+    <li class="navelem"><a class="el" href="namespace_wanzyee_studio.html">WanzyeeStudio</a></li><li class="navelem"><a class="el" href="namespace_wanzyee_studio_1_1_json.html">Json</a></li><li class="navelem"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html">DataContractResolver</a></li>
     <li class="footer">
     Generated for&nbsp;
     <a href="http://wanzyeestudio.blogspot.com/" target="_blank">Wanzyee Studio</a>

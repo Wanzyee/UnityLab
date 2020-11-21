@@ -5,8 +5,7 @@ var group___shortcut =
       [ "AddItemsToMenu", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a839e9dda1fdb8aaed2b2c2582fa1254e", null ],
       [ "search", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a83411795db454ee7f9405fc60eb7e25e", null ],
       [ "list", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6cfe6d46c5d007ca2f77bdf6efef2dc0", null ],
-      [ "_dragArranger", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a8b831de1462cce0e55dd4bcf96d4e673", null ],
-      [ "_enhanced", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a6f926a3151fada07010c19752f2bd74b", null ]
+      [ "_dragArranger", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_shortcut.html#a8b831de1462cce0e55dd4bcf96d4e673", null ]
     ] ],
     [ "InspectorHelper", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html", [
       [ "InspectSelected", "class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a4c94ae94a3d4ebcfeb91e900b33df82d", null ],
@@ -23,7 +22,7 @@ var group___shortcut =
       [ "Execute", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#a0253051555fd36dee29a48e30bb0c0e4", null ],
       [ "usingDirective", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#abf3c20e9a432637f35073f7f5085a8e6", null ],
       [ "codeSnippet", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#aff0c9af2c96625307bcf699a0e32fe93", null ],
-      [ "objects", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#ab524644a786fa1b71c6060f71adc9ae2", null ]
+      [ "objects", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html#af67b295fa099a92c8e6a6ed9b90077d9", null ]
     ] ],
     [ "FileDownloader", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html", [
       [ "Download", "class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02", null ],
@@ -143,13 +142,10 @@ var group___shortcut =
       [ "GetTypeOrder", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a601af02a125716ba03ee1c05590b5adc", null ],
       [ "ReplaceDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ae7e27d25d4513e8843fba7820587fc2b", null ],
       [ "GetDrawerType", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#acd58f360ec17efd8662460cf16a6673e", null ],
-      [ "CreateDrawer", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7796f702b0216ac710151956ce2c4245", null ],
+      [ "CreateDrawer", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a2891262934b86ca0d7304c021a80b9d8", null ],
       [ "OpenAbout", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b", null ],
       [ "CheckIoCreatable", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a53ca6dcc3f26a9c48a639e7b85ffc194", null ],
-      [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ],
-      [ "playmodeChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a980f7715e1f059572d2f79cbb84684e0", null ],
-      [ "projectChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad", null ],
-      [ "hierarchyChanged", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787", null ]
+      [ "GetExposingTypes", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3", null ]
     ] ],
     [ "MenuExtension", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html", [
       [ "AddItem< T >", "class_wanzyee_studio_1_1_editrix_1_1_extension_1_1_menu_extension.html#af74aeafbe2ba9e0761c5e894d509965e", null ],
@@ -184,9 +180,9 @@ var group___shortcut =
       [ "TypeConstraintAttribute", "class_wanzyee_studio_1_1_type_constraint_attribute.html#a2131ec6bce87990679e5d0f1ee50049a", null ],
       [ "constraints", "class_wanzyee_studio_1_1_type_constraint_attribute.html#ab47d1bbcf5777d9fae63da62b142aed5", null ]
     ] ],
-    [ "EditorEventListener", "class_wanzyee_studio_1_1_editor_event_listener.html", [
-      [ "lastEvent", "class_wanzyee_studio_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
-      [ "eventHandler", "class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html", [
+      [ "lastEvent", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html#a13bb42a50beb84b37480ab40f95f4003", null ],
+      [ "eventHandler", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118", null ]
     ] ],
     [ "IoUtility", "class_wanzyee_studio_1_1_io_utility.html", [
       [ "GetDeepFiles", "class_wanzyee_studio_1_1_io_utility.html#a4cb610ec2957213804a5b980c54bdfe6", null ],
@@ -194,16 +190,18 @@ var group___shortcut =
       [ "CheckCreatable", "class_wanzyee_studio_1_1_io_utility.html#a1812936da781201d1c7eb87ac8f28de0", null ]
     ] ],
     [ "LinqExtension", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html", [
-      [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
-      [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
       [ "ToAotEnumerable< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a5e59db98613980e9f388366c16130c04", null ],
       [ "JoinText< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac20d0c2f9baab24456413d61412246d6", null ],
+      [ "IsExist", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a42a147100e4b5c511c92f5f9938ba34e", null ],
+      [ "OfExist< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a1c04f4c94e23a87f6c1f61417b4c65a8", null ],
+      [ "OfText", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a490b614cb3d12ba3633eb9609e163a2a", null ],
+      [ "OfMatch< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a6d3dae97f05f8cb21fb2d5c7505ab725", null ],
       [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#acd837a365e8e45fede13cd9148cce8fd", null ],
       [ "ToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#ac8aaef5119edad827b713c11f0d8ebbb", null ],
       [ "KeysToDictionary< T, U >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a8ba7ec300142d8852ab8746901e00f06", null ],
       [ "OrderByRandom< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a01cad3d1f3f3edb6cf1bc4973d218d57", null ],
       [ "RandomElement< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a7df2fa74aaa70ec9e2e10306c9b79edf", null ],
-      [ "RandomByWeights< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#afb35fa2ea5f92453e4655754ba3daa35", null ]
+      [ "RandomByWeight< T >", "class_wanzyee_studio_1_1_extension_1_1_linq_extension.html#a4bc7107b2c853281d70222a1e61661d8", null ]
     ] ],
     [ "TypeExtension", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html", [
       [ "GetPrettyName", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a480f59926b6cc2babb2b527029009c9d", null ],
@@ -213,6 +211,8 @@ var group___shortcut =
       [ "GetField", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499", null ],
       [ "GetProperty", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a", null ],
       [ "GetMethod", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4", null ],
+      [ "Is< T >", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a3e2a89fd03f4366ad32f0feaf00537c4", null ],
+      [ "Is", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#af4148bb7d5c56d0282bddc65d246fa0f", null ],
       [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
       [ "GetParents", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e", null ],
       [ "GetChildren", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245", null ],

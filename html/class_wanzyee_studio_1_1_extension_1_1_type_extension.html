@@ -128,6 +128,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a340af7024f734c8ee09231f82db2b8c4"><td class="memItemLeft" align="right" valign="top">static MethodInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4">GetMethod</a> (this Type type, string name, bool isStatic, Type returnType=null, params Type[] paramTypes)</td></tr>
 <tr class="memdesc:a340af7024f734c8ee09231f82db2b8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the named public or nonpublic <code>MethodInfo</code> of the specified type.  <a href="#a340af7024f734c8ee09231f82db2b8c4">More...</a><br /></td></tr>
 <tr class="separator:a340af7024f734c8ee09231f82db2b8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2a89fd03f4366ad32f0feaf00537c4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a3e2a89fd03f4366ad32f0feaf00537c4">Is&lt; T &gt;</a> (this Type type)</td></tr>
+<tr class="memdesc:a3e2a89fd03f4366ad32f0feaf00537c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the type is derived from the other type, or implements the interface.  <a href="#a3e2a89fd03f4366ad32f0feaf00537c4">More...</a><br /></td></tr>
+<tr class="separator:a3e2a89fd03f4366ad32f0feaf00537c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4148bb7d5c56d0282bddc65d246fa0f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#af4148bb7d5c56d0282bddc65d246fa0f">Is</a> (this Type type, Type other)</td></tr>
+<tr class="memdesc:af4148bb7d5c56d0282bddc65d246fa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if the type is derived from the other type, or implements the interface.  <a href="#af4148bb7d5c56d0282bddc65d246fa0f">More...</a><br /></td></tr>
+<tr class="separator:af4148bb7d5c56d0282bddc65d246fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a036d1c0db89907c99a8f704e8072706c"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c">GetItemType</a> (this Type type)</td></tr>
 <tr class="memdesc:a036d1c0db89907c99a8f704e8072706c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the element type of an array or list type, otherwise <code>null</code>.  <a href="#a036d1c0db89907c99a8f704e8072706c">More...</a><br /></td></tr>
 <tr class="separator:a036d1c0db89907c99a8f704e8072706c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -514,6 +520,89 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The method.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3e2a89fd03f4366ad32f0feaf00537c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_wanzyee_studio_1_1_extension_1_1_type_extension.html#af4148bb7d5c56d0282bddc65d246fa0f">Is</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine if the type is derived from the other type, or implements the interface. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The other type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if is, <code>false</code> otherwise.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af4148bb7d5c56d0282bddc65d246fa0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Is </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>other</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine if the type is derived from the other type, or implements the interface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Type.</td></tr>
+    <tr><td class="paramname">other</td><td>The other type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if is, <code>false</code> otherwise.</dd></dl>
 
 </div>
 </div>

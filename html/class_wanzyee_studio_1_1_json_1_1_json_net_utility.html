@@ -102,28 +102,36 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_json_1_1_json
 </div><!--header-->
 <div class="contents">
 
-<p>Integrate custom <code>Newtonsoft.Json.JsonConverter</code> to use <a href="http://www.newtonsoft.com/json" target="_blank">Json.NET</a> in Unity.  
+<p>Integrate custom <code>Newtonsoft.Json.JsonConverter</code> and minor tweaks to use <a href="http://www.newtonsoft.com/json" target="_blank">Json.NET</a> in Unity.  
  <a href="class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a49404e7c1462370c98448757acb01120"><td class="memItemLeft" align="right" valign="top">static JsonSerializerSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a49404e7c1462370c98448757acb01120">defaultSettings</a></td></tr>
-<tr class="memdesc:a49404e7c1462370c98448757acb01120"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default <code>Newtonsoft.Json.JsonSerializerSettings</code>.  <a href="#a49404e7c1462370c98448757acb01120">More...</a><br /></td></tr>
-<tr class="separator:a49404e7c1462370c98448757acb01120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73553f9db5ab0c8290b5223c1f092d8b"><td class="memItemLeft" align="right" valign="top">static readonly IList&lt; JsonConverter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a73553f9db5ab0c8290b5223c1f092d8b">converters</a> = CreateConverters()</td></tr>
+<tr class="memdesc:a73553f9db5ab0c8290b5223c1f092d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default custom converters.  <a href="#a73553f9db5ab0c8290b5223c1f092d8b">More...</a><br /></td></tr>
+<tr class="separator:a73553f9db5ab0c8290b5223c1f092d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a067d5342200b063d862f4abdaa3f5151"><td class="memItemLeft" align="right" valign="top">static readonly JsonSerializerSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a067d5342200b063d862f4abdaa3f5151">defaultSettings</a></td></tr>
+<tr class="memdesc:a067d5342200b063d862f4abdaa3f5151"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default <code>Newtonsoft.Json.JsonSerializerSettings</code>.  <a href="#a067d5342200b063d862f4abdaa3f5151">More...</a><br /></td></tr>
+<tr class="separator:a067d5342200b063d862f4abdaa3f5151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Integrate custom <code>Newtonsoft.Json.JsonConverter</code> to use <a href="http://www.newtonsoft.com/json" target="_blank">Json.NET</a> in Unity. </p>
-<p>To use Json.NET, please set Unity "PlayerSettings/Api Compatibility Lavel" to .NET 2.0. Then download from its website and import the .NET 2.0 dll. Json.NET doesn't support serializing some types originally, e.g., <code>UnityEngine.Vector3</code>. This has the <code>defaultSettings</code> includes necessary custom converters by default for Unity using it. And assign to <code>Newtonsoft.Json.JsonConvert.DefaultSettings</code> when initializing if the original <code>null</code>. </p>
+<div class="textblock"><p>Integrate custom <code>Newtonsoft.Json.JsonConverter</code> and minor tweaks to use <a href="http://www.newtonsoft.com/json" target="_blank">Json.NET</a> in Unity. </p>
+<p>To use Json.NET, please set Unity "PlayerSettings/Api Compatibility Lavel" to .NET 2.0. Then download from its website and import the .NET 2.0 dll. The <code>defaultSettings</code> is assigned to <code>JsonConvert.DefaultSettings</code> when initializing. </p>
+<p>The <code>defaultSettings</code> with the tweaks below:</p><ol type="1">
+<li>Include custom converters to support serializing some Unity types, e.g., <code>UnityEngine.Vector3</code>.</li>
+<li>Use <code><a class="el" href="class_wanzyee_studio_1_1_json_1_1_data_contract_resolver.html" title="The resolver to make sure custom classes with DataContractAttribute work. ">DataContractResolver</a></code> to make sure serializing custom class as expection.</li>
+<li>Use <code>ObjectCreationHandling.Replace</code> to make sure deserialized data identical with the text. </li>
+</ol>
 <p>Now we can use Json.NET just like before: </p>
 <div class="fragment"><div class="line"><a class="code" href="namespace_debug.html">Debug</a>.Log(JsonConvert.SerializeObject(Vector3.up));</div>
 <div class="line">var vec = JsonConvert.DeserializeObject&lt;Vector2&gt;(<span class="stringliteral">&quot;{&#39;x&#39;:1.0,&#39;y&#39;:0.0}&quot;</span>);</div>
 </div><!-- fragment --><p>User can directly modify <code>defaultSettings</code> for customization, and override it: </p>
 <div class="fragment"><div class="line">JsonConvert.DefaultSettings = () =&gt; <span class="keyword">new</span> JsonSerializerSettings(){</div>
-<div class="line">    Converters = JsonNetUtility.defaultSettings.Converters,</div>
-<div class="line">    DefaultValueHandling = DefaultValueHandling.Populate</div>
+<div class="line">    Converters = JsonNetUtility.converters,</div>
+<div class="line">    ContractResolver = DataContractResolver.instance</div>
 <div class="line">};</div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a49404e7c1462370c98448757acb01120"></a>
+<a class="anchor" id="a73553f9db5ab0c8290b5223c1f092d8b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -131,7 +139,35 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">JsonSerializerSettings defaultSettings</td>
+          <td class="memname">readonly IList&lt;JsonConverter&gt; converters = CreateConverters()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default custom converters. </p>
+<p>Includes below:</p><ol type="1">
+<li>Any custom <code>Newtonsoft.Json.JsonConverter</code> has constructor without parameters.</li>
+<li>Any <code>Newtonsoft.Json.JsonConverter</code> from <code><a class="el" href="namespace_wanzyee_studio_1_1_json.html" title="Include concrete and utility classes for Newtonsoft.Json. ">WanzyeeStudio.Json</a></code>.</li>
+<li><code>Newtonsoft.Json.Converters.StringEnumConverter</code>.</li>
+<li><code>Newtonsoft.Json.Converters.VersionConverter</code>. </li>
+</ol>
+
+</div>
+</div>
+<a class="anchor" id="a067d5342200b063d862f4abdaa3f5151"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly JsonSerializerSettings defaultSettings</td>
         </tr>
       </table>
   </td>
@@ -142,12 +178,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The default <code>Newtonsoft.Json.JsonSerializerSettings</code>. </p>
-<p>All its properties stay default, but the <code>Converters</code> includes below:</p><ol type="1">
-<li>Any custom <code>Newtonsoft.Json.JsonConverter</code> has constructor without parameters.</li>
-<li>Any <code>Newtonsoft.Json.JsonConverter</code> from <code><a class="el" href="namespace_wanzyee_studio_1_1_json.html" title="Include concrete and utility classes for Newtonsoft.Json. ">WanzyeeStudio.Json</a></code>.</li>
-<li><code>Newtonsoft.Json.Converters.StringEnumConverter</code>.</li>
-<li><code>Newtonsoft.Json.Converters.VersionConverter</code>. </li>
-</ol>
 
 </div>
 </div>

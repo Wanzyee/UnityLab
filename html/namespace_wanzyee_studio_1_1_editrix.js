@@ -6,6 +6,7 @@ var namespace_wanzyee_studio_1_1_editrix =
     [ "AuxCursor", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor.html", "class_wanzyee_studio_1_1_editrix_1_1_aux_cursor" ],
     [ "CodeExecutor", "class_wanzyee_studio_1_1_editrix_1_1_code_executor.html", "class_wanzyee_studio_1_1_editrix_1_1_code_executor" ],
     [ "CodePatcher", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher.html", "class_wanzyee_studio_1_1_editrix_1_1_code_patcher" ],
+    [ "EditorEventListener", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html", "class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener" ],
     [ "EditrixGUI", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i" ],
     [ "EditrixStyle", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_style" ],
     [ "EditrixUtility", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html", "class_wanzyee_studio_1_1_editrix_1_1_editrix_utility" ],

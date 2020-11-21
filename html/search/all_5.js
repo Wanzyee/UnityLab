@@ -1,8 +1,9 @@
 var searchData=
 [
   ['editicon',['editIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
+  ['editor',['editor',['../class_wanzyee_studio_1_1_initialize_method_attribute.html#ad0cf4ba26cc3a932cfdfaff3f64d9cee',1,'WanzyeeStudio::InitializeMethodAttribute']]],
   ['editor_20aider',['Editor Aider',['../group___editor_aider.html',1,'']]],
-  ['editoreventlistener',['EditorEventListener',['../class_wanzyee_studio_1_1_editor_event_listener.html',1,'WanzyeeStudio']]],
+  ['editoreventlistener',['EditorEventListener',['../class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixgui',['EditrixGUI',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixstyle',['EditrixStyle',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html',1,'WanzyeeStudio::Editrix']]],
   ['editrixutility',['EditrixUtility',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html',1,'WanzyeeStudio::Editrix']]],
@@ -24,7 +25,7 @@ var searchData=
   ['event_20delegator',['Event Delegator',['../group___event_delegator.html',1,'']]],
   ['eventdelegator',['EventDelegator',['../class_wanzyee_studio_1_1_event_delegator.html',1,'WanzyeeStudio']]],
   ['eventdelegatorgroup',['EventDelegatorGroup',['../class_wanzyee_studio_1_1_event_delegator_group.html',1,'WanzyeeStudio']]],
-  ['eventhandler',['eventHandler',['../class_wanzyee_studio_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118',1,'WanzyeeStudio::EditorEventListener']]],
+  ['eventhandler',['eventHandler',['../class_wanzyee_studio_1_1_editrix_1_1_editor_event_listener.html#a86fd76cfec5574a0817bb2562d3d5118',1,'WanzyeeStudio::Editrix::EditorEventListener']]],
   ['eventkeyinvoker',['EventKeyInvoker',['../class_wanzyee_studio_1_1_event_key_invoker.html',1,'WanzyeeStudio']]],
   ['eventmanualinvoker',['EventManualInvoker',['../class_wanzyee_studio_1_1_event_manual_invoker.html',1,'WanzyeeStudio']]],
   ['eventmonoinvoker',['EventMonoInvoker',['../class_wanzyee_studio_1_1_event_mono_invoker.html',1,'WanzyeeStudio']]],

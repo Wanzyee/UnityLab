@@ -1,6 +1,7 @@
 var searchData=
 [
   ['editicon',['editIcon',['../class_wanzyee_studio_1_1_editrix_1_1_editrix_style.html#a84c8ead449997f30528d9fd8631576ba',1,'WanzyeeStudio::Editrix::EditrixStyle']]],
+  ['editor',['editor',['../class_wanzyee_studio_1_1_initialize_method_attribute.html#ad0cf4ba26cc3a932cfdfaff3f64d9cee',1,'WanzyeeStudio::InitializeMethodAttribute']]],
   ['elapsed',['elapsed',['../class_wanzyee_studio_1_1_time_recorder.html#ac0d1f5542c8e6d6d966a679e17e34e1d',1,'WanzyeeStudio::TimeRecorder']]],
   ['email',['email',['../class_wanzyee_studio_1_1_my_memory_language_translator.html#a74b03e4eeb479157c7517cce002259d0',1,'WanzyeeStudio::MyMemoryLanguageTranslator']]],
   ['enable',['enable',['../class_wanzyee_studio_1_1_editrix_1_1_tree_node.html#ac842b6c1dcb3b1f11b611620199dc55c',1,'WanzyeeStudio::Editrix::TreeNode']]],

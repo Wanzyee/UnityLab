@@ -96,7 +96,6 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_editrix_1_1_e
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#events">Events</a> &#124;
 <a href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">EditrixUtility<div class="ingroups"><a class="el" href="group___released.html">Released Packages</a> &raquo; <a class="el" href="group___p_maker.html">3P Maker</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___clipboard.html">Clipboard</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___editor_aider.html">Editor Aider</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___event_delegator.html">Event Delegator</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___notebook.html">Notebook</a><a class="el" href="group___released.html">Released Packages</a> &raquo;  &#124; <a class="el" href="group___shortcut.html">Shortcut</a></div></div>  </div>
@@ -132,9 +131,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acd58f360ec17efd8662460cf16a6673e"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#acd58f360ec17efd8662460cf16a6673e">GetDrawerType</a> (Type type)</td></tr>
 <tr class="memdesc:acd58f360ec17efd8662460cf16a6673e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the creatable property drawer type for the specified type.  <a href="#acd58f360ec17efd8662460cf16a6673e">More...</a><br /></td></tr>
 <tr class="separator:acd58f360ec17efd8662460cf16a6673e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7796f702b0216ac710151956ce2c4245"><td class="memItemLeft" align="right" valign="top">static PropertyDrawer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7796f702b0216ac710151956ce2c4245">CreateDrawer</a> (Type type, FieldInfo field, PropertyAttribute attribute)</td></tr>
-<tr class="memdesc:a7796f702b0216ac710151956ce2c4245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a property drawer instance.  <a href="#a7796f702b0216ac710151956ce2c4245">More...</a><br /></td></tr>
-<tr class="separator:a7796f702b0216ac710151956ce2c4245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2891262934b86ca0d7304c021a80b9d8"><td class="memItemLeft" align="right" valign="top">static PropertyDrawer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a2891262934b86ca0d7304c021a80b9d8">CreateDrawer</a> (Type type, FieldInfo field, PropertyAttribute attribute=null)</td></tr>
+<tr class="memdesc:a2891262934b86ca0d7304c021a80b9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a property drawer instance.  <a href="#a2891262934b86ca0d7304c021a80b9d8">More...</a><br /></td></tr>
+<tr class="separator:a2891262934b86ca0d7304c021a80b9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b">OpenAbout</a> (Object obj)</td></tr>
 <tr class="memdesc:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the about message of the specified object.  <a href="#aeedc9a9e974e8949234ab6ebb6533d1b">More...</a><br /></td></tr>
 <tr class="separator:aeedc9a9e974e8949234ab6ebb6533d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,18 +143,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2ac2004c35388817186f7cfa33e96e3"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#ab2ac2004c35388817186f7cfa33e96e3">GetExposingTypes</a> (bool editor=false)</td></tr>
 <tr class="memdesc:ab2ac2004c35388817186f7cfa33e96e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get types appropriate to expose in the Inspector to select members, optional to include editor types.  <a href="#ab2ac2004c35388817186f7cfa33e96e3">More...</a><br /></td></tr>
 <tr class="separator:ab2ac2004c35388817186f7cfa33e96e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
-Events</h2></td></tr>
-<tr class="memitem:a980f7715e1f059572d2f79cbb84684e0"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a980f7715e1f059572d2f79cbb84684e0">playmodeChanged</a> = () =&gt; {}</td></tr>
-<tr class="memdesc:a980f7715e1f059572d2f79cbb84684e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of play mode state changed event, for compatibility before Unity 2017.2.  <a href="#a980f7715e1f059572d2f79cbb84684e0">More...</a><br /></td></tr>
-<tr class="separator:a980f7715e1f059572d2f79cbb84684e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec5b5182c50a09f4aa52532a35398ad"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a7ec5b5182c50a09f4aa52532a35398ad">projectChanged</a> = () =&gt; {}</td></tr>
-<tr class="memdesc:a7ec5b5182c50a09f4aa52532a35398ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of project changed event, for compatibility before Unity 2018.1.  <a href="#a7ec5b5182c50a09f4aa52532a35398ad">More...</a><br /></td></tr>
-<tr class="separator:a7ec5b5182c50a09f4aa52532a35398ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a420f68fa8abe8f50f7f12416750d4787"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#a420f68fa8abe8f50f7f12416750d4787">hierarchyChanged</a> = () =&gt; {}</td></tr>
-<tr class="memdesc:a420f68fa8abe8f50f7f12416750d4787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of hierarchy changed event, for compatibility before Unity 2018.1.  <a href="#a420f68fa8abe8f50f7f12416750d4787">More...</a><br /></td></tr>
-<tr class="separator:a420f68fa8abe8f50f7f12416750d4787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Include some convenient methods for editor or asset operation. </p>
@@ -522,7 +509,7 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7796f702b0216ac710151956ce2c4245"></a>
+<a class="anchor" id="a2891262934b86ca0d7304c021a80b9d8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -545,7 +532,7 @@ Events</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">PropertyAttribute&#160;</td>
-          <td class="paramname"><em>attribute</em>&#160;</td>
+          <td class="paramname"><em>attribute</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -693,73 +680,6 @@ Events</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The types.</dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Event Documentation</h2>
-<a class="anchor" id="a980f7715e1f059572d2f79cbb84684e0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action playmodeChanged = () =&gt; {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback of play mode state changed event, for compatibility before Unity 2017.2. </p>
-
-</div>
-</div>
-<a class="anchor" id="a7ec5b5182c50a09f4aa52532a35398ad"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action projectChanged = () =&gt; {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback of project changed event, for compatibility before Unity 2018.1. </p>
-
-</div>
-</div>
-<a class="anchor" id="a420f68fa8abe8f50f7f12416750d4787"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action hierarchyChanged = () =&gt; {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback of hierarchy changed event, for compatibility before Unity 2018.1. </p>
 
 </div>
 </div>

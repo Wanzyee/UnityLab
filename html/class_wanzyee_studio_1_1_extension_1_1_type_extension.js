@@ -7,6 +7,8 @@ var class_wanzyee_studio_1_1_extension_1_1_type_extension =
     [ "GetField", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a0ca504786e495d59b8efb927873e4499", null ],
     [ "GetProperty", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#afd9a47cc9a138754433f739bf4ebf06a", null ],
     [ "GetMethod", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a340af7024f734c8ee09231f82db2b8c4", null ],
+    [ "Is< T >", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a3e2a89fd03f4366ad32f0feaf00537c4", null ],
+    [ "Is", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#af4148bb7d5c56d0282bddc65d246fa0f", null ],
     [ "GetItemType", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a036d1c0db89907c99a8f704e8072706c", null ],
     [ "GetParents", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a10cee018669cf07f8eca97299648026e", null ],
     [ "GetChildren", "class_wanzyee_studio_1_1_extension_1_1_type_extension.html#a13bb33cd4b33d2f0ab097671acd83245", null ],

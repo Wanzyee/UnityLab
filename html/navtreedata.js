@@ -16,7 +16,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Properties", "functions_prop.html", null ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
@@ -27,13 +27,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_g_u_i.html#abd9d9a8b44cad0f33fb07a098422a70c",
-"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html#aeedc9a9e974e8949234ab6ebb6533d1b",
-"class_wanzyee_studio_1_1_editrix_1_1_toolkit_1_1_inspector_helper.html#a0eddadca40c60a29ee6dfd9e08ef72d8",
-"class_wanzyee_studio_1_1_extension_1_1_component_extension.html#a959e3acec6f1952a82d72fb64ef99b81",
-"class_wanzyee_studio_1_1_extension_1_1_type_extension.html#aa00f22e2123c33503579705ef2c38db0",
-"class_wanzyee_studio_1_1_periodic_inquirer.html",
-"functions_v.html"
+"class_wanzyee_studio_1_1_editrix_1_1_drawer_1_1_crypto_value_drawer.html",
+"class_wanzyee_studio_1_1_editrix_1_1_editrix_utility.html",
+"class_wanzyee_studio_1_1_editrix_1_1_shortcut_list.html#a3fc46d03b3c32c78212ef29f000fd2f9",
+"class_wanzyee_studio_1_1_event_delegator_group.html#ae0a1971d24b447511741cc2c90595e3f",
+"class_wanzyee_studio_1_1_extension_1_1_type_extension.html",
+"class_wanzyee_studio_1_1_json_1_1_json_net_utility.html#a73553f9db5ab0c8290b5223c1f092d8b",
+"class_wanzyee_studio_1_1_stack_tweak_panel.html#a6ca8463195508caf752d23f380675cb0",
+"namespace_wanzyee_studio.html#ga0269e87b6cdff644a895ce678a8afeb4a5146696e37f7db8cab397498c5555835"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

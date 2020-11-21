@@ -1,10 +1,12 @@
 var searchData=
 [
+  ['datetimefield',['DateTimeField',['../struct_wanzyee_studio_1_1_date_time_field.html#a4c085048653a32596baed09dcd924cdc',1,'WanzyeeStudio::DateTimeField']]],
   ['delay',['Delay',['../class_wanzyee_studio_1_1_coroutiner.html#a2e0add3c4c012448827c25cd4151b8aa',1,'WanzyeeStudio::Coroutiner']]],
   ['delete',['Delete',['../class_wanzyee_studio_1_1_io_utility.html#a83b34f1f7ea2e6d4b182211a80057132',1,'WanzyeeStudio::IoUtility']]],
   ['deletecache',['DeleteCache',['../class_wanzyee_studio_1_1_www_loader.html#adda1f0c6c9d334d55b3300b22ff858b2',1,'WanzyeeStudio::WwwLoader']]],
   ['deletekey',['DeleteKey',['../class_wanzyee_studio_1_1_crypto_prefs.html#a5254b5fdae9dc485ad6fb88a867146c8',1,'WanzyeeStudio::CryptoPrefs']]],
   ['deserialize',['Deserialize',['../class_wanzyee_studio_1_1_variable_tweaker.html#aae0f9cf197b3568bd8bc53c7d6d76ae3',1,'WanzyeeStudio::VariableTweaker']]],
+  ['deserialize_3c_20t_20_3e',['Deserialize&lt; T &gt;',['../class_wanzyee_studio_1_1_json_net_serializer.html#a0f2bf6d96d2b57967ba999d55259d807',1,'WanzyeeStudio.JsonNetSerializer.Deserialize&lt; T &gt;()'],['../class_wanzyee_studio_1_1_unity_json_serializer.html#a0f2bf6d96d2b57967ba999d55259d807',1,'WanzyeeStudio.UnityJsonSerializer.Deserialize&lt; T &gt;()'],['../interface_wanzyee_studio_1_1_i_serializer.html#a0f2bf6d96d2b57967ba999d55259d807',1,'WanzyeeStudio.ISerializer.Deserialize&lt; T &gt;()']]],
   ['download',['Download',['../class_wanzyee_studio_1_1_editrix_1_1_file_downloader.html#a81a43f593bdb7c9f93b1299322750a02',1,'WanzyeeStudio::Editrix::FileDownloader']]],
   ['drawborder',['DrawBorder',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a2ed97c015945747fa2696404ff97fcef',1,'WanzyeeStudio::AidGUI']]],
   ['drawline',['DrawLine',['../class_wanzyee_studio_1_1_aid_g_u_i.html#a61bbd0e67c1f0781398d5b7c5ec8c971',1,'WanzyeeStudio::AidGUI']]],

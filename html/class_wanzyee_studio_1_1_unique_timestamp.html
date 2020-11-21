@@ -97,6 +97,8 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_unique_timest
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_wanzyee_studio_1_1_unique_timestamp-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">UniqueTimestamp</div>  </div>
@@ -109,14 +111,29 @@ $(document).ready(function(){initNavTree('class_wanzyee_studio_1_1_unique_timest
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1db06077a1aa22ef495559025d434d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html#ab1db06077a1aa22ef495559025d434d5">UniqueTimestamp</a> ()</td></tr>
-<tr class="memdesc:ab1db06077a1aa22ef495559025d434d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new timestamp that unique in current process.  <a href="#ab1db06077a1aa22ef495559025d434d5">More...</a><br /></td></tr>
+<tr class="memdesc:ab1db06077a1aa22ef495559025d434d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a unique timestamp that closes to now in current process.  <a href="#ab1db06077a1aa22ef495559025d434d5">More...</a><br /></td></tr>
 <tr class="separator:ab1db06077a1aa22ef495559025d434d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac2e8c6cc8717ae62bb425eeafe26ab50"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html#ac2e8c6cc8717ae62bb425eeafe26ab50">AtLeast</a> (DateTime value)</td></tr>
+<tr class="memdesc:ac2e8c6cc8717ae62bb425eeafe26ab50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to extend the min timestamp at least equals or greater than the specified time.  <a href="#ac2e8c6cc8717ae62bb425eeafe26ab50">More...</a><br /></td></tr>
+<tr class="separator:ac2e8c6cc8717ae62bb425eeafe26ab50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa00240bee36abc559e0be6cab36d03f3"><td class="memItemLeft" align="right" valign="top">static implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html#aa00240bee36abc559e0be6cab36d03f3">operator DateTime</a> (<a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html">UniqueTimestamp</a> timestamp)</td></tr>
 <tr class="memdesc:aa00240bee36abc559e0be6cab36d03f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the specified timestamp to <code>System.DateTime</code>.  <a href="#aa00240bee36abc559e0be6cab36d03f3">More...</a><br /></td></tr>
 <tr class="separator:aa00240bee36abc559e0be6cab36d03f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ac9fd646eb1f6e4e67c189a24e70208d3"><td class="memItemLeft" align="right" valign="top">readonly DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html#ac9fd646eb1f6e4e67c189a24e70208d3">time</a></td></tr>
+<tr class="memdesc:ac9fd646eb1f6e4e67c189a24e70208d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time.  <a href="#ac9fd646eb1f6e4e67c189a24e70208d3">More...</a><br /></td></tr>
+<tr class="separator:ac9fd646eb1f6e4e67c189a24e70208d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac023874b2154eac7297a7575008605fe"><td class="memItemLeft" align="right" valign="top">static DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html#ac023874b2154eac7297a7575008605fe">now</a> =&gt; new <a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html">UniqueTimestamp</a>()</td></tr>
+<tr class="memdesc:ac023874b2154eac7297a7575008605fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a unique timestamp that closes to now in current process.  <a href="#ac023874b2154eac7297a7575008605fe">More...</a><br /></td></tr>
+<tr class="separator:ac023874b2154eac7297a7575008605fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>UTC timestamp that unique in current process. </p>
@@ -136,11 +153,43 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create a new timestamp that unique in current process. </p>
+<p>Create a unique timestamp that closes to now in current process. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac2e8c6cc8717ae62bb425eeafe26ab50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void AtLeast </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check to extend the min timestamp at least equals or greater than the specified time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The min time.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="aa00240bee36abc559e0be6cab36d03f3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -171,6 +220,43 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Time.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac9fd646eb1f6e4e67c189a24e70208d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DateTime time</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The time. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac023874b2154eac7297a7575008605fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime now =&gt; new <a class="el" href="class_wanzyee_studio_1_1_unique_timestamp.html">UniqueTimestamp</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a unique timestamp that closes to now in current process. </p>
 
 </div>
 </div>
